@@ -19,10 +19,45 @@
 
 ---
 
+## 🚀 Testar o app no seu PC (dois cliques)
+
+> Precisa de: **Windows 10 ou 11** (64 bits, Intel/AMD), **internet**, uns **12 GB livres** no disco e, de preferência, **8 GB de RAM**. Não precisa saber programar nem instalar nada antes.
+
+1. **Baixe o projeto:** clique no botão verde **`<> Code`** no topo desta página → **Download ZIP**.
+2. **Desbloqueie o ZIP:** clique com o botão direito no arquivo baixado → **Propriedades** → marque **Desbloquear** → **OK**. Isso evita avisos de segurança do Windows.
+3. **Extraia:** botão direito → **Extrair Tudo...** Escolha uma pasta simples, como `C:\MIAR`.
+4. **Dê dois cliques em `TESTAR-MIAR.cmd`**, dentro da pasta extraída.
+   - Se aparecer **"O Windows protegeu o computador"**, clique em **Mais informações → Executar assim mesmo**.
+   - Na primeira vez, o script vai pedir para você digitar **`S`** para aceitar as licenças do Android. O Windows também pode pedir permissão para instalar programas: clique em **Sim**.
+5. **Espere.** A primeira vez leva de **20 a 40 minutos**, dependendo da internet, porque baixa vários gigabytes. No fim, um **celular virtual abre na tela com o MIAR**. Toque em **Criar conta** e siga o [roteiro de teste](#roteiro-de-teste-sugerido).
+
+**Para encerrar:** feche a janela do celular virtual e dê dois cliques em **`PARAR-MIAR.cmd`**.
+**Para abrir de novo outro dia:** é só dar dois cliques em `TESTAR-MIAR.cmd` de novo. Agora leva só alguns minutos, e suas contas e ocorrências continuam salvas.
+
+<details>
+<summary><b>O que o <code>TESTAR-MIAR.cmd</code> faz?</b></summary>
+
+Ele só instala o que estiver faltando. Se você já tiver algum desses programas, ele reaproveita.
+
+1. Confere o **Node.js 20+**. Se não houver, instala o Node.js LTS pelo `winget`, o instalador oficial do Windows.
+2. Confere o **Python 3.11–3.13**. Se não houver, instala o Python 3.12 pelo `winget`.
+3. Confere as **ferramentas do Android**. Se não houver Android Studio, baixa do Google as ferramentas de linha de comando, o emulador e a imagem do Android 15 (API 35). Para isso, usa o Java (OpenJDK 21, instalado pelo `winget` se faltar). Depois cria o celular virtual `MIAR_Teste`.
+4. Liga o emulador.
+5. Sobe o servidor do MIAR com o `INICIAR-MIAR.cmd`: banco PostgreSQL, armazenamento de fotos, IA e API, tudo local.
+6. Baixa o app da página de [Releases](https://github.com/BrenoBrocanello/ProjetoMIAR/releases/latest), confere a integridade (SHA-256), instala no emulador e abre.
+
+Os downloads de arquivos são conferidos por hash antes de serem usados. Os dados ficam só no seu computador.
+</details>
+
+Se algo der errado, veja [Problemas comuns](#problemas-comuns). As seções abaixo explicam o mesmo processo **passo a passo, à mão**, para quem prefere ou precisa de mais controle.
+
+---
+
 ## Sumário
 
+- [🚀 Testar o app no seu PC (dois cliques)](#-testar-o-app-no-seu-pc-dois-cliques)
 - [Como o projeto funciona](#como-o-projeto-funciona)
-- [Antes de começar](#antes-de-começar)
+- [Antes de começar](#antes-de-começar) (instalação manual)
 - [Caminho A — testar rápido com o APK pronto](#caminho-a--testar-rápido-com-o-apk-pronto-recomendado)
 - [Caminho B — compilar o app com Flutter](#caminho-b--compilar-o-app-com-flutter)
 - [Testar em um celular de verdade](#testar-em-um-celular-de-verdade)
@@ -49,7 +84,7 @@ O MIAR tem **duas partes**, e as duas precisam estar rodando para o app funciona
 ```
 
 - O **servidor** sobe com um único script (`INICIAR-MIAR.cmd`). Banco de dados e armazenamento de fotos são instalados automaticamente via npm — **não é preciso instalar PostgreSQL nem Docker**.
-- O **app** pode ser o APK pronto (Caminho A) ou compilado por você com Flutter (Caminho B).
+- O **app** pode ser o APK pronto (o `TESTAR-MIAR.cmd` e o Caminho A usam esse) ou compilado por você com Flutter (Caminho B).
 - O banco começa **vazio**: não há contas nem animais de exemplo. Você cria tudo pelo próprio app.
 
 > **Sistema operacional:** os scripts foram feitos e testados no **Windows 10/11**. Em macOS/Linux os scripts `.cmd`/`.ps1` não funcionam diretamente e esse caminho não foi validado.
@@ -57,6 +92,8 @@ O MIAR tem **duas partes**, e as duas precisam estar rodando para o app funciona
 ---
 
 ## Antes de começar
+
+> Esta seção e as seguintes são o **caminho manual**. Se você usou o `TESTAR-MIAR.cmd`, não precisa delas.
 
 ### 1. Instale os programas
 
@@ -250,6 +287,12 @@ Dica: para simular dois usuários ao mesmo tempo, faça login com uma conta, tes
 
 | Sintoma | O que fazer |
 |---|---|
+| "A aceleração de hardware não está disponível" | Abra **Ativar ou desativar recursos do Windows**, marque **Plataforma do Hipervisor do Windows**, clique em OK e reinicie. Se continuar, ative a virtualização (**Intel VT-x** / **AMD-V / SVM**) na BIOS do computador. |
+| "winget não está disponível" | Instale o **Instalador de Aplicativos** pela Microsoft Store, ou instale Node.js e Python à mão (veja [Antes de começar](#antes-de-começar)) e rode o `TESTAR-MIAR.cmd` de novo. |
+| O script parou no meio (internet caiu, janela fechada) | Rode o `TESTAR-MIAR.cmd` de novo. Ele continua de onde parou. |
+| O emulador abre, mas fica com a tela preta por muito tempo | Na primeira vez, o Android demora para ligar (pode passar de 3 minutos). Espere: o script aguarda até 6 minutos. |
+| O app abriu, mas quero reinstalá-lo | No PowerShell, na pasta do projeto: `.\testar-miar.ps1 -ReinstalarApp`. |
+| O computador ficou lento | O emulador consome bastante memória. Feche outros programas, principalmente navegadores com muitas abas. |
 | `python` não é reconhecido | Reinstale o Python 3.12 marcando **"Add python.exe to PATH"** e abra um terminal novo. |
 | `npm` / `node` não é reconhecido | Instale o Node.js LTS e abra um terminal novo. |
 | `INICIAR-MIAR` demora muito na primeira vez | Normal: o PyTorch e o modelo de IA são downloads grandes. Aguarde. |
@@ -275,6 +318,7 @@ ProjetoMIAR/
 ├── prototipos/      Os nove protótipos de interface (HTML + imagens)
 ├── evidencias/      Registros históricos de testes e auditoria
 ├── scripts/         Supervisor dos serviços e scripts de validação
+├── TESTAR-MIAR.cmd      ⭐ Instala o que falta, sobe tudo e abre o app no emulador
 ├── INICIAR-MIAR.cmd     Sobe banco, armazenamento, IA e API
 ├── PARAR-MIAR.cmd       Encerra tudo sem apagar os dados
 ├── EXECUTAR-APP.cmd     Compila e roda o app (Caminho B)
