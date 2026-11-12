@@ -1,0 +1,668 @@
+Running Gradle task 'assembleDebug'...                          
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "Windows_NT" == "Windows_NT" setlocal
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set DEFAULT_JVM_OPTS= 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set DIRNAME=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\ 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\" == "" set DIRNAME=. 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set APP_BASE_NAME=gradlew 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set APP_HOME=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\ 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set JAVA_HOME=C:\Program Files\Android\Android Studio\jbr 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set JAVA_EXE=C:\Program Files\Android\Android Studio\jbr/bin/java.exe 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if exist "C:\Program Files\Android\Android Studio\jbr/bin/java.exe" goto init 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if not "Windows_NT" == "Windows_NT" goto win9xME_args 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "@eval[2+2]" == "4" goto 4NT_args 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CMD_LINE_ARGS= 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set _SKIP=2 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "x-q" == "x" goto execute 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CMD_LINE_ARGS=-q -Ptarget-platform=android-x64 -Ptarget=integration_test/catalogo_visual_test.dart -Pbase-application-name=android.app.Application -Pdart-defines=QVBJX1VSTD1odHRwOi8vMTAuMC4yLjI6MzMwMQ==,RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPVt1c2VyLWJyYW5jaF0=,RkxVVFRFUl9HSVRfVVJMPXVua25vd24gc291cmNl,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>goto execute 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CLASSPATH=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\\gradle\wrapper\gradle-wrapper.jar 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>"C:\Program Files\Android\Android Studio\jbr/bin/java.exe"    "-Dorg.gradle.appname=gradlew" -classpath "C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\\gradle\wrapper\gradle-wrapper.jar" org.gradle.wrapper.GradleWrapperMain -q -Ptarget-platform=android-x64 -Ptarget=integration_test/catalogo_visual_test.dart -Pbase-application-name=android.app.Application -Pdart-defines=QVBJX1VSTD1odHRwOi8vMTAuMC4yLjI6MzMwMQ==,RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPVt1c2VyLWJyYW5jaF0=,RkxVVFRFUl9HSVRfVVJMPXVua25vd24gc291cmNl,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug 
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/C:/Users/Breno/.gradle/wrapper/dists/gradle-8.14-all/c2qonpi39x1mddn7hk5gh9iqj/gradle-8.14/lib/native-platform-0.22-milestone-28.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "0" == "0" goto mainEnd 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "Windows_NT" == "Windows_NT" endlocal
+Running Gradle task 'assembleDebug'...                             15,7s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...        1.106ms
+D/FlutterGeolocator( 5024): Geolocator foreground service connected
+D/FlutterGeolocator( 5024): Initializing Geolocator services
+D/FlutterGeolocator( 5024): Flutter engine connected. Connected engine count 1
+I/Choreographer( 5024): Skipped 33 frames!  The application may be doing too much work on its main thread.
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:51173/ySlxQPUfoSI=/
+VMServiceFlutterDriver: Isolate found with number: 1824219496498595
+VMServiceFlutterDriver: Isolate 1824219496498595 is runnable.
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+I/flutter ( 5024): 00:00 +0: Catálogo integral de telas, formulários, modais e estados visuais
+VMServiceFlutterDriver: Connected to Flutter application.
+D/ProfileInstaller( 5024): Installing profile for br.com.miar.miar
+I/ImeTracker( 5024): br.com.miar.miar:823a4398: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"001-inicializacao","titulo":"Inicialização e restauração da sessão","requisitos":"RF01","fonte":"Tela técnica de carga; não é uma nova função","ordem":1}
+I/flutter ( 5024): MIAR_CATALOGO=001-inicializacao
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/ImeTracker( 5024): br.com.miar.miar:83003e1c: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+VMServiceFlutterDriver: request_data message is taking a long time to complete...
+D/EGL_emulation( 5024): app_time_stats: avg=1598.71ms min=827.66ms max=2090.97ms count=3
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+D/EGL_emulation( 5024): app_time_stats: avg=554.37ms min=69.34ms max=1066.09ms count=4
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"002-login","titulo":"Login","requisitos":"RF01, CU02","fonte":"API e serviços reais","ordem":2}
+I/flutter ( 5024): MIAR_CATALOGO=002-login
+D/EGL_emulation( 5024): app_time_stats: avg=714.39ms min=581.77ms max=847.02ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:5573af83: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=2924.53ms min=2924.53ms max=2924.53ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=303.70ms min=75.11ms max=707.30ms count=5
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"003-login-validacao","titulo":"Login — campos obrigatórios","requisitos":"RF01, CU02","fonte":"API e serviços reais","ordem":3}
+I/flutter ( 5024): MIAR_CATALOGO=003-login-validacao
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=1419.92ms min=1419.92ms max=1419.92ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=509.36ms min=448.47ms max=570.26ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=359.98ms min=119.85ms max=563.49ms count=3
+I/ImeTracker( 5024): br.com.miar.miar:6def08df: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=4747.80ms min=4747.80ms max=4747.80ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=309.47ms min=78.53ms max=675.44ms count=4
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"004-cadastro-0-superior","titulo":"Cadastro Cidadão — seleção do perfil e dados pessoais","requisitos":"RF01, RD01, CU01","fonte":"API e serviços reais","ordem":4}
+I/flutter ( 5024): MIAR_CATALOGO=004-cadastro-0-superior
+I/ImeTracker( 5024): br.com.miar.miar:dae62614: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=583.26ms min=558.77ms max=607.74ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=1849.52ms min=1849.52ms max=1849.52ms count=1
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"005-cadastro-0-inferior","titulo":"Cadastro Cidadão — documento, senha e confirmação","requisitos":"RF01, RD01, CU01","fonte":"API e serviços reais","ordem":5}
+I/flutter ( 5024): MIAR_CATALOGO=005-cadastro-0-inferior
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+D/EGL_emulation( 5024): app_time_stats: avg=869.22ms min=676.09ms max=1062.35ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=458.06ms min=384.64ms max=590.03ms count=3
+I/ImeTracker( 5024): br.com.miar.miar:d40671a5: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=247.89ms min=68.56ms max=580.32ms count=5
+D/EGL_emulation( 5024): app_time_stats: avg=4378.99ms min=4378.99ms max=4378.99ms count=1
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"006-cadastro-1-superior","titulo":"Cadastro Protetor independente — seleção do perfil e dados pessoais","requisitos":"RF01, RD01, CU01","fonte":"API e serviços reais","ordem":6}
+I/flutter ( 5024): MIAR_CATALOGO=006-cadastro-1-superior
+D/EGL_emulation( 5024): app_time_stats: avg=636.47ms min=566.51ms max=706.43ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:b6f895fd: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=1851.88ms min=1851.88ms max=1851.88ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=639.64ms min=565.34ms max=713.94ms count=2
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"007-cadastro-1-inferior","titulo":"Cadastro Protetor independente — documento, senha e confirmação","requisitos":"RF01, RD01, CU01","fonte":"API e serviços reais","ordem":7}
+I/flutter ( 5024): MIAR_CATALOGO=007-cadastro-1-inferior
+D/EGL_emulation( 5024): app_time_stats: avg=1058.12ms min=1058.12ms max=1058.12ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=454.05ms min=386.04ms max=581.61ms count=3
+I/ImeTracker( 5024): br.com.miar.miar:f409b59f: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=249.74ms min=71.61ms max=572.42ms count=5
+D/EGL_emulation( 5024): app_time_stats: avg=4368.24ms min=4368.24ms max=4368.24ms count=1
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"008-cadastro-2-superior","titulo":"Cadastro ONG — seleção do perfil e dados pessoais","requisitos":"RF01, RD01, CU01","fonte":"API e serviços reais","ordem":8}
+I/flutter ( 5024): MIAR_CATALOGO=008-cadastro-2-superior
+D/EGL_emulation( 5024): app_time_stats: avg=649.10ms min=597.29ms max=700.92ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:7a09ce51: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=1849.85ms min=1849.85ms max=1849.85ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=623.66ms min=551.11ms max=696.22ms count=2
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"009-cadastro-2-inferior","titulo":"Cadastro ONG — documento, senha e confirmação","requisitos":"RF01, RD01, CU01","fonte":"API e serviços reais","ordem":9}
+I/flutter ( 5024): MIAR_CATALOGO=009-cadastro-2-inferior
+D/EGL_emulation( 5024): app_time_stats: avg=580.50ms min=579.88ms max=581.12ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:4e2a1ee1: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=2532.40ms min=2532.40ms max=2532.40ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=274.87ms min=68.24ms max=706.27ms count=5
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"010-cadastro-validacao","titulo":"Cadastro — validação dos campos obrigatórios","requisitos":"RF01, CU01","fonte":"API e serviços reais","ordem":10}
+I/flutter ( 5024): MIAR_CATALOGO=010-cadastro-validacao
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=1075.33ms min=1075.33ms max=1075.33ms count=1
+I/ImeTracker( 5024): br.com.miar.miar:465c48cb: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 5024): showSoftInput() view=io.flutter.embedding.android.FlutterView{c403f0d VFE...... .F....ID 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 5024): br.com.miar.miar:a4dfdc70: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 5024): showSoftInput() view=io.flutter.embedding.android.FlutterView{c403f0d VFE...... .F....ID 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/EGL_emulation( 5024): app_time_stats: avg=2139.99ms min=2139.99ms max=2139.99ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=373.32ms min=158.72ms max=547.56ms count=3
+I/ImeTracker( 5024): br.com.miar.miar:7d770826: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 5024): showSoftInput() view=io.flutter.embedding.android.FlutterView{c403f0d VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 5024): br.com.miar.miar:c0b128cf: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 5024): showSoftInput() view=io.flutter.embedding.android.FlutterView{c403f0d VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+W/RemoteInputConnectionImpl( 5024): requestCursorUpdates on inactive InputConnection
+D/InsetsController( 5024): show(ime(), fromIme=true)
+W/InteractionJankMonitor( 5024): Initializing without READ_DEVICE_CONFIG permission. enabled=true, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=br.com.miar.miar
+D/InputConnectionAdaptor( 5024): The input method toggled cursor monitoring on
+D/InputConnectionAdaptor( 5024): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor( 5024): The input method toggled cursor monitoring on
+I/ImeTracker( 5024): br.com.miar.miar:a4dfdc70: onShown
+D/InsetsController( 5024): show(ime(), fromIme=true)
+I/ImeTracker( 5024): br.com.miar.miar:7d770826: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController( 5024): show(ime(), fromIme=true)
+I/ImeTracker( 5024): br.com.miar.miar:c0b128cf: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker( 5024): br.com.miar.miar:781c1a05: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController( 5024): hide(ime(), fromIme=true)
+D/InputConnectionAdaptor( 5024): The input method toggled cursor monitoring off
+D/EGL_emulation( 5024): app_time_stats: avg=394.61ms min=123.35ms max=609.68ms count=3
+D/EGL_emulation( 5024): app_time_stats: avg=89.52ms min=9.60ms max=717.44ms count=15
+I/ImeTracker( 5024): br.com.miar.miar:87bad490: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker( 5024): br.com.miar.miar:781c1a05: onHidden
+I/ImeTracker( 5024): br.com.miar.miar:92acbedf: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=225.05ms min=103.30ms max=418.14ms count=5
+D/EGL_emulation( 5024): app_time_stats: avg=132.22ms min=6.17ms max=1208.68ms count=12
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"011-login-credencial-invalida","titulo":"Login — credencial rejeitada pelo servidor","requisitos":"RF01, CU02","fonte":"API e serviços reais","ordem":11}
+I/flutter ( 5024): MIAR_CATALOGO=011-login-credencial-invalida
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=2254.56ms min=645.62ms max=3863.50ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=462.72ms min=390.78ms max=589.36ms count=3
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=664.83ms min=402.35ms max=927.31ms count=2
+E/FrameTracker( 5024): force finish cuj, time out: J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=759.28ms min=582.16ms max=936.39ms count=2
+E/FrameTracker( 5024): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+I/ImeTracker( 5024): br.com.miar.miar:5b7c8106: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=9795.11ms min=9795.11ms max=9795.11ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=552.22ms min=401.48ms max=697.90ms count=3
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"012-galeria-vazia","titulo":"Galeria — ausência de ocorrências","requisitos":"RF03, CU03","fonte":"Estado vazio induzido apenas no repositório deste cliente","ordem":12}
+I/flutter ( 5024): MIAR_CATALOGO=012-galeria-vazia
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=1078.68ms min=1078.68ms max=1078.68ms count=1
+I/ImeTracker( 5024): br.com.miar.miar:f8f3a14d: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=2706.15ms min=2706.15ms max=2706.15ms count=1
+I/r.com.miar.miar( 5024): NativeAlloc concurrent mark compact GC freed 293KB AllocSpace bytes, 15(7856KB) LOS objects, 49% free, 2772KB/5545KB, paused 576us,7.471ms total 33.324ms
+D/EGL_emulation( 5024): app_time_stats: avg=547.72ms min=385.90ms max=690.31ms count=3
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"013-gerenciar-vazio","titulo":"Gerenciar — ausência de registros próprios","requisitos":"RF02, CU08","fonte":"Estado vazio induzido apenas no repositório deste cliente","ordem":13}
+I/flutter ( 5024): MIAR_CATALOGO=013-gerenciar-vazio
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=1140.83ms min=1140.83ms max=1140.83ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=682.59ms min=540.04ms max=825.14ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=367.47ms min=301.20ms max=413.06ms count=3
+I/ImeTracker( 5024): br.com.miar.miar:8a77cbc9: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=5092.62ms min=5092.62ms max=5092.62ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=487.32ms min=382.90ms max=694.59ms count=3
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"014-radar-vazio","titulo":"Radar — mapa sem ocorrências","requisitos":"RF04, CU09","fonte":"Mapa real; consulta vazia induzida neste cliente","ordem":14}
+I/flutter ( 5024): MIAR_CATALOGO=014-radar-vazio
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=4441.44ms min=4441.44ms max=4441.44ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=514.95ms min=405.98ms max=623.93ms count=2
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=628.81ms min=356.66ms max=900.97ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:7ce89d92: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=533.29ms min=487.57ms max=579.00ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=542.13ms min=417.93ms max=666.34ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=391.37ms min=385.42ms max=397.04ms count=3
+D/EGL_emulation( 5024): app_time_stats: avg=10448.60ms min=10448.60ms max=10448.60ms count=1
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"015-galeria","titulo":"Galeria — registros e aviso de correspondência","requisitos":"RF03, RF06, CU03","fonte":"API e serviços reais","ordem":15}
+I/flutter ( 5024): MIAR_CATALOGO=015-galeria
+I/ImeTracker( 5024): br.com.miar.miar:8ef08c4a: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=259.12ms min=37.48ms max=559.58ms count=5
+D/EGL_emulation( 5024): app_time_stats: avg=1969.08ms min=1969.08ms max=1969.08ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=533.55ms min=401.38ms max=665.72ms count=2
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"016-galeria-rolagem","titulo":"Galeria — continuação dos seis status","requisitos":"RF03, RD02, CU03","fonte":"API e serviços reais","ordem":16}
+I/flutter ( 5024): MIAR_CATALOGO=016-galeria-rolagem
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=1389.10ms min=1389.10ms max=1389.10ms count=1
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=639.48ms min=388.22ms max=957.45ms count=3
+D/EGL_emulation( 5024): app_time_stats: avg=464.79ms min=402.78ms max=554.00ms count=3
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=370.21ms min=143.19ms max=577.95ms count=3
+I/ImeTracker( 5024): br.com.miar.miar:3d6fd3cd: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=7049.72ms min=7049.72ms max=7049.72ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=311.35ms min=58.98ms max=702.02ms count=4
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"017-filtros","titulo":"Filtros — status, espécie, porte e cidade","requisitos":"RF03, CU04","fonte":"API e serviços reais","ordem":17}
+I/flutter ( 5024): MIAR_CATALOGO=017-filtros
+I/ImeTracker( 5024): br.com.miar.miar:5ff10b8d: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 5024): showSoftInput() view=io.flutter.embedding.android.FlutterView{c403f0d VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 5024): br.com.miar.miar:f1b0c08: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 5024): showSoftInput() view=io.flutter.embedding.android.FlutterView{c403f0d VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor( 5024): The input method toggled cursor monitoring on
+D/InsetsController( 5024): show(ime(), fromIme=true)
+I/ImeTracker( 5024): br.com.miar.miar:f1b0c08: onShown
+I/ImeTracker( 5024): br.com.miar.miar:60b97497: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InputConnectionAdaptor( 5024): The input method toggled cursor monitoring off
+D/InsetsController( 5024): hide(ime(), fromIme=true)
+D/EGL_emulation( 5024): app_time_stats: avg=481.67ms min=385.31ms max=621.36ms count=3
+D/EGL_emulation( 5024): app_time_stats: avg=92.31ms min=6.31ms max=654.39ms count=15
+W/FrameTracker( 5024): Missed SF frame:UNKNOWN: 80, 115067, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5024): Missed SF frame:UNKNOWN: 80, 115091, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5024): Missed SF frame:UNKNOWN: 80, 115167, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5024): Missed SF frame:UNKNOWN: 80, 115182, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5024): Missed SF frame:UNKNOWN: 66, 115204, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5024): Missed SF frame:UNKNOWN: 80, 115219, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5024): Missed SF frame:UNKNOWN: 80, 115241, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5024): Missed SF frame:UNKNOWN: 80, 115255, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5024): Missed SF frame:UNKNOWN: 80, 115277, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5024): Missed SF frame:UNKNOWN: 80, 115292, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5024): Missed App frame:UNKNOWN: 72, 115330, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+V/PerfettoTrigger( 5024): Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-80
+I/ImeTracker( 5024): br.com.miar.miar:b0306f22: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker( 5024): br.com.miar.miar:60b97497: onHidden
+W/FrameTracker( 5024): Missed App frame:UNKNOWN: 88, 115537, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 5024): Missed SF frame:UNKNOWN: 88, 115537, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 5024): Missed App frame:UNKNOWN: 88, 115639, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 5024): Missed SF frame:UNKNOWN: 88, 115639, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 5024): Missed SF frame:UNKNOWN: 80, 115661, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 5024): Missed App frame:UNKNOWN: 72, 115683, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 5024): Missed SF frame:UNKNOWN: 66, 115756, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 5024): Missed SF frame:UNKNOWN: 66, 115771, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 5024): Missed App frame:UNKNOWN: 88, 115793, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 5024): Missed SF frame:UNKNOWN: 88, 115793, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+V/PerfettoTrigger( 5024): Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-81
+I/ImeTracker( 5024): br.com.miar.miar:6d37dc8a: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=211.70ms min=68.29ms max=380.82ms count=5
+D/EGL_emulation( 5024): app_time_stats: avg=153.00ms min=9.91ms max=1286.33ms count=11
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"018-galeria-sem-resultados","titulo":"Galeria — filtros ativos sem resultados","requisitos":"RF03, CU04","fonte":"API e serviços reais","ordem":18}
+I/flutter ( 5024): MIAR_CATALOGO=018-galeria-sem-resultados
+D/EGL_emulation( 5024): app_time_stats: avg=647.84ms min=588.70ms max=706.98ms count=2
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=249.71ms min=49.60ms max=572.96ms count=5
+D/EGL_emulation( 5024): app_time_stats: avg=347.27ms min=63.34ms max=576.59ms count=3
+D/EGL_emulation( 5024): app_time_stats: avg=253.33ms min=45.49ms max=479.91ms count=4
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=652.16ms min=402.67ms max=901.65ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:1f31d34c: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=451.68ms min=376.75ms max=551.41ms count=3
+D/EGL_emulation( 5024): app_time_stats: avg=7227.33ms min=7227.33ms max=7227.33ms count=1
+I/r.com.miar.miar( 5024): NativeAlloc concurrent mark compact GC freed 1003KB AllocSpace bytes, 21(10MB) LOS objects, 49% free, 2780KB/5561KB, paused 551us,7.952ms total 36.087ms
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"019-radar","titulo":"Radar — mapa, marcadores e filtros","requisitos":"RF04, CU09","fonte":"API e serviços reais","ordem":19}
+I/flutter ( 5024): MIAR_CATALOGO=019-radar
+D/EGL_emulation( 5024): app_time_stats: avg=853.53ms min=663.84ms max=1043.21ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:9ca59df7: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=253.39ms min=44.72ms max=575.20ms count=5
+D/EGL_emulation( 5024): app_time_stats: avg=3411.56ms min=3411.56ms max=3411.56ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=571.65ms min=436.39ms max=706.90ms count=2
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"020-radar-resumo","titulo":"Radar — marcador selecionado e resumo da ocorrência","requisitos":"RF04, CU09","fonte":"API e serviços reais","ordem":20}
+I/flutter ( 5024): MIAR_CATALOGO=020-radar-resumo
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=1506.10ms min=1506.10ms max=1506.10ms count=1
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=617.26ms min=387.84ms max=878.72ms count=3
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35018
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35032
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35046
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35062
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35074
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35088
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35104
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35112
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35120
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35136
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35152
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35164
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35172
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35188
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35194
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35208
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35210
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35222
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35224
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35234
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35236
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35238
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35240
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35250
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35266
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35282
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35288
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35292
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35304
+I/flutter ( 5024): SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = 127.0.0.1, port = 35310
+D/EGL_emulation( 5024): app_time_stats: avg=496.65ms min=382.20ms max=653.03ms count=3
+I/ImeTracker( 5024): br.com.miar.miar:335b97df: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=5951.07ms min=5951.07ms max=5951.07ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=534.62ms min=396.42ms max=672.82ms count=2
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"021-radar-falha","titulo":"Radar — mapa indisponível e nova tentativa","requisitos":"RNF03, CU09","fonte":"Falha de rede induzida neste cliente; sem alteração do servidor","ordem":21}
+I/flutter ( 5024): MIAR_CATALOGO=021-radar-falha
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=1236.87ms min=1236.87ms max=1236.87ms count=1
+I/ImeTracker( 5024): br.com.miar.miar:4f224621: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=501.86ms min=445.19ms max=558.53ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=2872.02ms min=2872.02ms max=2872.02ms count=1
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"022-registro-superior","titulo":"Cadastro de ocorrência — fotografias, espécie, porte e status","requisitos":"RF02, RF08, RD02","fonte":"API e serviços reais","ordem":22}
+I/flutter ( 5024): MIAR_CATALOGO=022-registro-superior
+I/ImeTracker( 5024): br.com.miar.miar:c9c009dc: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=726.49ms min=660.86ms max=792.11ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=1463.22ms min=1463.22ms max=1463.22ms count=1
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"023-registro-meio","titulo":"Cadastro de ocorrência — descrição física e saúde","requisitos":"RF02","fonte":"API e serviços reais","ordem":23}
+I/flutter ( 5024): MIAR_CATALOGO=023-registro-meio
+D/EGL_emulation( 5024): app_time_stats: avg=611.55ms min=544.23ms max=678.87ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:894ede21: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=1761.46ms min=1761.46ms max=1761.46ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=614.81ms min=540.23ms max=689.38ms count=2
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"024-registro-inferior","titulo":"Cadastro de ocorrência — cidade, UF, endereço, GPS e contato","requisitos":"RF02, RD03, RD05","fonte":"API e serviços reais","ordem":24}
+I/flutter ( 5024): MIAR_CATALOGO=024-registro-inferior
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=1129.23ms min=1129.23ms max=1129.23ms count=1
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=629.18ms min=370.18ms max=959.69ms count=3
+D/EGL_emulation( 5024): app_time_stats: avg=465.47ms min=406.89ms max=569.11ms count=3
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/ImeTracker( 5024): br.com.miar.miar:44f98fd0: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=236.91ms min=78.67ms max=543.11ms count=5
+D/EGL_emulation( 5024): app_time_stats: avg=6287.02ms min=6287.02ms max=6287.02ms count=1
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"025-origem-fotografia","titulo":"Fotografia — escolher câmera ou galeria","requisitos":"RF02, CU05","fonte":"API e serviços reais","ordem":25}
+I/flutter ( 5024): MIAR_CATALOGO=025-origem-fotografia
+D/EGL_emulation( 5024): app_time_stats: avg=267.74ms min=75.15ms max=669.91ms count=4
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=741.92ms min=598.25ms max=885.59ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=381.02ms min=318.87ms max=436.32ms count=3
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=727.97ms min=577.90ms max=878.04ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=465.93ms min=364.74ms max=560.44ms count=3
+I/ImeTracker( 5024): br.com.miar.miar:75f2a86a: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=522.43ms min=377.30ms max=667.55ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=7329.89ms min=7329.89ms max=7329.89ms count=1
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"026-detalhe-encontrado","titulo":"Detalhe — status Encontrado, fotografia e descrição","requisitos":"RF02, RF08, RD06, CU03","fonte":"API e serviços reais","ordem":26}
+I/flutter ( 5024): MIAR_CATALOGO=026-detalhe-encontrado
+D/EGL_emulation( 5024): app_time_stats: avg=609.74ms min=408.60ms max=810.87ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:4a7f5ddf: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=2036.61ms min=2036.61ms max=2036.61ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=613.94ms min=540.22ms max=687.65ms count=2
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"027-contato-encontrado","titulo":"Detalhe — contato disponível (Encontrado)","requisitos":"RF07, RD06, CU10","fonte":"API e serviços reais","ordem":27}
+I/flutter ( 5024): MIAR_CATALOGO=027-contato-encontrado
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=1290.76ms min=1290.76ms max=1290.76ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=384.35ms min=350.11ms max=442.80ms count=3
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=698.60ms min=560.63ms max=836.57ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=443.97ms min=361.65ms max=546.28ms count=3
+I/ImeTracker( 5024): br.com.miar.miar:9923833f: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=530.48ms min=392.94ms max=668.01ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=6644.64ms min=6644.64ms max=6644.64ms count=1
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"028-detalhe-adotado","titulo":"Detalhe — status Adotado, fotografia e descrição","requisitos":"RF02, RF08, RD06, CU03","fonte":"API e serviços reais","ordem":28}
+I/flutter ( 5024): MIAR_CATALOGO=028-detalhe-adotado
+D/EGL_emulation( 5024): app_time_stats: avg=611.55ms min=410.46ms max=812.64ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:1159777: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=2111.60ms min=2111.60ms max=2111.60ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=637.76ms min=587.48ms max=688.04ms count=2
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"029-contato-adotado","titulo":"Detalhe — contato público desabilitado (Adotado)","requisitos":"RF07, RD06, CU10","fonte":"API e serviços reais","ordem":29}
+I/flutter ( 5024): MIAR_CATALOGO=029-contato-adotado
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=1288.51ms min=1288.51ms max=1288.51ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=393.19ms min=364.87ms max=433.71ms count=3
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=707.46ms min=571.92ms max=842.99ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=457.60ms min=370.19ms max=568.21ms count=3
+I/ImeTracker( 5024): br.com.miar.miar:288fc524: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=537.30ms min=398.19ms max=676.42ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=6716.22ms min=6716.22ms max=6716.22ms count=1
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"030-detalhe-resgatado","titulo":"Detalhe — status Resgatado, fotografia e descrição","requisitos":"RF02, RF08, RD06, CU03","fonte":"API e serviços reais","ordem":30}
+I/flutter ( 5024): MIAR_CATALOGO=030-detalhe-resgatado
+D/EGL_emulation( 5024): app_time_stats: avg=586.70ms min=402.94ms max=770.45ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:9bb128fd: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=1974.48ms min=1974.48ms max=1974.48ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=607.32ms min=565.70ms max=648.95ms count=2
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"031-contato-resgatado","titulo":"Detalhe — contato público desabilitado (Resgatado)","requisitos":"RF07, RD06, CU10","fonte":"API e serviços reais","ordem":31}
+I/flutter ( 5024): MIAR_CATALOGO=031-contato-resgatado
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=1908.98ms min=1908.98ms max=1908.98ms count=1
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=603.84ms min=395.16ms max=848.65ms count=3
+I/ImeTracker( 5024): br.com.miar.miar:5644192f: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=534.45ms min=455.59ms max=613.30ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=5517.56ms min=5517.56ms max=5517.56ms count=1
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"032-edicao-superior","titulo":"Edição de ocorrência própria — fotografias, espécie, porte e status","requisitos":"RF02, RF08, RD02","fonte":"API e serviços reais","ordem":32}
+I/flutter ( 5024): MIAR_CATALOGO=032-edicao-superior
+I/ImeTracker( 5024): br.com.miar.miar:77e7c68f: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=734.28ms min=713.46ms max=755.09ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=1468.27ms min=1468.27ms max=1468.27ms count=1
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"033-edicao-meio","titulo":"Edição de ocorrência própria — descrição física e saúde","requisitos":"RF02","fonte":"API e serviços reais","ordem":33}
+I/flutter ( 5024): MIAR_CATALOGO=033-edicao-meio
+D/EGL_emulation( 5024): app_time_stats: avg=651.35ms min=595.82ms max=706.89ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:85bba055: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=1842.77ms min=1842.77ms max=1842.77ms count=1
+I/r.com.miar.miar( 5024): NativeAlloc concurrent mark compact GC freed 394KB AllocSpace bytes, 24(5664KB) LOS objects, 49% free, 2780KB/5561KB, paused 1.096ms,10.243ms total 30.007ms
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+D/EGL_emulation( 5024): app_time_stats: avg=631.90ms min=559.32ms max=704.49ms count=2
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"034-edicao-inferior","titulo":"Edição de ocorrência própria — cidade, UF, endereço, GPS e contato","requisitos":"RF02, RD03, RD05","fonte":"API e serviços reais","ordem":34}
+I/flutter ( 5024): MIAR_CATALOGO=034-edicao-inferior
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=1066.10ms min=1066.10ms max=1066.10ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=376.14ms min=334.94ms max=432.11ms count=3
+I/ImeTracker( 5024): br.com.miar.miar:384d8bbd: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=603.49ms min=555.48ms max=651.49ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=3837.77ms min=3837.77ms max=3837.77ms count=1
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"035-gerenciar","titulo":"Gerenciar — somente registros próprios","requisitos":"RF02, RD04, CU08","fonte":"API e serviços reais","ordem":35}
+I/flutter ( 5024): MIAR_CATALOGO=035-gerenciar
+D/EGL_emulation( 5024): app_time_stats: avg=520.96ms min=410.39ms max=631.52ms count=2
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/ImeTracker( 5024): br.com.miar.miar:9dcfd91a: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=246.65ms min=42.51ms max=582.79ms count=5
+D/EGL_emulation( 5024): app_time_stats: avg=2546.38ms min=2546.38ms max=2546.38ms count=1
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"036-gerenciar-menu","titulo":"Gerenciar — menu de status, alteração e exclusão","requisitos":"RF02, RF08, CU07, CU08","fonte":"API e serviços reais","ordem":36}
+I/flutter ( 5024): MIAR_CATALOGO=036-gerenciar-menu
+D/EGL_emulation( 5024): app_time_stats: avg=634.64ms min=596.64ms max=672.65ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:f8b6c3d1: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=251.53ms min=45.91ms max=578.19ms count=5
+D/EGL_emulation( 5024): app_time_stats: avg=2545.26ms min=2545.26ms max=2545.26ms count=1
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"037-gerenciar-status","titulo":"Gerenciar — seis status e confirmação","requisitos":"RF08, RD02, CU07","fonte":"API e serviços reais","ordem":37}
+I/flutter ( 5024): MIAR_CATALOGO=037-gerenciar-status
+D/EGL_emulation( 5024): app_time_stats: avg=254.91ms min=45.25ms max=669.82ms count=4
+D/EGL_emulation( 5024): app_time_stats: avg=535.02ms min=405.15ms max=664.89ms count=2
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=246.08ms min=56.01ms max=576.68ms count=5
+D/EGL_emulation( 5024): app_time_stats: avg=335.81ms min=86.67ms max=545.93ms count=3
+I/ImeTracker( 5024): br.com.miar.miar:550903f4: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=4962.47ms min=4962.47ms max=4962.47ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=324.53ms min=56.31ms max=697.38ms count=4
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"038-gerenciar-exclusao","titulo":"Gerenciar — confirmação de exclusão","requisitos":"RF02, CU08","fonte":"API e serviços reais","ordem":38}
+I/flutter ( 5024): MIAR_CATALOGO=038-gerenciar-exclusao
+D/EGL_emulation( 5024): app_time_stats: avg=611.22ms min=569.45ms max=652.99ms count=2
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=487.00ms min=55.64ms max=1775.88ms count=5
+I/ImeTracker( 5024): br.com.miar.miar:94cfc487: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=544.36ms min=451.48ms max=661.60ms count=3
+D/EGL_emulation( 5024): app_time_stats: avg=5637.20ms min=5637.20ms max=5637.20ms count=1
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"039-correspondencia","titulo":"Possível correspondência — imagens relacionadas e confiança","requisitos":"RF05, RF06, CU11, CU12","fonte":"API e serviços reais","ordem":39}
+I/flutter ( 5024): MIAR_CATALOGO=039-correspondencia
+D/EGL_emulation( 5024): app_time_stats: avg=561.60ms min=412.68ms max=710.52ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:2d76f4be: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=1977.16ms min=1977.16ms max=1977.16ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=619.05ms min=550.87ms max=687.24ms count=2
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"040-correspondencia-inferior","titulo":"Possível correspondência — data, local e acesso ao registro","requisitos":"RF05, RF06, CU11, CU12","fonte":"API e serviços reais","ordem":40}
+I/flutter ( 5024): MIAR_CATALOGO=040-correspondencia-inferior
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=2049.03ms min=2049.03ms max=2049.03ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=462.09ms min=369.90ms max=563.84ms count=3
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=646.08ms min=408.13ms max=884.03ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:e0410abd: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=5980.90ms min=5980.90ms max=5980.90ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=621.36ms min=556.94ms max=685.79ms count=2
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"041-perfil-0","titulo":"Perfil Cidadão — dados e permissões","requisitos":"RF01, RD01","fonte":"API e serviços reais","ordem":41}
+I/flutter ( 5024): MIAR_CATALOGO=041-perfil-0
+I/ImeTracker( 5024): br.com.miar.miar:f8cd46b2: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=580.23ms min=570.26ms max=590.20ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=1854.88ms min=1854.88ms max=1854.88ms count=1
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"042-perfil-0-inferior","titulo":"Perfil Cidadão — ações de atualização e logout","requisitos":"RF01, CU02","fonte":"API e serviços reais","ordem":42}
+I/flutter ( 5024): MIAR_CATALOGO=042-perfil-0-inferior
+D/EGL_emulation( 5024): app_time_stats: avg=634.00ms min=600.83ms max=667.17ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:fb8d7199: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=245.55ms min=46.03ms max=576.17ms count=5
+D/EGL_emulation( 5024): app_time_stats: avg=2494.40ms min=2494.40ms max=2494.40ms count=1
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"043-perfil-0-edicao","titulo":"Perfil Cidadão — edição dos dados","requisitos":"RF01","fonte":"API e serviços reais","ordem":43}
+I/flutter ( 5024): MIAR_CATALOGO=043-perfil-0-edicao
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+D/EGL_emulation( 5024): app_time_stats: avg=632.64ms min=578.81ms max=686.46ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:97eedd9e: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=1804.23ms min=1804.23ms max=1804.23ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=602.75ms min=542.29ms max=663.21ms count=2
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"044-perfil-0-edicao-inferior","titulo":"Perfil Cidadão — documento, nova senha e confirmação","requisitos":"RF01","fonte":"API e serviços reais","ordem":44}
+I/flutter ( 5024): MIAR_CATALOGO=044-perfil-0-edicao-inferior
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=1117.01ms min=1117.01ms max=1117.01ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=390.58ms min=366.73ms max=413.86ms count=3
+D/EGL_emulation( 5024): app_time_stats: avg=970.58ms min=586.21ms max=1354.95ms count=2
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=614.44ms min=390.21ms max=881.47ms count=3
+I/ImeTracker( 5024): br.com.miar.miar:96bd409a: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=7678.90ms min=7678.90ms max=7678.90ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=541.62ms min=387.08ms max=669.71ms count=3
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"045-perfil-1","titulo":"Perfil Protetor independente — dados e permissões","requisitos":"RF01, RD01","fonte":"API e serviços reais","ordem":45}
+I/flutter ( 5024): MIAR_CATALOGO=045-perfil-1
+I/ImeTracker( 5024): br.com.miar.miar:67ce6d67: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=560.17ms min=537.89ms max=582.45ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=1817.13ms min=1817.13ms max=1817.13ms count=1
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"046-perfil-1-inferior","titulo":"Perfil Protetor independente — ações de atualização e logout","requisitos":"RF01, CU02","fonte":"API e serviços reais","ordem":46}
+I/flutter ( 5024): MIAR_CATALOGO=046-perfil-1-inferior
+D/EGL_emulation( 5024): app_time_stats: avg=645.32ms min=586.80ms max=703.85ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:544f7a5e: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=247.13ms min=39.90ms max=587.48ms count=5
+D/EGL_emulation( 5024): app_time_stats: avg=2530.43ms min=2530.43ms max=2530.43ms count=1
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"047-perfil-1-edicao","titulo":"Perfil Protetor independente — edição dos dados","requisitos":"RF01","fonte":"API e serviços reais","ordem":47}
+I/flutter ( 5024): MIAR_CATALOGO=047-perfil-1-edicao
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+D/EGL_emulation( 5024): app_time_stats: avg=662.19ms min=621.09ms max=703.30ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:4d62b503: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=1880.28ms min=1880.28ms max=1880.28ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=627.98ms min=553.47ms max=702.50ms count=2
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"048-perfil-1-edicao-inferior","titulo":"Perfil Protetor independente — documento, nova senha e confirmação","requisitos":"RF01","fonte":"API e serviços reais","ordem":48}
+I/flutter ( 5024): MIAR_CATALOGO=048-perfil-1-edicao-inferior
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=1093.85ms min=1093.85ms max=1093.85ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=467.88ms min=383.38ms max=575.66ms count=3
+D/EGL_emulation( 5024): app_time_stats: avg=1321.77ms min=1321.77ms max=1321.77ms count=1
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=619.45ms min=420.36ms max=860.86ms count=3
+I/ImeTracker( 5024): br.com.miar.miar:2fcc7d86: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=7316.93ms min=7316.93ms max=7316.93ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=545.59ms min=377.58ms max=698.25ms count=3
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"049-perfil-2","titulo":"Perfil ONG — dados e permissões","requisitos":"RF01, RD01","fonte":"API e serviços reais","ordem":49}
+I/flutter ( 5024): MIAR_CATALOGO=049-perfil-2
+I/ImeTracker( 5024): br.com.miar.miar:1151f1dc: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=573.73ms min=535.96ms max=611.50ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=1878.09ms min=1878.09ms max=1878.09ms count=1
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"050-perfil-2-inferior","titulo":"Perfil ONG — ações de atualização e logout","requisitos":"RF01, CU02","fonte":"API e serviços reais","ordem":50}
+I/flutter ( 5024): MIAR_CATALOGO=050-perfil-2-inferior
+D/EGL_emulation( 5024): app_time_stats: avg=660.08ms min=619.19ms max=700.97ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:20d66460: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=243.50ms min=41.33ms max=590.12ms count=5
+D/EGL_emulation( 5024): app_time_stats: avg=2506.97ms min=2506.97ms max=2506.97ms count=1
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"051-perfil-2-edicao","titulo":"Perfil ONG — edição dos dados","requisitos":"RF01","fonte":"API e serviços reais","ordem":51}
+I/flutter ( 5024): MIAR_CATALOGO=051-perfil-2-edicao
+D/EGL_emulation( 5024): app_time_stats: avg=639.07ms min=578.65ms max=699.50ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:9b29ec1d: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=1857.16ms min=1857.16ms max=1857.16ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=630.15ms min=569.81ms max=690.48ms count=2
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"052-perfil-2-edicao-inferior","titulo":"Perfil ONG — documento, nova senha e confirmação","requisitos":"RF01","fonte":"API e serviços reais","ordem":52}
+I/flutter ( 5024): MIAR_CATALOGO=052-perfil-2-edicao-inferior
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=1096.42ms min=1096.42ms max=1096.42ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=482.20ms min=415.36ms max=602.38ms count=3
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=624.53ms min=381.32ms max=867.74ms count=2
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=712.78ms min=539.55ms max=886.01ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:f471fc68: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=6857.19ms min=6857.19ms max=6857.19ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=551.70ms min=393.77ms max=688.74ms count=3
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"053-galeria-falha","titulo":"Galeria — indisponibilidade e nova tentativa","requisitos":"RNF03, CU03","fonte":"Falha induzida apenas no repositório deste cliente","ordem":53}
+I/flutter ( 5024): MIAR_CATALOGO=053-galeria-falha
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=1065.10ms min=1065.10ms max=1065.10ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=389.30ms min=372.68ms max=407.60ms count=3
+I/ImeTracker( 5024): br.com.miar.miar:836529c6: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=3478.30ms min=3478.30ms max=3478.30ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=622.44ms min=577.46ms max=667.43ms count=2
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"054-detalhe-inexistente","titulo":"Detalhe — registro inexistente","requisitos":"RNF03, CU03","fonte":"Resposta 404 real da API","ordem":54}
+I/flutter ( 5024): MIAR_CATALOGO=054-detalhe-inexistente
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=1066.76ms min=1066.76ms max=1066.76ms count=1
+I/ImeTracker( 5024): br.com.miar.miar:acda0b3e: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=503.87ms min=436.83ms max=570.90ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=2733.53ms min=2733.53ms max=2733.53ms count=1
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"055-correspondencia-inexistente","titulo":"Correspondência — resultado indisponível","requisitos":"RNF03, CU12","fonte":"Resposta 404 real da API","ordem":55}
+I/flutter ( 5024): MIAR_CATALOGO=055-correspondencia-inexistente
+W/WindowOnBackDispatcher( 5024): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5024): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5024): app_time_stats: avg=876.52ms min=679.30ms max=1073.74ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:621eb71f: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=510.80ms min=486.23ms max=535.38ms count=2
+D/EGL_emulation( 5024): app_time_stats: avg=2806.42ms min=2806.42ms max=2806.42ms count=1
+I/r.com.miar.miar( 5024): NativeAlloc concurrent mark compact GC freed 262KB AllocSpace bytes, 13(2760KB) LOS objects, 49% free, 2780KB/5561KB, paused 603us,5.016ms total 22.313ms
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar( 5024): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"056-edicao-inexistente","titulo":"Edição — registro indisponível","requisitos":"RNF03, RF02","fonte":"Resposta 404 real da API","ordem":56}
+I/flutter ( 5024): MIAR_CATALOGO=056-edicao-inexistente
+D/EGL_emulation( 5024): app_time_stats: avg=655.69ms min=590.95ms max=720.43ms count=2
+I/ImeTracker( 5024): br.com.miar.miar:40755329: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 5024): app_time_stats: avg=1850.22ms min=1850.22ms max=1850.22ms count=1
+D/EGL_emulation( 5024): app_time_stats: avg=625.51ms min=557.01ms max=694.00ms count=2
+I/flutter ( 5024): MIAR_CATALOGO_META={"nome":"057-edicao-inexistente-inferior","titulo":"Edição — mensagem de registro indisponível e ações","requisitos":"RNF03, RF02","fonte":"Resposta 404 real da API","ordem":57}
+I/flutter ( 5024): MIAR_CATALOGO=057-edicao-inexistente-inferior
+I/flutter ( 5024): MIAR_CATALOGO_TOTAL=57
+I/flutter ( 5024): 03:40 +1: (tearDownAll)
+D/EGL_emulation( 5024): app_time_stats: avg=1945.41ms min=1945.41ms max=1945.41ms count=1
+I/flutter ( 5024): 03:45 +2: All tests passed!
+All tests passed.

@@ -1,0 +1,192 @@
+Running Gradle task 'assembleDebug'...                          
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "Windows_NT" == "Windows_NT" setlocal
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set DEFAULT_JVM_OPTS= 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set DIRNAME=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\ 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\" == "" set DIRNAME=. 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set APP_BASE_NAME=gradlew 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set APP_HOME=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\ 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set JAVA_HOME=C:\Program Files\Android\Android Studio\jbr 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set JAVA_EXE=C:\Program Files\Android\Android Studio\jbr/bin/java.exe 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if exist "C:\Program Files\Android\Android Studio\jbr/bin/java.exe" goto init 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if not "Windows_NT" == "Windows_NT" goto win9xME_args 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "@eval[2+2]" == "4" goto 4NT_args 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CMD_LINE_ARGS= 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set _SKIP=2 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "x-q" == "x" goto execute 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CMD_LINE_ARGS=-q -Ptarget-platform=android-x64 -Ptarget=integration_test/fluxo_real_test.dart -Pbase-application-name=android.app.Application -Pdart-defines=QVBJX1VSTD1odHRwOi8vMTAuMC4yLjI6MzMwMQ==,RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPVt1c2VyLWJyYW5jaF0=,RkxVVFRFUl9HSVRfVVJMPXVua25vd24gc291cmNl,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>goto execute 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CLASSPATH=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\\gradle\wrapper\gradle-wrapper.jar 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>"C:\Program Files\Android\Android Studio\jbr/bin/java.exe"    "-Dorg.gradle.appname=gradlew" -classpath "C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\\gradle\wrapper\gradle-wrapper.jar" org.gradle.wrapper.GradleWrapperMain -q -Ptarget-platform=android-x64 -Ptarget=integration_test/fluxo_real_test.dart -Pbase-application-name=android.app.Application -Pdart-defines=QVBJX1VSTD1odHRwOi8vMTAuMC4yLjI6MzMwMQ==,RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPVt1c2VyLWJyYW5jaF0=,RkxVVFRFUl9HSVRfVVJMPXVua25vd24gc291cmNl,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug 
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/C:/Users/Breno/.gradle/wrapper/dists/gradle-8.14-all/c2qonpi39x1mddn7hk5gh9iqj/gradle-8.14/lib/native-platform-0.22-milestone-28.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "0" == "0" goto mainEnd 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "Windows_NT" == "Windows_NT" endlocal
+Running Gradle task 'assembleDebug'...                             14,5s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...        1.274ms
+I/r.com.miar.miar( 5324): Compiler allocated 5174KB to compile void android.view.ViewRootImpl.performTraversals()
+D/TSBackgroundFetch( 5324): ☯️  onCreate
+D/TSBackgroundFetch( 5324): ☯️  onStart
+D/TSBackgroundFetch( 5324): ☯️  onResume
+D/FlutterGeolocator( 5324): Creating service.
+D/FlutterGeolocator( 5324): Binding to location service.
+I/Choreographer( 5324): Skipped 30 frames!  The application may be doing too much work on its main thread.
+D/FlutterGeolocator( 5324): Geolocator foreground service connected
+D/FlutterGeolocator( 5324): Initializing Geolocator services
+D/FlutterGeolocator( 5324): Flutter engine connected. Connected engine count 1
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:58414/TKxcuHGBKXc=/
+VMServiceFlutterDriver: Isolate found with number: 2818238394024291
+VMServiceFlutterDriver: Isolate 2818238394024291 is runnable.
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+I/flutter ( 5324): 00:00 +0: As nove janelas usam a API real no Android
+VMServiceFlutterDriver: Connected to Flutter application.
+D/ProfileInstaller( 5324): Installing profile for br.com.miar.miar
+I/Choreographer( 5324): Skipped 61 frames!  The application may be doing too much work on its main thread.
+I/HWUI    ( 5324): Davey! duration=1042ms; Flags=0, FrameTimelineVsyncId=61997, IntendedVsync=926118563362, Vsync=927135229988, InputEventId=0, HandleInputStart=927149425300, AnimationStart=927149445500, PerformTraversalsStart=927149472500, DrawStart=927149827600, FrameDeadline=926135230028, FrameInterval=927149004600, FrameStartTime=16666666, SyncQueued=927149954500, SyncStart=927150095700, IssueDrawCommandsStart=927150158400, SwapBuffers=927150466200, FrameCompleted=927160951500, DequeueBufferDuration=2247300, QueueBufferDuration=517800, GpuCompleted=927158612400, SwapBuffersCompleted=927160951500, DisplayPresentTime=144115222452437076, CommandSubmissionCompleted=927150466200, 
+VMServiceFlutterDriver: request_data message is taking a long time to complete...
+W/r.com.miar.miar( 5324): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar( 5324): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+W/WindowOnBackDispatcher( 5324): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5324): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5324): app_time_stats: avg=742.83ms min=450.61ms max=1001.31ms count=3
+D/EGL_emulation( 5324): app_time_stats: avg=2148.08ms min=291.16ms max=3887.08ms count=3
+D/EGL_emulation( 5324): app_time_stats: avg=215.62ms min=92.38ms max=410.32ms count=5
+I/ImeTracker( 5324): br.com.miar.miar:28026c6b: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 5324): showSoftInput() view=io.flutter.embedding.android.FlutterView{7a0f8dc VFE...... .F....ID 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 5324): br.com.miar.miar:3331381b: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 5324): showSoftInput() view=io.flutter.embedding.android.FlutterView{7a0f8dc VFE...... .F....ID 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/EGL_emulation( 5324): app_time_stats: avg=1194.46ms min=1194.46ms max=1194.46ms count=1
+I/ImeTracker( 5324): br.com.miar.miar:b81f109e: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 5324): showSoftInput() view=io.flutter.embedding.android.FlutterView{7a0f8dc VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 5324): br.com.miar.miar:9c328f87: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 5324): showSoftInput() view=io.flutter.embedding.android.FlutterView{7a0f8dc VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+W/RemoteInputConnectionImpl( 5324): requestCursorUpdates on inactive InputConnection
+I/ImeTracker( 5324): br.com.miar.miar:f070ae51: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/ImeTracker( 5324): br.com.miar.miar:885d0f90: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController( 5324): show(ime(), fromIme=true)
+W/InteractionJankMonitor( 5324): Initializing without READ_DEVICE_CONFIG permission. enabled=true, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=br.com.miar.miar
+D/EGL_emulation( 5324): app_time_stats: avg=170.57ms min=79.21ms max=260.94ms count=6
+I/ImeTracker( 5324): br.com.miar.miar:3331381b: onShown
+W/RemoteInputConnectionImpl( 5324): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 5324): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 5324): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 5324): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 5324): requestCursorUpdates on inactive InputConnection
+D/InsetsController( 5324): show(ime(), fromIme=true)
+I/ImeTracker( 5324): br.com.miar.miar:b81f109e: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController( 5324): show(ime(), fromIme=true)
+I/ImeTracker( 5324): br.com.miar.miar:9c328f87: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+W/RemoteInputConnectionImpl( 5324): requestCursorUpdates on inactive InputConnection
+D/InsetsController( 5324): hide(ime(), fromIme=true)
+D/EGL_emulation( 5324): app_time_stats: avg=63.89ms min=8.89ms max=492.92ms count=15
+W/FrameTracker( 5324): Missed SF frame:UNKNOWN: 80, 63651, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5324): Missed SF frame:UNKNOWN: 80, 63665, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5324): Missed SF frame:UNKNOWN: 80, 63688, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5324): Missed App frame:UNKNOWN: 88, 63703, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5324): Missed SF frame:UNKNOWN: 88, 63703, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5324): Missed SF frame:UNKNOWN: 80, 63740, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5324): Missed SF frame:UNKNOWN: 66, 63776, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5324): Missed App frame:UNKNOWN: 74, 63798, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5324): Missed SF frame:UNKNOWN: 74, 63798, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5324): Missed SF frame:UNKNOWN: 80, 63813, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 5324): Missed SF frame:UNKNOWN: 80, 63828, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+V/PerfettoTrigger( 5324): Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-80
+I/ImeTracker( 5324): br.com.miar.miar:d35cb1b8: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker( 5324): br.com.miar.miar:f070ae51: onHidden
+D/EGL_emulation( 5324): app_time_stats: avg=149.60ms min=85.12ms max=287.37ms count=7
+W/WindowOnBackDispatcher( 5324): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5324): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5324): app_time_stats: avg=137.74ms min=74.99ms max=320.35ms count=8
+W/WindowOnBackDispatcher( 5324): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5324): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5324): app_time_stats: avg=523.65ms min=58.80ms max=1698.05ms count=4
+W/WindowOnBackDispatcher( 5324): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5324): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5324): app_time_stats: avg=111.19ms min=64.11ms max=258.81ms count=10
+D/EGL_emulation( 5324): app_time_stats: avg=651.59ms min=22.01ms max=4889.51ms count=8
+I/r.com.miar.miar( 5324): NativeAlloc concurrent mark compact GC freed 1008KB AllocSpace bytes, 10(1308KB) LOS objects, 49% free, 2784KB/5569KB, paused 584us,5.217ms total 31.751ms
+W/r.com.miar.miar( 5324): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar( 5324): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+W/WindowOnBackDispatcher( 5324): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5324): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5324): app_time_stats: avg=185.15ms min=54.46ms max=502.45ms count=6
+D/EGL_emulation( 5324): app_time_stats: avg=1180.07ms min=1180.07ms max=1180.07ms count=1
+D/EGL_emulation( 5324): app_time_stats: avg=173.80ms min=66.78ms max=488.21ms count=6
+W/WindowOnBackDispatcher( 5324): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5324): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5324): app_time_stats: avg=135.53ms min=53.37ms max=384.63ms count=9
+D/EGL_emulation( 5324): app_time_stats: avg=352.15ms min=252.58ms max=517.77ms count=3
+E/FrameTracker( 5324): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 5324): Missed SF frame:UNKNOWN: 66, 63937, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 5324): Missed App frame:UNKNOWN: 88, 63966, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 5324): Missed SF frame:UNKNOWN: 88, 63966, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 5324): Missed App frame:UNKNOWN: 88, 64069, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 5324): Missed SF frame:UNKNOWN: 88, 64069, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 5324): Missed App frame:UNKNOWN: 72, 64084, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 5324): Missed SF frame:UNKNOWN: 66, 64113, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 5324): Missed SF frame:UNKNOWN: 80, 64134, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 5324): Missed SF frame:UNKNOWN: 80, 64149, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+V/PerfettoTrigger( 5324): Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-81
+D/EGL_emulation( 5324): app_time_stats: avg=518.58ms min=508.25ms max=528.91ms count=2
+D/EGL_emulation( 5324): app_time_stats: avg=519.29ms min=512.64ms max=525.94ms count=2
+D/EGL_emulation( 5324): app_time_stats: avg=5312.16ms min=5312.16ms max=5312.16ms count=1
+W/WindowOnBackDispatcher( 5324): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5324): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5324): app_time_stats: avg=358.50ms min=125.68ms max=797.91ms count=3
+D/EGL_emulation( 5324): app_time_stats: avg=1285.46ms min=1285.46ms max=1285.46ms count=1
+W/WindowOnBackDispatcher( 5324): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5324): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5324): app_time_stats: avg=114.02ms min=37.21ms max=299.41ms count=9
+W/WindowOnBackDispatcher( 5324): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5324): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5324): app_time_stats: avg=116.18ms min=51.83ms max=162.90ms count=9
+W/WindowOnBackDispatcher( 5324): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5324): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5324): app_time_stats: avg=95.46ms min=53.58ms max=126.43ms count=11
+D/EGL_emulation( 5324): app_time_stats: avg=3133.73ms min=3133.73ms max=3133.73ms count=1
+W/WindowOnBackDispatcher( 5324): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5324): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5324): app_time_stats: avg=104.00ms min=42.44ms max=240.50ms count=11
+W/WindowOnBackDispatcher( 5324): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5324): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5324): app_time_stats: avg=117.57ms min=44.31ms max=225.52ms count=9
+D/EGL_emulation( 5324): app_time_stats: avg=2095.49ms min=2095.49ms max=2095.49ms count=1
+W/r.com.miar.miar( 5324): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar( 5324): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+D/EGL_emulation( 5324): app_time_stats: avg=126.44ms min=42.47ms max=320.90ms count=8
+W/WindowOnBackDispatcher( 5324): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5324): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5324): app_time_stats: avg=1698.74ms min=1698.74ms max=1698.74ms count=1
+D/EGL_emulation( 5324): app_time_stats: avg=124.40ms min=52.08ms max=316.57ms count=10
+I/flutter ( 5324): 00:29 +1: (tearDownAll)
+I/Choreographer( 5324): Skipped 75 frames!  The application may be doing too much work on its main thread.
+D/EGL_emulation( 5324): app_time_stats: avg=1656.82ms min=1656.82ms max=1656.82ms count=1
+I/flutter ( 5324): 00:31 +2: All tests passed!
+I/HWUI    ( 5324): Davey! duration=1271ms; Flags=0, FrameTimelineVsyncId=70385, IntendedVsync=952268562316, Vsync=953518562266, InputEventId=0, HandleInputStart=953531855900, AnimationStart=953531981200, PerformTraversalsStart=953532280700, DrawStart=953532528400, FrameDeadline=952285228982, FrameInterval=953531277800, FrameStartTime=16666666, SyncQueued=953532620300, SyncStart=953532728900, IssueDrawCommandsStart=953533078400, SwapBuffers=953534065600, FrameCompleted=953539739600, DequeueBufferDuration=16800, QueueBufferDuration=519800, GpuCompleted=953539516700, SwapBuffersCompleted=953539739600, DisplayPresentTime=0, CommandSubmissionCompleted=953534065600, 
+All tests passed.

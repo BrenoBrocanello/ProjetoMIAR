@@ -1,0 +1,6 @@
+{
+  "titulo": "Filtros — status, espécie, porte e cidade",
+  "requisitos": "RF03, CU04",
+  "fonte": "API e serviços reais",
+  "ordem": 17
+}

@@ -1,0 +1,8 @@
+{
+  "registros": 1200,
+  "simultaneidade": 5,
+  "consultas": 80,
+  "max_ms": 67.33350000000019,
+  "p95_ms": 36.43179999999984,
+  "ambiente": "local; nao representa SLA ou carga de producao"
+}

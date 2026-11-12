@@ -1,0 +1,118 @@
+Running Gradle task 'assembleDebug'...                          
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "Windows_NT" == "Windows_NT" setlocal
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set DEFAULT_JVM_OPTS= 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set DIRNAME=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\ 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\" == "" set DIRNAME=. 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set APP_BASE_NAME=gradlew 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set APP_HOME=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\ 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set JAVA_HOME=C:\Program Files\Android\Android Studio\jbr 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set JAVA_EXE=C:\Program Files\Android\Android Studio\jbr/bin/java.exe 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if exist "C:\Program Files\Android\Android Studio\jbr/bin/java.exe" goto init 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if not "Windows_NT" == "Windows_NT" goto win9xME_args 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "@eval[2+2]" == "4" goto 4NT_args 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CMD_LINE_ARGS= 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set _SKIP=2 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "x-q" == "x" goto execute 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CMD_LINE_ARGS=-q -Ptarget-platform=android-x64 -Ptarget=integration_test/dispositivo_test.dart -Pbase-application-name=android.app.Application -Pdart-defines=QVBJX1VSTD1odHRwOi8vMTAuMC4yLjI6MzMwMQ==,RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPVt1c2VyLWJyYW5jaF0=,RkxVVFRFUl9HSVRfVVJMPXVua25vd24gc291cmNl,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>goto execute 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CLASSPATH=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\\gradle\wrapper\gradle-wrapper.jar 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>"C:\Program Files\Android\Android Studio\jbr/bin/java.exe"    "-Dorg.gradle.appname=gradlew" -classpath "C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\\gradle\wrapper\gradle-wrapper.jar" org.gradle.wrapper.GradleWrapperMain -q -Ptarget-platform=android-x64 -Ptarget=integration_test/dispositivo_test.dart -Pbase-application-name=android.app.Application -Pdart-defines=QVBJX1VSTD1odHRwOi8vMTAuMC4yLjI6MzMwMQ==,RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPVt1c2VyLWJyYW5jaF0=,RkxVVFRFUl9HSVRfVVJMPXVua25vd24gc291cmNl,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug 
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/C:/Users/Breno/.gradle/wrapper/dists/gradle-8.14-all/c2qonpi39x1mddn7hk5gh9iqj/gradle-8.14/lib/native-platform-0.22-milestone-28.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "0" == "0" goto mainEnd 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "Windows_NT" == "Windows_NT" endlocal
+Running Gradle task 'assembleDebug'...                             17,4s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...        1.371ms
+D/FlutterGeolocator(27196): Geolocator foreground service connected
+D/FlutterGeolocator(27196): Initializing Geolocator services
+D/FlutterGeolocator(27196): Flutter engine connected. Connected engine count 1
+I/Choreographer(27196): Skipped 31 frames!  The application may be doing too much work on its main thread.
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:53023/4dicCtzp3LU=/
+VMServiceFlutterDriver: Isolate found with number: 6183671043252767
+VMServiceFlutterDriver: Isolate 6183671043252767 is runnable.
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+I/flutter (27196): 00:00 +0: GPS, compressão e notificação usam serviços nativos reais
+VMServiceFlutterDriver: Connected to Flutter application.
+D/ProfileInstaller(27196): Installing profile for br.com.miar.miar
+VMServiceFlutterDriver: request_data message is taking a long time to complete...
+I/flutter (27196): MIAR_NOTIF_NEGAR
+I/flutter (27196): ══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+I/flutter (27196): The following TestFailure was thrown running a test:
+I/flutter (27196): Expected: false
+I/flutter (27196):   Actual: <true>
+I/flutter (27196): 
+I/flutter (27196): When the exception was thrown, this was the stack:
+I/flutter (27196): #4      main.<anonymous closure> (file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/integration_test/dispositivo_test.dart:126:7)
+I/flutter (27196): <asynchronous suspension>
+I/flutter (27196): #5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+I/flutter (27196): <asynchronous suspension>
+I/flutter (27196): #6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+I/flutter (27196): <asynchronous suspension>
+I/flutter (27196): #7      TestWidgetsFlutterBinding._createTestCompletionHandler.<anonymous closure> (package:flutter_test/src/binding.dart:814:12)
+I/flutter (27196): <asynchronous suspension>
+I/flutter (27196): 
+I/flutter (27196): This was caught by the test expectation on the following line:
+I/flutter (27196):   file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/integration_test/dispositivo_test.dart line 126
+I/flutter (27196): The test description was:
+I/flutter (27196):   GPS, compressão e notificação usam serviços nativos reais
+I/flutter (27196): ════════════════════════════════════════════════════════════════════════════════════════════════════
+I/flutter (27196): 00:26 +0: GPS, compressão e notificação usam serviços nativos reais [E]
+I/flutter (27196):   Test failed. See exception logs above.
+I/flutter (27196):   The test description was: GPS, compressão e notificação usam serviços nativos reais
+I/flutter (27196):   
+I/flutter (27196): 00:26 +0 -1: (tearDownAll)
+I/flutter (27196): 00:26 +1 -1: Some tests failed.
+Failure Details:
+Failure in method: GPS, compressão e notificação usam serviços nativos reais
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞═════════════════
+The following TestFailure was thrown running a test:
+Expected: false
+  Actual: <true>
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/integration_test/dispositivo_test.dart:126:7)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+<asynchronous suspension>
+#7      TestWidgetsFlutterBinding._createTestCompletionHandler.<anonymous closure> (package:flutter_test/src/binding.dart:814:12)
+<asynchronous suspension>
+
+This was caught by the test expectation on the following line:
+  file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/integration_test/dispositivo_test.dart line 126
+The test description was:
+  GPS, compressão e notificação usam serviços nativos reais
+═════════════════════════════════════════════════════════════════
+
+end of failure 1
+
+
+

@@ -1,0 +1,6 @@
+{
+  "titulo": "Cadastro Cidadão — documento, senha e confirmação",
+  "requisitos": "RF01, RD01, CU01",
+  "fonte": "API e serviços reais",
+  "ordem": 5
+}

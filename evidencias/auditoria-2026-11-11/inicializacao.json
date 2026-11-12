@@ -1,0 +1,9 @@
+﻿{
+    "pid_alheio_preservado":  true,
+    "marcadores_obsoletos":  true,
+    "supervisor_antes":  22560,
+    "dados_preservados":  true,
+    "reinicio_com_marcadores_obsoletos":  true,
+    "supervisor_depois":  9768,
+    "inicio_idempotente":  true
+}

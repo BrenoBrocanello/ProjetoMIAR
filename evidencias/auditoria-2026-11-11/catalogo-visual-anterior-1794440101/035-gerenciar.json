@@ -1,0 +1,6 @@
+{
+  "titulo": "Gerenciar — somente registros próprios",
+  "requisitos": "RF02, RD04, CU08",
+  "fonte": "API e serviços reais",
+  "ordem": 35
+}

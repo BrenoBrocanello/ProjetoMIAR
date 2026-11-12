@@ -1,0 +1,20 @@
+{
+  "especificacao": "docs/LabES_SistemaMIAR_1011.pdf",
+  "master_sha256": "176cdb5d0c834a41a00795bd0ffaa415f1453f4058205c499f295874cad6e4aa",
+  "master_original_sha256": "d20641bd7dd5e44016c56e38ae5dc2db89b775835302618fc65fe45ee3555d06",
+  "arquivo": "MIAR-android.apk",
+  "apk_sha256": "422902564c28a3da33139bfb9f3c4af5f2e403c491e942e1afa0b6c222a5e808",
+  "versao": "1.0.0+3",
+  "tipo": "debug",
+  "api": "http://10.0.2.2:3000",
+  "validado_em": "2026-11-11",
+  "plataforma_validada": "Android API35: fluxo completo e APK final; Android8 API26: GPS, fotos, compressao, sessao protegida e notificacoes em testes dedicados",
+  "ios": "nao compilado ou validado neste Windows",
+  "imagens_no_master": 12,
+  "parecer": "docs/PARECER_DE_ENTREGA.md",
+  "conformidade_integral_aprovada": false,
+  "master_da_auditoria_sha256": "8df799ce277593a416a75e4edf56be663590f825b759630ef24a0b3614cb62b0",
+  "prototipos_de_interface_no_master": 9,
+  "documentacao_atualizada_em": "2026-11-11",
+  "revisao_documental": "docs/REVISAO_MODELO.md"
+}

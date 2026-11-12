@@ -1,0 +1,71 @@
+▶ Auditoria MASTER: cenários alternativos, integridade, concorrência e desempenho
+  ✔ RF01/RD01: perfis inválidos, sobreposição de campos e e-mail duplicado são recusados (96.8975ms)
+  ✔ RF01: atualização inválida/duplicada é atômica; credenciais novas funcionam (284.7278ms)
+  ✔ CU05/RD03: JSON, coordenadas, cidade, porte, status e fotos inválidos não persistem (169.1713ms)
+  ✔ RF03: filtros individuais/combinados, paginação e tentativa SQL literal (104.4337ms)
+  ✔ CU06/CU07/RD02/RD06: seis status e supressão de contato em todos os retornos públicos (449.1682ms)
+  ✔ CU10: link usa o telefone persistido e não registra ou envia conversa (16.952ms)
+  ✔ RD04/RNF05: IDs inválidos, token falso, exclusão/edição alheia e foto de terceiro (81.3813ms)
+  ✔ CU11/CU12: fotos alteradas invalidam resultado antigo; novo aviso continua consultável (359.5665ms)
+  ✔ RNF03: falha no COMMIT reverte ocorrência, fotos, objetos e resultado de IA (335.1442ms)
+  ✖ RF02: duas edições concorrentes não deixam ocorrência sem fotografia (314.263ms)
+Desempenho auditado: {"registros":1200,"simultaneidade":5,"consultas":80,"max_ms":69.6596999999997,"p95_ms":33.51050000000032,"ambiente":"local; nao representa SLA ou carga de producao"}
+  ✔ RNF02: galeria, filtros e paginação com 1.200 registros e cinco consultas simultâneas (713.7041ms)
+✖ Auditoria MASTER: cenários alternativos, integridade, concorrência e desempenho (3765.014ms)
+▶ MIAR: fluxos documentados com PostgreSQL, S3 e rede neural reais
+  ✔ CU01: cadastro dos três perfis com documento centralizado, sem senha no retorno (404.0674ms)
+  ✔ CU01: DDD inválido e campo fora do escopo são rejeitados (29.7168ms)
+  ✔ CU02: credenciais incorretas e acesso sem token são negados (59.6135ms)
+  ✔ RF01: consulta e atualização dos próprios dados (19.2366ms)
+  ✔ CU05: cadastro com imagem e localização, análise executada e foto otimizada (176.9801ms)
+  ✔ CU05: foto ausente, imagem inválida, status e coordenadas inválidos não persistem (56.5923ms)
+  ✔ CU11/CU12: outra ocorrência com mesma imagem gera possível correspondência para o responsável perdido (205.0469ms)
+  ✔ CU11: fotografia diferente não produz correspondência fictícia (161.094ms)
+  ✔ CU05/RNF03: indisponibilidade da IA não confirma nem persiste cadastro (138.6511ms)
+  ✔ CU03/CU04: filtros por status, espécie, porte, cidade e resultado vazio (25.9226ms)
+  ✔ CU09: radar respeita os atores do diagrama (46.623ms)
+  ✔ RD04/RNF05: usuário não altera, exclui ou edita ocorrência de terceiro (62.843ms)
+  ✔ CU07/CU10: contato é removido da resposta pública para ambos os status finais (75.1989ms)
+  ✔ RF02: cidadão altera os próprios dados e preserva fotos na edição (40.3809ms)
+  ✔ RD07: análise também compara ocorrências diferentes do mesmo responsável (156.9812ms)
+  ✔ CU08: exclusão remove ocorrência, relacionamentos e foto armazenada (24.3612ms)
+  ✔ Atualizações são publicadas em tempo real somente após a gravação (51.1819ms)
+  ✔ Modelo físico preserva exatamente as nove entidades e os atributos do DER (53.6054ms)
+  ✔ DER: animal compartilhável, vários contatos/mensagens e localização única (7.6319ms)
+Consultas locais (ms): 5, 20, 16, 16, 15
+  ✔ RNF02: consulta e filtros locais abaixo de dois segundos (72.0835ms)
+  ✔ CU02: logout revoga efetivamente o token no servidor (27.518ms)
+✔ MIAR: fluxos documentados com PostgreSQL, S3 e rede neural reais (2079.2073ms)
+Migração com dados, restauração verificada, persistência após reinício e rollback: OK.
+✔ MASTER: migração preserva dados, backup é restaurável e falha reverte integralmente (7115.364ms)
+ℹ tests 35
+ℹ suites 0
+ℹ pass 33
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 13435.8673
+
+✖ failing tests:
+
+test at test\auditoria.test.mjs:131:11
+✖ RF02: duas edições concorrentes não deixam ocorrência sem fotografia (314.263ms)
+  AssertionError [ERR_ASSERTION]: {"id_ocorrencia":23,"id_usuario_responsavel":35,"id_animal":20,"status_ocorrencia":"Encontrado","descricao":"{\"miar\":1,\"descricao_fisica\":\"Auditoria 1794411358638\",\"estado_saude\":\"Saudável\"}","data_registro":"2026-11-11T03:00:00.000Z","especie":"Cão","porte":"Grande","animal":{"id_animal":20,"id_especie":1,"nome":null,"porte":"Grande","descricao":"Auditoria 1794411358638","idade":null,"genero":null,"cor":null,"url_foto":"/fotos/d138b323-02c1-4e5d-9310-49533486f420.jpg","data_cadastro":"2026-11-11"},"responsavel":{"id_usuario":35,"nome":"Auditoria 2","tipo_usuario":"ONG"},"localizacao":{"id_localizacao":23,"id_cidade":22,"cidade":"Auditoria 1794411358638","estado":"SP","latitude":-23.1857,"longitude":-46.8978,"endereco":"Endereço de teste"},"fotos":[],"contato":{"numero_whatsapp":"11987654321","whatsapp_link":"https://wa.me/5511987654321"},"descricao_fisica":"Auditoria 1794411358638","estado_saude":"Saudável"}
+  
+  200 !== 409
+  
+      at TestContext.<anonymous> (file:///C:/Users/Breno/OneDrive/%C3%81rea%20de%20Trabalho/trabalho%20Angela%205%20semestre%20projeto%20miar/api/test/auditoria.test.mjs:141:87)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async TestContext.<anonymous> (file:///C:/Users/Breno/OneDrive/%C3%81rea%20de%20Trabalho/trabalho%20Angela%205%20semestre%20projeto%20miar/api/test/auditoria.test.mjs:131:3)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+      at async file:///C:/Users/Breno/OneDrive/%C3%81rea%20de%20Trabalho/trabalho%20Angela%205%20semestre%20projeto%20miar/api/test/auditoria.test.mjs:45:1 {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 200,
+    expected: 409,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

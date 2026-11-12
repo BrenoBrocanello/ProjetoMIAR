@@ -1,0 +1,18 @@
+{
+  "ios_alvos": [
+    "13.0",
+    "13.0",
+    "13.0"
+  ],
+  "permissoes": [
+    "NSCameraUsageDescription",
+    "NSPhotoLibraryUsageDescription",
+    "NSLocationWhenInUseUsageDescription"
+  ],
+  "background_modes": [
+    "fetch",
+    "processing"
+  ],
+  "build_ios_executado": false,
+  "nota": "Analise de configuracao apenas; nao comprova compatibilidade real de plugins com iOS13."
+}

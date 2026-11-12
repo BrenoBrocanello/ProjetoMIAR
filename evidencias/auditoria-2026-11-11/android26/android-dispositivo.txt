@@ -1,0 +1,172 @@
+Running Gradle task 'assembleDebug'...                          
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "Windows_NT" == "Windows_NT" setlocal
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set DEFAULT_JVM_OPTS= 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set DIRNAME=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\ 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\" == "" set DIRNAME=. 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set APP_BASE_NAME=gradlew 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set APP_HOME=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\ 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set JAVA_HOME=C:\Program Files\Android\Android Studio\jbr 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set JAVA_EXE=C:\Program Files\Android\Android Studio\jbr/bin/java.exe 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if exist "C:\Program Files\Android\Android Studio\jbr/bin/java.exe" goto init 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if not "Windows_NT" == "Windows_NT" goto win9xME_args 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "@eval[2+2]" == "4" goto 4NT_args 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CMD_LINE_ARGS= 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set _SKIP=2 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "x-q" == "x" goto execute 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CMD_LINE_ARGS=-q -Ptarget-platform=android-x64 -Ptarget=integration_test/dispositivo_test.dart -Pbase-application-name=android.app.Application -Pdart-defines=QVBJX1VSTD1odHRwOi8vMTAuMC4yLjI6MzMwMQ==,RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPVt1c2VyLWJyYW5jaF0=,RkxVVFRFUl9HSVRfVVJMPXVua25vd24gc291cmNl,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>goto execute 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CLASSPATH=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\\gradle\wrapper\gradle-wrapper.jar 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>"C:\Program Files\Android\Android Studio\jbr/bin/java.exe"    "-Dorg.gradle.appname=gradlew" -classpath "C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\\gradle\wrapper\gradle-wrapper.jar" org.gradle.wrapper.GradleWrapperMain -q -Ptarget-platform=android-x64 -Ptarget=integration_test/dispositivo_test.dart -Pbase-application-name=android.app.Application -Pdart-defines=QVBJX1VSTD1odHRwOi8vMTAuMC4yLjI6MzMwMQ==,RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPVt1c2VyLWJyYW5jaF0=,RkxVVFRFUl9HSVRfVVJMPXVua25vd24gc291cmNl,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug 
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/C:/Users/Breno/.gradle/wrapper/dists/gradle-8.14-all/c2qonpi39x1mddn7hk5gh9iqj/gradle-8.14/lib/native-platform-0.22-milestone-28.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "0" == "0" goto mainEnd 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "Windows_NT" == "Windows_NT" endlocal
+Running Gradle task 'assembleDebug'...                             52,6s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           6,8s
+D/FlutterGeolocator( 4463): Geolocator foreground service connected
+D/FlutterGeolocator( 4463): Initializing Geolocator services
+D/FlutterGeolocator( 4463): Flutter engine connected. Connected engine count 1
+I/zygote64( 4463): Do partial code cache collection, code=23KB, data=29KB
+I/zygote64( 4463): After code cache collection, code=23KB, data=29KB
+I/zygote64( 4463): Increasing code cache capacity to 128KB
+I/zygote64( 4463): Compiler allocated 6MB to compile void android.view.ViewRootImpl.performTraversals()
+I/zygote64( 4463): Do partial code cache collection, code=61KB, data=58KB
+I/zygote64( 4463): After code cache collection, code=61KB, data=58KB
+I/zygote64( 4463): Increasing code cache capacity to 256KB
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:63269/BjdwxBFE0Hc=/
+VMServiceFlutterDriver: Isolate found with number: 2894002925304455
+VMServiceFlutterDriver: Isolate 2894002925304455 is runnable.
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+I/flutter ( 4463): 00:00 +0: GPS, compressão e notificação usam serviços nativos reais
+VMServiceFlutterDriver: Connected to Flutter application.
+D/EGL_emulation( 4463): eglMakeCurrent: 0x78ad2343d220: ver 2 0 (tinfo 0x78ad2352ae00)
+I/zygote64( 4463): Rejecting re-init on previously-failed class java.lang.Class<com.it_nomads.fluttersecurestorage.FlutterSecureStorage$13>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback;
+I/zygote64( 4463):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.getOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:101)
+I/zygote64( 4463):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.-$$Nest$mgetOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin, com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:-1)
+I/zygote64( 4463):   at void com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run() (FlutterSecureStoragePlugin.java:176)
+I/zygote64( 4463):   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote64( 4463):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote64( 4463):   at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64( 4463):   at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote64( 4463): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.hardware.biometrics.BiometricPrompt$AuthenticationCallback" on path: DexPathList[[zip file "/data/app/br.com.miar.miar-QEUIFQ6ZDSBPrPZUU6yr3A==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.miar.miar-QEUIFQ6ZDSBPrPZUU6yr3A==/lib/x86_64, /data/app/br.com.miar.miar-QEUIFQ6ZDSBPrPZUU6yr3A==/base.apk!/lib/x86_64, /system/lib64, /vendor/lib64]]
+I/zygote64( 4463):   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+I/zygote64( 4463):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+I/zygote64( 4463):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+I/zygote64( 4463):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.getOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:101)
+I/zygote64( 4463):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.-$$Nest$mgetOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin, com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:-1)
+I/zygote64( 4463):   at void com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run() (FlutterSecureStoragePlugin.java:176)
+I/zygote64( 4463):   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote64( 4463):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote64( 4463):   at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64( 4463):   at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote64( 4463): 
+I/zygote64( 4463): Rejecting re-init on previously-failed class java.lang.Class<com.it_nomads.fluttersecurestorage.FlutterSecureStorage$13>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback;
+I/zygote64( 4463):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.getOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:101)
+I/zygote64( 4463):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.-$$Nest$mgetOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin, com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:-1)
+I/zygote64( 4463):   at void com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run() (FlutterSecureStoragePlugin.java:176)
+I/zygote64( 4463):   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote64( 4463):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote64( 4463):   at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64( 4463):   at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote64( 4463): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.hardware.biometrics.BiometricPrompt$AuthenticationCallback" on path: DexPathList[[zip file "/data/app/br.com.miar.miar-QEUIFQ6ZDSBPrPZUU6yr3A==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.miar.miar-QEUIFQ6ZDSBPrPZUU6yr3A==/lib/x86_64, /data/app/br.com.miar.miar-QEUIFQ6ZDSBPrPZUU6yr3A==/base.apk!/lib/x86_64, /system/lib64, /vendor/lib64]]
+I/zygote64( 4463):   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+I/zygote64( 4463):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+I/zygote64( 4463):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+I/zygote64( 4463):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.getOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:101)
+I/zygote64( 4463):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.-$$Nest$mgetOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin, com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:-1)
+I/zygote64( 4463):   at void com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run() (FlutterSecureStoragePlugin.java:176)
+I/zygote64( 4463):   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote64( 4463):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote64( 4463):   at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64( 4463):   at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote64( 4463): 
+I/zygote64( 4463): Rejecting re-init on previously-failed class java.lang.Class<com.it_nomads.fluttersecurestorage.FlutterSecureStorage$13>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback;
+I/zygote64( 4463):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.getOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:101)
+I/zygote64( 4463):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.-$$Nest$mgetOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin, com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:-1)
+I/zygote64( 4463):   at void com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run() (FlutterSecureStoragePlugin.java:176)
+I/zygote64( 4463):   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote64( 4463):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote64( 4463):   at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64( 4463):   at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote64( 4463): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.hardware.biometrics.BiometricPrompt$AuthenticationCallback" on path: DexPathList[[zip file "/data/app/br.com.miar.miar-QEUIFQ6ZDSBPrPZUU6yr3A==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.miar.miar-QEUIFQ6ZDSBPrPZUU6yr3A==/lib/x86_64, /data/app/br.com.miar.miar-QEUIFQ6ZDSBPrPZUU6yr3A==/base.apk!/lib/x86_64, /system/lib64, /vendor/lib64]]
+I/zygote64( 4463):   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+I/zygote64( 4463):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+I/zygote64( 4463):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+I/zygote64( 4463):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.getOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:101)
+I/zygote64( 4463):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.-$$Nest$mgetOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin, com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:-1)
+I/zygote64( 4463):   at void com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run() (FlutterSecureStoragePlugin.java:176)
+I/zygote64( 4463):   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote64( 4463):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote64( 4463):   at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64( 4463):   at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote64( 4463): 
+D/ProfileInstaller( 4463): Installing profile for br.com.miar.miar
+I/flutter ( 4463): MIAR_NOTIF_NEGAR
+D/EGL_emulation( 4463): eglMakeCurrent: 0x78ad2343d220: ver 2 0 (tinfo 0x78ad2352ae00)
+D/TSBackgroundFetch( 4463): ☯️  onPause
+D/TSBackgroundFetch( 4463): ☯️  onStop
+VMServiceFlutterDriver: request_data message is taking a long time to complete...
+I/flutter ( 4463): MIAR_NOTIF_PERMITIR
+D/TSBackgroundFetch( 4463): ☯️  onStart
+D/TSBackgroundFetch( 4463): ☯️  onResume
+D/EGL_emulation( 4463): eglMakeCurrent: 0x78ad2d0a7560: ver 2 0 (tinfo 0x78ad20901a80)
+D/EGL_emulation( 4463): eglMakeCurrent: 0x78ad2d0a7560: ver 2 0 (tinfo 0x78ad20901a80)
+D/EGL_emulation( 4463): eglMakeCurrent: 0x78ad2343d220: ver 2 0 (tinfo 0x78ad2352ae00)
+D/EGL_emulation( 4463): eglMakeCurrent: 0x78ad2343d220: ver 2 0 (tinfo 0x78ad2352ae00)
+D/TSBackgroundFetch( 4463): ☯️  onPause
+D/TSBackgroundFetch( 4463): ☯️  onStop
+D/TSBackgroundFetch( 4463): - configure
+D/TSBackgroundFetch( 4463): - start
+D/TSBackgroundFetch( 4463): - registerTask: flutter_background_fetch (jobId: 999)
+D/TSBackgroundFetch( 4463): {
+D/TSBackgroundFetch( 4463):   "taskId": "flutter_background_fetch",
+D/TSBackgroundFetch( 4463):   "isFetchTask": true,
+D/TSBackgroundFetch( 4463):   "minimumFetchInterval": 15,
+D/TSBackgroundFetch( 4463):   "stopOnTerminate": false,
+D/TSBackgroundFetch( 4463):   "requiredNetworkType": 1,
+D/TSBackgroundFetch( 4463):   "requiresBatteryNotLow": false,
+D/TSBackgroundFetch( 4463):   "requiresCharging": false,
+D/TSBackgroundFetch( 4463):   "requiresDeviceIdle": false,
+D/TSBackgroundFetch( 4463):   "requiresStorageNotLow": false,
+D/TSBackgroundFetch( 4463):   "startOnBoot": true,
+D/TSBackgroundFetch( 4463):   "jobService": "com.transistorsoft.flutter.backgroundfetch.HeadlessTask",
+D/TSBackgroundFetch( 4463):   "forceAlarmManager": false,
+D/TSBackgroundFetch( 4463):   "periodic": true,
+D/TSBackgroundFetch( 4463):   "delay": -1
+D/TSBackgroundFetch( 4463): }
+I/flutter ( 4463): MIAR_NOTIF_AGENDAMENTO
+D/TSBackgroundFetch( 4463): ☯️  onStart
+D/TSBackgroundFetch( 4463): ☯️  onResume
+D/EGL_emulation( 4463): eglMakeCurrent: 0x78ad2d0a7560: ver 2 0 (tinfo 0x78ad20901a80)
+D/EGL_emulation( 4463): eglMakeCurrent: 0x78ad2d0a7560: ver 2 0 (tinfo 0x78ad20901a80)
+D/EGL_emulation( 4463): eglMakeCurrent: 0x78ad2343d220: ver 2 0 (tinfo 0x78ad2352ae00)
+I/flutter ( 4463): 00:12 +1: (tearDownAll)
+All tests passed.
+I/flutter ( 4463): 00:12 +2: All tests passed!

@@ -1,0 +1,7 @@
+{
+  "sdk": "26",
+  "release": "8.0.0",
+  "avd": "MIAR_API26",
+  "modelo": "Android SDK built for x86_64",
+  "console_avd": "MIAR_API26"
+}

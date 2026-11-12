@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>MIAR — Galeria de Ocorrências</title>
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/miar.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="device">
+    <div class="notch"></div>
+    <div class="screen">
+      <div class="aurora"><div class="blob"></div></div>
+
+      <div class="statusbar">
+        <span>9:41</span>
+        <span class="icons">
+          <svg width="17" height="12" viewBox="0 0 17 12" fill="currentColor"><rect y="8" width="3" height="4" rx="1"/><rect x="4.5" y="5.5" width="3" height="6.5" rx="1"/><rect x="9" y="3" width="3" height="9" rx="1"/><rect x="13.5" width="3" height="12" rx="1"/></svg>
+          <svg width="16" height="12" viewBox="0 0 16 12" fill="currentColor"><path d="M8 11.2 6 8.9c1.1-.9 2.9-.9 4 0l-2 2.3Zm0-4.6c-1.6 0-3.1.6-4.2 1.6L2.3 6.6C3.8 5.2 5.8 4.4 8 4.4s4.2.8 5.7 2.2l-1.5 1.6C11.1 7.2 9.6 6.6 8 6.6Zm0-4.4c-2.6 0-5 1-6.8 2.6L0 2.9C2.2.9 5 0 8 0s5.8 1 8 2.9l-1.2 1.5C13 3 10.6 2.2 8 2.2Z"/></svg>
+          <svg width="26" height="13" viewBox="0 0 26 13" fill="none"><rect x=".6" y=".6" width="21" height="11.8" rx="3.4" stroke="currentColor" stroke-opacity=".4" stroke-width="1.1"/><rect x="2.2" y="2.2" width="17.8" height="8.6" rx="2.2" fill="currentColor"/><path d="M23.2 4.3v4.4c1-.4 1.6-1.2 1.6-2.2s-.6-1.8-1.6-2.2Z" fill="currentColor" fill-opacity=".4"/></svg>
+        </span>
+      </div>
+
+      <div class="content">
+        <div class="appbar">
+          <span class="title" style="padding-left:4px">Ocorrências</span>
+          <!-- Acesso aos filtros por status, espécie, porte e cidade (RF03) -->
+          <span class="action"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 6h17M6.5 12h11M10 18h4"/></svg></span>
+        </div>
+
+        <!-- Filtro por status da ocorrência (RF03 / RD02) -->
+        <div class="chips" style="padding:4px 24px 14px">
+          <span class="chip active">Todos</span>
+          <span class="chip">Perdido</span>
+          <span class="chip">Encontrado</span>
+          <span class="chip">Emergência</span>
+        </div>
+
+        <!-- Galeria de ocorrências (RF03) -->
+        <div style="flex:1;padding:0 24px 92px;overflow:hidden">
+          <div class="grid-2">
+
+            <div class="card card-flush">
+              <div class="photo photo-4x3" style="position:relative;background-image:url('assets/img/ocorrencia-cao-grande.jpg')">
+                <svg width="52" height="40" viewBox="0 0 150 110" fill="currentColor" opacity=".5"><path d="M44 44c-9 0-16 8-18 17-1 6-6 9-6 17 0 12 10 20 24 20 9 0 12-4 20-4s11 4 20 4c14 0 24-8 24-20 0-8-5-11-6-17-2-9-9-17-18-17-7 0-11 4-20 4s-13-4-20-4Z" opacity=".75"/><ellipse cx="30" cy="22" rx="11" ry="16" transform="rotate(-18 30 22)"/><ellipse cx="60" cy="12" rx="10" ry="15" transform="rotate(-6 60 12)"/><ellipse cx="92" cy="12" rx="10" ry="15" transform="rotate(6 92 12)"/><ellipse cx="121" cy="22" rx="11" ry="16" transform="rotate(18 121 22)"/></svg>
+                <span class="badge badge-perdido" style="position:absolute;top:10px;left:10px">Perdido</span>
+              </div>
+              <div style="padding:12px">
+                <div class="t-h3">Cão · Grande</div>
+                <div class="t-caption" style="margin-top:2px">Caramelo, coleira azul</div>
+                <div class="row gap-6" style="margin-top:8px">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#77789C" stroke-width="2"><path d="M12 21.5s7-5.8 7-11a7 7 0 1 0-14 0c0 5.2 7 11 7 11Z"/><circle cx="12" cy="10.2" r="2.6"/></svg>
+                  <span class="t-caption">Jundiaí · 20/10</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card-flush">
+              <div class="photo photo-4x3" style="position:relative;background-image:url('assets/img/ocorrencia-gato-rajado.jpg')">
+                <svg width="52" height="40" viewBox="0 0 150 110" fill="currentColor" opacity=".5"><path d="M44 44c-9 0-16 8-18 17-1 6-6 9-6 17 0 12 10 20 24 20 9 0 12-4 20-4s11 4 20 4c14 0 24-8 24-20 0-8-5-11-6-17-2-9-9-17-18-17-7 0-11 4-20 4s-13-4-20-4Z" opacity=".75"/><ellipse cx="30" cy="22" rx="11" ry="16" transform="rotate(-18 30 22)"/><ellipse cx="60" cy="12" rx="10" ry="15" transform="rotate(-6 60 12)"/><ellipse cx="92" cy="12" rx="10" ry="15" transform="rotate(6 92 12)"/><ellipse cx="121" cy="22" rx="11" ry="16" transform="rotate(18 121 22)"/></svg>
+                <span class="badge badge-encontrado" style="position:absolute;top:10px;left:10px">Encontrado</span>
+              </div>
+              <div style="padding:12px">
+                <div class="t-h3">Gato · Pequeno</div>
+                <div class="t-caption" style="margin-top:2px">Rajado cinza, sem coleira</div>
+                <div class="row gap-6" style="margin-top:8px">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#77789C" stroke-width="2"><path d="M12 21.5s7-5.8 7-11a7 7 0 1 0-14 0c0 5.2 7 11 7 11Z"/><circle cx="12" cy="10.2" r="2.6"/></svg>
+                  <span class="t-caption">Várzea Paulista</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card-flush">
+              <div class="photo photo-4x3" style="position:relative;background-image:url('assets/img/ocorrencia-cao-medio.jpg')">
+                <svg width="52" height="40" viewBox="0 0 150 110" fill="currentColor" opacity=".5"><path d="M44 44c-9 0-16 8-18 17-1 6-6 9-6 17 0 12 10 20 24 20 9 0 12-4 20-4s11 4 20 4c14 0 24-8 24-20 0-8-5-11-6-17-2-9-9-17-18-17-7 0-11 4-20 4s-13-4-20-4Z" opacity=".75"/><ellipse cx="30" cy="22" rx="11" ry="16" transform="rotate(-18 30 22)"/><ellipse cx="60" cy="12" rx="10" ry="15" transform="rotate(-6 60 12)"/><ellipse cx="92" cy="12" rx="10" ry="15" transform="rotate(6 92 12)"/><ellipse cx="121" cy="22" rx="11" ry="16" transform="rotate(18 121 22)"/></svg>
+                <span class="badge badge-emergencia" style="position:absolute;top:10px;left:10px">Emergência</span>
+              </div>
+              <div style="padding:12px">
+                <div class="t-h3">Cão · Médio</div>
+                <div class="t-caption" style="margin-top:2px">Ferimento na pata dianteira</div>
+                <div class="row gap-6" style="margin-top:8px">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#77789C" stroke-width="2"><path d="M12 21.5s7-5.8 7-11a7 7 0 1 0-14 0c0 5.2 7 11 7 11Z"/><circle cx="12" cy="10.2" r="2.6"/></svg>
+                  <span class="t-caption">Jundiaí · 19/10</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card-flush">
+              <div class="photo photo-4x3" style="position:relative;background-image:url('assets/img/ocorrencia-gato-filhote.jpg')">
+                <svg width="52" height="40" viewBox="0 0 150 110" fill="currentColor" opacity=".5"><path d="M44 44c-9 0-16 8-18 17-1 6-6 9-6 17 0 12 10 20 24 20 9 0 12-4 20-4s11 4 20 4c14 0 24-8 24-20 0-8-5-11-6-17-2-9-9-17-18-17-7 0-11 4-20 4s-13-4-20-4Z" opacity=".75"/><ellipse cx="30" cy="22" rx="11" ry="16" transform="rotate(-18 30 22)"/><ellipse cx="60" cy="12" rx="10" ry="15" transform="rotate(-6 60 12)"/><ellipse cx="92" cy="12" rx="10" ry="15" transform="rotate(6 92 12)"/><ellipse cx="121" cy="22" rx="11" ry="16" transform="rotate(18 121 22)"/></svg>
+                <span class="badge badge-aguardando" style="position:absolute;top:10px;left:10px">Aguardando Adoção</span>
+              </div>
+              <div style="padding:12px">
+                <div class="t-h3">Gato · Pequeno</div>
+                <div class="t-caption" style="margin-top:2px">Preto, filhote, saudável</div>
+                <div class="row gap-6" style="margin-top:8px">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#77789C" stroke-width="2"><path d="M12 21.5s7-5.8 7-11a7 7 0 1 0-14 0c0 5.2 7 11 7 11Z"/><circle cx="12" cy="10.2" r="2.6"/></svg>
+                  <span class="t-caption">Campo Limpo · 18/10</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Navegação entre os casos de uso documentados (§5.9) -->
+        <div class="navbar">
+          <div class="nav-item active">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.2" y="3.2" width="7.6" height="7.6" rx="2.4"/><rect x="13.2" y="3.2" width="7.6" height="7.6" rx="2.4"/><rect x="3.2" y="13.2" width="7.6" height="7.6" rx="2.4"/><rect x="13.2" y="13.2" width="7.6" height="7.6" rx="2.4"/></svg>
+            Galeria<span class="dot"></span>
+          </div>
+          <div class="nav-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21.5s7-5.8 7-11a7 7 0 1 0-14 0c0 5.2 7 11 7 11Z"/><circle cx="12" cy="10.2" r="2.6"/></svg>
+            Radar<span class="dot hidden"></span>
+          </div>
+          <div class="nav-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.8"/><path d="M12 8.2v7.6M8.2 12h7.6"/></svg>
+            Registrar<span class="dot hidden"></span>
+          </div>
+          <div class="nav-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="3.5" width="15" height="17" rx="3"/><path d="M8.5 9h7M8.5 13h7M8.5 17h4"/></svg>
+            Gerenciar<span class="dot hidden"></span>
+          </div>
+          <div class="nav-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.6"/><path d="M4.8 20.2a7.2 7.2 0 0 1 14.4 0"/></svg>
+            Perfil<span class="dot hidden"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="trace">
+    <b>Tela 03 — Galeria de Ocorrências.</b><br>
+    Respaldo: <b>UC Consultar Ocorrências</b> · <b>UC Consultar Animais</b> · <b>RF03</b>
+    (galeria com filtro por status, espécie, porte e cidade) · <b>RD02</b> (status) ·
+    Entidades <b>OCORRENCIA_ANIMAL</b>, <b>FOTO</b>, <b>LOCALIZACAO</b>.<br>
+    A barra inferior dá acesso apenas a casos de uso documentados; <i>Gerenciar</i> é exibido
+    conforme o perfil do usuário (<b>RNF05</b> / <b>RD04</b>).
+  </div>
+</div>
+</body>
+</html>

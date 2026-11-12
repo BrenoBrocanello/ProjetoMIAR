@@ -1,0 +1,181 @@
+{
+  "master_sha256": "8df799ce277593a416a75e4edf56be663590f825b759630ef24a0b3614cb62b0",
+  "rotas_api": [
+    {
+      "route": "POST /auth/login",
+      "autenticacao": false,
+      "arquivo": "src\\auth\\auth.module.ts",
+      "classe": "AuthController",
+      "metodo": "login"
+    },
+    {
+      "route": "POST /auth/logout",
+      "autenticacao": true,
+      "arquivo": "src\\auth\\auth.module.ts",
+      "classe": "AuthController",
+      "metodo": "logout"
+    },
+    {
+      "route": "GET /contatos/:id",
+      "autenticacao": true,
+      "arquivo": "src\\contatos\\contatos.module.ts",
+      "classe": "ContatosController",
+      "metodo": "get"
+    },
+    {
+      "route": "GET /correspondencias",
+      "autenticacao": true,
+      "arquivo": "src\\correspondencias\\correspondencias.module.ts",
+      "classe": "CorrespondenciasController",
+      "metodo": "list"
+    },
+    {
+      "route": "GET /correspondencias/:id",
+      "autenticacao": true,
+      "arquivo": "src\\correspondencias\\correspondencias.module.ts",
+      "classe": "CorrespondenciasController",
+      "metodo": "get"
+    },
+    {
+      "route": "POST /correspondencias/:id/notificacao-emitida",
+      "autenticacao": true,
+      "arquivo": "src\\correspondencias\\correspondencias.module.ts",
+      "classe": "CorrespondenciasController",
+      "metodo": "emitida"
+    },
+    {
+      "route": "GET /fotos/:key",
+      "autenticacao": false,
+      "arquivo": "src\\fotos\\fotos.module.ts",
+      "classe": "FotosController",
+      "metodo": "get"
+    },
+    {
+      "route": "GET /localizacoes/radar",
+      "autenticacao": true,
+      "arquivo": "src\\localizacoes\\localizacoes.module.ts",
+      "classe": "LocalizacoesController",
+      "metodo": "radar"
+    },
+    {
+      "route": "GET /mapa/:z/:x/:y",
+      "autenticacao": false,
+      "arquivo": "src\\localizacoes\\mapa.ts",
+      "classe": "MapaController",
+      "metodo": "tile"
+    },
+    {
+      "route": "GET /ocorrencias/eventos",
+      "autenticacao": true,
+      "arquivo": "src\\ocorrencias\\ocorrencias.module.ts",
+      "classe": "OcorrenciasController",
+      "metodo": "eventos"
+    },
+    {
+      "route": "GET /ocorrencias",
+      "autenticacao": true,
+      "arquivo": "src\\ocorrencias\\ocorrencias.module.ts",
+      "classe": "OcorrenciasController",
+      "metodo": "list"
+    },
+    {
+      "route": "GET /ocorrencias/minhas",
+      "autenticacao": true,
+      "arquivo": "src\\ocorrencias\\ocorrencias.module.ts",
+      "classe": "OcorrenciasController",
+      "metodo": "mine"
+    },
+    {
+      "route": "GET /ocorrencias/:id/editar",
+      "autenticacao": true,
+      "arquivo": "src\\ocorrencias\\ocorrencias.module.ts",
+      "classe": "OcorrenciasController",
+      "metodo": "edit"
+    },
+    {
+      "route": "GET /ocorrencias/:id",
+      "autenticacao": true,
+      "arquivo": "src\\ocorrencias\\ocorrencias.module.ts",
+      "classe": "OcorrenciasController",
+      "metodo": "get"
+    },
+    {
+      "route": "POST /ocorrencias",
+      "autenticacao": true,
+      "arquivo": "src\\ocorrencias\\ocorrencias.module.ts",
+      "classe": "OcorrenciasController",
+      "metodo": "create"
+    },
+    {
+      "route": "PUT /ocorrencias/:id",
+      "autenticacao": true,
+      "arquivo": "src\\ocorrencias\\ocorrencias.module.ts",
+      "classe": "OcorrenciasController",
+      "metodo": "update"
+    },
+    {
+      "route": "PATCH /ocorrencias/:id/status",
+      "autenticacao": true,
+      "arquivo": "src\\ocorrencias\\ocorrencias.module.ts",
+      "classe": "OcorrenciasController",
+      "metodo": "status"
+    },
+    {
+      "route": "DELETE /ocorrencias/:id",
+      "autenticacao": true,
+      "arquivo": "src\\ocorrencias\\ocorrencias.module.ts",
+      "classe": "OcorrenciasController",
+      "metodo": "delete"
+    },
+    {
+      "route": "POST /usuarios/cadastro",
+      "autenticacao": false,
+      "arquivo": "src\\usuarios\\usuarios.module.ts",
+      "classe": "UsuariosController",
+      "metodo": "cadastrar"
+    },
+    {
+      "route": "GET /usuarios/me",
+      "autenticacao": true,
+      "arquivo": "src\\usuarios\\usuarios.module.ts",
+      "classe": "UsuariosController",
+      "metodo": "me"
+    },
+    {
+      "route": "PATCH /usuarios/me",
+      "autenticacao": true,
+      "arquivo": "src\\usuarios\\usuarios.module.ts",
+      "classe": "UsuariosController",
+      "metodo": "atualizar"
+    }
+  ],
+  "rotas_flutter": [
+    "/cadastro",
+    "/correspondencia/:id",
+    "/galeria",
+    "/gerenciar",
+    "/iniciando",
+    "/login",
+    "/ocorrencia/:id",
+    "/perfil",
+    "/radar",
+    "/registrar",
+    "/registrar/:id"
+  ],
+  "classes_dominio": [
+    "Usuario",
+    "OcorrenciaAnimal",
+    "Correspondencia",
+    "PaginaOcorrencias",
+    "FotografiaEnvio",
+    "Especie",
+    "Cidade",
+    "Animal",
+    "Localizacao",
+    "Foto",
+    "Contato",
+    "MensagemWhatsapp",
+    "Busca"
+  ],
+  "nota": "21 endpoints previstos; 11 caminhos para nove janelas, uma operacao de edicao e estado de carga. Metadados de rotas nao substituem os testes de autorizacao e de comportamento."
+}

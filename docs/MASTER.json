@@ -1,0 +1,44 @@
+{
+  "arquivo": "docs/LabES_SistemaMIAR_1011.pdf",
+  "sha256": "176cdb5d0c834a41a00795bd0ffaa415f1453f4058205c499f295874cad6e4aa",
+  "paginas": 45,
+  "recebido_em": "2026-11-10",
+  "precedencia_confirmada": {
+    "persistencia": "DER corrigido da seção 1.3.2, originalmente na página 25 do PDF recebido em 10/11/2026",
+    "comportamento": "Requisitos e casos de uso da seção 1.1",
+    "visual": "Nove protótipos aprovados, reunidos na seção 1.4"
+  },
+  "atualizado_em": "2026-11-11",
+  "original_sha256": "d20641bd7dd5e44016c56e38ae5dc2db89b775835302618fc65fe45ee3555d06",
+  "paginas_originais": 46,
+  "editavel": "docs/LabES_SistemaMIAR_MASTER.docx",
+  "editavel_sha256": "7a1daa5af997b9f91386a2552eb9fedff2da4204386dc457d7bb2343037855fd",
+  "modelo_academico": {
+    "arquivo_origem": "Aula01 - Modelo Projeto de LabES - 2º sem 2026.docx",
+    "sha256": "0ac112005b828fa1b1c1b29e2f135bccba5c170bec2d54b2130e29e0ff209877",
+    "formato": "A5",
+    "margens_cm": 2,
+    "secoes": "1.1 a 1.6"
+  },
+  "secoes_pagina_inicial": {
+    "1.1.3.": 4,
+    "1.1.4.": 6,
+    "1.1.5.": 8,
+    "1.1.6.": 10,
+    "1.1.7.": 11,
+    "1.2.": 23,
+    "1.3.1.": 27,
+    "1.3.2.": 28,
+    "1.3.3.": 29,
+    "1.4.": 35,
+    "1.5.": 44,
+    "1.6.": 45
+  },
+  "imagens": {
+    "diagramas": 3,
+    "prototipos": 9,
+    "capturas_de_testes": 0
+  },
+  "revisao": "docs/REVISAO_MODELO.md",
+  "fonte_anterior_preservada": "C:\\Users\\Breno\\AppData\\Local\\MiarDev\\376eb84567\\documentacao\\fontes-preservadas\\MIAR-antes-modelo-8df799ce2775.pdf"
+}

@@ -1,0 +1,5 @@
+Flutter 3.38.9 / Dart 3.10.8
+Execucao: flutter test, app/test/fluxos_widget_test.dart
+Resultado capturado nesta retomada: 10 testes aprovados.
+00:02 +10: All tests passed!
+Cadastro com documento centralizado; tres perfis; titularidade de navegacao; filtros; tela pequena; escala ampliada; status textual.

@@ -1,0 +1,536 @@
+{
+  "format": "miar-logical-v1",
+  "tables": {
+    "USUARIO": {
+      "columns": [
+        {
+          "name": "id_usuario",
+          "type": "integer",
+          "required": true,
+          "identity": "a",
+          "default": null
+        },
+        {
+          "name": "nome",
+          "type": "text",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "email",
+          "type": "text",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "senha",
+          "type": "text",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "telefone",
+          "type": "text",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "tipo_usuario",
+          "type": "text",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "ativo",
+          "type": "boolean",
+          "required": true,
+          "identity": "",
+          "default": "true"
+        }
+      ],
+      "constraints": [
+        {
+          "name": "USUARIO_tipo_usuario_check",
+          "type": "c",
+          "definition": "CHECK ((tipo_usuario = ANY (ARRAY['Cidad\u00e3o'::text, 'Protetor independente'::text, 'ONG'::text])))"
+        },
+        {
+          "name": "USUARIO_pkey",
+          "type": "p",
+          "definition": "PRIMARY KEY (id_usuario)"
+        },
+        {
+          "name": "USUARIO_email_key",
+          "type": "u",
+          "definition": "UNIQUE (email)"
+        }
+      ],
+      "indexes": [],
+      "rows": []
+    },
+    "CIDADAO": {
+      "columns": [
+        {
+          "name": "id_usuario",
+          "type": "integer",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "cpf",
+          "type": "text",
+          "required": true,
+          "identity": "",
+          "default": null
+        }
+      ],
+      "constraints": [
+        {
+          "name": "CIDADAO_pkey",
+          "type": "p",
+          "definition": "PRIMARY KEY (id_usuario)"
+        },
+        {
+          "name": "CIDADAO_id_usuario_fkey",
+          "type": "f",
+          "definition": "FOREIGN KEY (id_usuario) REFERENCES \"USUARIO\"(id_usuario) ON DELETE CASCADE"
+        }
+      ],
+      "indexes": [],
+      "rows": []
+    },
+    "PROTETOR": {
+      "columns": [
+        {
+          "name": "id_usuario",
+          "type": "integer",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "nome_instituicao",
+          "type": "text",
+          "required": false,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "documento",
+          "type": "text",
+          "required": false,
+          "identity": "",
+          "default": null
+        }
+      ],
+      "constraints": [
+        {
+          "name": "PROTETOR_pkey",
+          "type": "p",
+          "definition": "PRIMARY KEY (id_usuario)"
+        },
+        {
+          "name": "PROTETOR_id_usuario_fkey",
+          "type": "f",
+          "definition": "FOREIGN KEY (id_usuario) REFERENCES \"USUARIO\"(id_usuario) ON DELETE CASCADE"
+        }
+      ],
+      "indexes": [],
+      "rows": []
+    },
+    "ONG": {
+      "columns": [
+        {
+          "name": "id_usuario",
+          "type": "integer",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "nome_fantasia",
+          "type": "text",
+          "required": false,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "cnpj",
+          "type": "text",
+          "required": false,
+          "identity": "",
+          "default": null
+        }
+      ],
+      "constraints": [
+        {
+          "name": "ONG_pkey",
+          "type": "p",
+          "definition": "PRIMARY KEY (id_usuario)"
+        },
+        {
+          "name": "ONG_id_usuario_fkey",
+          "type": "f",
+          "definition": "FOREIGN KEY (id_usuario) REFERENCES \"USUARIO\"(id_usuario) ON DELETE CASCADE"
+        }
+      ],
+      "indexes": [],
+      "rows": []
+    },
+    "OCORRENCIA_ANIMAL": {
+      "columns": [
+        {
+          "name": "id_ocorrencia",
+          "type": "integer",
+          "required": true,
+          "identity": "a",
+          "default": null
+        },
+        {
+          "name": "id_usuario_responsavel",
+          "type": "integer",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "especie",
+          "type": "text",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "porte",
+          "type": "text",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "estado_saude",
+          "type": "text",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "status_ocorrencia",
+          "type": "text",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "descricao_fisica",
+          "type": "text",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "data_registro",
+          "type": "timestamp with time zone",
+          "required": true,
+          "identity": "",
+          "default": "now()"
+        }
+      ],
+      "constraints": [
+        {
+          "name": "OCORRENCIA_ANIMAL_status_ocorrencia_check",
+          "type": "c",
+          "definition": "CHECK ((status_ocorrencia = ANY (ARRAY['Perdido'::text, 'Encontrado'::text, 'Emerg\u00eancia'::text, 'Aguardando Ado\u00e7\u00e3o'::text, 'Adotado'::text, 'Resgatado'::text])))"
+        },
+        {
+          "name": "OCORRENCIA_ANIMAL_pkey",
+          "type": "p",
+          "definition": "PRIMARY KEY (id_ocorrencia)"
+        },
+        {
+          "name": "OCORRENCIA_ANIMAL_id_usuario_responsavel_fkey",
+          "type": "f",
+          "definition": "FOREIGN KEY (id_usuario_responsavel) REFERENCES \"USUARIO\"(id_usuario)"
+        }
+      ],
+      "indexes": [
+        {
+          "definition": "CREATE INDEX ocorrencia_status ON public.\"OCORRENCIA_ANIMAL\" USING btree (status_ocorrencia)"
+        },
+        {
+          "definition": "CREATE INDEX ocorrencia_responsavel ON public.\"OCORRENCIA_ANIMAL\" USING btree (id_usuario_responsavel)"
+        },
+        {
+          "definition": "CREATE INDEX ocorrencia_especie_porte ON public.\"OCORRENCIA_ANIMAL\" USING btree (especie, porte)"
+        }
+      ],
+      "rows": []
+    },
+    "LOCALIZACAC": {
+      "columns": [
+        {
+          "name": "id_localizacao",
+          "type": "integer",
+          "required": true,
+          "identity": "a",
+          "default": null
+        },
+        {
+          "name": "id_ocorrencia",
+          "type": "integer",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "latitude",
+          "type": "double precision",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "longitude",
+          "type": "double precision",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "cidade",
+          "type": "text",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "endereco",
+          "type": "text",
+          "required": false,
+          "identity": "",
+          "default": null
+        }
+      ],
+      "constraints": [
+        {
+          "name": "LOCALIZACAC_latitude_check",
+          "type": "c",
+          "definition": "CHECK (((latitude >= ('-90'::integer)::double precision) AND (latitude <= (90)::double precision)))"
+        },
+        {
+          "name": "LOCALIZACAC_longitude_check",
+          "type": "c",
+          "definition": "CHECK (((longitude >= ('-180'::integer)::double precision) AND (longitude <= (180)::double precision)))"
+        },
+        {
+          "name": "LOCALIZACAC_pkey",
+          "type": "p",
+          "definition": "PRIMARY KEY (id_localizacao)"
+        },
+        {
+          "name": "LOCALIZACAC_id_ocorrencia_key",
+          "type": "u",
+          "definition": "UNIQUE (id_ocorrencia)"
+        },
+        {
+          "name": "LOCALIZACAC_id_ocorrencia_fkey",
+          "type": "f",
+          "definition": "FOREIGN KEY (id_ocorrencia) REFERENCES \"OCORRENCIA_ANIMAL\"(id_ocorrencia) ON DELETE CASCADE"
+        }
+      ],
+      "indexes": [
+        {
+          "definition": "CREATE INDEX localizacao_cidade ON public.\"LOCALIZACAC\" USING btree (lower(cidade))"
+        }
+      ],
+      "rows": []
+    },
+    "FOTO": {
+      "columns": [
+        {
+          "name": "id_foto",
+          "type": "integer",
+          "required": true,
+          "identity": "a",
+          "default": null
+        },
+        {
+          "name": "id_ocorrencia",
+          "type": "integer",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "url_storage",
+          "type": "text",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "data_upload",
+          "type": "timestamp with time zone",
+          "required": true,
+          "identity": "",
+          "default": "now()"
+        }
+      ],
+      "constraints": [
+        {
+          "name": "FOTO_pkey",
+          "type": "p",
+          "definition": "PRIMARY KEY (id_foto)"
+        },
+        {
+          "name": "FOTO_id_ocorrencia_fkey",
+          "type": "f",
+          "definition": "FOREIGN KEY (id_ocorrencia) REFERENCES \"OCORRENCIA_ANIMAL\"(id_ocorrencia) ON DELETE CASCADE"
+        }
+      ],
+      "indexes": [
+        {
+          "definition": "CREATE INDEX fotos_ocorrencia ON public.\"FOTO\" USING btree (id_ocorrencia)"
+        }
+      ],
+      "rows": []
+    },
+    "CONTATO": {
+      "columns": [
+        {
+          "name": "id_contato",
+          "type": "integer",
+          "required": true,
+          "identity": "a",
+          "default": null
+        },
+        {
+          "name": "id_ocorrencia",
+          "type": "integer",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "numero_whatsapp",
+          "type": "text",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "permite_contato_publico",
+          "type": "boolean",
+          "required": true,
+          "identity": "",
+          "default": null
+        }
+      ],
+      "constraints": [
+        {
+          "name": "CONTATO_pkey",
+          "type": "p",
+          "definition": "PRIMARY KEY (id_contato)"
+        },
+        {
+          "name": "CONTATO_id_ocorrencia_key",
+          "type": "u",
+          "definition": "UNIQUE (id_ocorrencia)"
+        },
+        {
+          "name": "CONTATO_id_ocorrencia_fkey",
+          "type": "f",
+          "definition": "FOREIGN KEY (id_ocorrencia) REFERENCES \"OCORRENCIA_ANIMAL\"(id_ocorrencia) ON DELETE CASCADE"
+        }
+      ],
+      "indexes": [],
+      "rows": []
+    },
+    "CORRESPONDENCIA_IA": {
+      "columns": [
+        {
+          "name": "id_correspondencia",
+          "type": "integer",
+          "required": true,
+          "identity": "a",
+          "default": null
+        },
+        {
+          "name": "id_ocorrencia_origem",
+          "type": "integer",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "id_ocorrencia_compativel",
+          "type": "integer",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "percentual_confianca",
+          "type": "real",
+          "required": true,
+          "identity": "",
+          "default": null
+        },
+        {
+          "name": "data_analise",
+          "type": "timestamp with time zone",
+          "required": true,
+          "identity": "",
+          "default": "now()"
+        },
+        {
+          "name": "status_notificacao",
+          "type": "text",
+          "required": true,
+          "identity": "",
+          "default": "'Pendente'::text"
+        }
+      ],
+      "constraints": [
+        {
+          "name": "CORRESPONDENCIA_IA_percentual_confianca_check",
+          "type": "c",
+          "definition": "CHECK (((percentual_confianca >= (0)::double precision) AND (percentual_confianca <= (100)::double precision)))"
+        },
+        {
+          "name": "CORRESPONDENCIA_IA_check",
+          "type": "c",
+          "definition": "CHECK ((id_ocorrencia_origem <> id_ocorrencia_compativel))"
+        },
+        {
+          "name": "CORRESPONDENCIA_IA_pkey",
+          "type": "p",
+          "definition": "PRIMARY KEY (id_correspondencia)"
+        },
+        {
+          "name": "CORRESPONDENCIA_IA_id_ocorrencia_origem_id_ocorrencia_compa_key",
+          "type": "u",
+          "definition": "UNIQUE (id_ocorrencia_origem, id_ocorrencia_compativel)"
+        },
+        {
+          "name": "CORRESPONDENCIA_IA_id_ocorrencia_origem_fkey",
+          "type": "f",
+          "definition": "FOREIGN KEY (id_ocorrencia_origem) REFERENCES \"OCORRENCIA_ANIMAL\"(id_ocorrencia) ON DELETE CASCADE"
+        },
+        {
+          "name": "CORRESPONDENCIA_IA_id_ocorrencia_compativel_fkey",
+          "type": "f",
+          "definition": "FOREIGN KEY (id_ocorrencia_compativel) REFERENCES \"OCORRENCIA_ANIMAL\"(id_ocorrencia) ON DELETE CASCADE"
+        }
+      ],
+      "indexes": [],
+      "rows": []
+    }
+  }
+}

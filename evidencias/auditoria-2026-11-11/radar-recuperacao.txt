@@ -1,0 +1,28 @@
+﻿00:00 +0: loading C:/Users/Breno/AppData/Local/MiarDev/376eb84567/codigo/app/test/radar_recuperacao_test.dart
+00:00 +0: RF04/RNF03: tentar novamente recarrega mapa; resumo acompanha status e exclusão
+HTTP request failed, statusCode: 503, file:///mapa/12/1514/2319
+HTTP request failed, statusCode: 503, file:///mapa/12/1514/2318
+HTTP request failed, statusCode: 503, file:///mapa/12/1513/2319
+HTTP request failed, statusCode: 503, file:///mapa/12/1515/2319
+HTTP request failed, statusCode: 503, file:///mapa/12/1514/2320
+HTTP request failed, statusCode: 503, file:///mapa/12/1513/2318
+HTTP request failed, statusCode: 503, file:///mapa/12/1515/2318
+HTTP request failed, statusCode: 503, file:///mapa/12/1513/2320
+HTTP request failed, statusCode: 503, file:///mapa/12/1515/2320
+HTTP request failed, statusCode: 503, file:///mapa/12/1514/2317
+HTTP request failed, statusCode: 503, file:///mapa/12/1512/2319
+HTTP request failed, statusCode: 503, file:///mapa/12/1516/2319
+HTTP request failed, statusCode: 503, file:///mapa/12/1514/2321
+HTTP request failed, statusCode: 503, file:///mapa/12/1513/2317
+HTTP request failed, statusCode: 503, file:///mapa/12/1515/2317
+HTTP request failed, statusCode: 503, file:///mapa/12/1512/2318
+HTTP request failed, statusCode: 503, file:///mapa/12/1516/2318
+HTTP request failed, statusCode: 503, file:///mapa/12/1512/2320
+HTTP request failed, statusCode: 503, file:///mapa/12/1516/2320
+HTTP request failed, statusCode: 503, file:///mapa/12/1513/2321
+HTTP request failed, statusCode: 503, file:///mapa/12/1515/2321
+HTTP request failed, statusCode: 503, file:///mapa/12/1512/2317
+HTTP request failed, statusCode: 503, file:///mapa/12/1516/2317
+HTTP request failed, statusCode: 503, file:///mapa/12/1512/2321
+HTTP request failed, statusCode: 503, file:///mapa/12/1516/2321
+00:03 +1: All tests passed!

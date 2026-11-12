@@ -1,0 +1,546 @@
+{
+  "requisitos": {
+    "RF01": [
+      "Cadastro e Autenticação de Usuários",
+      "O sistema deve permitir que cidadãos, protetores independentes e representantes de ONGs realizem cadastro, login, logout, consulta e atualização de seus dados de usuário."
+    ],
+    "RF02": [
+      "Cadastro e Gestão de Ocorrências",
+      "O sistema deve permitir que o usuário cadastre uma ocorrência animal informando descrição física, espécie, porte, fotografias, cidade, localização geográfica, estado aparente de saúde, status da ocorrência e dados de contato. O responsável pela ocorrência deve poder consultar, alterar e excluir seus próprios registros."
+    ],
+    "RF03": [
+      "Consulta e Filtragem de Ocorrências",
+      "O sistema deve permitir que os usuários consultem as ocorrências cadastradas em uma galeria e filtrem os resultados por status, espécie, porte e cidade."
+    ],
+    "RF04": [
+      "Visualização de Ocorrências no Mapa",
+      "O sistema deve apresentar as ocorrências cadastradas em um mapa interativo por meio de marcadores geolocalizados de acordo com a localização registrada."
+    ],
+    "RF05": [
+      "Análise de Correspondência por Imagem",
+      "O sistema deve comparar fotografias de animais cadastrados com fotografias de animais perdidos, buscando identificar possíveis correspondências com base em características visuais."
+    ],
+    "RF06": [
+      "Notificação de Possível Correspondência",
+      "O sistema deve notificar o responsável por um animal perdido quando for identificada uma possível correspondência entre sua ocorrência e outra ocorrência cadastrada."
+    ],
+    "RF07": [
+      "Contato com o Responsável",
+      "O sistema deve permitir que o usuário interessado inicie contato com o responsável pela ocorrência por meio de integração com o WhatsApp."
+    ],
+    "RF08": [
+      "Atualização do Status da Ocorrência",
+      "O sistema deve permitir que o responsável pela ocorrência altere o status do animal conforme a evolução do caso, mantendo a situação apresentada na plataforma atualizada."
+    ],
+    "RNF01": [
+      "Responsividade da Interface",
+      "O sistema deve apresentar uma interface responsiva, adaptando-se adequadamente a dispositivos móveis, tablets e computadores."
+    ],
+    "RNF02": [
+      "Desempenho",
+      "O sistema deve processar as consultas e filtros de ocorrências em até 2 segundos, considerando condições normais de operação."
+    ],
+    "RNF03": [
+      "Disponibilidade do Sistema",
+      "O sistema deve permanecer disponível para utilização durante o período de operação definido pelo projeto, tratando adequadamente indisponibilidades de serviços externos utilizados pela aplicação."
+    ],
+    "RNF04": [
+      "Desempenho no Processamento de Imagens",
+      "O sistema deve otimizar as imagens enviadas pelos usuários antes do armazenamento, reduzindo o tamanho dos arquivos sem comprometer a qualidade necessária para a identificação visual do animal."
+    ],
+    "RNF05": [
+      "Segurança e Controle de Acesso",
+      "O sistema deve restringir o acesso às funcionalidades de acordo com o perfil do usuário, impedindo que usuários não autorizados alterem ou gerenciem ocorrências de terceiros."
+    ],
+    "RNF06": [
+      "Usabilidade",
+      "O sistema deve apresentar uma interface simples e intuitiva, permitindo que os usuários realizem as principais operações sem necessidade de treinamento específico."
+    ],
+    "RD01": [
+      "Perfis de Usuário",
+      "Todo usuário cadastrado deve possuir um dos perfis definidos pelo domínio: cidadão, protetor independente ou ONG."
+    ],
+    "RD02": [
+      "Status da Ocorrência",
+      "Uma ocorrência deve possuir um status correspondente à situação atual do animal, podendo assumir os estados: “Perdido”, “Encontrado”, “Emergência”, “Aguardando Adoção”, “Adotado” ou “Resgatado”."
+    ],
+    "RD03": [
+      "Localização da Ocorrência",
+      "Toda ocorrência deve possuir cidade e localização geográfica associadas, permitindo sua representação no mapa do sistema."
+    ],
+    "RD04": [
+      "Responsabilidade pela Ocorrência",
+      "Somente o usuário responsável pelo cadastro da ocorrência deve poder alterar seus dados ou atualizar seu status."
+    ],
+    "RD05": [
+      "Contato via WhatsApp",
+      "O número utilizado para contato deve estar em formato telefônico brasileiro válido, incluindo DDD, para possibilitar a integração com o WhatsApp."
+    ],
+    "RD06": [
+      "Encerramento da Ocorrência",
+      "Ocorrências finalizadas com status “Adotado” ou “Resgatado” não devem disponibilizar contato público para novos interessados."
+    ],
+    "RD07": [
+      "Correspondência de Animal Perdido",
+      "A análise automática de correspondência deve relacionar uma nova ocorrência a registros de animais perdidos quando existirem fotografias adequadas para comparação."
+    ]
+  },
+  "casos": [
+    [
+      [
+        "Caso de Uso",
+        "CU01 Cadastrar usuário"
+      ],
+      [
+        "Autor",
+        "Equipe do projeto MIAR"
+      ],
+      [
+        "Data",
+        "04/11/2026"
+      ],
+      [
+        "Descrição",
+        "Registrar um usuário e seu perfil de cidadão,\nprotetor independente ou ONG (RF01, RD01 e\nRD05)."
+      ],
+      [
+        "Atores",
+        "Cidadão, Protetor independente e ONG."
+      ],
+      [
+        "Pré-condições",
+        "Pessoa ainda sem cadastro; serviço de cadastro\ndisponível."
+      ],
+      [
+        "Cenário Normal",
+        "1. A pessoa acessa a opção de criação de cadastro.\n2. Seleciona o perfil e informa nome, e-mail,\ntelefone, senha e os dados específicos do perfil.\n3. O MIAR valida os dados e o telefone brasileiro\ncom DDD.\n4. O sistema registra o usuário e o habilita para\nautenticação."
+      ],
+      [
+        "Cenário\nAlternativo",
+        "A1. Dados incompletos ou inválidos: o sistema\nindica a necessidade de correção e não conclui o\ncadastro.\nA2. Indisponibilidade do serviço: a falha é\ninformada, sem confirmação de cadastro concluído\n(RNF03)."
+      ],
+      [
+        "Pós-condições",
+        "Em caso de sucesso, usuário cadastrado com um\ndos três perfis previstos no RD01."
+      ]
+    ],
+    [
+      [
+        "Caso de Uso",
+        "CU02 Fazer login / logout"
+      ],
+      [
+        "Autor",
+        "Equipe do projeto MIAR"
+      ],
+      [
+        "Data",
+        "04/11/2026"
+      ],
+      [
+        "Descrição",
+        "Iniciar ou encerrar a sessão de acesso ao MIAR,\nconforme RF01 e RNF05."
+      ],
+      [
+        "Atores",
+        "Cidadão, Protetor independente e ONG."
+      ],
+      [
+        "Pré-condições",
+        "Para login, usuário cadastrado; para logout, sessão\nautenticada."
+      ],
+      [
+        "Cenário Normal",
+        "1. Para entrar, o usuário informa e-mail e senha.\n2. O MIAR valida as credenciais e estabelece a\nsessão por token, conforme o perfil.\n3. Para sair, o usuário seleciona a opção de\nencerramento de sessão.\n4. O MIAR encerra a sessão e impede o uso dos\nrecursos que exigem autenticação."
+      ],
+      [
+        "Cenário\nAlternativo",
+        "A1. Credenciais inválidas: o acesso é negado e o\nusuário pode corrigir os dados.\nA2. Serviço de autenticação indisponível: a falha é\ninformada e o login não é confirmado (RNF03)."
+      ],
+      [
+        "Pós-condições",
+        "Login bem-sucedido: sessão autenticada. Logout\nbem-sucedido: sessão encerrada."
+      ]
+    ],
+    [
+      [
+        "Caso de Uso",
+        "CU03 Consultar animais"
+      ],
+      [
+        "Autor",
+        "Equipe do projeto MIAR"
+      ],
+      [
+        "Data",
+        "04/11/2026"
+      ],
+      [
+        "Descrição",
+        "Consultar as ocorrências na galeria e seus detalhes\n(RF03). A consulta admite a extensão Filtrar animal\n(CU04)."
+      ],
+      [
+        "Atores",
+        "Cidadão, Protetor independente e ONG."
+      ],
+      [
+        "Pré-condições",
+        "Serviço de consulta disponível; galeria acessível ao\nusuário."
+      ],
+      [
+        "Cenário Normal",
+        "1. O usuário abre a galeria de ocorrências.\n2. O MIAR apresenta os animais cadastrados, com\nespécie, porte, cidade, data e status.\n3. O usuário seleciona um registro para consultar\nseus detalhes.\n4. Se desejar refinar a consulta, aciona o CU04."
+      ],
+      [
+        "Cenário\nAlternativo",
+        "A1. Nenhuma ocorrência disponível: o sistema\napresenta a ausência de registros.\nA2. Serviço indisponível: a falha de consulta é\ninformada (RNF03)."
+      ],
+      [
+        "Pós-condições",
+        "Informações consultadas, sem alteração dos\nregistros. Em condições normais, aplica-se o limite\nde dois segundos do RNF02."
+      ]
+    ],
+    [
+      [
+        "Caso de Uso",
+        "CU04 Filtrar animal"
+      ],
+      [
+        "Autor",
+        "Equipe do projeto MIAR"
+      ],
+      [
+        "Data",
+        "04/11/2026"
+      ],
+      [
+        "Descrição",
+        "Refinar os resultados de Consultar animais (CU03),\ncomo extensão opcional, conforme RF03."
+      ],
+      [
+        "Atores",
+        "Cidadão, Protetor independente e ONG."
+      ],
+      [
+        "Pré-condições",
+        "Usuário no contexto da consulta à galeria de\nocorrências."
+      ],
+      [
+        "Cenário Normal",
+        "1. O usuário acessa os filtros de consulta.\n2. Seleciona status, espécie, porte e/ou cidade.\n3. O MIAR aplica os critérios informados.\n4. A galeria apresenta somente as ocorrências\ncompatíveis."
+      ],
+      [
+        "Cenário\nAlternativo",
+        "A1. Nenhum registro atende aos filtros: o sistema\napresenta resultado vazio.\nA2. Nenhum critério informado: permanece a\nconsulta geral à galeria.\nA3. Falha no serviço de consulta: a\nindisponibilidade é informada (RNF03)."
+      ],
+      [
+        "Pós-condições",
+        "Resultados filtrados, sem modificar as ocorrências.\nEm condições normais, o processamento respeita o\nRNF02."
+      ]
+    ],
+    [
+      [
+        "Caso de Uso",
+        "CU05 Cadastrar ocorrência de animal"
+      ],
+      [
+        "Autor",
+        "Equipe do projeto MIAR"
+      ],
+      [
+        "Data",
+        "04/11/2026"
+      ],
+      [
+        "Descrição",
+        "Registrar uma ocorrência animal, incluindo\nobrigatoriamente Analisar imagem (CU11),\nconforme RF02, RF05, RD03 e RD07."
+      ],
+      [
+        "Atores",
+        "Cidadão, Protetor independente e ONG."
+      ],
+      [
+        "Pré-condições",
+        "Usuário autenticado; dados, fotografias e\nlocalização disponíveis para o cadastro."
+      ],
+      [
+        "Cenário Normal",
+        "1. O usuário acessa o cadastro de ocorrência.\n2. Informa fotos, espécie, porte, status, descrição\nfísica, saúde, cidade, localização por GPS e contato.\n3. O MIAR valida os dados, a localização e o\ntelefone com DDD.\n4. Registra a ocorrência vinculada ao usuário, às\nfotos, à localização e ao contato.\n5. Executa o CU11, incluído no cadastro, e\ndisponibiliza o registro para consulta."
+      ],
+      [
+        "Cenário\nAlternativo",
+        "A1. Dados inválidos ou localização ausente: o\nsistema exige correção e não conclui o fluxo\nnormal.\nA2. API de IA indisponível: a etapa de análise é\ninterrompida e a falha é informada (RNF03)."
+      ],
+      [
+        "Pós-condições",
+        "Em caso de sucesso, ocorrência registrada,\nvinculada ao responsável e com a análise incluída\nexecutada."
+      ]
+    ],
+    [
+      [
+        "Caso de Uso",
+        "CU06 Visualizar status da ocorrência"
+      ],
+      [
+        "Autor",
+        "Equipe do projeto MIAR"
+      ],
+      [
+        "Data",
+        "04/11/2026"
+      ],
+      [
+        "Descrição",
+        "Consultar a situação atual de uma ocorrência,\nconforme RF03 e os seis estados definidos no\nRD02."
+      ],
+      [
+        "Atores",
+        "Cidadão, Protetor independente e ONG."
+      ],
+      [
+        "Pré-condições",
+        "Ocorrência disponível para consulta na galeria ou\nem seus detalhes."
+      ],
+      [
+        "Cenário Normal",
+        "1. O usuário consulta a galeria ou seleciona uma\nocorrência.\n2. O MIAR recupera o status atual do registro.\n3. Exibe um dos estados: Perdido, Encontrado,\nEmergência, Aguardando Adoção, Adotado ou\nResgatado."
+      ],
+      [
+        "Cenário\nAlternativo",
+        "A1. Registro não localizado: o sistema informa que\na ocorrência não está disponível.\nA2. Falha na consulta: o sistema informa a\nindisponibilidade (RNF03)."
+      ],
+      [
+        "Pós-condições",
+        "Status atual apresentado ao usuário, sem alteração\nda ocorrência."
+      ]
+    ],
+    [
+      [
+        "Caso de Uso",
+        "CU07 Alterar status da ocorrência"
+      ],
+      [
+        "Autor",
+        "Equipe do projeto MIAR"
+      ],
+      [
+        "Data",
+        "04/11/2026"
+      ],
+      [
+        "Descrição",
+        "Atualizar a situação de uma ocorrência própria,\nconforme RF08, RD02, RD04, RD06 e RNF05."
+      ],
+      [
+        "Atores",
+        "Cidadão, Protetor independente ou ONG\nresponsável pela ocorrência."
+      ],
+      [
+        "Pré-condições",
+        "Usuário autenticado e responsável pelo cadastro da\nocorrência."
+      ],
+      [
+        "Cenário Normal",
+        "1. O responsável acessa sua ocorrência e solicita a\nalteração de status.\n2. Seleciona um dos seis estados previstos no RD02.\n3. O MIAR verifica a titularidade e valida o estado\nselecionado.\n4. Grava a alteração e atualiza a situação exibida.\n5. Para Adotado ou Resgatado, desabilita o contato\npúblico, conforme RD06."
+      ],
+      [
+        "Cenário\nAlternativo",
+        "A1. Usuário não responsável: a alteração é negada\n(RD04 e RNF05).\nA2. Status inválido ou falha na gravação: a\nalteração não é concluída e o erro é informado."
+      ],
+      [
+        "Pós-condições",
+        "Em caso de sucesso, status atualizado. Em caso de\nrejeição ou falha, não é confirmada alteração do\nregistro."
+      ]
+    ],
+    [
+      [
+        "Caso de Uso",
+        "CU08 Excluir ocorrência"
+      ],
+      [
+        "Autor",
+        "Equipe do projeto MIAR"
+      ],
+      [
+        "Data",
+        "04/11/2026"
+      ],
+      [
+        "Descrição",
+        "Excluir uma ocorrência própria, conforme RF02,\nRD04 e RNF05."
+      ],
+      [
+        "Atores",
+        "Cidadão, Protetor independente ou ONG\nresponsável pela ocorrência."
+      ],
+      [
+        "Pré-condições",
+        "Usuário autenticado; ocorrência existente e\ncadastrada sob sua responsabilidade."
+      ],
+      [
+        "Cenário Normal",
+        "1. O responsável acessa a ocorrência que deseja\nexcluir.\n2. Solicita sua exclusão.\n3. O MIAR verifica a titularidade do registro.\n4. Exclui a ocorrência e deixa de apresentá-la nas\nconsultas da plataforma."
+      ],
+      [
+        "Cenário\nAlternativo",
+        "A1. Usuário não responsável: o sistema nega a\nexclusão (RD04 e RNF05).\nA2. Registro inexistente: a indisponibilidade da\nocorrência é informada.\nA3. Falha na gravação: a exclusão não é confirmada\ne o erro é informado."
+      ],
+      [
+        "Pós-condições",
+        "Em caso de sucesso, ocorrência excluída da\nconsulta. Em caso de falha, a exclusão não é\napresentada como concluída."
+      ]
+    ],
+    [
+      [
+        "Caso de Uso",
+        "CU09 Visualizar radar de resgate"
+      ],
+      [
+        "Autor",
+        "Equipe do projeto MIAR"
+      ],
+      [
+        "Data",
+        "04/11/2026"
+      ],
+      [
+        "Descrição",
+        "Exibir as ocorrências no mapa por marcadores\ngeolocalizados, conforme RF04 e RD03."
+      ],
+      [
+        "Atores",
+        "Protetor independente e ONG, por herança da\nassociação apresentada no diagrama."
+      ],
+      [
+        "Pré-condições",
+        "Acesso ao radar conforme o perfil do diagrama;\nserviço de mapas disponível e ocorrências com\nlocalização registrada."
+      ],
+      [
+        "Cenário Normal",
+        "1. O usuário abre o radar de resgate.\n2. O MIAR consulta as ocorrências e suas\ncoordenadas.\n3. Exibe os marcadores sobre o mapa.\n4. O usuário seleciona um marcador para visualizar\no resumo da ocorrência."
+      ],
+      [
+        "Cenário\nAlternativo",
+        "A1. Nenhuma ocorrência disponível: o mapa é\napresentado sem marcadores de ocorrências.\nA2. Serviço de mapas indisponível: o sistema\ninforma a falha (RNF03)."
+      ],
+      [
+        "Pós-condições",
+        "Ocorrências localizadas no mapa e resumo\nconsultado, sem alteração dos registros."
+      ]
+    ],
+    [
+      [
+        "Caso de Uso",
+        "CU10 Contatar responsável via WhatsApp"
+      ],
+      [
+        "Autor",
+        "Equipe do projeto MIAR"
+      ],
+      [
+        "Data",
+        "04/11/2026"
+      ],
+      [
+        "Descrição",
+        "Abrir uma conversa com o responsável por uma\nocorrência, conforme RF07, RD05 e RD06."
+      ],
+      [
+        "Atores",
+        "Cidadão, Protetor independente e ONG."
+      ],
+      [
+        "Pré-condições",
+        "Ocorrência consultada, telefone válido com DDD e\nstatus diferente de Adotado ou Resgatado."
+      ],
+      [
+        "Cenário Normal",
+        "1. O usuário abre os detalhes da ocorrência e\nseleciona o contato via WhatsApp.\n2. O MIAR verifica se o contato público está\npermitido e utiliza o número cadastrado.\n3. Abre o link de conversa por meio do sistema\noperacional.\n4. O usuário prossegue com a conversa no\nWhatsApp."
+      ],
+      [
+        "Cenário\nAlternativo",
+        "A1. Ocorrência Adotada ou Resgatada: o contato\npúblico não é disponibilizado (RD06).\nA2. Número inválido ou impossibilidade de\nabertura do link: o contato não é iniciado e a falha\né informada."
+      ],
+      [
+        "Pós-condições",
+        "Conversa disponibilizada no WhatsApp. O MIAR\nnão envia mensagens automaticamente nem\nregistra conversas internas."
+      ]
+    ],
+    [
+      [
+        "Caso de Uso",
+        "CU11 Analisar imagem"
+      ],
+      [
+        "Autor",
+        "Equipe do projeto MIAR"
+      ],
+      [
+        "Data",
+        "04/11/2026"
+      ],
+      [
+        "Descrição",
+        "Comparar fotos da nova ocorrência com fotos de\nanimais perdidos (RF05 e RD07). É incluído pelo\nCU05 e pode ser estendido pelo CU12."
+      ],
+      [
+        "Atores",
+        "API de reconhecimento de imagem (IA), acionada\nautomaticamente pelo MIAR."
+      ],
+      [
+        "Pré-condições",
+        "Cadastro de ocorrência em execução, com\nfotografias disponíveis para análise."
+      ],
+      [
+        "Cenário Normal",
+        "1. O cadastro aciona a análise das fotografias.\n2. O MIAR utiliza a API de IA para obter os\ndescritores visuais.\n3. Compara as imagens com os registros de animais\nperdidos.\n4. Havendo possível correspondência, registra as\nocorrências relacionadas, a confiança e a data da\nanálise.\n5. Aciona o CU12 quando a condição de\ncorrespondência é atendida."
+      ],
+      [
+        "Cenário\nAlternativo",
+        "A1. Sem fotografias adequadas ou sem\ncorrespondência: não é emitido aviso de\ncorrespondência.\nA2. API indisponível: a análise não é concluída e a\nfalha é informada (RNF03)."
+      ],
+      [
+        "Pós-condições",
+        "Análise executada; possível correspondência\nregistrada quando identificada, sem confirmação\nautomática da identidade do animal."
+      ]
+    ],
+    [
+      [
+        "Caso de Uso",
+        "CU12 Notificar possível correspondência"
+      ],
+      [
+        "Autor",
+        "Equipe do projeto MIAR"
+      ],
+      [
+        "Data",
+        "04/11/2026"
+      ],
+      [
+        "Descrição",
+        "Avisar o responsável por um animal perdido sobre\npossível correspondência (RF06). Estende o CU11\nsomente quando há resultado compatível."
+      ],
+      [
+        "Atores",
+        "Cidadão, Protetor independente ou ONG\nresponsável pela ocorrência do animal perdido."
+      ],
+      [
+        "Pré-condições",
+        "O CU11 identificou possível correspondência e o\nresponsável pelo animal perdido está vinculado à\nocorrência."
+      ],
+      [
+        "Cenário Normal",
+        "1. O MIAR identifica o responsável pela ocorrência\ndo animal perdido.\n2. Registra a correspondência e a situação da\nnotificação.\n3. Emite o aviso pelo serviço de notificações do\ndispositivo.\n4. O responsável consulta a janela de possível\ncorrespondência, com os registros relacionados,\nconfiança e data."
+      ],
+      [
+        "Cenário\nAlternativo",
+        "A1. Nenhuma correspondência identificada: a\nextensão não é executada.\nA2. Serviço de notificações indisponível: a falha é\ntratada sem considerar o aviso entregue (RNF03)."
+      ],
+      [
+        "Pós-condições",
+        "Em caso de sucesso, aviso emitido e\ncorrespondência disponível para consulta; os status\ndas ocorrências não são alterados\nautomaticamente."
+      ]
+    ]
+  ]
+}

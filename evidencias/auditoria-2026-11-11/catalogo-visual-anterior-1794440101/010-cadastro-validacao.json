@@ -1,0 +1,6 @@
+{
+  "titulo": "Cadastro — validação dos campos obrigatórios",
+  "requisitos": "RF01, CU01",
+  "fonte": "API e serviços reais",
+  "ordem": 10
+}

@@ -1,0 +1,34 @@
+▶ MIAR: fluxos documentados com PostgreSQL, S3 e rede neural reais
+  ✔ CU01: cadastro dos três perfis com documento centralizado, sem senha no retorno (502.8958ms)
+  ✔ CU01: DDD inválido e campo fora do escopo são rejeitados (17.5056ms)
+  ✔ CU02: credenciais incorretas e acesso sem token são negados (75.2329ms)
+  ✔ RF01: consulta e atualização dos próprios dados (6.0918ms)
+  ✔ CU05: cadastro com imagem e localização, análise executada e foto otimizada (202.8718ms)
+  ✔ CU05: foto ausente, imagem inválida, status e coordenadas inválidos não persistem (46.6379ms)
+  ✔ CU11/CU12: outra ocorrência com mesma imagem gera possível correspondência para o responsável perdido (190.0033ms)
+  ✔ CU11: fotografia diferente não produz correspondência fictícia (166.2162ms)
+  ✔ CU05/RNF03: indisponibilidade da IA não confirma nem persiste cadastro (137.5301ms)
+  ✔ CU03/CU04: filtros por status, espécie, porte, cidade e resultado vazio (30.0125ms)
+  ✔ CU09: radar respeita os atores do diagrama (48.7894ms)
+  ✔ RD04/RNF05: usuário não altera, exclui ou edita ocorrência de terceiro (61.8049ms)
+  ✔ CU07/CU10: contato é removido da resposta pública para ambos os status finais (90.9305ms)
+  ✔ RF02: cidadão altera os próprios dados e preserva fotos na edição (35.8199ms)
+  ✔ RD07: análise também compara ocorrências diferentes do mesmo responsável (156.1581ms)
+  ✔ CU08: exclusão remove ocorrência, relacionamentos e foto armazenada (45.7634ms)
+  ✔ Atualizações são publicadas em tempo real somente após a gravação (50.6398ms)
+  ✔ Modelo físico preserva exatamente as nove entidades e os atributos do DER (65.9523ms)
+  ✔ DER: animal compartilhável, vários contatos/mensagens e localização única (8.2397ms)
+Consultas locais (ms): 6, 9, 16, 16, 16
+  ✔ RNF02: consulta e filtros locais abaixo de dois segundos (62.0476ms)
+  ✔ CU02: logout revoga efetivamente o token no servidor (11.7114ms)
+✔ MIAR: fluxos documentados com PostgreSQL, S3 e rede neural reais (2224.8293ms)
+Migração com dados, restauração verificada, persistência após reinício e rollback: OK.
+✔ MASTER: migração preserva dados, backup é restaurável e falha reverte integralmente (6848.6352ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6984.7662

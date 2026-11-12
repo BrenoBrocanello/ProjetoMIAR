@@ -1,0 +1,36 @@
+{
+  "master": {
+    "arquivo": "docs/LabES_SistemaMIAR_1011.pdf",
+    "sha256": "d20641bd7dd5e44016c56e38ae5dc2db89b775835302618fc65fe45ee3555d06",
+    "paginas": 46,
+    "recebido_em": "2026-11-10",
+    "precedencia_confirmada": {
+      "persistencia": "DER da pagina 25",
+      "comportamento": "Requisitos e casos de uso das paginas 3 a 18",
+      "visual": "Nove janelas das paginas 37 a 46"
+    }
+  },
+  "api_testes": 23,
+  "flutter_testes": 10,
+  "android_nove_janelas": "aprovado",
+  "android_gps_compressao_notificacao": "aprovado",
+  "flutter_analyze": "sem problemas",
+  "apk": {
+    "especificacao": "docs/LabES_SistemaMIAR_1011.pdf",
+    "master_sha256": "d20641bd7dd5e44016c56e38ae5dc2db89b775835302618fc65fe45ee3555d06",
+    "arquivo": "MIAR-android.apk",
+    "apk_sha256": "ca86228d3279c7618d8569a2b04893d3c52b5c3bb1badffe013f6b7e53517e99",
+    "versao": "1.0.0+2",
+    "tipo": "debug",
+    "api": "http://10.0.2.2:3000",
+    "plataforma_validada": "Android em emulador API 35",
+    "ios": "nao compilado ou validado neste Windows"
+  },
+  "limites": [
+    "iOS nao compilado/validado",
+    "Containers nao executados",
+    "Sem publicacao ou backend publico",
+    "IA sem avaliacao rotulada de precisao individual",
+    "RNF02 medido apenas localmente"
+  ]
+}

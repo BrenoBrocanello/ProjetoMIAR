@@ -1,0 +1,54 @@
+﻿00:00 +0: loading C:/Users/Breno/AppData/Local/MiarDev/376eb84567/codigo/app/test/radar_recuperacao_test.dart
+00:00 +0: RF04/RNF03: tentar novamente recarrega mapa; resumo acompanha status e exclusão
+HTTP request failed, statusCode: 503, file:///mapa/12/1514/2319
+HTTP request failed, statusCode: 503, file:///mapa/12/1514/2318
+HTTP request failed, statusCode: 503, file:///mapa/12/1513/2319
+HTTP request failed, statusCode: 503, file:///mapa/12/1515/2319
+HTTP request failed, statusCode: 503, file:///mapa/12/1514/2320
+HTTP request failed, statusCode: 503, file:///mapa/12/1513/2318
+HTTP request failed, statusCode: 503, file:///mapa/12/1515/2318
+HTTP request failed, statusCode: 503, file:///mapa/12/1513/2320
+HTTP request failed, statusCode: 503, file:///mapa/12/1515/2320
+HTTP request failed, statusCode: 503, file:///mapa/12/1514/2317
+HTTP request failed, statusCode: 503, file:///mapa/12/1512/2319
+HTTP request failed, statusCode: 503, file:///mapa/12/1516/2319
+HTTP request failed, statusCode: 503, file:///mapa/12/1514/2321
+HTTP request failed, statusCode: 503, file:///mapa/12/1513/2317
+HTTP request failed, statusCode: 503, file:///mapa/12/1515/2317
+HTTP request failed, statusCode: 503, file:///mapa/12/1512/2318
+HTTP request failed, statusCode: 503, file:///mapa/12/1516/2318
+HTTP request failed, statusCode: 503, file:///mapa/12/1512/2320
+HTTP request failed, statusCode: 503, file:///mapa/12/1516/2320
+HTTP request failed, statusCode: 503, file:///mapa/12/1513/2321
+HTTP request failed, statusCode: 503, file:///mapa/12/1515/2321
+HTTP request failed, statusCode: 503, file:///mapa/12/1512/2317
+HTTP request failed, statusCode: 503, file:///mapa/12/1516/2317
+HTTP request failed, statusCode: 503, file:///mapa/12/1512/2321
+HTTP request failed, statusCode: 503, file:///mapa/12/1516/2321
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: a value greater than <26>
+  Actual: <26>
+   Which: is not a value greater than <26>
+Nova tentativa deve buscar as imagens que falharam.
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/codigo/app/test/radar_recuperacao_test.dart:52:3)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/codigo/app/test/radar_recuperacao_test.dart line 52
+The test description was:
+  RF04/RNF03: tentar novamente recarrega mapa; resumo acompanha status e exclusão
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +0 -1: RF04/RNF03: tentar novamente recarrega mapa; resumo acompanha status e exclusão [E]
+  Test failed. See exception logs above.
+  The test description was: RF04/RNF03: tentar novamente recarrega mapa; resumo acompanha status e exclusão
+  
+00:01 +0 -1: Some tests failed.

@@ -1,0 +1,6 @@
+{
+  "titulo": "Radar — mapa sem ocorrências",
+  "requisitos": "RF04, CU09",
+  "fonte": "Mapa real; consulta vazia induzida neste cliente",
+  "ordem": 14
+}

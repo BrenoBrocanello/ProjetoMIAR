@@ -1,0 +1,14 @@
+[
+  {
+    "script": "validar-android.py",
+    "argumentos": [
+      "dispositivo"
+    ],
+    "exit_code": 0
+  },
+  {
+    "script": "ensaiar-app.py",
+    "argumentos": [],
+    "exit_code": 1
+  }
+]

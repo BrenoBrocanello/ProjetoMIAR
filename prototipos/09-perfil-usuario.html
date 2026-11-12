@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>MIAR — Perfil do Usuário</title>
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/miar.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="device">
+    <div class="notch"></div>
+    <div class="screen">
+      <div class="aurora"><div class="blob"></div></div>
+
+      <div class="statusbar">
+        <span>9:41</span>
+        <span class="icons">
+          <svg width="17" height="12" viewBox="0 0 17 12" fill="currentColor"><rect y="8" width="3" height="4" rx="1"/><rect x="4.5" y="5.5" width="3" height="6.5" rx="1"/><rect x="9" y="3" width="3" height="9" rx="1"/><rect x="13.5" width="3" height="12" rx="1"/></svg>
+          <svg width="16" height="12" viewBox="0 0 16 12" fill="currentColor"><path d="M8 11.2 6 8.9c1.1-.9 2.9-.9 4 0l-2 2.3Zm0-4.6c-1.6 0-3.1.6-4.2 1.6L2.3 6.6C3.8 5.2 5.8 4.4 8 4.4s4.2.8 5.7 2.2l-1.5 1.6C11.1 7.2 9.6 6.6 8 6.6Zm0-4.4c-2.6 0-5 1-6.8 2.6L0 2.9C2.2.9 5 0 8 0s5.8 1 8 2.9l-1.2 1.5C13 3 10.6 2.2 8 2.2Z"/></svg>
+          <svg width="26" height="13" viewBox="0 0 26 13" fill="none"><rect x=".6" y=".6" width="21" height="11.8" rx="3.4" stroke="currentColor" stroke-opacity=".4" stroke-width="1.1"/><rect x="2.2" y="2.2" width="17.8" height="8.6" rx="2.2" fill="currentColor"/><path d="M23.2 4.3v4.4c1-.4 1.6-1.2 1.6-2.2s-.6-1.8-1.6-2.2Z" fill="currentColor" fill-opacity=".4"/></svg>
+        </span>
+      </div>
+
+      <div class="content">
+        <div class="appbar">
+          <span class="title" style="padding-left:4px">Perfil</span>
+        </div>
+
+        <!-- Identificação do usuário (§5.20) -->
+        <div style="text-align:center;padding:4px 24px 20px">
+          <div style="width:88px;height:88px;border-radius:50%;margin:0 auto;border:3px solid var(--miar-white);box-shadow:var(--elev-2);overflow:hidden;background:url('assets/img/avatar-usuario.jpg') center/cover,var(--gradient-action)"></div>
+          <div class="t-h1" style="margin-top:14px">Ana Paula Ribeiro</div>
+          <!-- Perfil conforme RD01 -->
+          <span class="badge-perfil" style="margin-top:8px">Cidadão</span>
+        </div>
+
+        <div class="sheet" style="padding-top:26px">
+          <div class="t-overline" style="margin-bottom:14px">Dados da conta</div>
+
+          <!-- Atributos da entidade USUARIO -->
+          <div>
+            <div class="t-caption">E-mail</div>
+            <div class="t-body" style="margin-top:2px">ana.ribeiro@email.com</div>
+          </div>
+          <div class="divider" style="margin:14px 0"></div>
+
+          <div>
+            <div class="t-caption">Telefone</div>
+            <div class="t-body" style="margin-top:2px">(11) 98765-4321</div>
+          </div>
+          <div class="divider" style="margin:14px 0"></div>
+
+          <!-- Atributo da entidade CIDADAO -->
+          <div>
+            <div class="t-caption">CPF</div>
+            <div class="t-body" style="margin-top:2px">123.456.789-00</div>
+          </div>
+          <div class="divider" style="margin:14px 0"></div>
+
+          <div>
+            <div class="t-caption">Situação da conta</div>
+            <div class="row gap-8" style="margin-top:4px">
+              <span style="width:8px;height:8px;border-radius:50%;background:#2F9E78"></span>
+              <span class="t-body">Ativa</span>
+            </div>
+          </div>
+
+          <!-- Atualização dos dados do usuário (RF01) -->
+          <button class="btn btn-primary" style="margin-top:26px">
+            Atualizar meus dados
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+          </button>
+
+          <!-- Logout (RF01) -->
+          <button class="btn btn-secondary" style="margin-top:12px">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 16.5 19 12l-4.5-4.5M19 12H8.5"/><path d="M12 19.5H6.5a2 2 0 0 1-2-2v-11a2 2 0 0 1 2-2H12"/></svg>
+            Sair da conta
+          </button>
+        </div>
+
+        <div class="navbar">
+          <div class="nav-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.2" y="3.2" width="7.6" height="7.6" rx="2.4"/><rect x="13.2" y="3.2" width="7.6" height="7.6" rx="2.4"/><rect x="3.2" y="13.2" width="7.6" height="7.6" rx="2.4"/><rect x="13.2" y="13.2" width="7.6" height="7.6" rx="2.4"/></svg>
+            Galeria<span class="dot hidden"></span>
+          </div>
+          <div class="nav-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21.5s7-5.8 7-11a7 7 0 1 0-14 0c0 5.2 7 11 7 11Z"/><circle cx="12" cy="10.2" r="2.6"/></svg>
+            Radar<span class="dot hidden"></span>
+          </div>
+          <div class="nav-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.8"/><path d="M12 8.2v7.6M8.2 12h7.6"/></svg>
+            Registrar<span class="dot hidden"></span>
+          </div>
+          <div class="nav-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="3.5" width="15" height="17" rx="3"/><path d="M8.5 9h7M8.5 13h7M8.5 17h4"/></svg>
+            Gerenciar<span class="dot hidden"></span>
+          </div>
+          <div class="nav-item active">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.6"/><path d="M4.8 20.2a7.2 7.2 0 0 1 14.4 0"/></svg>
+            Perfil<span class="dot"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="trace">
+    <b>Tela 09 — Perfil do Usuário.</b><br>
+    Respaldo: <b>RF01</b> (consulta e atualização dos dados de usuário; logout) ·
+    <b>RD01</b> (perfis cidadão, protetor independente e ONG) ·
+    Entidades <b>USUARIO</b> (nome, email, telefone, tipo_usuario, ativo) e <b>CIDADAO</b> (cpf).
+  </div>
+</div>
+</body>
+</html>

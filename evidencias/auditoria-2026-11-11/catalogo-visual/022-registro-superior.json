@@ -1,0 +1,6 @@
+{
+  "titulo": "Cadastro de ocorrência — fotografias, espécie, porte e status",
+  "requisitos": "RF02, RF08, RD02",
+  "fonte": "API e serviços reais",
+  "ordem": 22
+}

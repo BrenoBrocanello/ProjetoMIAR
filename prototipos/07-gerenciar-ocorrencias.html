@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>MIAR — Gerenciar Ocorrências</title>
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/miar.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="device">
+    <div class="notch"></div>
+    <div class="screen">
+      <div class="aurora"><div class="blob"></div></div>
+
+      <div class="statusbar">
+        <span>9:41</span>
+        <span class="icons">
+          <svg width="17" height="12" viewBox="0 0 17 12" fill="currentColor"><rect y="8" width="3" height="4" rx="1"/><rect x="4.5" y="5.5" width="3" height="6.5" rx="1"/><rect x="9" y="3" width="3" height="9" rx="1"/><rect x="13.5" width="3" height="12" rx="1"/></svg>
+          <svg width="16" height="12" viewBox="0 0 16 12" fill="currentColor"><path d="M8 11.2 6 8.9c1.1-.9 2.9-.9 4 0l-2 2.3Zm0-4.6c-1.6 0-3.1.6-4.2 1.6L2.3 6.6C3.8 5.2 5.8 4.4 8 4.4s4.2.8 5.7 2.2l-1.5 1.6C11.1 7.2 9.6 6.6 8 6.6Zm0-4.4c-2.6 0-5 1-6.8 2.6L0 2.9C2.2.9 5 0 8 0s5.8 1 8 2.9l-1.2 1.5C13 3 10.6 2.2 8 2.2Z"/></svg>
+          <svg width="26" height="13" viewBox="0 0 26 13" fill="none"><rect x=".6" y=".6" width="21" height="11.8" rx="3.4" stroke="currentColor" stroke-opacity=".4" stroke-width="1.1"/><rect x="2.2" y="2.2" width="17.8" height="8.6" rx="2.2" fill="currentColor"/><path d="M23.2 4.3v4.4c1-.4 1.6-1.2 1.6-2.2s-.6-1.8-1.6-2.2Z" fill="currentColor" fill-opacity=".4"/></svg>
+        </span>
+      </div>
+
+      <div class="content">
+        <div class="appbar">
+          <span class="title" style="padding-left:4px">Minhas ocorrências</span>
+        </div>
+
+        <!-- Somente as ocorrências do usuário responsável (RD04 / RNF05) -->
+        <div style="flex:1;padding:4px 24px 0">
+          <p class="t-caption" style="margin-bottom:14px">
+            Registros sob sua responsabilidade. Apenas você pode alterá-los.
+          </p>
+
+          <div class="stack-12">
+            <div class="card" style="display:flex;gap:12px;align-items:center;padding:12px">
+              <div class="photo" style="width:68px;height:68px;border-radius:var(--radius-md);flex:0 0 68px;background-image:url('assets/img/ocorrencia-cao-medio.jpg')">
+                <svg width="30" height="23" viewBox="0 0 150 110" fill="currentColor" opacity=".5"><path d="M44 44c-9 0-16 8-18 17-1 6-6 9-6 17 0 12 10 20 24 20 9 0 12-4 20-4s11 4 20 4c14 0 24-8 24-20 0-8-5-11-6-17-2-9-9-17-18-17-7 0-11 4-20 4s-13-4-20-4Z" opacity=".75"/><ellipse cx="30" cy="22" rx="11" ry="16" transform="rotate(-18 30 22)"/><ellipse cx="60" cy="12" rx="10" ry="15" transform="rotate(-6 60 12)"/><ellipse cx="92" cy="12" rx="10" ry="15" transform="rotate(6 92 12)"/><ellipse cx="121" cy="22" rx="11" ry="16" transform="rotate(18 121 22)"/></svg>
+              </div>
+              <div style="flex:1;min-width:0">
+                <span class="badge badge-aguardando">Aguardando Adoção</span>
+                <div class="t-h3" style="margin-top:6px">Cão · Médio</div>
+                <div class="t-caption">Jundiaí · 18/10/2026</div>
+              </div>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#77789C" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="5.5" r="1.4" fill="#77789C"/><circle cx="12" cy="12" r="1.4" fill="#77789C"/><circle cx="12" cy="18.5" r="1.4" fill="#77789C"/></svg>
+            </div>
+
+            <div class="card" style="display:flex;gap:12px;align-items:center;padding:12px;border:1.5px solid var(--miar-lilac)">
+              <div class="photo" style="width:68px;height:68px;border-radius:var(--radius-md);flex:0 0 68px;background-image:url('assets/img/ocorrencia-gato-rajado.jpg')">
+                <svg width="30" height="23" viewBox="0 0 150 110" fill="currentColor" opacity=".5"><path d="M44 44c-9 0-16 8-18 17-1 6-6 9-6 17 0 12 10 20 24 20 9 0 12-4 20-4s11 4 20 4c14 0 24-8 24-20 0-8-5-11-6-17-2-9-9-17-18-17-7 0-11 4-20 4s-13-4-20-4Z" opacity=".75"/><ellipse cx="30" cy="22" rx="11" ry="16" transform="rotate(-18 30 22)"/><ellipse cx="60" cy="12" rx="10" ry="15" transform="rotate(-6 60 12)"/><ellipse cx="92" cy="12" rx="10" ry="15" transform="rotate(6 92 12)"/><ellipse cx="121" cy="22" rx="11" ry="16" transform="rotate(18 121 22)"/></svg>
+              </div>
+              <div style="flex:1;min-width:0">
+                <span class="badge badge-encontrado">Encontrado</span>
+                <div class="t-h3" style="margin-top:6px">Gato · Pequeno</div>
+                <div class="t-caption">Jundiaí · 20/10/2026</div>
+              </div>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="5.5" r="1.4" fill="#7C3AED"/><circle cx="12" cy="12" r="1.4" fill="#7C3AED"/><circle cx="12" cy="18.5" r="1.4" fill="#7C3AED"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom sheet de atualização de status (RF08 / RD02) -->
+        <div class="scrim-layer"></div>
+        <div class="bottomsheet">
+          <div class="handle"></div>
+          <div class="t-h2">Atualizar status</div>
+          <p class="t-caption" style="margin-top:4px;margin-bottom:18px">
+            Gato · Pequeno — registrado em 20/10/2026
+          </p>
+
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+            <div class="card" style="padding:12px;text-align:center"><span class="badge badge-perdido">Perdido</span></div>
+            <div class="card" style="padding:12px;text-align:center;border:1.5px solid var(--miar-purple)"><span class="badge badge-encontrado">Encontrado</span></div>
+            <div class="card" style="padding:12px;text-align:center"><span class="badge badge-emergencia">Emergência</span></div>
+            <div class="card" style="padding:12px;text-align:center"><span class="badge badge-aguardando">Aguardando Adoção</span></div>
+            <div class="card" style="padding:12px;text-align:center"><span class="badge badge-adotado">Adotado</span></div>
+            <div class="card" style="padding:12px;text-align:center"><span class="badge badge-resgatado">Resgatado</span></div>
+          </div>
+
+          <button class="btn btn-primary" style="margin-top:20px">Salvar alteração</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="trace">
+    <b>Tela 07 — Gerenciar Ocorrências e Atualizar Status.</b><br>
+    Respaldo: <b>UC Gerenciar Ocorrência</b> · <b>RF02</b> (consultar, alterar e excluir os
+    próprios registros) · <b>RF08</b> (atualização do status da ocorrência) ·
+    <b>RD02</b> (os seis status previstos) · <b>RD04</b> (somente o responsável altera) ·
+    <b>RNF05</b> (controle de acesso por perfil) · Entidade <b>OCORRENCIA_ANIMAL</b>.
+  </div>
+</div>
+</body>
+</html>

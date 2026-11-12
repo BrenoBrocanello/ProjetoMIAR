@@ -1,0 +1,263 @@
+Running Gradle task 'assembleDebug'...                          
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "Windows_NT" == "Windows_NT" setlocal
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set DEFAULT_JVM_OPTS= 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set DIRNAME=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\ 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\" == "" set DIRNAME=. 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set APP_BASE_NAME=gradlew 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set APP_HOME=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\ 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set JAVA_HOME=C:\Program Files\Android\Android Studio\jbr 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set JAVA_EXE=C:\Program Files\Android\Android Studio\jbr/bin/java.exe 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if exist "C:\Program Files\Android\Android Studio\jbr/bin/java.exe" goto init 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if not "Windows_NT" == "Windows_NT" goto win9xME_args 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "@eval[2+2]" == "4" goto 4NT_args 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CMD_LINE_ARGS= 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set _SKIP=2 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "x-q" == "x" goto execute 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CMD_LINE_ARGS=-q -Ptarget-platform=android-x64 -Ptarget=integration_test/apresentacao_test.dart -Pbase-application-name=android.app.Application -Pdart-defines=QVBJX1VSTD1odHRwOi8vMTAuMC4yLjI6MzMwMQ==,RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPVt1c2VyLWJyYW5jaF0=,RkxVVFRFUl9HSVRfVVJMPXVua25vd24gc291cmNl,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>goto execute 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CLASSPATH=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\\gradle\wrapper\gradle-wrapper.jar 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>"C:\Program Files\Android\Android Studio\jbr/bin/java.exe"    "-Dorg.gradle.appname=gradlew" -classpath "C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\\gradle\wrapper\gradle-wrapper.jar" org.gradle.wrapper.GradleWrapperMain -q -Ptarget-platform=android-x64 -Ptarget=integration_test/apresentacao_test.dart -Pbase-application-name=android.app.Application -Pdart-defines=QVBJX1VSTD1odHRwOi8vMTAuMC4yLjI6MzMwMQ==,RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPVt1c2VyLWJyYW5jaF0=,RkxVVFRFUl9HSVRfVVJMPXVua25vd24gc291cmNl,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug 
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/C:/Users/Breno/.gradle/wrapper/dists/gradle-8.14-all/c2qonpi39x1mddn7hk5gh9iqj/gradle-8.14/lib/native-platform-0.22-milestone-28.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "0" == "0" goto mainEnd 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "Windows_NT" == "Windows_NT" endlocal
+Running Gradle task 'assembleDebug'...                             15,3s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           6,3s
+D/FlutterGeolocator( 4954): Geolocator foreground service connected
+D/FlutterGeolocator( 4954): Initializing Geolocator services
+D/FlutterGeolocator( 4954): Flutter engine connected. Connected engine count 1
+I/zygote64( 4954): Do partial code cache collection, code=22KB, data=29KB
+I/zygote64( 4954): After code cache collection, code=22KB, data=29KB
+I/zygote64( 4954): Increasing code cache capacity to 128KB
+I/zygote64( 4954): Compiler allocated 6MB to compile void android.view.ViewRootImpl.performTraversals()
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:49300/LRRQ8OUXJMY=/
+VMServiceFlutterDriver: Isolate found with number: 8117035412191623
+VMServiceFlutterDriver: Isolate 8117035412191623 is runnable.
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+I/flutter ( 4954): 00:00 +0: Ensaio completo: cadastro, foto nativa, GPS, filtros, edição, seis status, radar, IA e exclusão pela interface
+VMServiceFlutterDriver: Connected to Flutter application.
+I/flutter ( 4954): MIAR_AUDIT_TAG=1794415313675
+I/zygote64( 4954): Rejecting re-init on previously-failed class java.lang.Class<com.it_nomads.fluttersecurestorage.FlutterSecureStorage$13>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback;
+I/zygote64( 4954):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.getOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:101)
+I/zygote64( 4954):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.-$$Nest$mgetOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin, com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:-1)
+I/zygote64( 4954):   at void com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run() (FlutterSecureStoragePlugin.java:176)
+I/zygote64( 4954):   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote64( 4954):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote64( 4954):   at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64( 4954):   at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote64( 4954): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.hardware.biometrics.BiometricPrompt$AuthenticationCallback" on path: DexPathList[[zip file "/data/app/br.com.miar.miar-KqhuTUlcgBE6rW_YA4d9bw==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.miar.miar-KqhuTUlcgBE6rW_YA4d9bw==/lib/x86_64, /data/app/br.com.miar.miar-KqhuTUlcgBE6rW_YA4d9bw==/base.apk!/lib/x86_64, /system/lib64, /vendor/lib64]]
+I/zygote64( 4954):   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+I/zygote64( 4954):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+I/zygote64( 4954):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+I/zygote64( 4954):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.getOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:101)
+I/zygote64( 4954):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.-$$Nest$mgetOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin, com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:-1)
+I/zygote64( 4954):   at void com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run() (FlutterSecureStoragePlugin.java:176)
+I/zygote64( 4954):   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote64( 4954):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote64( 4954):   at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64( 4954):   at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote64( 4954): 
+I/zygote64( 4954): Rejecting re-init on previously-failed class java.lang.Class<com.it_nomads.fluttersecurestorage.FlutterSecureStorage$13>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback;
+I/zygote64( 4954):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.getOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:101)
+I/zygote64( 4954):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.-$$Nest$mgetOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin, com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:-1)
+I/zygote64( 4954):   at void com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run() (FlutterSecureStoragePlugin.java:176)
+I/zygote64( 4954):   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote64( 4954):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote64( 4954):   at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64( 4954):   at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote64( 4954): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.hardware.biometrics.BiometricPrompt$AuthenticationCallback" on path: DexPathList[[zip file "/data/app/br.com.miar.miar-KqhuTUlcgBE6rW_YA4d9bw==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.miar.miar-KqhuTUlcgBE6rW_YA4d9bw==/lib/x86_64, /data/app/br.com.miar.miar-KqhuTUlcgBE6rW_YA4d9bw==/base.apk!/lib/x86_64, /system/lib64, /vendor/lib64]]
+I/zygote64( 4954):   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+I/zygote64( 4954):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+I/zygote64( 4954):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+I/zygote64( 4954):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.getOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:101)
+I/zygote64( 4954):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.-$$Nest$mgetOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin, com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:-1)
+I/zygote64( 4954):   at void com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run() (FlutterSecureStoragePlugin.java:176)
+I/zygote64( 4954):   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote64( 4954):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote64( 4954):   at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64( 4954):   at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote64( 4954): 
+I/zygote64( 4954): Rejecting re-init on previously-failed class java.lang.Class<com.it_nomads.fluttersecurestorage.FlutterSecureStorage$13>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback;
+I/zygote64( 4954):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.getOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:101)
+I/zygote64( 4954):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.-$$Nest$mgetOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin, com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:-1)
+I/zygote64( 4954):   at void com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run() (FlutterSecureStoragePlugin.java:176)
+I/zygote64( 4954):   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote64( 4954):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote64( 4954):   at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64( 4954):   at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote64( 4954): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.hardware.biometrics.BiometricPrompt$AuthenticationCallback" on path: DexPathList[[zip file "/data/app/br.com.miar.miar-KqhuTUlcgBE6rW_YA4d9bw==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.miar.miar-KqhuTUlcgBE6rW_YA4d9bw==/lib/x86_64, /data/app/br.com.miar.miar-KqhuTUlcgBE6rW_YA4d9bw==/base.apk!/lib/x86_64, /system/lib64, /vendor/lib64]]
+I/zygote64( 4954):   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+I/zygote64( 4954):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+I/zygote64( 4954):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+I/zygote64( 4954):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.getOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:101)
+I/zygote64( 4954):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.-$$Nest$mgetOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin, com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:-1)
+I/zygote64( 4954):   at void com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run() (FlutterSecureStoragePlugin.java:176)
+I/zygote64( 4954):   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote64( 4954):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote64( 4954):   at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64( 4954):   at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote64( 4954): 
+D/EGL_emulation( 4954): eglMakeCurrent: 0x788aa023cfa0: ver 2 0 (tinfo 0x788aa032aea0)
+I/zygote64( 4954): Do partial code cache collection, code=61KB, data=58KB
+I/zygote64( 4954): After code cache collection, code=61KB, data=58KB
+I/zygote64( 4954): Increasing code cache capacity to 256KB
+I/Choreographer( 4954): Skipped 58 frames!  The application may be doing too much work on its main thread.
+D/ProfileInstaller( 4954): Installing profile for br.com.miar.miar
+D/EGL_emulation( 4954): eglMakeCurrent: 0x788aa9ea7420: ver 2 0 (tinfo 0x788a8f23b0e0)
+VMServiceFlutterDriver: request_data message is taking a long time to complete...
+I/flutter ( 4954): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+I/flutter ( 4954): MIAR_AUDIT_UI=widget with text "Cidadão"
+I/flutter ( 4954): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+I/flutter ( 4954): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Entrar"
+D/TSBackgroundFetch( 4954): - configure
+D/TSBackgroundFetch( 4954): - start
+D/TSBackgroundFetch( 4954): - registerTask: flutter_background_fetch (jobId: 999)
+D/TSBackgroundFetch( 4954): {
+D/TSBackgroundFetch( 4954):   "taskId": "flutter_background_fetch",
+D/TSBackgroundFetch( 4954):   "isFetchTask": true,
+D/TSBackgroundFetch( 4954):   "minimumFetchInterval": 15,
+D/TSBackgroundFetch( 4954):   "stopOnTerminate": false,
+D/TSBackgroundFetch( 4954):   "requiredNetworkType": 1,
+D/TSBackgroundFetch( 4954):   "requiresBatteryNotLow": false,
+D/TSBackgroundFetch( 4954):   "requiresCharging": false,
+D/TSBackgroundFetch( 4954):   "requiresDeviceIdle": false,
+D/TSBackgroundFetch( 4954):   "requiresStorageNotLow": false,
+D/TSBackgroundFetch( 4954):   "startOnBoot": true,
+D/TSBackgroundFetch( 4954):   "jobService": "com.transistorsoft.flutter.backgroundfetch.HeadlessTask",
+D/TSBackgroundFetch( 4954):   "forceAlarmManager": false,
+D/TSBackgroundFetch( 4954):   "periodic": true,
+D/TSBackgroundFetch( 4954):   "delay": -1
+D/TSBackgroundFetch( 4954): }
+I/zygote64( 4954): Do full code cache collection, code=124KB, data=104KB
+I/zygote64( 4954): After code cache collection, code=124KB, data=83KB
+I/zygote64( 4954): Do partial code cache collection, code=124KB, data=84KB
+I/zygote64( 4954): After code cache collection, code=124KB, data=84KB
+I/zygote64( 4954): Increasing code cache capacity to 512KB
+I/flutter ( 4954): MIAR_AUDIT_ETAPA=CADASTRO_0
+I/flutter ( 4954): MIAR_AUDIT_UI=widget with text "Perfil"
+I/flutter ( 4954): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Atualizar meus dados"
+W/IInputConnectionWrapper( 4954): getTextAfterCursor on inactive InputConnection
+W/IInputConnectionWrapper( 4954): getSelectedText on inactive InputConnection
+W/IInputConnectionWrapper( 4954): endBatchEdit on inactive InputConnection
+I/flutter ( 4954): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar meus dados"
+I/flutter ( 4954): MIAR_AUDIT_UI=widget with text "Galeria"
+I/flutter ( 4954): MIAR_AUDIT_UI=widget with text "Registrar"
+I/flutter ( 4954): MIAR_AUDIT_UI=widget with text "Adicionar"
+I/flutter ( 4954): MIAR_AUDIT_GALERIA
+I/flutter ( 4954): MIAR_AUDIT_UI=widget with text "Escolher da galeria"
+D/EGL_emulation( 4954): eglMakeCurrent: 0x788aa023cfa0: ver 2 0 (tinfo 0x788aa032aea0)
+D/TSBackgroundFetch( 4954): ☯️  onPause
+D/TSBackgroundFetch( 4954): ☯️  onStop
+D/TSBackgroundFetch( 4954): ☯️  onStart
+D/TSBackgroundFetch( 4954): ☯️  onResume
+D/EGL_emulation( 4954): eglMakeCurrent: 0x788aa023cfa0: ver 2 0 (tinfo 0x788aa032aea0)
+E/AccessibilityBridge( 4954): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 4954): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 4954): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 4954): Attempted to getRootSemanticsNode without a root semantics node.
+I/flutter ( 4954): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but index 0)
+E/AccessibilityBridge( 4954): Attempted to getRootSemanticsNode without a root semantics node.
+I/flutter ( 4954): MIAR_AUDIT_UI=widget with text "Grande" (ignoring all but last)
+I/flutter ( 4954): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but index 1)
+E/AccessibilityBridge( 4954): Attempted to getRootSemanticsNode without a root semantics node.
+I/flutter ( 4954): MIAR_AUDIT_UI=widget with text "Perdido" (ignoring all but last)
+E/AccessibilityBridge( 4954): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 4954): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 4954): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 4954): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 4954): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 4954): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 4954): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 4954): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 4954): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 4954): Attempted to getRootSemanticsNode without a root semantics node.
+I/flutter ( 4954): MIAR_AUDIT_GPS_PERMITIR
+E/AccessibilityBridge( 4954): Attempted to getRootSemanticsNode without a root semantics node.
+I/flutter ( 4954): MIAR_AUDIT_UI=widget with text "Obter localização por GPS"
+D/TSBackgroundFetch( 4954): ☯️  onPause
+D/TSBackgroundFetch( 4954): ☯️  onResume
+I/flutter ( 4954): ══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+I/flutter ( 4954): The following StateError was thrown running a test:
+I/flutter ( 4954): Bad state: Não concluiu: GPS nativo
+I/flutter ( 4954): 
+I/flutter ( 4954): When the exception was thrown, this was the stack:
+I/flutter ( 4954): #0      main.<anonymous closure>.esperar (file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/integration_test/apresentacao_test.dart:71:9)
+I/flutter ( 4954): <asynchronous suspension>
+I/flutter ( 4954): #1      main.<anonymous closure>.nova (file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/integration_test/apresentacao_test.dart:222:9)
+I/flutter ( 4954): <asynchronous suspension>
+I/flutter ( 4954): #2      main.<anonymous closure> (file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/integration_test/apresentacao_test.dart:302:9)
+I/flutter ( 4954): <asynchronous suspension>
+I/flutter ( 4954): #3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+I/flutter ( 4954): <asynchronous suspension>
+I/flutter ( 4954): #4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+I/flutter ( 4954): <asynchronous suspension>
+I/flutter ( 4954): #5      TestWidgetsFlutterBinding._createTestCompletionHandler.<anonymous closure> (package:flutter_test/src/binding.dart:814:12)
+I/flutter ( 4954): <asynchronous suspension>
+I/flutter ( 4954): 
+I/flutter ( 4954): The test description was:
+I/flutter ( 4954):   Ensaio completo: cadastro, foto nativa, GPS, filtros, edição, seis status, radar, IA e exclusão
+I/flutter ( 4954):   pela interface
+I/flutter ( 4954): ════════════════════════════════════════════════════════════════════════════════════════════════════
+I/flutter ( 4954): 02:42 +0: Ensaio completo: cadastro, foto nativa, GPS, filtros, edição, seis status, radar, IA e exclusão pela interface [E]
+I/flutter ( 4954):   Test failed. See exception logs above.
+I/flutter ( 4954):   The test description was: Ensaio completo: cadastro, foto nativa, GPS, filtros, edição, seis status, radar, IA e exclusão pela interface
+I/flutter ( 4954):   
+E/BufferItemConsumer( 4954): [ImageReader-1080x1794f1m3-4954-0] Failed to release buffer: Unknown error -1 (1)
+I/flutter ( 4954): 02:42 +0 -1: (tearDownAll)
+I/flutter ( 4954): 02:42 +1 -1: Some tests failed.
+Failure Details:
+Failure in method: Ensaio completo: cadastro, foto nativa, GPS, filtros, edição, seis status, radar, IA e exclusão pela interface
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞═════════════════
+The following StateError was thrown running a test:
+Bad state: Não concluiu: GPS nativo
+
+When the exception was thrown, this was the stack:
+#0      main.<anonymous closure>.esperar (file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/integration_test/apresentacao_test.dart:71:9)
+<asynchronous suspension>
+#1      main.<anonymous closure>.nova (file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/integration_test/apresentacao_test.dart:222:9)
+<asynchronous suspension>
+#2      main.<anonymous closure> (file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/integration_test/apresentacao_test.dart:302:9)
+<asynchronous suspension>
+#3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+<asynchronous suspension>
+#5      TestWidgetsFlutterBinding._createTestCompletionHandler.<anonymous closure> (package:flutter_test/src/binding.dart:814:12)
+<asynchronous suspension>
+
+The test description was:
+  Ensaio completo: cadastro, foto nativa, GPS, filtros, edição,
+  seis status, radar, IA e exclusão pela interface
+═════════════════════════════════════════════════════════════════
+
+end of failure 1
+
+
+

@@ -1,0 +1,703 @@
+Running Gradle task 'assembleDebug'...                          
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "Windows_NT" == "Windows_NT" setlocal
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set DEFAULT_JVM_OPTS= 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set DIRNAME=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\ 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\" == "" set DIRNAME=. 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set APP_BASE_NAME=gradlew 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set APP_HOME=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\ 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set JAVA_HOME=C:\Program Files\Android\Android Studio\jbr 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set JAVA_EXE=C:\Program Files\Android\Android Studio\jbr/bin/java.exe 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if exist "C:\Program Files\Android\Android Studio\jbr/bin/java.exe" goto init 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if not "Windows_NT" == "Windows_NT" goto win9xME_args 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "@eval[2+2]" == "4" goto 4NT_args 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CMD_LINE_ARGS= 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set _SKIP=2 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "x-q" == "x" goto execute 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CMD_LINE_ARGS=-q -Ptarget-platform=android-x64 -Ptarget=integration_test/apresentacao_test.dart -Pbase-application-name=android.app.Application -Pdart-defines=QVBJX1VSTD1odHRwOi8vMTAuMC4yLjI6MzMwMQ==,RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPVt1c2VyLWJyYW5jaF0=,RkxVVFRFUl9HSVRfVVJMPXVua25vd24gc291cmNl,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>goto execute 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CLASSPATH=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\\gradle\wrapper\gradle-wrapper.jar 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>"C:\Program Files\Android\Android Studio\jbr/bin/java.exe"    "-Dorg.gradle.appname=gradlew" -classpath "C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\\gradle\wrapper\gradle-wrapper.jar" org.gradle.wrapper.GradleWrapperMain -q -Ptarget-platform=android-x64 -Ptarget=integration_test/apresentacao_test.dart -Pbase-application-name=android.app.Application -Pdart-defines=QVBJX1VSTD1odHRwOi8vMTAuMC4yLjI6MzMwMQ==,RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPVt1c2VyLWJyYW5jaF0=,RkxVVFRFUl9HSVRfVVJMPXVua25vd24gc291cmNl,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug 
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/C:/Users/Breno/.gradle/wrapper/dists/gradle-8.14-all/c2qonpi39x1mddn7hk5gh9iqj/gradle-8.14/lib/native-platform-0.22-milestone-28.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "0" == "0" goto mainEnd 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "Windows_NT" == "Windows_NT" endlocal
+Running Gradle task 'assembleDebug'...                             30,7s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...        1.460ms
+D/FlutterGeolocator( 3939): Geolocator foreground service connected
+D/FlutterGeolocator( 3939): Initializing Geolocator services
+D/FlutterGeolocator( 3939): Flutter engine connected. Connected engine count 1
+I/Choreographer( 3939): Skipped 34 frames!  The application may be doing too much work on its main thread.
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:52877/ytHegQ7iq74=/
+VMServiceFlutterDriver: Isolate found with number: 6033297737613323
+VMServiceFlutterDriver: Isolate 6033297737613323 is runnable.
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+I/flutter ( 3939): 00:00 +0: Ensaio completo: cadastro, foto nativa, GPS, filtros, edição, seis status, radar, IA e exclusão pela interface
+VMServiceFlutterDriver: Connected to Flutter application.
+I/flutter ( 3939): MIAR_AUDIT_TAG=1794412225901
+D/ProfileInstaller( 3939): Installing profile for br.com.miar.miar
+I/Choreographer( 3939): Skipped 59 frames!  The application may be doing too much work on its main thread.
+I/HWUI    ( 3939): Davey! duration=999ms; Flags=0, FrameTimelineVsyncId=14724, IntendedVsync=1178147450686, Vsync=1179130783980, InputEventId=0, HandleInputStart=1179133920600, AnimationStart=1179133940900, PerformTraversalsStart=1179133967500, DrawStart=1179134306900, FrameDeadline=1178164117352, FrameInterval=1179131806100, FrameStartTime=16666666, SyncQueued=1179134409200, SyncStart=1179135113700, IssueDrawCommandsStart=1179135347200, SwapBuffers=1179136758000, FrameCompleted=1179147747400, DequeueBufferDuration=2384000, QueueBufferDuration=279200, GpuCompleted=1179145289600, SwapBuffersCompleted=1179147747400, DisplayPresentTime=144115222452437076, CommandSubmissionCompleted=1179136758000, 
+I/ImeTracker( 3939): br.com.miar.miar:4bd4995a: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+VMServiceFlutterDriver: request_data message is taking a long time to complete...
+W/r.com.miar.miar( 3939): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar( 3939): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+W/WindowOnBackDispatcher( 3939): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 3939): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 3939): app_time_stats: avg=481.01ms min=169.37ms max=763.19ms count=3
+D/EGL_emulation( 3939): app_time_stats: avg=353.81ms min=68.50ms max=923.34ms count=3
+I/ImeTracker( 3939): br.com.miar.miar:8a97b00d: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFE...... .F....ID 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 3939): br.com.miar.miar:e7ba2305: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFE...... .F....ID 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/EGL_emulation( 3939): app_time_stats: avg=2263.64ms min=438.21ms max=3214.56ms count=3
+D/EGL_emulation( 3939): app_time_stats: avg=120.30ms min=74.54ms max=197.28ms count=9
+I/ImeTracker( 3939): br.com.miar.miar:b3777bda: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 3939): br.com.miar.miar:fbd362db: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 3939): br.com.miar.miar:d02a9900: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 3939): br.com.miar.miar:cff0fa1b: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 3939): br.com.miar.miar:85c0b504: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 3939): br.com.miar.miar:e8f66844: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+I/ImeTracker( 3939): br.com.miar.miar:21369e5b: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 3939): br.com.miar.miar:1ff9373b: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/EGL_emulation( 3939): app_time_stats: avg=160.26ms min=115.30ms max=211.52ms count=7
+I/ImeTracker( 3939): br.com.miar.miar:e5df4370: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/ImeTracker( 3939): br.com.miar.miar:7c1bc749: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController( 3939): show(ime(), fromIme=true)
+D/EGL_emulation( 3939): app_time_stats: avg=191.06ms min=140.05ms max=261.67ms count=6
+W/InteractionJankMonitor( 3939): Initializing without READ_DEVICE_CONFIG permission. enabled=true, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=br.com.miar.miar
+D/EGL_emulation( 3939): app_time_stats: avg=2589.99ms min=2589.99ms max=2589.99ms count=1
+I/ImeTracker( 3939): br.com.miar.miar:e7ba2305: onShown
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+D/EGL_emulation( 3939): app_time_stats: avg=232.10ms min=68.39ms max=409.16ms count=6
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+D/InsetsController( 3939): show(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:b3777bda: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController( 3939): show(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:fbd362db: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+D/InsetsController( 3939): show(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:d02a9900: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController( 3939): show(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:cff0fa1b: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+D/InsetsController( 3939): show(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:85c0b504: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController( 3939): show(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:e8f66844: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+I/ImeTracker( 3939): br.com.miar.miar:fe5339a9: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 3939): br.com.miar.miar:38d1a8f5: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/EGL_emulation( 3939): app_time_stats: avg=407.51ms min=201.40ms max=653.99ms count=3
+D/InsetsController( 3939): show(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:1ff9373b: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController( 3939): hide(ime(), fromIme=true)
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+D/EGL_emulation( 3939): app_time_stats: avg=420.19ms min=27.39ms max=2148.78ms count=6
+D/InsetsController( 3939): hide(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:7c1bc749: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker( 3939): br.com.miar.miar:f16454fd: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 3939): br.com.miar.miar:32ba7f70: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 3939): br.com.miar.miar:e5df4370: onHidden
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+I/ImeTracker( 3939): br.com.miar.miar:6135a05d: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/ImeTracker( 3939): br.com.miar.miar:2adc5881: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+D/InsetsController( 3939): show(ime(), fromIme=true)
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 16357, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 66, 16372, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed App frame:UNKNOWN: 88, 16467, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 88, 16467, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+V/PerfettoTrigger( 3939): Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-81
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+I/ImeTracker( 3939): br.com.miar.miar:38d1a8f5: onShown
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+D/InsetsController( 3939): show(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:f16454fd: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController( 3939): show(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:32ba7f70: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+D/InsetsController( 3939): hide(ime(), fromIme=true)
+D/EGL_emulation( 3939): app_time_stats: avg=49.11ms min=6.98ms max=175.91ms count=19
+D/EGL_emulation( 3939): app_time_stats: avg=155.56ms min=96.41ms max=220.33ms count=7
+I/ImeTracker( 3939): br.com.miar.miar:b42c72e6: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker( 3939): br.com.miar.miar:6135a05d: onHidden
+D/EGL_emulation( 3939): app_time_stats: avg=128.43ms min=90.24ms max=242.45ms count=8
+W/WindowOnBackDispatcher( 3939): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 3939): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/TSBackgroundFetch( 3939): - configure
+D/TSBackgroundFetch( 3939): - start
+D/TSBackgroundFetch( 3939): - registerTask: flutter_background_fetch (jobId: 999)
+D/TSBackgroundFetch( 3939): {
+D/TSBackgroundFetch( 3939):   "taskId": "flutter_background_fetch",
+D/TSBackgroundFetch( 3939):   "isFetchTask": true,
+D/TSBackgroundFetch( 3939):   "minimumFetchInterval": 15,
+D/TSBackgroundFetch( 3939):   "stopOnTerminate": false,
+D/TSBackgroundFetch( 3939):   "requiredNetworkType": 1,
+D/TSBackgroundFetch( 3939):   "requiresBatteryNotLow": false,
+D/TSBackgroundFetch( 3939):   "requiresCharging": false,
+D/TSBackgroundFetch( 3939):   "requiresDeviceIdle": false,
+D/TSBackgroundFetch( 3939):   "requiresStorageNotLow": false,
+D/TSBackgroundFetch( 3939):   "startOnBoot": true,
+D/TSBackgroundFetch( 3939):   "jobService": "com.transistorsoft.flutter.backgroundfetch.HeadlessTask",
+D/TSBackgroundFetch( 3939):   "forceAlarmManager": false,
+D/TSBackgroundFetch( 3939):   "periodic": true,
+D/TSBackgroundFetch( 3939):   "delay": -1
+D/TSBackgroundFetch( 3939): }
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): Failed to handle method call
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): java.lang.SecurityException: android.permission.ACCESS_NETWORK_STATE required for jobs with a connectivity constraint
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3242)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at android.os.Parcel.createException(Parcel.java:3226)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at android.os.Parcel.readException(Parcel.java:3209)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at android.os.Parcel.readException(Parcel.java:3151)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at android.app.job.IJobScheduler$Stub$Proxy.schedule(IJobScheduler.java:435)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at android.app.JobSchedulerImpl.schedule(JobSchedulerImpl.java:87)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at com.transistorsoft.tsbackgroundfetch.BGTask.schedule(BGTask.java:169)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at com.transistorsoft.tsbackgroundfetch.BackgroundFetch.registerTask(BackgroundFetch.java:261)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at com.transistorsoft.tsbackgroundfetch.BackgroundFetch.start(BackgroundFetch.java:136)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at com.transistorsoft.tsbackgroundfetch.BackgroundFetch.configure(BackgroundFetch.java:100)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at com.transistorsoft.flutter.backgroundfetch.BackgroundFetchModule.configure(BackgroundFetchModule.java:152)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at com.transistorsoft.flutter.backgroundfetch.BackgroundFetchModule.onMethodCall(BackgroundFetchModule.java:122)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at io.flutter.plugin.common.MethodChannel$IncomingMethodCallHandler.onMessage(MethodChannel.java:267)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at io.flutter.embedding.engine.dart.DartMessenger.invokeHandler(DartMessenger.java:292)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at io.flutter.embedding.engine.dart.DartMessenger.lambda$dispatchMessageToQueue$0$io-flutter-embedding-engine-dart-DartMessenger(DartMessenger.java:319)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at io.flutter.embedding.engine.dart.DartMessenger$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at android.os.Handler.handleCallback(Handler.java:959)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at android.os.Handler.dispatchMessage(Handler.java:100)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at android.os.Looper.loopOnce(Looper.java:232)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at android.os.Looper.loop(Looper.java:317)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at java.lang.reflect.Method.invoke(Native Method)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): Caused by: android.os.RemoteException: Remote stack trace:
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at com.android.server.job.JobSchedulerService$JobSchedulerStub.enforceValidJobRequest(JobSchedulerService.java:4769)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at com.android.server.job.JobSchedulerService$JobSchedulerStub.schedule(JobSchedulerService.java:4969)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at android.app.job.IJobScheduler$Stub.onTransact(IJobScheduler.java:224)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at android.os.Binder.execTransactInternal(Binder.java:1500)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 	at android.os.Binder.execTransact(Binder.java:1444)
+E/MethodChannel#com.transistorsoft/flutter_background_fetch/methods( 3939): 
+I/flutter ( 3939): [BackgroundFetch] ERROR: PlatformException(error, android.permission.ACCESS_NETWORK_STATE required for jobs with a connectivity constraint, null, java.lang.SecurityException: android.permission.ACCESS_NETWORK_STATE required for jobs with a connectivity constraint
+I/flutter ( 3939): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3242)
+I/flutter ( 3939): 	at android.os.Parcel.createException(Parcel.java:3226)
+I/flutter ( 3939): 	at android.os.Parcel.readException(Parcel.java:3209)
+I/flutter ( 3939): 	at android.os.Parcel.readException(Parcel.java:3151)
+I/flutter ( 3939): 	at android.app.job.IJobScheduler$Stub$Proxy.schedule(IJobScheduler.java:435)
+I/flutter ( 3939): 	at android.app.JobSchedulerImpl.schedule(JobSchedulerImpl.java:87)
+I/flutter ( 3939): 	at com.transistorsoft.tsbackgroundfetch.BGTask.schedule(BGTask.java:169)
+I/flutter ( 3939): 	at com.transistorsoft.tsbackgroundfetch.BackgroundFetch.registerTask(BackgroundFetch.java:261)
+I/flutter ( 3939): 	at com.transistorsoft.tsbackgroundfetch.BackgroundFetch.start(BackgroundFetch.java:136)
+I/flutter ( 3939): 	at com.transistorsoft.tsbackgroundfetch.BackgroundFetch.configure(BackgroundFetch.java:100)
+I/flutter ( 3939): 	at com.transistorsoft.flutter.back
+D/EGL_emulation( 3939): app_time_stats: avg=231.62ms min=172.72ms max=403.18ms count=5
+I/flutter ( 3939): MIAR_AUDIT_ETAPA=CADASTRO_0
+D/EGL_emulation( 3939): app_time_stats: avg=271.05ms min=128.22ms max=571.62ms count=4
+W/WindowOnBackDispatcher( 3939): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 3939): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 3939): app_time_stats: avg=140.47ms min=48.79ms max=300.98ms count=8
+I/ImeTracker( 3939): br.com.miar.miar:7c2a7b90: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 3939): br.com.miar.miar:13a5cbe6: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor( 3939): The input method toggled cursor monitoring on
+I/ImeTracker( 3939): br.com.miar.miar:9d5785ed: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/ImeTracker( 3939): br.com.miar.miar:96415a1b: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController( 3939): show(ime(), fromIme=true)
+D/EGL_emulation( 3939): app_time_stats: avg=573.49ms min=12.25ms max=4878.08ms count=9
+D/InsetsController( 3939): hide(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:13a5cbe6: onCancelled at PHASE_CLIENT_ANIMATION_CANCEL
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+D/InsetsController( 3939): hide(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:96415a1b: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/EGL_emulation( 3939): app_time_stats: avg=124.98ms min=44.04ms max=257.81ms count=8
+I/ImeTracker( 3939): br.com.miar.miar:9eece498: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker( 3939): br.com.miar.miar:9d5785ed: onHidden
+D/EGL_emulation( 3939): app_time_stats: avg=130.59ms min=54.11ms max=195.51ms count=9
+E/FrameTracker( 3939): force finish cuj, time out: J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+I/ImeTracker( 3939): br.com.miar.miar:73bd703a: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 3939): app_time_stats: avg=251.33ms min=124.63ms max=594.73ms count=5
+D/EGL_emulation( 3939): app_time_stats: avg=168.08ms min=7.24ms max=2409.68ms count=16
+W/r.com.miar.miar( 3939): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar( 3939): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+W/WindowOnBackDispatcher( 3939): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 3939): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 3939): app_time_stats: avg=154.11ms min=54.99ms max=417.95ms count=7
+W/WindowOnBackDispatcher( 3939): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 3939): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 3939): app_time_stats: avg=174.38ms min=152.87ms max=214.05ms count=6
+E/FrameTracker( 3939): force finish cuj, time out: J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/WindowOnBackDispatcher( 3939): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 3939): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+E/FrameTracker( 3939): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+D/EGL_emulation( 3939): app_time_stats: avg=109.39ms min=70.33ms max=159.84ms count=10
+I/flutter ( 3939): MIAR_AUDIT_GALERIA
+D/EGL_emulation( 3939): app_time_stats: avg=138.13ms min=74.33ms max=219.85ms count=8
+D/TSBackgroundFetch( 3939): ☯️  onPause
+D/EGL_emulation( 3939): app_time_stats: avg=155.40ms min=86.17ms max=219.71ms count=7
+D/EGL_emulation( 3939): app_time_stats: avg=6289.21ms min=6289.21ms max=6289.21ms count=1
+D/EGL_emulation( 3939): app_time_stats: avg=130.60ms min=88.19ms max=179.31ms count=8
+D/EGL_emulation( 3939): app_time_stats: avg=1051.84ms min=1051.84ms max=1051.84ms count=1
+D/EGL_emulation( 3939): app_time_stats: avg=158.39ms min=121.78ms max=176.11ms count=7
+E/FrameTracker( 3939): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 18276, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 18312, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 66, 18348, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 18429, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed App frame:UNKNOWN: 74, 18458, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 74, 18458, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 66, 18473, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 18487, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 18553, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 18568, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+V/PerfettoTrigger( 3939): Not triggering com.android.telemetry.interaction-jank-monitor-81 - not enough time since last trigger
+D/EGL_emulation( 3939): app_time_stats: avg=152.00ms min=134.88ms max=173.12ms count=7
+D/EGL_emulation( 3939): app_time_stats: avg=148.76ms min=111.82ms max=179.86ms count=7
+D/EGL_emulation( 3939): app_time_stats: avg=3306.27ms min=3306.27ms max=3306.27ms count=1
+D/EGL_emulation( 3939): app_time_stats: avg=155.33ms min=80.02ms max=225.53ms count=7
+D/EGL_emulation( 3939): app_time_stats: avg=1055.98ms min=1055.98ms max=1055.98ms count=1
+D/EGL_emulation( 3939): app_time_stats: avg=153.70ms min=102.81ms max=195.67ms count=7
+D/EGL_emulation( 3939): app_time_stats: avg=156.49ms min=115.59ms max=204.29ms count=7
+D/TSBackgroundFetch( 3939): ☯️  onResume
+W/r.com.miar.miar( 3939): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar( 3939): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+D/EGL_emulation( 3939): app_time_stats: avg=157.36ms min=121.15ms max=234.15ms count=7
+D/EGL_emulation( 3939): app_time_stats: avg=3023.13ms min=3023.13ms max=3023.13ms count=1
+I/ImeTracker( 3939): br.com.miar.miar:b0102f2c: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 3939): br.com.miar.miar:e691b81e: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+D/EGL_emulation( 3939): app_time_stats: avg=282.98ms min=131.03ms max=614.78ms count=4
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+D/InputConnectionAdaptor( 3939): The input method toggled cursor monitoring on
+D/InsetsController( 3939): show(ime(), fromIme=true)
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+I/ImeTracker( 3939): br.com.miar.miar:e691b81e: onShown
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+I/ImeTracker( 3939): br.com.miar.miar:e47a925e: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController( 3939): hide(ime(), fromIme=true)
+D/InputConnectionAdaptor( 3939): The input method toggled cursor monitoring off
+D/EGL_emulation( 3939): app_time_stats: avg=68.96ms min=7.20ms max=558.16ms count=16
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 23338, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 23353, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed App frame:UNKNOWN: 88, 23404, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 88, 23404, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 23433, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 23455, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 23477, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 23536, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed App frame:UNKNOWN: 88, 23551, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 88, 23551, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 23573, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed App frame:UNKNOWN: 24, 23617, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 24, 23617, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/WindowOnBackDispatcher( 3939): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 3939): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+V/PerfettoTrigger( 3939): Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-80
+D/EGL_emulation( 3939): app_time_stats: avg=155.54ms min=81.11ms max=292.35ms count=7
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+I/ImeTracker( 3939): br.com.miar.miar:76f49621: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker( 3939): br.com.miar.miar:e47a925e: onHidden
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+D/EGL_emulation( 3939): app_time_stats: avg=119.21ms min=67.46ms max=200.56ms count=10
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+W/WindowOnBackDispatcher( 3939): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 3939): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+D/EGL_emulation( 3939): app_time_stats: avg=101.01ms min=76.07ms max=151.84ms count=10
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+I/ImeTracker( 3939): br.com.miar.miar:b6d0f639: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 3939): br.com.miar.miar:766fd0e7: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+D/InputConnectionAdaptor( 3939): The input method toggled cursor monitoring on
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+D/InsetsController( 3939): show(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:c3d84107: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 3939): br.com.miar.miar:3c60fcd4: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/EGL_emulation( 3939): app_time_stats: avg=252.52ms min=8.00ms max=2403.20ms count=11
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+I/ImeTracker( 3939): br.com.miar.miar:f573d29c: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 3939): br.com.miar.miar:113443df: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+I/ImeTracker( 3939): br.com.miar.miar:766fd0e7: onShown
+I/ImeTracker( 3939): br.com.miar.miar:1c9d79e0: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 3939): br.com.miar.miar:e9cf9364: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+D/EGL_emulation( 3939): app_time_stats: avg=115.44ms min=82.40ms max=155.02ms count=9
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+I/ImeTracker( 3939): br.com.miar.miar:22863117: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 3939): br.com.miar.miar:337bbe20: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+D/InsetsController( 3939): show(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:3c60fcd4: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+I/ImeTracker( 3939): br.com.miar.miar:2e3e2c58: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/ImeTracker( 3939): br.com.miar.miar:d6dbbcf4: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+D/InsetsController( 3939): show(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:113443df: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 3939): requestCursorUpdates on inactive InputConnection
+D/InsetsController( 3939): show(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:1c9d79e0: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController( 3939): show(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:e9cf9364: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InputConnectionAdaptor( 3939): The input method toggled cursor monitoring on
+D/InputConnectionAdaptor( 3939): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor( 3939): The input method toggled cursor monitoring on
+D/InsetsController( 3939): show(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:337bbe20: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InputConnectionAdaptor( 3939): The input method toggled cursor monitoring off
+D/InsetsController( 3939): hide(ime(), fromIme=true)
+D/EGL_emulation( 3939): app_time_stats: avg=103.66ms min=11.37ms max=773.67ms count=11
+D/InsetsController( 3939): hide(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:d6dbbcf4: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+I/ImeTracker( 3939): br.com.miar.miar:95a39355: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker( 3939): br.com.miar.miar:2e3e2c58: onHidden
+I/flutter ( 3939): MIAR_AUDIT_GPS_PERMITIR
+D/EGL_emulation( 3939): app_time_stats: avg=133.89ms min=57.22ms max=202.31ms count=8
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 3939): Attempted to getRootSemanticsNode without a root semantics node.
+D/EGL_emulation( 3939): app_time_stats: avg=130.31ms min=81.40ms max=178.77ms count=9
+D/EGL_emulation( 3939): app_time_stats: avg=125.05ms min=8.08ms max=1520.23ms count=14
+D/EGL_emulation( 3939): app_time_stats: avg=155.57ms min=138.86ms max=186.17ms count=7
+D/EGL_emulation( 3939): app_time_stats: avg=158.46ms min=125.22ms max=183.74ms count=7
+D/EGL_emulation( 3939): app_time_stats: avg=154.99ms min=127.48ms max=182.73ms count=7
+I/ImeTracker( 3939): br.com.miar.miar:73781d43: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 3939): app_time_stats: avg=264.68ms min=133.56ms max=593.21ms count=4
+D/EGL_emulation( 3939): app_time_stats: avg=4263.06ms min=4263.06ms max=4263.06ms count=1
+E/FrameTracker( 3939): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+D/EGL_emulation( 3939): app_time_stats: avg=149.69ms min=73.85ms max=374.20ms count=7
+D/EGL_emulation( 3939): app_time_stats: avg=136.84ms min=113.62ms max=158.48ms count=8
+W/WindowOnBackDispatcher( 3939): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 3939): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 3939): app_time_stats: avg=281.82ms min=85.70ms max=598.53ms count=5
+E/FrameTracker( 3939): force finish cuj, time out: J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+I/ImeTracker( 3939): br.com.miar.miar:fbe9a293: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 3939): app_time_stats: avg=3693.98ms min=3693.98ms max=3693.98ms count=1
+I/flutter ( 3939): MIAR_AUDIT_ETAPA=OCORRENCIA_2438
+W/WindowOnBackDispatcher( 3939): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 3939): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+E/FrameTracker( 3939): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 25131, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed App frame:UNKNOWN: 72, 25212, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 66, 25270, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed App frame:UNKNOWN: 88, 25306, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 88, 25306, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 25321, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 66, 25343, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 25409, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 25423, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+V/PerfettoTrigger( 3939): Not triggering com.android.telemetry.interaction-jank-monitor-81 - not enough time since last trigger
+D/EGL_emulation( 3939): app_time_stats: avg=341.55ms min=80.96ms max=488.58ms count=4
+I/ImeTracker( 3939): br.com.miar.miar:90a6d5fd: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 3939): br.com.miar.miar:5ee06531: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 3939): showSoftInput() view=io.flutter.embedding.android.FlutterView{5b015c5 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor( 3939): The input method toggled cursor monitoring on
+D/EGL_emulation( 3939): app_time_stats: avg=208.49ms min=83.10ms max=567.58ms count=5
+D/InsetsController( 3939): show(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:b81b698f: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation( 3939): app_time_stats: avg=2202.08ms min=2202.08ms max=2202.08ms count=1
+I/ImeTracker( 3939): br.com.miar.miar:d8e3ffd4: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InputConnectionAdaptor( 3939): The input method toggled cursor monitoring off
+D/InsetsController( 3939): hide(ime(), fromIme=true)
+I/ImeTracker( 3939): br.com.miar.miar:5ee06531: onCancelled at PHASE_CLIENT_ANIMATION_CANCEL
+I/ImeTracker( 3939): br.com.miar.miar:34f3e8cd: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker( 3939): br.com.miar.miar:b81b698f: onHidden
+I/flutter ( 3939): 
+I/flutter ( 3939): Warning: A call to tap() with finder "Found 1 widget with type "Botao" that are ancestors of widget with text "Salvar alterações": [
+I/flutter ( 3939):   Botao(dependencies: [_ScrollableScope]),
+I/flutter ( 3939): ]" derived an Offset (Offset(205.7, 825.8)) that would not hit test on the specified widget.
+I/flutter ( 3939): Maybe the widget is actually off-screen, or another widget is obscuring it, or the widget cannot receive pointer events.
+I/flutter ( 3939): The finder corresponds to this RenderBox: RenderOpacity#30f7c relayoutBoundary=up23
+I/flutter ( 3939): The hit test result at that offset is: HitTestResult(RenderPointerListener#73d66@Offset(205.7, 1.5), RenderSemanticsGestureHandler#40cc7@Offset(205.7, 1.5), RenderSemanticsAnnotations#a705d@Offset(205.7, 1.5), RenderPositionedBox#ab59d@Offset(205.7, 1.5), RenderAnimatedOpacity#1437c@Offset(205.7, 1.5), RenderClipRect#3d395@Offset(205.7, 1.5), RenderOffstage#5b68a@Offset(205.7, 1.5), RenderConstrainedBox#34be6@Offset(205.7, 1.5), RenderCustomMultiChildLayoutBox#57fa5@Offset(205.7, 825.8), _RenderInkFeatures#879c6@Offset(205.7, 825.8), RenderPhysicalModel#82c78@Offset(205.7, 825.8), RenderSemanticsAnnotations#76958@Offset(205.7, 825.8), RenderRepaintBoundary#3e504@Offset(205.7, 825.8), RenderIgnorePointer#272bb@Offset(205.7, 825.8), RenderAnimatedOpacity#0260a@Offset(205.7, 825.8), RenderAnimatedOpacity#a96bb@Offset(205.7, 825.8), _RenderColoredBox#97e84@Offset(205.7, 825.8), RenderAnimatedOpacity#bb7db@Offset(205.7, 825.8), RenderIgnorePointer#3b422@Offset(205.7, 825.8), RenderAnimatedOpacity#d4d84@Offset(205
+I/flutter ( 3939): #0      WidgetController._getElementPoint (package:flutter_test/src/controller.dart:2081:25)
+I/flutter ( 3939): #1      WidgetController.getCenter (package:flutter_test/src/controller.dart:1865:12)
+I/flutter ( 3939): #2      WidgetController.tap (package:flutter_test/src/controller.dart:1045:7)
+I/flutter ( 3939): #3      main.<anonymous closure>.tocar (file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/integration_test/apresentacao_test.dart:64:22)
+I/flutter ( 3939): <asynchronous suspension>
+I/flutter ( 3939): #4      main.<anonymous closure> (file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/integration_test/apresentacao_test.dart:271:9)
+I/flutter ( 3939): <asynchronous suspension>
+I/flutter ( 3939): #5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+I/flutter ( 3939): <asynchronous suspension>
+I/flutter ( 3939): #6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+I/flutter ( 3939): <asynchronous suspension>
+I/flutter ( 3939): #7      TestWidgetsFlutterBinding._createTestCompletionHandler.<anonymous closure> (package:flutter_test/src/binding.dart:814:12)
+I/flutter ( 3939): <asynchronous suspension>
+I/flutter ( 3939): To silence this warning, pass "warnIfMissed: false" to "tap()".
+I/flutter ( 3939): To make this warning fatal, set WidgetController.hitTestWarningShouldBeFatal to true.
+I/flutter ( 3939): 
+D/EGL_emulation( 3939): app_time_stats: avg=125.58ms min=70.43ms max=246.41ms count=8
+D/EGL_emulation( 3939): app_time_stats: avg=282.86ms min=80.99ms max=499.34ms count=4
+D/EGL_emulation( 3939): app_time_stats: avg=264.37ms min=72.51ms max=587.69ms count=6
+D/EGL_emulation( 3939): app_time_stats: avg=581.03ms min=566.12ms max=595.94ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=589.70ms min=586.52ms max=592.88ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=605.72ms min=600.23ms max=611.21ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=597.68ms min=595.78ms max=599.57ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=593.51ms min=580.07ms max=606.94ms count=2
+E/FrameTracker( 3939): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 27491, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 27526, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 27548, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 66, 27614, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 27636, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed App frame:UNKNOWN: 88, 27658, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 88, 27658, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 27680, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 27702, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 80, 27724, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed App frame:UNKNOWN: 88, 27797, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker( 3939): Missed SF frame:UNKNOWN: 88, 27797, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+V/PerfettoTrigger( 3939): Not triggering com.android.telemetry.interaction-jank-monitor-81 - not enough time since last trigger
+D/EGL_emulation( 3939): app_time_stats: avg=583.33ms min=583.08ms max=583.58ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=582.58ms min=578.72ms max=586.44ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=599.74ms min=596.57ms max=602.91ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=592.04ms min=587.84ms max=596.24ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=589.79ms min=582.43ms max=597.15ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=592.43ms min=579.84ms max=605.02ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=609.54ms min=598.45ms max=620.64ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=589.15ms min=582.37ms max=595.94ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=590.19ms min=577.82ms max=602.55ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=614.72ms min=609.28ms max=620.15ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=600.39ms min=596.26ms max=604.51ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=579.05ms min=575.49ms max=582.60ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=609.17ms min=592.96ms max=625.38ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=604.49ms min=603.68ms max=605.30ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=586.00ms min=563.21ms max=608.80ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=598.91ms min=586.11ms max=611.71ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=609.25ms min=606.12ms max=612.38ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=589.55ms min=566.93ms max=612.18ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=585.38ms min=571.01ms max=599.75ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=584.51ms min=558.88ms max=610.13ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=589.42ms min=564.12ms max=614.73ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=594.43ms min=579.39ms max=609.47ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=592.77ms min=591.79ms max=593.75ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=604.46ms min=600.41ms max=608.50ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=598.17ms min=585.01ms max=611.32ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=604.75ms min=603.53ms max=605.97ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=598.54ms min=591.92ms max=605.16ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=598.10ms min=594.95ms max=601.24ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=581.02ms min=568.89ms max=593.15ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=591.97ms min=569.72ms max=614.22ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=578.29ms min=563.54ms max=593.03ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=595.72ms min=582.96ms max=608.48ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=599.96ms min=598.53ms max=601.38ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=598.36ms min=596.56ms max=600.16ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=592.29ms min=582.06ms max=602.52ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=604.24ms min=602.02ms max=606.46ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=595.46ms min=576.83ms max=614.09ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=588.29ms min=583.51ms max=593.06ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=589.56ms min=581.96ms max=597.16ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=576.01ms min=570.70ms max=581.33ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=603.51ms min=586.61ms max=620.42ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=602.04ms min=586.03ms max=618.06ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=578.87ms min=570.24ms max=587.50ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=611.95ms min=602.04ms max=621.86ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=596.22ms min=583.99ms max=608.45ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=591.65ms min=583.66ms max=599.63ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=594.77ms min=589.55ms max=599.98ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=596.96ms min=596.82ms max=597.11ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=599.82ms min=599.47ms max=600.17ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=601.47ms min=599.79ms max=603.15ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=590.99ms min=568.07ms max=613.91ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=594.13ms min=577.17ms max=611.10ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=592.42ms min=588.10ms max=596.73ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=592.30ms min=583.40ms max=601.21ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=584.79ms min=573.53ms max=596.06ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=606.41ms min=594.11ms max=618.70ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=586.09ms min=581.85ms max=590.33ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=593.07ms min=571.34ms max=614.80ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=599.04ms min=587.18ms max=610.90ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=587.73ms min=576.98ms max=598.48ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=581.07ms min=560.39ms max=601.74ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=595.65ms min=577.73ms max=613.56ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=600.92ms min=589.50ms max=612.35ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=597.27ms min=589.35ms max=605.18ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=600.89ms min=591.79ms max=610.00ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=580.97ms min=579.99ms max=581.96ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=585.11ms min=584.39ms max=585.83ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=585.29ms min=584.19ms max=586.40ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=587.97ms min=583.40ms max=592.54ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=578.83ms min=547.54ms max=610.12ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=579.61ms min=559.28ms max=599.95ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=607.91ms min=607.03ms max=608.79ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=598.55ms min=592.92ms max=604.18ms count=2
+D/EGL_emulation( 3939): app_time_stats: avg=592.03ms min=586.24ms max=597.81ms count=2
+I/flutter ( 3939): ══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+I/flutter ( 3939): The following StateError was thrown running a test:
+I/flutter ( 3939): Bad state: Não concluiu: navegação inferior
+I/flutter ( 3939): 
+I/flutter ( 3939): When the exception was thrown, this was the stack:
+I/flutter ( 3939): #0      main.<anonymous closure>.esperar (file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/integration_test/apresentacao_test.dart:57:9)
+I/flutter ( 3939): <asynchronous suspension>
+I/flutter ( 3939): #1      main.<anonymous closure>.inicio (file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/integration_test/apresentacao_test.dart:207:9)
+I/flutter ( 3939): <asynchronous suspension>
+I/flutter ( 3939): #2      main.<anonymous closure> (file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/integration_test/apresentacao_test.dart:283:9)
+I/flutter ( 3939): <asynchronous suspension>
+I/flutter ( 3939): #3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+I/flutter ( 3939): <asynchronous suspension>
+I/flutter ( 3939): #4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+I/flutter ( 3939): <asynchronous suspension>
+I/flutter ( 3939): #5      TestWidgetsFlutterBinding._createTestCompletionHandler.<anonymous closure> (package:flutter_test/src/binding.dart:814:12)
+I/flutter ( 3939): <asynchronous suspension>
+I/flutter ( 3939): 
+I/flutter ( 3939): The test description was:
+I/flutter ( 3939):   Ensaio completo: cadastro, foto nativa, GPS, filtros, edição, seis status, radar, IA e exclusão
+I/flutter ( 3939):   pela interface
+I/flutter ( 3939): ════════════════════════════════════════════════════════════════════════════════════════════════════
+I/flutter ( 3939): 02:31 +0: Ensaio completo: cadastro, foto nativa, GPS, filtros, edição, seis status, radar, IA e exclusão pela interface [E]
+I/flutter ( 3939):   Test failed. See exception logs above.
+I/flutter ( 3939):   The test description was: Ensaio completo: cadastro, foto nativa, GPS, filtros, edição, seis status, radar, IA e exclusão pela interface
+I/flutter ( 3939):   
+D/EGL_emulation( 3939): app_time_stats: avg=5787.17ms min=10.96ms max=98066.45ms count=17
+I/flutter ( 3939): 02:32 +0 -1: (tearDownAll)
+I/flutter ( 3939): 02:32 +1 -1: Some tests failed.
+Failure Details:
+Failure in method: Ensaio completo: cadastro, foto nativa, GPS, filtros, edição, seis status, radar, IA e exclusão pela interface
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞═════════════════
+The following StateError was thrown running a test:
+Bad state: Não concluiu: navegação inferior
+
+When the exception was thrown, this was the stack:
+#0      main.<anonymous closure>.esperar (file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/integration_test/apresentacao_test.dart:57:9)
+<asynchronous suspension>
+#1      main.<anonymous closure>.inicio (file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/integration_test/apresentacao_test.dart:207:9)
+<asynchronous suspension>
+#2      main.<anonymous closure> (file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/integration_test/apresentacao_test.dart:283:9)
+<asynchronous suspension>
+#3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+<asynchronous suspension>
+#5      TestWidgetsFlutterBinding._createTestCompletionHandler.<anonymous closure> (package:flutter_test/src/binding.dart:814:12)
+<asynchronous suspension>
+
+The test description was:
+  Ensaio completo: cadastro, foto nativa, GPS, filtros, edição,
+  seis status, radar, IA e exclusão pela interface
+═════════════════════════════════════════════════════════════════
+
+end of failure 1
+
+
+

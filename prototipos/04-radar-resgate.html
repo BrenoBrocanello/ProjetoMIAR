@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>MIAR — Radar de Resgate</title>
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/miar.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="device">
+    <div class="notch"></div>
+    <div class="screen">
+      <!-- Mapa interativo com marcadores geolocalizados (RF04 / §5.17) -->
+      <div class="map">
+        <div class="map-roads">
+          <span style="left:0;right:0;top:300px;height:16px"></span>
+          <span style="left:0;right:0;top:520px;height:11px"></span>
+          <span style="top:0;bottom:0;left:120px;width:14px"></span>
+          <span style="top:0;bottom:0;left:300px;width:10px"></span>
+          <span style="left:40px;right:60px;top:690px;height:12px;transform:rotate(-7deg)"></span>
+        </div>
+        <div class="pin emergency" style="left:150px;top:360px"><div class="body"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 14.2c-2.4 0-4.4 1.9-4.4 4.1 0 1.6 1.3 2.6 3.1 2.6.6 0 .9-.3 1.3-.3s.7.3 1.3.3c1.8 0 3.1-1 3.1-2.6 0-2.2-2-4.1-4.4-4.1Z"/><ellipse cx="6.6" cy="11.2" rx="2" ry="2.7"/><ellipse cx="10.4" cy="8.4" rx="1.9" ry="2.6"/><ellipse cx="14.6" cy="8.4" rx="1.9" ry="2.6"/><ellipse cx="18.3" cy="11.2" rx="2" ry="2.7"/></svg></div></div>
+        <div class="pin" style="left:272px;top:250px"><div class="body"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 14.2c-2.4 0-4.4 1.9-4.4 4.1 0 1.6 1.3 2.6 3.1 2.6.6 0 .9-.3 1.3-.3s.7.3 1.3.3c1.8 0 3.1-1 3.1-2.6 0-2.2-2-4.1-4.4-4.1Z"/><ellipse cx="6.6" cy="11.2" rx="2" ry="2.7"/><ellipse cx="10.4" cy="8.4" rx="1.9" ry="2.6"/><ellipse cx="14.6" cy="8.4" rx="1.9" ry="2.6"/><ellipse cx="18.3" cy="11.2" rx="2" ry="2.7"/></svg></div></div>
+        <div class="pin" style="left:88px;top:600px"><div class="body"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 14.2c-2.4 0-4.4 1.9-4.4 4.1 0 1.6 1.3 2.6 3.1 2.6.6 0 .9-.3 1.3-.3s.7.3 1.3.3c1.8 0 3.1-1 3.1-2.6 0-2.2-2-4.1-4.4-4.1Z"/><ellipse cx="6.6" cy="11.2" rx="2" ry="2.7"/><ellipse cx="10.4" cy="8.4" rx="1.9" ry="2.6"/><ellipse cx="14.6" cy="8.4" rx="1.9" ry="2.6"/><ellipse cx="18.3" cy="11.2" rx="2" ry="2.7"/></svg></div></div>
+        <div class="cluster" style="left:318px;top:520px">7</div>
+        <div class="cluster" style="left:178px;top:195px">3</div>
+      </div>
+
+      <div class="statusbar">
+        <span>9:41</span>
+        <span class="icons">
+          <svg width="17" height="12" viewBox="0 0 17 12" fill="currentColor"><rect y="8" width="3" height="4" rx="1"/><rect x="4.5" y="5.5" width="3" height="6.5" rx="1"/><rect x="9" y="3" width="3" height="9" rx="1"/><rect x="13.5" width="3" height="12" rx="1"/></svg>
+          <svg width="16" height="12" viewBox="0 0 16 12" fill="currentColor"><path d="M8 11.2 6 8.9c1.1-.9 2.9-.9 4 0l-2 2.3Zm0-4.6c-1.6 0-3.1.6-4.2 1.6L2.3 6.6C3.8 5.2 5.8 4.4 8 4.4s4.2.8 5.7 2.2l-1.5 1.6C11.1 7.2 9.6 6.6 8 6.6Zm0-4.4c-2.6 0-5 1-6.8 2.6L0 2.9C2.2.9 5 0 8 0s5.8 1 8 2.9l-1.2 1.5C13 3 10.6 2.2 8 2.2Z"/></svg>
+          <svg width="26" height="13" viewBox="0 0 26 13" fill="none"><rect x=".6" y=".6" width="21" height="11.8" rx="3.4" stroke="currentColor" stroke-opacity=".4" stroke-width="1.1"/><rect x="2.2" y="2.2" width="17.8" height="8.6" rx="2.2" fill="currentColor"/><path d="M23.2 4.3v4.4c1-.4 1.6-1.2 1.6-2.2s-.6-1.8-1.6-2.2Z" fill="currentColor" fill-opacity=".4"/></svg>
+        </span>
+      </div>
+
+      <div class="content">
+        <!-- Cabeçalho flutuante sobre o mapa -->
+        <div style="padding:0 20px">
+          <div class="card" style="display:flex;align-items:center;gap:12px;padding:12px 16px">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.8"/><circle cx="12" cy="12" r="4.2"/><circle cx="12" cy="12" r=".9" fill="#7C3AED"/></svg>
+            <div style="flex:1">
+              <div class="t-h3">Radar de Resgate</div>
+              <div class="t-caption">Ocorrências próximas a Jundiaí, SP</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Filtro por status aplicado ao mapa (RF03 / RD02) -->
+        <div class="chips" style="padding:14px 20px 0">
+          <span class="chip active">Todos</span>
+          <span class="chip">Perdido</span>
+          <span class="chip">Emergência</span>
+        </div>
+
+        <div style="flex:1"></div>
+
+        <!-- Card do marcador selecionado (§5.17) -->
+        <div style="padding:0 20px 98px">
+          <div class="card" style="display:flex;gap:12px;align-items:center;padding:12px">
+            <div class="photo" style="width:78px;height:78px;border-radius:var(--radius-md);flex:0 0 78px;background-image:url('assets/img/ocorrencia-cao-medio.jpg')">
+              <svg width="34" height="26" viewBox="0 0 150 110" fill="currentColor" opacity=".5"><path d="M44 44c-9 0-16 8-18 17-1 6-6 9-6 17 0 12 10 20 24 20 9 0 12-4 20-4s11 4 20 4c14 0 24-8 24-20 0-8-5-11-6-17-2-9-9-17-18-17-7 0-11 4-20 4s-13-4-20-4Z" opacity=".75"/><ellipse cx="30" cy="22" rx="11" ry="16" transform="rotate(-18 30 22)"/><ellipse cx="60" cy="12" rx="10" ry="15" transform="rotate(-6 60 12)"/><ellipse cx="92" cy="12" rx="10" ry="15" transform="rotate(6 92 12)"/><ellipse cx="121" cy="22" rx="11" ry="16" transform="rotate(18 121 22)"/></svg>
+            </div>
+            <div style="flex:1;min-width:0">
+              <span class="badge badge-emergencia">Emergência</span>
+              <div class="t-h3" style="margin-top:6px">Cão · Médio</div>
+              <div class="t-caption">Av. Antônio Pincinato, Jundiaí</div>
+            </div>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg>
+          </div>
+        </div>
+
+        <div class="navbar">
+          <div class="nav-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.2" y="3.2" width="7.6" height="7.6" rx="2.4"/><rect x="13.2" y="3.2" width="7.6" height="7.6" rx="2.4"/><rect x="3.2" y="13.2" width="7.6" height="7.6" rx="2.4"/><rect x="13.2" y="13.2" width="7.6" height="7.6" rx="2.4"/></svg>
+            Galeria<span class="dot hidden"></span>
+          </div>
+          <div class="nav-item active">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21.5s7-5.8 7-11a7 7 0 1 0-14 0c0 5.2 7 11 7 11Z"/><circle cx="12" cy="10.2" r="2.6"/></svg>
+            Radar<span class="dot"></span>
+          </div>
+          <div class="nav-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.8"/><path d="M12 8.2v7.6M8.2 12h7.6"/></svg>
+            Registrar<span class="dot hidden"></span>
+          </div>
+          <div class="nav-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="3.5" width="15" height="17" rx="3"/><path d="M8.5 9h7M8.5 13h7M8.5 17h4"/></svg>
+            Gerenciar<span class="dot hidden"></span>
+          </div>
+          <div class="nav-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.6"/><path d="M4.8 20.2a7.2 7.2 0 0 1 14.4 0"/></svg>
+            Perfil<span class="dot hidden"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="trace">
+    <b>Tela 04 — Radar de Resgate (mapa).</b><br>
+    Respaldo: <b>UC Visualizar Radar de Resgate</b> (extensão de Consultar Ocorrências) ·
+    <b>RF04</b> (marcadores geolocalizados em mapa interativo) · <b>RD03</b> (toda ocorrência
+    possui cidade e localização geográfica) · Entidade <b>LOCALIZACAO</b>
+    (latitude, longitude, cidade, endereco).
+  </div>
+</div>
+</body>
+</html>

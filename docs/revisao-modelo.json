@@ -1,0 +1,330 @@
+{
+  "modelo": "C:\\Users\\Breno\\Downloads\\Aula01 - Modelo Projeto de LabES - 2º sem 2026.docx",
+  "modelo_sha256": "0ac112005b828fa1b1c1b29e2f135bccba5c170bec2d54b2130e29e0ff209877",
+  "fonte_pdf_sha256": "8df799ce277593a416a75e4edf56be663590f825b759630ef24a0b3614cb62b0",
+  "backup_fonte": "C:\\Users\\Breno\\AppData\\Local\\MiarDev\\376eb84567\\documentacao\\fontes-preservadas\\MIAR-antes-modelo-8df799ce2775.pdf",
+  "docx_rascunho": "C:\\Users\\Breno\\AppData\\Local\\MiarDev\\376eb84567\\documentacao\\LabES_SistemaMIAR_MASTER.docx",
+  "integrantes": 5,
+  "requisitos": 21,
+  "casos_de_uso": 12,
+  "entidades": 9,
+  "janelas": 9,
+  "imagens": 12,
+  "alteracoes_semanticas": [
+    "RNF01 alinhado ao escopo movel, sem versao para computadores",
+    "Dicionario alinhado ao DER corrigido",
+    "Dados especificos de perfil centralizados no documento do usuario",
+    "Plataformas e tecnologias previstas distinguidas das validadas"
+  ],
+  "referencias": [
+    "FLUTTER. Flutter architectural overview. Disponível em: https://docs.flutter.dev/resources/architectural-overview. Acesso em: 11 nov. 2026.",
+    "HOWARD, Andrew et al. Searching for MobileNetV3. 2019. Disponível em: https://arxiv.org/abs/1905.02244. Acesso em: 11 nov. 2026.",
+    "NESTJS. Documentation. Disponível em: https://docs.nestjs.com/. Acesso em: 11 nov. 2026.",
+    "OBJECT MANAGEMENT GROUP. Unified Modeling Language, version 2.5.1. 2017. Disponível em: https://www.omg.org/spec/UML/2.5.1. Acesso em: 11 nov. 2026.",
+    "OPENSTREETMAP FOUNDATION. Tile usage policy. Disponível em: https://operations.osmfoundation.org/policies/tiles/. Acesso em: 11 nov. 2026.",
+    "POSTGRESQL GLOBAL DEVELOPMENT GROUP. PostgreSQL 16 documentation. Disponível em: https://www.postgresql.org/docs/16/. Acesso em: 11 nov. 2026.",
+    "PYTORCH. mobilenet_v3_small. Torchvision documentation. Disponível em: https://docs.pytorch.org/vision/stable/models/generated/torchvision.models.mobilenet_v3_small.html. Acesso em: 11 nov. 2026."
+  ],
+  "conferencia": {
+    "paginas": 45,
+    "imagens": 12,
+    "tabelas": 26,
+    "requisitos": 21,
+    "casos": 12,
+    "margens_e_formato_iguais_ao_modelo": true,
+    "texto_word_pdf_igual": true,
+    "imagens_pixels_iguais": true,
+    "fontes_titulos_iguais_ao_modelo": true,
+    "detalhes": [
+      {
+        "pagina": 1,
+        "inicio": "CENTRO ESTADUAL DE EDUCAÇÃO\nTECNOLÓGICA PAULA SOUZA\nFaculdade de Tecnologia de Jundiaí, Dep. Ary Fossen\nCurso Superior de Tecnolog",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 2,
+        "inicio": "2\n1. PROJETO MIAR: Mapeamento e identificação de \nanimais de risco\nAdriel Martins de Souza\nAny Caroline Bezerra\nBreno de Oliveira ",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 3,
+        "inicio": "3\n1.1.2. Descrição Textual do Sistema\nPara utilizar o MIAR, a pessoa cria uma conta, escolhe \nseu perfil e informa os dados de ace",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 4,
+        "inicio": "4\ne pode consultar as imagens relacionadas. O resultado indica \numa possibilidade de correspondência e não confirma, por si \nsó, q",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 5,
+        "inicio": "5\nRequisito \nFuncional \n(RF)\nNome do \nRequisito \nFuncional\nDescrição do Requisito Funcional\nRF02\nCadastro e \nGestão de \nOcorrência",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 6,
+        "inicio": "6\nRequisito \nFuncional \n(RF)\nNome do \nRequisito \nFuncional\nDescrição do Requisito Funcional\nRF06\nNotificação de \nPossível \nCorresp",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 7,
+        "inicio": "7\nRequisito \nNão \nFuncional \n(RNF)\nNome do \nRequisito Não \nFuncional\nDescrição do Requisito Não Funcional\nRNF02\nDesempenho\nO siste",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 8,
+        "inicio": "8\n1.1.5. Requisitos de Domínio\nNa tabela a seguir, são apresentados os Requisitos de Domínio \ndo Sistema:\nRequisito \nde \nDomínio \n",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 9,
+        "inicio": "9\nRequisito \nde \nDomínio \n(RD)\nNome do \nRequisito de \nDomínio\nDescrição do Requisito de Domínio\nRD06\nEncerramento da \nOcorrência\nO",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 10,
+        "inicio": "10\n1.1.6. Diagrama de Casos de Uso\nO diagrama apresenta os três perfis de usuário e a API \nde reconhecimento de imagens. O cadastr",
+        "imagens": 1,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 11,
+        "inicio": "11\n1.1.7. Documento de Casos de Uso\nOs quadros a seguir descrevem os atores e os cenários \nde cada caso de uso.\nCaso de Uso\nCU01 C",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 12,
+        "inicio": "12\nCU02 Fazer login / logout\nCaso de Uso\nCU02 Fazer login / logout\nAutor\nEquipe do projeto MIAR\nData\n04/11/2026\nDescrição\nIniciar ",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 13,
+        "inicio": "13\nCU03 Consultar animais\nCaso de Uso\nCU03 Consultar animais\nAutor\nEquipe do projeto MIAR\nData\n04/11/2026\nDescrição\nConsultar as o",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 14,
+        "inicio": "14\nCU04 Filtrar animal\nCaso de Uso\nCU04 Filtrar animal\nAutor\nEquipe do projeto MIAR\nData\n04/11/2026\nDescrição\nRefinar os resultado",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 15,
+        "inicio": "15\nCU05 Cadastrar ocorrência de animal\nCaso de Uso\nCU05 Cadastrar ocorrência de animal\nAutor\nEquipe do projeto MIAR\nData\n04/11/202",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 16,
+        "inicio": "16\nCU06 Visualizar status da ocorrência\nCaso de Uso\nCU06 Visualizar status da ocorrência\nAutor\nEquipe do projeto MIAR\nData\n04/11/2",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 17,
+        "inicio": "17\nCU07 Alterar status da ocorrência\nCaso de Uso\nCU07 Alterar status da ocorrência\nAutor\nEquipe do projeto MIAR\nData\n04/11/2026\nDe",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 18,
+        "inicio": "18\nCU08 Excluir ocorrência\nCaso de Uso\nCU08 Excluir ocorrência\nAutor\nEquipe do projeto MIAR\nData\n04/11/2026\nDescrição\nExcluir uma ",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 19,
+        "inicio": "19\nCU09 Visualizar radar de resgate\nCaso de Uso\nCU09 Visualizar radar de resgate\nAutor\nEquipe do projeto MIAR\nData\n04/11/2026\nDesc",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 20,
+        "inicio": "20\nCU10 Contatar responsável via WhatsApp\nCaso de Uso\nCU10 Contatar responsável via WhatsApp\nAutor\nEquipe do projeto MIAR\nData\n04/",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 21,
+        "inicio": "21\nCU11 Analisar imagem\nCaso de Uso\nCU11 Analisar imagem\nAutor\nEquipe do projeto MIAR\nData\n04/11/2026\nDescrição\nComparar fotos da ",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 22,
+        "inicio": "22\nCU12 Notificar possível correspondência\nCaso de Uso\nCU12 Notificar possível correspondência\nAutor\nEquipe do projeto MIAR\nData\n0",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 23,
+        "inicio": "23\n1.2. Detalhamento Técnico\nEsta seção apresenta as linguagens, a plataforma, o \nbanco de dados e a arquitetura adotados no MIAR.",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 24,
+        "inicio": "24\napresentado no MIAR corresponde à semelhança calculada, \nnão a uma probabilidade comprovada de identidade.\n1.2.2. Plataforma (W",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 25,
+        "inicio": "25\nnove entidades do DER, sem criar tabelas separadas para os \ntrês perfis de usuário.\nPostGIS e pgvector fazem parte da configura",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 26,
+        "inicio": "26\nRecurso do aparelho\nUso no MIAR\nCâmera e galeria\nCapturar ou selecionar fotografias da \nocorrência.\nGPS\nObter latitude e longit",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 27,
+        "inicio": "27\n1.3. Projeto do Sistema\nOs diagramas representam as classes e a estrutura de \ndados do MIAR.\n1.3.1. Diagrama de Classes\nO usuár",
+        "imagens": 1,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 28,
+        "inicio": "28\n1.3.2. Diagrama Entidade-Relacionamento (DER)\nO DER contém nove entidades: USUARIO, ESPECIE, \nANIMAL, OCORRENCIA_ANIMAL, CIDADE",
+        "imagens": 1,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 29,
+        "inicio": "29\n1.3.3. Dicionário de Dados\nO dicionário descreve os atributos presentes no DER \ncorrigido. PK identifica a chave primária e FK ",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 30,
+        "inicio": "30\nEntidade ESPECIE\nIdentifica a espécie do animal.\nAtributo\nTipo e \nchave\nDescrição\nid_especie\nint, PK\nIdentificador da espécie.\n",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 31,
+        "inicio": "31\nEntidade OCORRENCIA_ANIMAL\nRegistra o caso e identifica o responsável por sua \nmanutenção.\nAtributo\nTipo e \nchave\nDescrição\nid_",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 32,
+        "inicio": "32\nEntidade LOCALIZACAC\nRelaciona as coordenadas e o endereço à ocorrência e à \ncidade. A grafia do nome da entidade foi mantida c",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 33,
+        "inicio": "33\nEntidade FOTO\nIdentifica os arquivos de imagem associados à \nocorrência.\nAtributo\nTipo e \nchave\nDescrição\nid_foto\nint, PK\nIdent",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 34,
+        "inicio": "34\nEntidade MENSAGEM_WHATSAPP\nRepresenta a estrutura de mensagem vinculada a um \ncontato no DER. Sua presença no modelo não cria u",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 35,
+        "inicio": "35\n1.4. Projeto de Interface do Sistema\nOs protótipos apresentam as nove janelas do MIAR e as \nfunções previstas nos requisitos.\nN",
+        "imagens": 1,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 36,
+        "inicio": "36\nA janela de Criação de Cadastro permite selecionar \nCidadão, Protetor ou ONG e informar os dados pessoais e de \nacesso. O docum",
+        "imagens": 1,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 37,
+        "inicio": "37\nA Galeria de Ocorrências apresenta fotografias, espécie, \nporte, cidade, data e status. O usuário pode abrir um registro e \napl",
+        "imagens": 1,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 38,
+        "inicio": "38\nO Radar de Resgate apresenta as ocorrências em um \nmapa. A seleção de um marcador abre o resumo do caso. O \nacesso é destinado ",
+        "imagens": 1,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 39,
+        "inicio": "39\nA janela de Detalhe da Ocorrência reúne fotografias, \ndescrição física, saúde, localização e data do registro. O contato \nvia W",
+        "imagens": 1,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 40,
+        "inicio": "40\nNo Cadastro de Ocorrência são informados fotografias, \nespécie, porte, status, descrição física, saúde, cidade, GPS e \ntelefone",
+        "imagens": 1,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 41,
+        "inicio": "41\nO Gerenciamento de Ocorrências apresenta apenas os \nregistros do usuário autenticado. O menu permite alterar os \ndados, selecio",
+        "imagens": 1,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 42,
+        "inicio": "42\nA janela de Possível Correspondência apresenta as \nfotografias relacionadas, o percentual de semelhança e a data \nda análise. O",
+        "imagens": 1,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 43,
+        "inicio": "43\nO Perfil do Usuário apresenta os dados cadastrais, \nidentifica o perfil e oferece as opções de atualização e \nencerramento da s",
+        "imagens": 1,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 44,
+        "inicio": "44\n1.5. Conclusão\nO projeto MIAR reuniu o registro de ocorrências, a \nconsulta de animais, o mapa e o contato com o responsável em",
+        "imagens": 0,
+        "fora_da_margem": []
+      },
+      {
+        "pagina": 45,
+        "inicio": "45\n1.6. Bibliografia\nFLUTTER. Flutter architectural overview. Disponível em: \nhttps://docs.flutter.dev/resources/architectural-ove",
+        "imagens": 0,
+        "fora_da_margem": []
+      }
+    ]
+  },
+  "pdf_sha256": "176cdb5d0c834a41a00795bd0ffaa415f1453f4058205c499f295874cad6e4aa",
+  "docx_sha256": "7a1daa5af997b9f91386a2552eb9fedff2da4204386dc457d7bb2343037855fd",
+  "secoes_pagina_inicial": {
+    "1.1.3.": 4,
+    "1.1.4.": 6,
+    "1.1.5.": 8,
+    "1.1.6.": 10,
+    "1.1.7.": 11,
+    "1.2.": 23,
+    "1.3.1.": 27,
+    "1.3.2.": 28,
+    "1.3.3.": 29,
+    "1.4.": 35,
+    "1.5.": 44,
+    "1.6.": 45
+  },
+  "paginacao_word": 45,
+  "correcao_ortografica_word": "Candidatos revisados; nomes próprios, identificadores e termos técnicos",
+  "texto_word_pdf": "Todos os parágrafos e todas as células presentes, desconsiderados espaços e quebras de linha"
+}

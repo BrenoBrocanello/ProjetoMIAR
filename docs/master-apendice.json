@@ -1,0 +1,763 @@
+{
+  "master_original_sha256": "d20641bd7dd5e44016c56e38ae5dc2db89b775835302618fc65fe45ee3555d06",
+  "master_atual_sha256": "8df799ce277593a416a75e4edf56be663590f825b759630ef24a0b3614cb62b0",
+  "total_imagens": 63,
+  "paginas_originais_preservadas": [
+    {
+      "pagina": 1,
+      "render_sha256": "d364e1f608252e822e431b657481d4941611183612774ea46c231b6a5bde45db"
+    },
+    {
+      "pagina": 2,
+      "render_sha256": "92e90db56b94eb79cd815b789b364f2c69d00afab86b904ac3bfee80f51a6d34"
+    },
+    {
+      "pagina": 3,
+      "render_sha256": "c83bdcef4b763954d5cfce29a890e34c69ac36985ba3029995335112905115ea"
+    },
+    {
+      "pagina": 4,
+      "render_sha256": "470ef245f7ed4de57654614201d28c53d6f799209fa98aaaf8b02f1233ed9cd6"
+    },
+    {
+      "pagina": 5,
+      "render_sha256": "d36228a15ee77f4dd7d2df0efbc8060ab59d4604dbc72e6d857ab4f19f60ee38"
+    },
+    {
+      "pagina": 6,
+      "render_sha256": "1cd62da7dad8d73e1e867a911f88900fa0be5f1d85f7d9f2b57de6947a1fddde"
+    },
+    {
+      "pagina": 7,
+      "render_sha256": "c5a544954b692663c22868a778e5675dc1be95bf0d4a163ca4b99e6a677044dd"
+    },
+    {
+      "pagina": 8,
+      "render_sha256": "bd169737fe203952eafebbfe74b4403d400fa403eceb584368911116380112b2"
+    },
+    {
+      "pagina": 9,
+      "render_sha256": "5b93647ebed97c2253e401e53b04279963407f655999c4efedddb61cd1862718"
+    },
+    {
+      "pagina": 10,
+      "render_sha256": "7f914e87f6c488aecb97046e041d8c9aebf05aae9585be92d4491092561eb214"
+    },
+    {
+      "pagina": 11,
+      "render_sha256": "772af8fa3f04ba9403945d83dbb901e7ba5b743621467e39042002e43dcc5fb6"
+    },
+    {
+      "pagina": 12,
+      "render_sha256": "f65b760262669d0d5af4b1bf2e44f2eaa8c6733453ff6e305b7e19ee8730b23b"
+    },
+    {
+      "pagina": 13,
+      "render_sha256": "f118b05fc378fe34eeb48e6ce38e391a0faea45a814f3fe5762aa8f4424dd8b0"
+    },
+    {
+      "pagina": 14,
+      "render_sha256": "ec016a1c8eade1432e39bc409f158fba18ddfb481595681df5cb5f5865b0a882"
+    },
+    {
+      "pagina": 15,
+      "render_sha256": "ad0f043e8492e6ccb04e5642e54daac292dc04d1a5fd05d01619cfee034dde79"
+    },
+    {
+      "pagina": 16,
+      "render_sha256": "347864a5669909881395cc59f9b28ea35b9e314190c2a93d3db5a605277ef4e6"
+    },
+    {
+      "pagina": 17,
+      "render_sha256": "f22a8d20d9d1c95abda629fbd480b65c2b796a14dc19c3e1f13a29e10c8b90d7"
+    },
+    {
+      "pagina": 18,
+      "render_sha256": "b36a040c77d90581b6db2e07822ad0eaf99eb6bafde7f2f62bdfe8adfe0ebc8c"
+    },
+    {
+      "pagina": 19,
+      "render_sha256": "6a3ddb1e8475444ca4cf23feaeebb274d279d529b27448db102f610772ba54d6"
+    },
+    {
+      "pagina": 20,
+      "render_sha256": "778a156162e90fb2808a5eb5afb3875826a560b323d16334468c9587ebe41c58"
+    },
+    {
+      "pagina": 21,
+      "render_sha256": "f120c81e0406db87a843c2b52099facedc0fa521cfafa401d1f7185ba3b10e75"
+    },
+    {
+      "pagina": 22,
+      "render_sha256": "06c618fa3f6a42298febbc88f5328a68200704036ad24cd70efc44bb4601b16f"
+    },
+    {
+      "pagina": 23,
+      "render_sha256": "0a876c0d036c021ae183c7555ca91cf262fe43651b57ebe49f27b231850ce10d"
+    },
+    {
+      "pagina": 24,
+      "render_sha256": "0f78a570ede0cf6fb7cb86a5d9cc16c059a9dfd64ecba181f3df02f54c1b195f"
+    },
+    {
+      "pagina": 25,
+      "render_sha256": "22864c2549a4a6951631ec082e868e9d68a34782f8320248d409b9f9be18920f"
+    },
+    {
+      "pagina": 26,
+      "render_sha256": "2456e547fb43aca36f238a89ca20dfbd64d69b8beb4e7dc933cca72ed01f3082"
+    },
+    {
+      "pagina": 27,
+      "render_sha256": "d90ee3c90abaf9d0781858daf1aa5fcc72a9c5ff8656ac13a7a9b99718b4c4e5"
+    },
+    {
+      "pagina": 28,
+      "render_sha256": "e2a05605f49a3e965cadeb29481def836a77d92db32c4de387927fe2cada6742"
+    },
+    {
+      "pagina": 29,
+      "render_sha256": "19e79e6a53e206b39b6ac24000fc885daf2edfc6026c1cc6d71f3bd1af092501"
+    },
+    {
+      "pagina": 30,
+      "render_sha256": "2a2679d48388f9a5be283c064bb34d9af65be82892e30e295e40ec1401717f1f"
+    },
+    {
+      "pagina": 31,
+      "render_sha256": "124614cbda0cf91e9b16dfbfee7da18a52826c95bfd2e41189192f8e5f637119"
+    },
+    {
+      "pagina": 32,
+      "render_sha256": "c8b2931febffe6049235f0db38558a0161fffb9774a4ecbade305cbf23732c4d"
+    },
+    {
+      "pagina": 33,
+      "render_sha256": "dc2eeac8a99a3f10d959c4b28df6355ef4bd5294707b3cee1fd407da3ab3291d"
+    },
+    {
+      "pagina": 34,
+      "render_sha256": "430d2af1a1440239b689a1b473d0b7097df722e8729d28cbd6c82476c38584d5"
+    },
+    {
+      "pagina": 35,
+      "render_sha256": "4fe038dd62be24e8d0b4cfc90e31a0a60c99f1a87ebc9db0267eb643f55a85eb"
+    },
+    {
+      "pagina": 36,
+      "render_sha256": "ecc4697fcffdb5906bf0060eaa86fdfbe01f2902e3634c739e17f268b7debf60"
+    },
+    {
+      "pagina": 37,
+      "render_sha256": "ac315b85db5a2884ef1f99f948558d8dcffc6e73fd9d4a1739a697ab1d7e7c87"
+    },
+    {
+      "pagina": 38,
+      "render_sha256": "35a41dc06bf243489bed660dad2f431759a2859ae7359ddd4322fb4864d36786"
+    },
+    {
+      "pagina": 39,
+      "render_sha256": "304c3a73b8b3da2cd52d05c37178e7463ecc290c3ac9de40364fbfc7f04e7219"
+    },
+    {
+      "pagina": 40,
+      "render_sha256": "719daa2fef429a80d74b450c624f2a3f0e57a040215ce88d9c7d3c5cc1ec2032"
+    },
+    {
+      "pagina": 41,
+      "render_sha256": "9c8ecaa71f1001017462dd2b84684241d4c82d5371fff42350552af252e2c72f"
+    },
+    {
+      "pagina": 42,
+      "render_sha256": "7a26e1b7f9b4c9c1e6af99315d705654bad1f38843af21b81410c57601ffd59f"
+    },
+    {
+      "pagina": 43,
+      "render_sha256": "e7c9df565237f3ca21872e06dcd1ddf055b00a47b28afeae61c8e2442f19d520"
+    },
+    {
+      "pagina": 44,
+      "render_sha256": "6e7d03932cc0382576a0b0537d92013750102731bc91f007549329c86c91fd2a"
+    },
+    {
+      "pagina": 45,
+      "render_sha256": "d98b9e3eca1e27863786d285e42afa40b5b9e3c312f2d7be15ca5af51d57c755"
+    },
+    {
+      "pagina": 46,
+      "render_sha256": "25abb371416f34e0ee991a7d0551aabb427c1098e66ccfb1d02de588bdd833c5"
+    }
+  ],
+  "capturas": [
+    {
+      "titulo": "Inicialização e restauração da sessão",
+      "requisitos": "RF01",
+      "fonte": "Tela técnica de carga; não é uma nova função",
+      "ordem": 1,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/001-inicializacao.png",
+      "sha256": "fe11037b8a5d34d59ff4193b8fe91362d7dcc13fee9e06e1c80fe7a6cd1883bd",
+      "pagina_master": 51
+    },
+    {
+      "titulo": "Login",
+      "requisitos": "RF01, CU02",
+      "fonte": "API e serviços reais",
+      "ordem": 2,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/002-login.png",
+      "sha256": "34b8b7031491a16cb7ff4c8fc21063d3231aa22fc714ab202d3aed3e3da72947",
+      "pagina_master": 51
+    },
+    {
+      "titulo": "Login — campos obrigatórios",
+      "requisitos": "RF01, CU02",
+      "fonte": "API e serviços reais",
+      "ordem": 3,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/003-login-validacao.png",
+      "sha256": "27c16e229266afef34ee0f2e44bf5e5f09fa08bab6d976d09f33ee18727b0a86",
+      "pagina_master": 52
+    },
+    {
+      "titulo": "Cadastro Cidadão — seleção do perfil e dados pessoais",
+      "requisitos": "RF01, RD01, CU01",
+      "fonte": "API e serviços reais",
+      "ordem": 4,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/004-cadastro-0-superior.png",
+      "sha256": "55e6d109bf29324097824b0da51130f586f4434007d191058998909cc07191c5",
+      "pagina_master": 52
+    },
+    {
+      "titulo": "Cadastro Cidadão — documento, senha e confirmação",
+      "requisitos": "RF01, RD01, CU01",
+      "fonte": "API e serviços reais",
+      "ordem": 5,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/005-cadastro-0-inferior.png",
+      "sha256": "55e6d109bf29324097824b0da51130f586f4434007d191058998909cc07191c5",
+      "pagina_master": 53
+    },
+    {
+      "titulo": "Cadastro Protetor independente — seleção do perfil e dados pessoais",
+      "requisitos": "RF01, RD01, CU01",
+      "fonte": "API e serviços reais",
+      "ordem": 6,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/006-cadastro-1-superior.png",
+      "sha256": "5b7f1a54af53de9172e075f831247938443cc42fa5d4cd1767266d7e4648e49c",
+      "pagina_master": 53
+    },
+    {
+      "titulo": "Cadastro Protetor independente — documento, senha e confirmação",
+      "requisitos": "RF01, RD01, CU01",
+      "fonte": "API e serviços reais",
+      "ordem": 7,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/007-cadastro-1-inferior.png",
+      "sha256": "5b7f1a54af53de9172e075f831247938443cc42fa5d4cd1767266d7e4648e49c",
+      "pagina_master": 54
+    },
+    {
+      "titulo": "Cadastro ONG — seleção do perfil e dados pessoais",
+      "requisitos": "RF01, RD01, CU01",
+      "fonte": "API e serviços reais",
+      "ordem": 8,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/008-cadastro-2-superior.png",
+      "sha256": "1d8b94524d879bcee9320470754e30f609ca42cf162db95013707568577fb6a7",
+      "pagina_master": 54
+    },
+    {
+      "titulo": "Cadastro ONG — documento, senha e confirmação",
+      "requisitos": "RF01, RD01, CU01",
+      "fonte": "API e serviços reais",
+      "ordem": 9,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/009-cadastro-2-inferior.png",
+      "sha256": "1d8b94524d879bcee9320470754e30f609ca42cf162db95013707568577fb6a7",
+      "pagina_master": 55
+    },
+    {
+      "titulo": "Cadastro — validação dos campos obrigatórios",
+      "requisitos": "RF01, CU01",
+      "fonte": "API e serviços reais",
+      "ordem": 10,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/010-cadastro-validacao.png",
+      "sha256": "5ecfa3bc686cb28513a288f355dfd7673b0044b4efa73590100cb49ae7478de0",
+      "pagina_master": 55
+    },
+    {
+      "titulo": "Login — credencial rejeitada pelo servidor",
+      "requisitos": "RF01, CU02",
+      "fonte": "API e serviços reais",
+      "ordem": 11,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/011-login-credencial-invalida.png",
+      "sha256": "5e421bff9411e90f0d27b88f7195c9a3e71a2d1ca548cd608a6b75703b5f7655",
+      "pagina_master": 56
+    },
+    {
+      "titulo": "Galeria — ausência de ocorrências",
+      "requisitos": "RF03, CU03",
+      "fonte": "Estado vazio induzido apenas no repositório deste cliente",
+      "ordem": 12,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/012-galeria-vazia.png",
+      "sha256": "da75c625697b0bd36b9a618c6a9243c3da037d79766881e2bfa5fd74f8769c1b",
+      "pagina_master": 56
+    },
+    {
+      "titulo": "Gerenciar — ausência de registros próprios",
+      "requisitos": "RF02, CU08",
+      "fonte": "Estado vazio induzido apenas no repositório deste cliente",
+      "ordem": 13,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/013-gerenciar-vazio.png",
+      "sha256": "42a5d8e994a9ba98e0b0c1a79b9aea8302a5f3d90f59967abe3ec93485b06747",
+      "pagina_master": 57
+    },
+    {
+      "titulo": "Radar — mapa sem ocorrências",
+      "requisitos": "RF04, CU09",
+      "fonte": "Mapa real; consulta vazia induzida neste cliente",
+      "ordem": 14,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/014-radar-vazio.png",
+      "sha256": "6413d6711749aad91931dc811407536281299ced5fa6282a3161f7ff66b4ed66",
+      "pagina_master": 57
+    },
+    {
+      "titulo": "Galeria — registros e aviso de correspondência",
+      "requisitos": "RF03, RF06, CU03",
+      "fonte": "Captura real da suite Android API35 das nove janelas; API/PG/S3/IA reais, mesma versao do aplicativo",
+      "ordem": 15,
+      "arquivo_origem": "evidencias/auditoria-2026-11-11/android-janelas/03-galeria.png",
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/015-galeria.png",
+      "sha256": "3e0926bcf95767fda11acfe98da6cd6d861fd0311d0e2ec5b283ce543c01c00c",
+      "pagina_master": 58
+    },
+    {
+      "titulo": "Galeria ? consulta com seis status (rolagem)",
+      "requisitos": "RF03, RD02, CU03",
+      "fonte": "API e serviços reais",
+      "ordem": 16,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/016-galeria-rolagem.png",
+      "sha256": "eb6591f7febad96cdae22515427ec9bf15adbe0081378458f048270ff6edb22e",
+      "pagina_master": 58
+    },
+    {
+      "titulo": "Filtros — status, espécie, porte e cidade",
+      "requisitos": "RF03, CU04",
+      "fonte": "API e serviços reais",
+      "ordem": 17,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/017-filtros.png",
+      "sha256": "ea3c8b216d31136f56bb902023fa2b50597986dcdd964e3c1a59214a34ef80ba",
+      "pagina_master": 59
+    },
+    {
+      "titulo": "Galeria — filtros ativos sem resultados",
+      "requisitos": "RF03, CU04",
+      "fonte": "API e serviços reais",
+      "ordem": 18,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/018-galeria-sem-resultados.png",
+      "sha256": "af90d3b1770f8a0dc92c97218e8253778d539f6a5e734c429881268cabd42446",
+      "pagina_master": 59
+    },
+    {
+      "titulo": "Radar — mapa, marcadores e filtros",
+      "requisitos": "RF04, CU09",
+      "fonte": "API e serviços reais",
+      "ordem": 19,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/019-radar.png",
+      "sha256": "a5eb12b96296bb2017289cc25d7a03afa2f46630893f915fad7dad6cd6b8982c",
+      "pagina_master": 60
+    },
+    {
+      "titulo": "Radar — marcador selecionado e resumo da ocorrência",
+      "requisitos": "RF04, CU09",
+      "fonte": "API e serviços reais",
+      "ordem": 20,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/020-radar-resumo.png",
+      "sha256": "e729cd9728a50185a28882d6e3c7c3c09795858450430779f720e923e170b877",
+      "pagina_master": 60
+    },
+    {
+      "titulo": "Radar — mapa indisponível e nova tentativa",
+      "requisitos": "RNF03, CU09",
+      "fonte": "Falha de rede induzida neste cliente; sem alteração do servidor",
+      "ordem": 21,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/021-radar-falha.png",
+      "sha256": "5b2ea06460f877a84fe10d2d3f038c6fc4a5fd00d5769f89eb6ee11dd56d9ae7",
+      "pagina_master": 61
+    },
+    {
+      "titulo": "Cadastro de ocorrência — fotografias, espécie, porte e status",
+      "requisitos": "RF02, RF08, RD02",
+      "fonte": "API e serviços reais",
+      "ordem": 22,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/022-registro-superior.png",
+      "sha256": "24b39bd9db1dd67388772b26c999fcbe23240c09cd7cb901bcc6f651b81626de",
+      "pagina_master": 61
+    },
+    {
+      "titulo": "Cadastro de ocorrência — descrição física e saúde",
+      "requisitos": "RF02",
+      "fonte": "API e serviços reais",
+      "ordem": 23,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/023-registro-meio.png",
+      "sha256": "505e99eed6293618f584114839f5f3e2d6438d2e720928f5f751087a0957114a",
+      "pagina_master": 62
+    },
+    {
+      "titulo": "Cadastro de ocorrência — cidade, UF, endereço, GPS e contato",
+      "requisitos": "RF02, RD03, RD05",
+      "fonte": "API e serviços reais",
+      "ordem": 24,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/024-registro-inferior.png",
+      "sha256": "0348cdedf6beadaf9520c31b206047a0e4dfd5702bdc49d4e326066ddfe0b376",
+      "pagina_master": 62
+    },
+    {
+      "titulo": "Fotografia — escolher câmera ou galeria",
+      "requisitos": "RF02, CU05",
+      "fonte": "API e serviços reais",
+      "ordem": 25,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/025-origem-fotografia.png",
+      "sha256": "5a6b8f186d47f4110f2140afc687e68ca99ecba41bf32a0889260911b05368c3",
+      "pagina_master": 63
+    },
+    {
+      "titulo": "Detalhe — status Encontrado, fotografia e descrição",
+      "requisitos": "RF02, RF08, RD06, CU03",
+      "fonte": "API e serviços reais",
+      "ordem": 26,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/026-detalhe-encontrado.png",
+      "sha256": "7995117974b4e4a05f713ae286038e330d00ffa7981ca1a410e6b67e66084149",
+      "pagina_master": 63
+    },
+    {
+      "titulo": "Detalhe — contato disponível (Encontrado)",
+      "requisitos": "RF07, RD06, CU10",
+      "fonte": "API e serviços reais",
+      "ordem": 27,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/027-contato-encontrado.png",
+      "sha256": "79817f9a0c42f84c3b78633d3a65ab8d0880a2778c59ca9285b8742f0b5516fe",
+      "pagina_master": 64
+    },
+    {
+      "titulo": "Detalhe — status Adotado, fotografia e descrição",
+      "requisitos": "RF02, RF08, RD06, CU03",
+      "fonte": "API e serviços reais",
+      "ordem": 28,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/028-detalhe-adotado.png",
+      "sha256": "df8598e89628664859039d628ddf9605e6d1c5cf67d4e7f0bb02c53619ceb198",
+      "pagina_master": 64
+    },
+    {
+      "titulo": "Detalhe — contato público desabilitado (Adotado)",
+      "requisitos": "RF07, RD06, CU10",
+      "fonte": "API e serviços reais",
+      "ordem": 29,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/029-contato-adotado.png",
+      "sha256": "3601ad08ef0bfef20eba286ed96b8c70b300ad9852a14084f5a4dfcc5e3dfd04",
+      "pagina_master": 65
+    },
+    {
+      "titulo": "Detalhe — status Resgatado, fotografia e descrição",
+      "requisitos": "RF02, RF08, RD06, CU03",
+      "fonte": "API e serviços reais",
+      "ordem": 30,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/030-detalhe-resgatado.png",
+      "sha256": "5a3a672d5261ac58b11f731e2135a535936ce089c1d42580ea41d938d3481b5a",
+      "pagina_master": 65
+    },
+    {
+      "titulo": "Detalhe — contato público desabilitado (Resgatado)",
+      "requisitos": "RF07, RD06, CU10",
+      "fonte": "API e serviços reais",
+      "ordem": 31,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/031-contato-resgatado.png",
+      "sha256": "ac54a752d6ab0105c7354b69d7011cb6fc5c5240eb6bb3835547957d33e81c69",
+      "pagina_master": 66
+    },
+    {
+      "titulo": "Edição de ocorrência própria — fotografias, espécie, porte e status",
+      "requisitos": "RF02, RF08, RD02",
+      "fonte": "API e serviços reais",
+      "ordem": 32,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/032-edicao-superior.png",
+      "sha256": "c0b431babc8e0a5cac091a91f47a441df5148582e63b97c9aabd3d84747d1f67",
+      "pagina_master": 66
+    },
+    {
+      "titulo": "Edição de ocorrência própria — descrição física e saúde",
+      "requisitos": "RF02",
+      "fonte": "API e serviços reais",
+      "ordem": 33,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/033-edicao-meio.png",
+      "sha256": "56265fa0d6da572c9aa05abb304f7b037c3cdc9a7012e9aa31d39c2efbf2ae8f",
+      "pagina_master": 67
+    },
+    {
+      "titulo": "Edição de ocorrência própria — cidade, UF, endereço, GPS e contato",
+      "requisitos": "RF02, RD03, RD05",
+      "fonte": "API e serviços reais",
+      "ordem": 34,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/034-edicao-inferior.png",
+      "sha256": "5ba9b6c6b1a98ffe77a1e74f5f0adfb929d799ac8afa6eb3a7a4d382ce45139f",
+      "pagina_master": 67
+    },
+    {
+      "titulo": "Gerenciar — somente registros próprios",
+      "requisitos": "RF02, RD04, CU08",
+      "fonte": "API e serviços reais",
+      "ordem": 35,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/035-gerenciar.png",
+      "sha256": "e43297893116701471d57ae36272ba89d97d1a15482a2b413b7bc09fcc4bcd53",
+      "pagina_master": 68
+    },
+    {
+      "titulo": "Gerenciar — menu de status, alteração e exclusão",
+      "requisitos": "RF02, RF08, CU07, CU08",
+      "fonte": "API e serviços reais",
+      "ordem": 36,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/036-gerenciar-menu.png",
+      "sha256": "761b500c087e01e9e412e769eb447e7bfebbad13ea69aa5967ef5ae2333fe3d8",
+      "pagina_master": 68
+    },
+    {
+      "titulo": "Gerenciar — seis status e confirmação",
+      "requisitos": "RF08, RD02, CU07",
+      "fonte": "API e serviços reais",
+      "ordem": 37,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/037-gerenciar-status.png",
+      "sha256": "e0812166f14b142cd530a8a854985a6cb82560e8f3d97f966d07f82f2ebdd9f0",
+      "pagina_master": 69
+    },
+    {
+      "titulo": "Gerenciar — confirmação de exclusão",
+      "requisitos": "RF02, CU08",
+      "fonte": "API e serviços reais",
+      "ordem": 38,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/038-gerenciar-exclusao.png",
+      "sha256": "a03ce3bbd229fe00621bbba321e40f563e85764192e57dc0efb858116c157e85",
+      "pagina_master": 69
+    },
+    {
+      "titulo": "Possível correspondência — imagens relacionadas e confiança",
+      "requisitos": "RF05, RF06, CU11, CU12",
+      "fonte": "API e serviços reais",
+      "ordem": 39,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/039-correspondencia.png",
+      "sha256": "a56b5ce0fef7f55f3ff7fec7d14c7c2d77bd43bacff4d6d325412ce8314aa155",
+      "pagina_master": 70
+    },
+    {
+      "titulo": "Possível correspondência — data, local e acesso ao registro",
+      "requisitos": "RF05, RF06, CU11, CU12",
+      "fonte": "API e serviços reais",
+      "ordem": 40,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/040-correspondencia-inferior.png",
+      "sha256": "a56b5ce0fef7f55f3ff7fec7d14c7c2d77bd43bacff4d6d325412ce8314aa155",
+      "pagina_master": 70
+    },
+    {
+      "titulo": "Perfil Cidadão — dados e permissões",
+      "requisitos": "RF01, RD01",
+      "fonte": "API e serviços reais",
+      "ordem": 41,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/041-perfil-0.png",
+      "sha256": "c607fb3bf17881398a67b4d9e44c1e7961253dcbaa1d65be47ddcc0e845eddb6",
+      "pagina_master": 71
+    },
+    {
+      "titulo": "Perfil Cidadão — ações de atualização e logout",
+      "requisitos": "RF01, CU02",
+      "fonte": "API e serviços reais",
+      "ordem": 42,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/042-perfil-0-inferior.png",
+      "sha256": "701bfe577803275a9fc4af029dd058f3433c2b3131d92b554fe09ffffd092d39",
+      "pagina_master": 71
+    },
+    {
+      "titulo": "Perfil Cidadão — edição dos dados",
+      "requisitos": "RF01",
+      "fonte": "API e serviços reais",
+      "ordem": 43,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/043-perfil-0-edicao.png",
+      "sha256": "7aa16b1bb5832b773cf767dce0c1cfd780a99ea7504f81528440736fee4d9ace",
+      "pagina_master": 72
+    },
+    {
+      "titulo": "Perfil Cidadão — documento, nova senha e confirmação",
+      "requisitos": "RF01",
+      "fonte": "API e serviços reais",
+      "ordem": 44,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/044-perfil-0-edicao-inferior.png",
+      "sha256": "722d40d3d563fa7b5bae41f163389ec14a4f9bf6a0933505a7e0c13e230568f4",
+      "pagina_master": 72
+    },
+    {
+      "titulo": "Perfil Protetor independente — dados e permissões",
+      "requisitos": "RF01, RD01",
+      "fonte": "API e serviços reais",
+      "ordem": 45,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/045-perfil-1.png",
+      "sha256": "a7ccc0bed5876f22e2c140e20249639fa2f82b51585fe9b4e57580d94fc851fb",
+      "pagina_master": 73
+    },
+    {
+      "titulo": "Perfil Protetor independente — ações de atualização e logout",
+      "requisitos": "RF01, CU02",
+      "fonte": "API e serviços reais",
+      "ordem": 46,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/046-perfil-1-inferior.png",
+      "sha256": "5d5208ddea7282c7559084ef6543734a0a46c50ebcc15db462a75848fa437962",
+      "pagina_master": 73
+    },
+    {
+      "titulo": "Perfil Protetor independente — edição dos dados",
+      "requisitos": "RF01",
+      "fonte": "API e serviços reais",
+      "ordem": 47,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/047-perfil-1-edicao.png",
+      "sha256": "854ce66fced9e626ec84d74fc8758e4ea4b698180de9ce92dfb0aace151a77a0",
+      "pagina_master": 74
+    },
+    {
+      "titulo": "Perfil Protetor independente — documento, nova senha e confirmação",
+      "requisitos": "RF01",
+      "fonte": "API e serviços reais",
+      "ordem": 48,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/048-perfil-1-edicao-inferior.png",
+      "sha256": "8bc4d779a8433b2168dfe1f7030fec129c947d6f9acff424c85a96b076349881",
+      "pagina_master": 74
+    },
+    {
+      "titulo": "Perfil ONG — dados e permissões",
+      "requisitos": "RF01, RD01",
+      "fonte": "API e serviços reais",
+      "ordem": 49,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/049-perfil-2.png",
+      "sha256": "3f51ad22674d3e459db38d6ca47db14f2f1d03af8810dafedaa473dc84a1e96a",
+      "pagina_master": 75
+    },
+    {
+      "titulo": "Perfil ONG — ações de atualização e logout",
+      "requisitos": "RF01, CU02",
+      "fonte": "API e serviços reais",
+      "ordem": 50,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/050-perfil-2-inferior.png",
+      "sha256": "8e930692e7f16d5ef3ceac8fe6f30c653f133cf4a9a58e135359319548dfb3d8",
+      "pagina_master": 75
+    },
+    {
+      "titulo": "Perfil ONG — edição dos dados",
+      "requisitos": "RF01",
+      "fonte": "API e serviços reais",
+      "ordem": 51,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/051-perfil-2-edicao.png",
+      "sha256": "8b7118cb64a6c7b6433581a1842ea8784fff40efe35234964dec6e8c650f8112",
+      "pagina_master": 76
+    },
+    {
+      "titulo": "Perfil ONG — documento, nova senha e confirmação",
+      "requisitos": "RF01",
+      "fonte": "API e serviços reais",
+      "ordem": 52,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/052-perfil-2-edicao-inferior.png",
+      "sha256": "e6eda05acfb9b45e4488ed7cbb8f6744cc3639fd391050b8d78d334ca5a944f4",
+      "pagina_master": 76
+    },
+    {
+      "titulo": "Galeria — indisponibilidade e nova tentativa",
+      "requisitos": "RNF03, CU03",
+      "fonte": "Falha induzida apenas no repositório deste cliente",
+      "ordem": 53,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/053-galeria-falha.png",
+      "sha256": "a2e5a9353169c44ec27732a75ded904af2b790bcb419fabfc841a30d9ab45ef3",
+      "pagina_master": 77
+    },
+    {
+      "titulo": "Detalhe — registro inexistente",
+      "requisitos": "RNF03, CU03",
+      "fonte": "Resposta 404 real da API",
+      "ordem": 54,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/054-detalhe-inexistente.png",
+      "sha256": "802e6bdb6ca5c8841ea04020da93b7d0f01c87d1a3b11e639117b3ae5c712fa2",
+      "pagina_master": 77
+    },
+    {
+      "titulo": "Correspondência — resultado indisponível",
+      "requisitos": "RNF03, CU12",
+      "fonte": "Resposta 404 real da API",
+      "ordem": 55,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/055-correspondencia-inexistente.png",
+      "sha256": "6063a9289bd275fdbea0bd999b567a2726cbe09d77f1e2378518c2cb6f76b563",
+      "pagina_master": 78
+    },
+    {
+      "titulo": "Edição — registro indisponível",
+      "requisitos": "RNF03, RF02",
+      "fonte": "Resposta 404 real da API",
+      "ordem": 56,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/056-edicao-inexistente.png",
+      "sha256": "ef2435968e3d30c1e43c92a20b22fabc9e4db5d58de686f096a1fa81345a0dd2",
+      "pagina_master": 78
+    },
+    {
+      "titulo": "Edição — mensagem de registro indisponível e ações",
+      "requisitos": "RNF03, RF02",
+      "fonte": "Resposta 404 real da API",
+      "ordem": 57,
+      "arquivo": "evidencias/auditoria-2026-11-11/catalogo-visual/057-edicao-inexistente-inferior.png",
+      "sha256": "b4709e964127bd2fac64add514e3c8a88621b6989acdb940a4de89151b49c8df",
+      "pagina_master": 79
+    },
+    {
+      "titulo": "Interface nativa — galeria (MIAR_API35)",
+      "requisitos": "RF02, RF05, CU05",
+      "fonte": "Recurso real do Android de teste; não é janela adicional do MIAR",
+      "arquivo": "evidencias/auditoria-2026-11-11/seletor-nativo-galeria.png",
+      "sha256": "924a61ed81ea881cdbc10f258a82a31dddc8db8b35b21b3fbb4f096c3bffc448",
+      "ordem": 58,
+      "pagina_master": 79
+    },
+    {
+      "titulo": "Interface nativa — camera (MIAR_API35)",
+      "requisitos": "RF02, RF05, CU05",
+      "fonte": "Recurso real do Android de teste; não é janela adicional do MIAR",
+      "arquivo": "evidencias/auditoria-2026-11-11/seletor-nativo-camera.png",
+      "sha256": "f80e611b57b2a731f526d63274b4ecba522d98ec2f879029392164a056416bce",
+      "ordem": 59,
+      "pagina_master": 80
+    },
+    {
+      "titulo": "Interface nativa — galeria (MIAR_API26)",
+      "requisitos": "RF02, RF05, CU05",
+      "fonte": "Recurso real do Android de teste; não é janela adicional do MIAR",
+      "arquivo": "evidencias/auditoria-2026-11-11/android26/seletor-nativo-galeria-01.png",
+      "sha256": "148a21f64e437c7c9471273d11b81158094d49704c328565ccdd309378382e78",
+      "ordem": 60,
+      "pagina_master": 80
+    },
+    {
+      "titulo": "Interface nativa — camera (MIAR_API26)",
+      "requisitos": "RF02, RF05, CU05",
+      "fonte": "Recurso real do Android de teste; não é janela adicional do MIAR",
+      "arquivo": "evidencias/auditoria-2026-11-11/android26/seletor-nativo-camera-02.png",
+      "sha256": "c9b8474927922dd10a65a480c04c53e1de2b63839182bd3f05c900220e83ce45",
+      "ordem": 61,
+      "pagina_master": 81
+    },
+    {
+      "titulo": "Interface nativa — camera (MIAR_API26)",
+      "requisitos": "RF02, RF05, CU05",
+      "fonte": "Recurso real do Android de teste; não é janela adicional do MIAR",
+      "arquivo": "evidencias/auditoria-2026-11-11/android26/seletor-nativo-camera-03.png",
+      "sha256": "b70e6d85388e69e6a7434e1db38b663376fc1ede4903bb7f8ae24ffab08a199a",
+      "ordem": 62,
+      "pagina_master": 81
+    },
+    {
+      "ordem": 63,
+      "titulo": "APK final instalado — tela de login",
+      "requisitos": "RF01, CU02",
+      "fonte": "Artefato de entrega 1.0.0+3; API principal na porta 3000",
+      "arquivo": "evidencias/auditoria-2026-11-11/apk-final-tela.png",
+      "sha256": "fcde4e67c5689fdcc96649580639ac471a1fbe34d853e710cc2156218c272d74",
+      "pagina_master": 82
+    }
+  ],
+  "estado": "Histórico: apêndice retirado do MASTER por solicitação do responsável em 11/11/2026",
+  "substituido_por": "docs/REVISAO_MODELO.md"
+}

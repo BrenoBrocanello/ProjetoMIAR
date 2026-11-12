@@ -1,0 +1,11 @@
+{
+  "USUARIO": {"id_usuario":"integer","nome":"text","email":"text","senha":"text","telefone":"text","documento":"text","tipo_usuario":"text","ativo":"boolean"},
+  "ESPECIE": {"id_especie":"integer","nome":"text"},
+  "ANIMAL": {"id_animal":"integer","id_especie":"integer","nome":"text","porte":"text","descricao":"text","idade":"text","genero":"text","cor":"text","url_foto":"text","data_cadastro":"date"},
+  "OCORRENCIA_ANIMAL": {"id_ocorrencia":"integer","id_usuario_responsavel":"integer","id_animal":"integer","status_ocorrencia":"text","descricao":"text","data_registro":"date"},
+  "CIDADE": {"id_cidade":"integer","nome":"text","estado":"text"},
+  "LOCALIZACAC": {"id_localizacao":"integer","id_ocorrencia":"integer","id_cidade":"integer","latitude":"double precision","longitude":"double precision","endereco":"text"},
+  "FOTO": {"id_foto":"integer","id_ocorrencia":"integer","url_storage":"text","descricao":"text","data_upload":"date"},
+  "CONTATO": {"id_contato":"integer","id_ocorrencia":"integer","numero_whatsapp":"text","whatsapp_link":"text","data_contato":"date"},
+  "MENSAGEM_WHATSAPP": {"id_mensagem":"integer","id_contato":"integer","texto":"text","data_envio":"date","remetente":"text"}
+}

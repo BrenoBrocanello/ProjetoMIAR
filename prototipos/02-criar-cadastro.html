@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>MIAR — Criar Cadastro</title>
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/miar.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="device">
+    <div class="notch"></div>
+    <div class="screen">
+      <div class="aurora"><div class="blob"></div></div>
+
+      <div class="statusbar">
+        <span>9:41</span>
+        <span class="icons">
+          <svg width="17" height="12" viewBox="0 0 17 12" fill="currentColor"><rect y="8" width="3" height="4" rx="1"/><rect x="4.5" y="5.5" width="3" height="6.5" rx="1"/><rect x="9" y="3" width="3" height="9" rx="1"/><rect x="13.5" width="3" height="12" rx="1"/></svg>
+          <svg width="16" height="12" viewBox="0 0 16 12" fill="currentColor"><path d="M8 11.2 6 8.9c1.1-.9 2.9-.9 4 0l-2 2.3Zm0-4.6c-1.6 0-3.1.6-4.2 1.6L2.3 6.6C3.8 5.2 5.8 4.4 8 4.4s4.2.8 5.7 2.2l-1.5 1.6C11.1 7.2 9.6 6.6 8 6.6Zm0-4.4c-2.6 0-5 1-6.8 2.6L0 2.9C2.2.9 5 0 8 0s5.8 1 8 2.9l-1.2 1.5C13 3 10.6 2.2 8 2.2Z"/></svg>
+          <svg width="26" height="13" viewBox="0 0 26 13" fill="none"><rect x=".6" y=".6" width="21" height="11.8" rx="3.4" stroke="currentColor" stroke-opacity=".4" stroke-width="1.1"/><rect x="2.2" y="2.2" width="17.8" height="8.6" rx="2.2" fill="currentColor"/><path d="M23.2 4.3v4.4c1-.4 1.6-1.2 1.6-2.2s-.6-1.8-1.6-2.2Z" fill="currentColor" fill-opacity=".4"/></svg>
+        </span>
+      </div>
+
+      <div class="content">
+        <div class="appbar">
+          <span class="back"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5 8 12l7 7"/></svg></span>
+          <span class="title">Criar conta</span>
+        </div>
+
+        <div class="sheet" style="padding-top:24px">
+          <p class="t-body muted" style="margin-bottom:20px">
+            Preencha seus dados para participar da rede de proteção animal.
+          </p>
+
+          <!-- Seleção de perfil — RD01: cidadão, protetor independente ou ONG -->
+          <label class="t-label" style="display:block;margin-bottom:10px">Perfil de usuário</label>
+          <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:20px">
+            <div class="card" style="padding:12px 6px;text-align:center;border:1.5px solid var(--miar-purple);box-shadow:var(--elev-glow)">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.6"/><path d="M4.8 20.2a7.2 7.2 0 0 1 14.4 0"/></svg>
+              <div style="font-size:12px;font-weight:600;margin-top:6px;color:var(--miar-purple)">Cidadão</div>
+            </div>
+            <div class="card" style="padding:12px 6px;text-align:center">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#77789C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.5s-7.4-4.4-7.4-9.6a4.3 4.3 0 0 1 7.4-3 4.3 4.3 0 0 1 7.4 3c0 5.2-7.4 9.6-7.4 9.6Z"/></svg>
+              <div style="font-size:12px;font-weight:600;margin-top:6px;color:var(--miar-gray)">Protetor</div>
+            </div>
+            <div class="card" style="padding:12px 6px;text-align:center">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#77789C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20.5V8.2l8-4.7 8 4.7v12.3"/><path d="M9.4 20.5v-5.4h5.2v5.4"/></svg>
+              <div style="font-size:12px;font-weight:600;margin-top:6px;color:var(--miar-gray)">ONG</div>
+            </div>
+          </div>
+
+          <!-- Atributos da entidade USUARIO -->
+          <div class="field">
+            <label class="t-label">Nome completo</label>
+            <div class="input">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.6"/><path d="M4.8 20.2a7.2 7.2 0 0 1 14.4 0"/></svg>
+              <span class="value">Ana Paula Ribeiro</span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="t-label">E-mail</label>
+            <div class="input">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m3 7 8.2 5.5a1.5 1.5 0 0 0 1.6 0L21 7"/></svg>
+              <span class="value">ana.ribeiro@email.com</span>
+            </div>
+          </div>
+
+          <!-- Telefone — RD05: formato brasileiro com DDD, base da integração WhatsApp -->
+          <div class="field">
+            <label class="t-label">Telefone (com DDD)</label>
+            <div class="input focused">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6.2 3.5h3l1.5 4-2 1.4a12 12 0 0 0 6.4 6.4l1.4-2 4 1.5v3a2 2 0 0 1-2.2 2A16.8 16.8 0 0 1 4.2 5.7a2 2 0 0 1 2-2.2Z"/></svg>
+              <span class="value">(11) 98765-4321</span>
+            </div>
+          </div>
+
+          <!-- Atributo específico do perfil selecionado — entidade CIDADAO -->
+          <div class="field">
+            <label class="t-label">CPF</label>
+            <div class="input">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="3"/><path d="M6.5 15.2a3 3 0 0 1 5 0M14.5 10h4M14.5 14h3"/><circle cx="9" cy="10.4" r="1.8"/></svg>
+              <span class="value">123.456.789-00</span>
+            </div>
+          </div>
+
+          <div class="field" style="margin-bottom:8px">
+            <label class="t-label">Senha</label>
+            <div class="input">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10.5" width="16" height="10.5" rx="3"/><path d="M8 10.5V7.8a4 4 0 0 1 8 0v2.7"/><circle cx="12" cy="15.8" r="1.4" fill="currentColor" stroke="none"/></svg>
+              <span class="placeholder">Crie uma senha</span>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3.2"/></svg>
+            </div>
+          </div>
+
+          <button class="btn btn-primary" style="margin-top:18px">
+            Criar conta
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="trace">
+    <b>Tela 02 — Criar Cadastro.</b><br>
+    Respaldo: <b>UC Criar Cadastro</b> · <b>RF01</b> · <b>RD01</b> (perfis cidadão, protetor
+    independente e ONG) · <b>RD05</b> (telefone brasileiro com DDD) ·
+    Entidades <b>USUARIO</b>, <b>CIDADAO</b>, <b>PROTETOR</b>, <b>ONG</b>.<br>
+    Os campos específicos variam conforme o perfil: CPF (CIDADAO), nome_instituicao e documento
+    (PROTETOR), nome_fantasia e cnpj (ONG).
+  </div>
+</div>
+</body>
+</html>

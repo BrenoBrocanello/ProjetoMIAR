@@ -1,0 +1,6 @@
+{
+  "titulo": "Galeria — ausência de ocorrências",
+  "requisitos": "RF03, CU03",
+  "fonte": "Estado vazio induzido apenas no repositório deste cliente",
+  "ordem": 12
+}

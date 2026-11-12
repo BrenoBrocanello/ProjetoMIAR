@@ -1,0 +1,6 @@
+{
+  "titulo": "Radar — mapa indisponível e nova tentativa",
+  "requisitos": "RNF03, CU09",
+  "fonte": "Falha de rede induzida neste cliente; sem alteração do servidor",
+  "ordem": 21
+}

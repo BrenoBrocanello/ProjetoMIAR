@@ -1,0 +1,1831 @@
+Running Gradle task 'assembleDebug'...                          
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "Windows_NT" == "Windows_NT" setlocal
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set DEFAULT_JVM_OPTS= 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set DIRNAME=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\ 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\" == "" set DIRNAME=. 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set APP_BASE_NAME=gradlew 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set APP_HOME=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\ 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set JAVA_HOME=C:\Program Files\Android\Android Studio\jbr 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set JAVA_EXE=C:\Program Files\Android\Android Studio\jbr/bin/java.exe 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if exist "C:\Program Files\Android\Android Studio\jbr/bin/java.exe" goto init 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if not "Windows_NT" == "Windows_NT" goto win9xME_args 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "@eval[2+2]" == "4" goto 4NT_args 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CMD_LINE_ARGS= 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set _SKIP=2 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "x-q" == "x" goto execute 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CMD_LINE_ARGS=-q -Ptarget-platform=android-x64 -Ptarget=integration_test/apresentacao_test.dart -Pbase-application-name=android.app.Application -Pdart-defines=QVBJX1VSTD1odHRwOi8vMTAuMC4yLjI6MzMwMQ==,RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPVt1c2VyLWJyYW5jaF0=,RkxVVFRFUl9HSVRfVVJMPXVua25vd24gc291cmNl,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>goto execute 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CLASSPATH=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\\gradle\wrapper\gradle-wrapper.jar 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>"C:\Program Files\Android\Android Studio\jbr/bin/java.exe"    "-Dorg.gradle.appname=gradlew" -classpath "C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\\gradle\wrapper\gradle-wrapper.jar" org.gradle.wrapper.GradleWrapperMain -q -Ptarget-platform=android-x64 -Ptarget=integration_test/apresentacao_test.dart -Pbase-application-name=android.app.Application -Pdart-defines=QVBJX1VSTD1odHRwOi8vMTAuMC4yLjI6MzMwMQ==,RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPVt1c2VyLWJyYW5jaF0=,RkxVVFRFUl9HSVRfVVJMPXVua25vd24gc291cmNl,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug 
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/C:/Users/Breno/.gradle/wrapper/dists/gradle-8.14-all/c2qonpi39x1mddn7hk5gh9iqj/gradle-8.14/lib/native-platform-0.22-milestone-28.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "0" == "0" goto mainEnd 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "Windows_NT" == "Windows_NT" endlocal
+Running Gradle task 'assembleDebug'...                             14,8s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...        1.511ms
+D/FlutterGeolocator(19106): Geolocator foreground service connected
+D/FlutterGeolocator(19106): Initializing Geolocator services
+D/FlutterGeolocator(19106): Flutter engine connected. Connected engine count 1
+I/Choreographer(19106): Skipped 34 frames!  The application may be doing too much work on its main thread.
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:60332/BepSpSQUweY=/
+VMServiceFlutterDriver: Isolate found with number: 1804579075353643
+VMServiceFlutterDriver: Isolate 1804579075353643 is runnable.
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+I/flutter (19106): 00:00 +0: Ensaio completo: cadastro, foto nativa, GPS, filtros, edição, seis status, radar, IA e exclusão pela interface
+VMServiceFlutterDriver: Connected to Flutter application.
+I/flutter (19106): MIAR_AUDIT_TAG=1794414286519
+D/ProfileInstaller(19106): Installing profile for br.com.miar.miar
+I/Choreographer(19106): Skipped 63 frames!  The application may be doing too much work on its main thread.
+I/HWUI    (19106): Davey! duration=1071ms; Flags=0, FrameTimelineVsyncId=157252, IntendedVsync=3238897368256, Vsync=3239947368214, InputEventId=0, HandleInputStart=3239960664400, AnimationStart=3239960687400, PerformTraversalsStart=3239960715200, DrawStart=3239961054200, FrameDeadline=3238914034922, FrameInterval=3239960216900, FrameStartTime=16666666, SyncQueued=3239961606000, SyncStart=3239961961200, IssueDrawCommandsStart=3239962023500, SwapBuffers=3239962474200, FrameCompleted=3239969275100, DequeueBufferDuration=1743200, QueueBufferDuration=303500, GpuCompleted=3239968938100, SwapBuffersCompleted=3239969275100, DisplayPresentTime=133632903619223, CommandSubmissionCompleted=3239962474200, 
+I/ImeTracker(19106): br.com.miar.miar:394fa08e: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+VMServiceFlutterDriver: request_data message is taking a long time to complete...
+W/r.com.miar.miar(19106): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar(19106): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+D/EGL_emulation(19106): app_time_stats: avg=815.11ms min=399.71ms max=1230.52ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+D/EGL_emulation(19106): app_time_stats: avg=525.18ms min=372.25ms max=678.12ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=639.93ms min=587.73ms max=692.13ms count=2
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=738.77ms min=410.26ms max=1067.28ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Cidadão"
+D/EGL_emulation(19106): app_time_stats: avg=297.05ms min=82.68ms max=638.36ms count=4
+D/EGL_emulation(19106): app_time_stats: avg=631.66ms min=580.68ms max=682.64ms count=2
+I/ImeTracker(19106): br.com.miar.miar:50a70b02: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/EGL_emulation(19106): app_time_stats: avg=263.49ms min=69.54ms max=676.95ms count=6
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F....ID 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:ff637458: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F....ID 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/EGL_emulation(19106): app_time_stats: avg=4372.46ms min=690.47ms max=9085.43ms count=3
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+W/InteractionJankMonitor(19106): Initializing without READ_DEVICE_CONFIG permission. enabled=true, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=br.com.miar.miar
+I/ImeTracker(19106): br.com.miar.miar:ff637458: onShown
+I/ImeTracker(19106): br.com.miar.miar:fc2fb295: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:52d0cd10: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=395.30ms min=175.27ms max=638.09ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:fc2fb295: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:52d0cd10: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker(19106): br.com.miar.miar:a924ebb1: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:2d4ff9bf: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=385.68ms min=110.11ms max=715.47ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:2d4ff9bf: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 158310, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 158390, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 158412, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 158427, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 158487, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 158509, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 158524, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 158546, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 158568, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 158583, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 158605, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 158620, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 88, 158635, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 88, 158635, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+V/PerfettoTrigger(19106): Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-80
+I/ImeTracker(19106): br.com.miar.miar:3000c960: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:7c2fefee: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=362.02ms min=55.36ms max=676.28ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:7c2fefee: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker(19106): br.com.miar.miar:d0b02795: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:58db1fda: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=362.87ms min=66.68ms max=700.93ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+I/ImeTracker(19106): br.com.miar.miar:2efd4271: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/ImeTracker(19106): br.com.miar.miar:c0921872: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:d0b02795: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:58db1fda: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): hide(ime(), fromIme=true)
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/EGL_emulation(19106): app_time_stats: avg=319.51ms min=8.31ms max=5527.92ms count=19
+D/InsetsController(19106): hide(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:c0921872: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker(19106): br.com.miar.miar:58be64fe: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker(19106): br.com.miar.miar:2efd4271: onHidden
+D/EGL_emulation(19106): app_time_stats: avg=290.96ms min=57.74ms max=515.06ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+D/EGL_emulation(19106): app_time_stats: avg=515.65ms min=386.06ms max=645.24ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=638.77ms min=598.54ms max=679.00ms count=2
+W/r.com.miar.miar(19106): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar(19106): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+D/EGL_emulation(19106): app_time_stats: avg=227.64ms min=76.42ms max=725.76ms count=5
+D/EGL_emulation(19106): app_time_stats: avg=698.44ms min=655.27ms max=741.60ms count=2
+I/ImeTracker(19106): br.com.miar.miar:d0bb91d6: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:ac248595: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+D/EGL_emulation(19106): app_time_stats: avg=389.38ms min=7.20ms max=6372.02ms count=17
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 159891, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 159935, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 159971, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 160000, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 160015, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 160037, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 160066, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 160081, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 160096, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 160126, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 160148, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 160177, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 160199, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 160228, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 74, 160257, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 74, 160257, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+V/PerfettoTrigger(19106): Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-81
+I/ImeTracker(19106): br.com.miar.miar:ac248595: onShown
+D/EGL_emulation(19106): app_time_stats: avg=359.08ms min=73.38ms max=678.00ms count=4
+I/ImeTracker(19106): br.com.miar.miar:8a6a9c7d: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:dbe0e265: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+I/ImeTracker(19106): br.com.miar.miar:33ffb66a: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/ImeTracker(19106): br.com.miar.miar:f2d2170: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:dbe0e265: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InsetsController(19106): hide(ime(), fromIme=true)
+D/EGL_emulation(19106): app_time_stats: avg=73.09ms min=7.00ms max=1093.08ms count=18
+D/InsetsController(19106): hide(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:f2d2170: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker(19106): br.com.miar.miar:a1a71a7d: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker(19106): br.com.miar.miar:33ffb66a: onHidden
+D/EGL_emulation(19106): app_time_stats: avg=316.20ms min=62.15ms max=664.46ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Entrar"
+D/EGL_emulation(19106): app_time_stats: avg=619.53ms min=590.10ms max=648.96ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=554.14ms min=378.15ms max=678.66ms count=3
+D/TSBackgroundFetch(19106): - configure
+D/TSBackgroundFetch(19106): - start
+D/TSBackgroundFetch(19106): - registerTask: flutter_background_fetch (jobId: 999)
+D/TSBackgroundFetch(19106): {
+D/TSBackgroundFetch(19106):   "taskId": "flutter_background_fetch",
+D/TSBackgroundFetch(19106):   "isFetchTask": true,
+D/TSBackgroundFetch(19106):   "minimumFetchInterval": 15,
+D/TSBackgroundFetch(19106):   "stopOnTerminate": false,
+D/TSBackgroundFetch(19106):   "requiredNetworkType": 1,
+D/TSBackgroundFetch(19106):   "requiresBatteryNotLow": false,
+D/TSBackgroundFetch(19106):   "requiresCharging": false,
+D/TSBackgroundFetch(19106):   "requiresDeviceIdle": false,
+D/TSBackgroundFetch(19106):   "requiresStorageNotLow": false,
+D/TSBackgroundFetch(19106):   "startOnBoot": true,
+D/TSBackgroundFetch(19106):   "jobService": "com.transistorsoft.flutter.backgroundfetch.HeadlessTask",
+D/TSBackgroundFetch(19106):   "forceAlarmManager": false,
+D/TSBackgroundFetch(19106):   "periodic": true,
+D/TSBackgroundFetch(19106):   "delay": -1
+D/TSBackgroundFetch(19106): }
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=286.42ms min=67.99ms max=843.07ms count=6
+I/flutter (19106): MIAR_AUDIT_ETAPA=CADASTRO_0
+D/EGL_emulation(19106): app_time_stats: avg=643.67ms min=638.18ms max=649.16ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Perfil"
+D/EGL_emulation(19106): app_time_stats: avg=647.45ms min=633.44ms max=661.47ms count=2
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+D/EGL_emulation(19106): app_time_stats: avg=538.80ms min=362.96ms max=657.45ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=217.45ms min=53.39ms max=515.01ms count=5
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Atualizar meus dados"
+D/EGL_emulation(19106): app_time_stats: avg=533.40ms min=368.78ms max=698.02ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=614.39ms min=545.00ms max=683.77ms count=2
+I/ImeTracker(19106): br.com.miar.miar:8f6b51f: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:149067eb: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/EGL_emulation(19106): app_time_stats: avg=268.96ms min=50.51ms max=665.58ms count=6
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:3a77a54a: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/ImeTracker(19106): br.com.miar.miar:f3d117c7: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation(19106): app_time_stats: avg=798.73ms min=7.01ms max=14116.34ms count=18
+W/RemoteInputConnectionImpl(19106): requestCursorUpdates on inactive InputConnection
+D/InsetsController(19106): hide(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:149067eb: onCancelled at PHASE_CLIENT_ANIMATION_CANCEL
+I/ImeTracker(19106): br.com.miar.miar:8ac4dd78: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker(19106): br.com.miar.miar:3a77a54a: onHidden
+D/EGL_emulation(19106): app_time_stats: avg=321.95ms min=67.03ms max=596.98ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar meus dados"
+D/EGL_emulation(19106): app_time_stats: avg=524.44ms min=378.55ms max=670.32ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=631.11ms min=580.10ms max=682.11ms count=2
+I/ImeTracker(19106): br.com.miar.miar:96b420b0: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation(19106): app_time_stats: avg=273.51ms min=49.48ms max=660.68ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=250.02ms min=6.63ms max=4964.87ms count=21
+W/r.com.miar.miar(19106): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar(19106): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+D/EGL_emulation(19106): app_time_stats: avg=615.79ms min=403.27ms max=828.31ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Galeria"
+D/EGL_emulation(19106): app_time_stats: avg=533.71ms min=403.23ms max=664.19ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=636.16ms min=594.79ms max=677.54ms count=2
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=239.38ms min=40.90ms max=620.06ms count=5
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Registrar"
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 163359, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 163403, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 163418, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 163440, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 163455, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 163477, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 163492, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 163514, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 163536, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 163558, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 163573, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 163624, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 163654, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+V/PerfettoTrigger(19106): Not triggering com.android.telemetry.interaction-jank-monitor-81 - not enough time since last trigger
+D/EGL_emulation(19106): app_time_stats: avg=527.05ms min=393.55ms max=660.55ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=644.98ms min=615.41ms max=674.56ms count=2
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=253.29ms min=107.10ms max=522.37ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Adicionar"
+D/EGL_emulation(19106): app_time_stats: avg=523.40ms min=378.99ms max=667.81ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=623.60ms min=584.78ms max=662.43ms count=2
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/flutter (19106): MIAR_AUDIT_GALERIA
+D/EGL_emulation(19106): app_time_stats: avg=200.00ms min=72.27ms max=622.52ms count=5
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Escolher da galeria"
+D/EGL_emulation(19106): app_time_stats: avg=11884.53ms min=11884.53ms max=11884.53ms count=1
+D/EGL_emulation(19106): app_time_stats: avg=511.12ms min=360.52ms max=661.73ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=1029.87ms min=1029.87ms max=1029.87ms count=1
+D/EGL_emulation(19106): app_time_stats: avg=673.01ms min=605.93ms max=740.08ms count=2
+D/TSBackgroundFetch(19106): ☯️  onPause
+D/EGL_emulation(19106): app_time_stats: avg=291.93ms min=95.88ms max=566.80ms count=5
+D/EGL_emulation(19106): app_time_stats: avg=2580.83ms min=2580.83ms max=2580.83ms count=1
+D/EGL_emulation(19106): app_time_stats: avg=597.23ms min=565.65ms max=628.82ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=1053.42ms min=1053.42ms max=1053.42ms count=1
+D/EGL_emulation(19106): app_time_stats: avg=605.82ms min=580.94ms max=630.70ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=618.82ms min=608.34ms max=629.30ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=550.04ms min=549.24ms max=550.83ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=3136.62ms min=3136.62ms max=3136.62ms count=1
+D/EGL_emulation(19106): app_time_stats: avg=1015.46ms min=1015.46ms max=1015.46ms count=1
+D/EGL_emulation(19106): app_time_stats: avg=599.51ms min=581.81ms max=617.21ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=587.75ms min=570.36ms max=605.14ms count=2
+D/TSBackgroundFetch(19106): ☯️  onResume
+W/r.com.miar.miar(19106): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar(19106): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+D/EGL_emulation(19106): app_time_stats: avg=605.20ms min=597.55ms max=612.84ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=2992.53ms min=2992.53ms max=2992.53ms count=1
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/EGL_emulation(19106): app_time_stats: avg=616.03ms min=590.99ms max=641.06ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=1162.43ms min=1162.43ms max=1162.43ms count=1
+I/ImeTracker(19106): br.com.miar.miar:b540bd54: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:cc7762f1: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:cc7762f1: onShown
+D/EGL_emulation(19106): app_time_stats: avg=374.89ms min=95.13ms max=670.12ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but index 0)
+D/EGL_emulation(19106): app_time_stats: avg=503.19ms min=351.23ms max=655.16ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=126.07ms min=9.26ms max=1590.79ms count=19
+I/ImeTracker(19106): br.com.miar.miar:a0a71127: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InsetsController(19106): hide(ime(), fromIme=true)
+D/EGL_emulation(19106): app_time_stats: avg=644.47ms min=592.12ms max=696.82ms count=2
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=348.09ms min=20.71ms max=884.95ms count=3
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+I/ImeTracker(19106): br.com.miar.miar:88579338: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker(19106): br.com.miar.miar:a0a71127: onHidden
+D/EGL_emulation(19106): app_time_stats: avg=267.95ms min=105.95ms max=465.71ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Grande" (ignoring all but last)
+D/EGL_emulation(19106): app_time_stats: avg=541.93ms min=414.25ms max=669.61ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=490.02ms min=19.65ms max=2277.99ms count=5
+D/EGL_emulation(19106): app_time_stats: avg=626.04ms min=574.69ms max=677.40ms count=2
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but index 1)
+D/EGL_emulation(19106): app_time_stats: avg=268.35ms min=66.79ms max=688.83ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=2667.51ms min=2667.51ms max=2667.51ms count=1
+D/EGL_emulation(19106): app_time_stats: avg=548.11ms min=379.59ms max=681.49ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=2407.77ms min=2407.77ms max=2407.77ms count=1
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Perdido" (ignoring all but last)
+D/EGL_emulation(19106): app_time_stats: avg=269.92ms min=83.88ms max=664.97ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=1006.99ms min=1006.99ms max=1006.99ms count=1
+D/EGL_emulation(19106): app_time_stats: avg=539.29ms min=387.61ms max=680.21ms count=3
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 169721, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 169736, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 169852, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 72, 169874, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+V/PerfettoTrigger(19106): Not triggering com.android.telemetry.interaction-jank-monitor-81 - not enough time since last trigger
+D/EGL_emulation(19106): app_time_stats: avg=2402.31ms min=2402.31ms max=2402.31ms count=1
+I/ImeTracker(19106): br.com.miar.miar:b1ff5d5e: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:2722186b: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/EGL_emulation(19106): app_time_stats: avg=267.65ms min=70.15ms max=696.27ms count=6
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:2722186b: onShown
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+I/ImeTracker(19106): br.com.miar.miar:976d1b1a: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:3cb7064b: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/EGL_emulation(19106): app_time_stats: avg=363.32ms min=95.97ms max=665.65ms count=4
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:976d1b1a: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:3cb7064b: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+I/ImeTracker(19106): br.com.miar.miar:5441cdad: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:d64c321: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/EGL_emulation(19106): app_time_stats: avg=351.19ms min=54.44ms max=700.92ms count=4
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:5441cdad: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:d64c321: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/EGL_emulation(19106): app_time_stats: avg=202.89ms min=6.81ms max=3476.11ms count=21
+I/ImeTracker(19106): br.com.miar.miar:c28784f3: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:2d5e24f4: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=347.86ms min=49.73ms max=662.33ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:2d5e24f4: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker(19106): br.com.miar.miar:76cf4dac: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:4e988512: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=356.86ms min=78.61ms max=668.67ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+I/ImeTracker(19106): br.com.miar.miar:6b724e64: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/ImeTracker(19106): br.com.miar.miar:7a7f863d: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:4e988512: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): hide(ime(), fromIme=true)
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/EGL_emulation(19106): app_time_stats: avg=1868.45ms min=1868.45ms max=1868.45ms count=1
+D/InsetsController(19106): hide(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:7a7f863d: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker(19106): br.com.miar.miar:8a742ee4: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker(19106): br.com.miar.miar:6b724e64: onHidden
+I/flutter (19106): MIAR_AUDIT_GPS_PERMITIR
+D/EGL_emulation(19106): app_time_stats: avg=302.32ms min=60.57ms max=597.85ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Obter localização por GPS"
+D/EGL_emulation(19106): app_time_stats: avg=513.36ms min=385.96ms max=640.76ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=636.61ms min=594.14ms max=679.07ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=245.96ms min=85.97ms max=594.91ms count=6
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+D/EGL_emulation(19106): app_time_stats: avg=591.18ms min=585.86ms max=596.51ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=572.40ms min=570.89ms max=573.91ms count=2
+I/ImeTracker(19106): br.com.miar.miar:cb82cdec: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation(19106): app_time_stats: avg=608.84ms min=600.33ms max=617.35ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=473.91ms min=6.31ms max=8328.47ms count=18
+D/EGL_emulation(19106): app_time_stats: avg=608.87ms min=377.57ms max=840.17ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Cadastrar ocorrência"
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 172320, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 172370, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 88, 172400, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 88, 172400, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 172429, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 172443, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 172458, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 172480, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 172495, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 172510, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 172532, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 172547, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 172562, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 172591, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 172607, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+V/PerfettoTrigger(19106): Not triggering com.android.telemetry.interaction-jank-monitor-81 - not enough time since last trigger
+D/EGL_emulation(19106): app_time_stats: avg=507.29ms min=363.78ms max=650.79ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=632.69ms min=594.84ms max=670.54ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=248.72ms min=81.51ms max=580.69ms count=6
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=689.90ms min=683.66ms max=696.14ms count=2
+I/ImeTracker(19106): br.com.miar.miar:66ea90da: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation(19106): app_time_stats: avg=587.73ms min=485.80ms max=689.66ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=8485.13ms min=8485.13ms max=8485.13ms count=1
+D/EGL_emulation(19106): app_time_stats: avg=652.68ms min=615.88ms max=689.49ms count=2
+I/flutter (19106): MIAR_AUDIT_ETAPA=OCORRENCIA_2443
+D/EGL_emulation(19106): app_time_stats: avg=1133.22ms min=1133.22ms max=1133.22ms count=1
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Alterar minha ocorrência"
+D/EGL_emulation(19106): app_time_stats: avg=520.21ms min=355.59ms max=624.10ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=410.36ms min=100.16ms max=663.77ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=352.50ms min=86.58ms max=647.09ms count=4
+I/ImeTracker(19106): br.com.miar.miar:52b46e7f: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:99da36a8: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=653.69ms min=602.75ms max=704.64ms count=2
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:4a12616a: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/ImeTracker(19106): br.com.miar.miar:7cb0c7f4: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+W/RemoteInputConnectionImpl(19106): requestCursorUpdates on inactive InputConnection
+D/InsetsController(19106): hide(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:99da36a8: onCancelled at PHASE_CLIENT_ANIMATION_CANCEL
+D/EGL_emulation(19106): app_time_stats: avg=6877.14ms min=6877.14ms max=6877.14ms count=1
+I/ImeTracker(19106): br.com.miar.miar:4e457708: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker(19106): br.com.miar.miar:4a12616a: onHidden
+D/EGL_emulation(19106): app_time_stats: avg=293.63ms min=102.47ms max=580.22ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alterações"
+D/EGL_emulation(19106): app_time_stats: avg=512.44ms min=370.18ms max=654.69ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=638.65ms min=599.47ms max=677.83ms count=2
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=201.42ms min=74.72ms max=640.00ms count=5
+D/EGL_emulation(19106): app_time_stats: avg=683.60ms min=682.14ms max=685.05ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate
+D/EGL_emulation(19106): app_time_stats: avg=525.19ms min=378.97ms max=671.40ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=642.48ms min=588.42ms max=696.54ms count=2
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=265.23ms min=59.40ms max=697.27ms count=6
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 175485, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 175493, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 175558, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 175587, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 175602, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 175631, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 175646, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 175661, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 175683, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 175698, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 175713, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 175735, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 175772, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 175794, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+V/PerfettoTrigger(19106): Not triggering com.android.telemetry.interaction-jank-monitor-81 - not enough time since last trigger
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Galeria"
+D/EGL_emulation(19106): app_time_stats: avg=607.61ms min=599.74ms max=615.48ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=546.84ms min=380.20ms max=651.28ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate
+D/EGL_emulation(19106): app_time_stats: avg=270.00ms min=38.64ms max=661.17ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=546.22ms min=384.77ms max=647.84ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/ImeTracker(19106): br.com.miar.miar:92dd227d: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:993dceb6: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/EGL_emulation(19106): app_time_stats: avg=271.19ms min=47.85ms max=659.06ms count=6
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+D/EGL_emulation(19106): app_time_stats: avg=916.36ms min=8.81ms max=17164.01ms count=19
+I/ImeTracker(19106): br.com.miar.miar:993dceb6: onShown
+I/ImeTracker(19106): br.com.miar.miar:b417f213: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:c1fb0a7b: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=347.69ms min=69.50ms max=664.07ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:c1fb0a7b: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker(19106): br.com.miar.miar:51fcdee2: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:b01671f4: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=334.31ms min=53.87ms max=661.99ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:b01671f4: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker(19106): br.com.miar.miar:2bb8be43: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/ImeTracker(19106): br.com.miar.miar:d861ee1b: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InsetsController(19106): hide(ime(), fromIme=true)
+D/InsetsController(19106): hide(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:d861ee1b: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/EGL_emulation(19106): app_time_stats: avg=135.96ms min=6.22ms max=2384.94ms count=19
+I/ImeTracker(19106): br.com.miar.miar:c8a65998: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker(19106): br.com.miar.miar:2bb8be43: onHidden
+D/EGL_emulation(19106): app_time_stats: avg=264.18ms min=35.48ms max=546.19ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Aplicar filtros"
+D/EGL_emulation(19106): app_time_stats: avg=506.43ms min=357.91ms max=654.95ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=625.93ms min=598.73ms max=653.13ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=273.47ms min=45.32ms max=683.85ms count=6
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate
+D/EGL_emulation(19106): app_time_stats: avg=627.45ms min=594.75ms max=660.15ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=540.80ms min=381.97ms max=672.95ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Limpar filtros"
+D/EGL_emulation(19106): app_time_stats: avg=269.43ms min=51.80ms max=670.25ms count=6
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+D/EGL_emulation(19106): app_time_stats: avg=560.25ms min=389.73ms max=687.14ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=259.52ms min=53.59ms max=682.22ms count=6
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Gerenciar"
+D/EGL_emulation(19106): app_time_stats: avg=600.77ms min=592.17ms max=609.38ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=542.22ms min=388.51ms max=664.78ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=208.04ms min=60.98ms max=629.26ms count=5
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+D/EGL_emulation(19106): app_time_stats: avg=525.87ms min=402.45ms max=649.28ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=616.66ms min=611.14ms max=622.19ms count=2
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Atualizar status"
+D/EGL_emulation(19106): app_time_stats: avg=268.20ms min=41.02ms max=670.99ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=541.24ms min=365.80ms max=650.74ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "ChoiceChip" that are ancestors of widget with text "Encontrado"
+D/EGL_emulation(19106): app_time_stats: avg=266.56ms min=47.32ms max=660.18ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=547.15ms min=404.64ms max=676.42ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alteração"
+D/EGL_emulation(19106): app_time_stats: avg=271.79ms min=50.27ms max=671.71ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=512.11ms min=342.23ms max=652.93ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=200.65ms min=51.13ms max=613.43ms count=5
+D/EGL_emulation(19106): app_time_stats: avg=678.42ms min=672.29ms max=684.54ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Gerenciar"
+D/EGL_emulation(19106): app_time_stats: avg=520.30ms min=381.43ms max=659.16ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=623.24ms min=567.01ms max=679.48ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+D/EGL_emulation(19106): app_time_stats: avg=262.00ms min=45.80ms max=661.27ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=541.78ms min=374.56ms max=661.64ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Atualizar status"
+D/EGL_emulation(19106): app_time_stats: avg=273.12ms min=42.96ms max=663.30ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=547.21ms min=387.80ms max=662.48ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "ChoiceChip" that are ancestors of widget with text "Emergência"
+D/EGL_emulation(19106): app_time_stats: avg=272.62ms min=43.52ms max=645.90ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=552.21ms min=389.48ms max=664.05ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alteração"
+D/EGL_emulation(19106): app_time_stats: avg=265.43ms min=45.04ms max=661.24ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=544.21ms min=376.96ms max=649.62ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=270.54ms min=53.52ms max=657.04ms count=6
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Gerenciar"
+D/EGL_emulation(19106): app_time_stats: avg=687.78ms min=671.78ms max=703.79ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=531.37ms min=373.58ms max=656.24ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+D/EGL_emulation(19106): app_time_stats: avg=261.12ms min=40.56ms max=658.02ms count=6
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=535.31ms min=358.54ms max=640.52ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Atualizar status"
+D/EGL_emulation(19106): app_time_stats: avg=269.73ms min=42.82ms max=656.96ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=562.40ms min=383.34ms max=696.91ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "ChoiceChip" that are ancestors of widget with text "Aguardando Adoção"
+D/EGL_emulation(19106): app_time_stats: avg=259.67ms min=57.68ms max=655.79ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=549.41ms min=352.42ms max=670.90ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alteração"
+D/EGL_emulation(19106): app_time_stats: avg=269.45ms min=46.27ms max=676.67ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=548.96ms min=391.26ms max=671.70ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=266.04ms min=53.88ms max=649.37ms count=6
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Gerenciar"
+D/EGL_emulation(19106): app_time_stats: avg=668.61ms min=662.20ms max=675.03ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=548.18ms min=386.40ms max=660.60ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+D/EGL_emulation(19106): app_time_stats: avg=265.28ms min=43.20ms max=662.81ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=533.18ms min=344.46ms max=630.87ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Atualizar status"
+D/EGL_emulation(19106): app_time_stats: avg=273.74ms min=43.16ms max=675.47ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=548.17ms min=389.37ms max=659.32ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "ChoiceChip" that are ancestors of widget with text "Adotado"
+D/EGL_emulation(19106): app_time_stats: avg=262.70ms min=48.45ms max=661.22ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=547.99ms min=373.31ms max=658.77ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alteração"
+D/EGL_emulation(19106): app_time_stats: avg=270.81ms min=57.82ms max=662.77ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=549.55ms min=385.26ms max=659.04ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=269.99ms min=47.78ms max=656.95ms count=6
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Cão · Grande" (ignoring all but first)
+D/EGL_emulation(19106): app_time_stats: avg=652.11ms min=618.01ms max=686.21ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=551.88ms min=381.00ms max=668.03ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=267.43ms min=64.29ms max=662.53ms count=6
+I/ImeTracker(19106): br.com.miar.miar:51beae8c: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation(19106): app_time_stats: avg=521.72ms min=407.98ms max=635.46ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=4970.33ms min=8.27ms max=89218.42ms count=18
+D/EGL_emulation(19106): app_time_stats: avg=641.43ms min=610.78ms max=672.07ms count=2
+W/r.com.miar.miar(19106): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar(19106): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate
+D/EGL_emulation(19106): app_time_stats: avg=769.60ms min=659.84ms max=879.35ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=533.12ms min=369.51ms max=674.52ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=267.29ms min=49.35ms max=658.44ms count=6
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Gerenciar"
+D/EGL_emulation(19106): app_time_stats: avg=613.26ms min=588.99ms max=637.53ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=539.70ms min=365.39ms max=659.86ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+D/EGL_emulation(19106): app_time_stats: avg=264.42ms min=42.53ms max=686.41ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=547.14ms min=353.40ms max=664.07ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Atualizar status"
+D/EGL_emulation(19106): app_time_stats: avg=270.63ms min=46.49ms max=654.13ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=542.92ms min=382.77ms max=662.87ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "ChoiceChip" that are ancestors of widget with text "Resgatado"
+D/EGL_emulation(19106): app_time_stats: avg=265.30ms min=40.65ms max=663.96ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=543.06ms min=355.56ms max=652.90ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alteração"
+D/EGL_emulation(19106): app_time_stats: avg=278.01ms min=43.02ms max=673.38ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=537.96ms min=383.02ms max=669.29ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=266.24ms min=46.51ms max=649.35ms count=6
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Cão · Grande" (ignoring all but first)
+D/EGL_emulation(19106): app_time_stats: avg=664.31ms min=644.70ms max=683.91ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=540.71ms min=382.82ms max=630.63ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=205.81ms min=57.41ms max=622.77ms count=5
+I/ImeTracker(19106): br.com.miar.miar:8327ed6d: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation(19106): app_time_stats: avg=535.43ms min=428.74ms max=642.12ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=28517.38ms min=28517.38ms max=28517.38ms count=1
+D/EGL_emulation(19106): app_time_stats: avg=642.03ms min=574.71ms max=709.35ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate
+D/EGL_emulation(19106): app_time_stats: avg=770.74ms min=635.82ms max=905.67ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=554.45ms min=394.89ms max=665.32ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=275.34ms min=53.51ms max=686.97ms count=6
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Gerenciar"
+D/EGL_emulation(19106): app_time_stats: avg=646.75ms min=609.14ms max=684.36ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=543.27ms min=381.39ms max=657.87ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+D/EGL_emulation(19106): app_time_stats: avg=271.80ms min=45.92ms max=682.27ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=541.83ms min=384.97ms max=673.86ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Atualizar status"
+D/EGL_emulation(19106): app_time_stats: avg=271.97ms min=41.59ms max=662.04ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=540.86ms min=353.24ms max=664.62ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "ChoiceChip" that are ancestors of widget with text "Perdido"
+D/EGL_emulation(19106): app_time_stats: avg=273.17ms min=41.08ms max=668.38ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=553.82ms min=397.21ms max=666.42ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alteração"
+D/EGL_emulation(19106): app_time_stats: avg=261.44ms min=42.08ms max=663.49ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=556.70ms min=382.49ms max=677.94ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=262.68ms min=51.72ms max=678.00ms count=6
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Perfil"
+D/EGL_emulation(19106): app_time_stats: avg=667.75ms min=658.88ms max=676.61ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=531.32ms min=337.01ms max=650.61ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Sair da conta"
+D/EGL_emulation(19106): app_time_stats: avg=264.36ms min=67.87ms max=662.89ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=546.82ms min=359.57ms max=685.48ms count=3
+D/TSBackgroundFetch(19106): - stop
+I/TSBackgroundFetch(19106): - cancel taskId=flutter_background_fetch, jobId=999
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=265.69ms min=50.75ms max=662.01ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=633.38ms min=620.23ms max=646.53ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+D/EGL_emulation(19106): app_time_stats: avg=521.86ms min=383.62ms max=660.09ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=629.18ms min=587.40ms max=670.96ms count=2
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Protetor"
+D/EGL_emulation(19106): app_time_stats: avg=275.82ms min=78.42ms max=666.43ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=551.04ms min=368.77ms max=677.70ms count=3
+I/ImeTracker(19106): br.com.miar.miar:8c43964e: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:233985ed: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=268.77ms min=70.08ms max=670.55ms count=6
+D/InsetsController(19106): show(ime(), fromIme=true)
+D/EGL_emulation(19106): app_time_stats: avg=38884.71ms min=38884.71ms max=38884.71ms count=1
+I/ImeTracker(19106): br.com.miar.miar:233985ed: onShown
+I/ImeTracker(19106): br.com.miar.miar:213c0917: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:8bdd271b: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=344.06ms min=118.52ms max=653.90ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:213c0917: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:8bdd271b: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker(19106): br.com.miar.miar:66c3f8ba: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:2dac7117: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=343.24ms min=63.22ms max=698.98ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:2dac7117: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker(19106): br.com.miar.miar:d1514345: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:c62a6963: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=323.38ms min=51.01ms max=626.37ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:d1514345: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:c62a6963: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker(19106): br.com.miar.miar:a7c02649: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:e9faaf18: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=332.13ms min=51.27ms max=651.71ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:a7c02649: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:e9faaf18: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker(19106): br.com.miar.miar:2b01316: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/ImeTracker(19106): br.com.miar.miar:6415dd7c: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController(19106): hide(ime(), fromIme=true)
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/EGL_emulation(19106): app_time_stats: avg=292.36ms min=7.36ms max=5037.68ms count=18
+D/InsetsController(19106): hide(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:6415dd7c: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker(19106): br.com.miar.miar:6c9471d4: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker(19106): br.com.miar.miar:2b01316: onHidden
+D/EGL_emulation(19106): app_time_stats: avg=288.83ms min=67.14ms max=562.51ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+D/EGL_emulation(19106): app_time_stats: avg=508.44ms min=373.09ms max=643.79ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=642.04ms min=607.36ms max=676.73ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=273.79ms min=72.37ms max=699.36ms count=6
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+I/ImeTracker(19106): br.com.miar.miar:78335670: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:c200bbb7: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=610.32ms min=546.21ms max=674.42ms count=2
+D/InsetsController(19106): show(ime(), fromIme=true)
+D/EGL_emulation(19106): app_time_stats: avg=344.70ms min=8.26ms max=6006.25ms count=18
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 190402, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 190410, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 190468, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 190490, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 190526, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 190541, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 190563, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 190585, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 190600, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 190622, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 190644, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 190666, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 190688, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 190717, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 190739, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 190761, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 88, 190790, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 88, 190790, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+V/PerfettoTrigger(19106): Not triggering com.android.telemetry.interaction-jank-monitor-81 - not enough time since last trigger
+I/ImeTracker(19106): br.com.miar.miar:c200bbb7: onShown
+I/ImeTracker(19106): br.com.miar.miar:37079c96: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:623a2987: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=326.91ms min=82.33ms max=636.90ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:623a2987: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker(19106): br.com.miar.miar:2624f904: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/ImeTracker(19106): br.com.miar.miar:bea7822d: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InsetsController(19106): hide(ime(), fromIme=true)
+D/EGL_emulation(19106): app_time_stats: avg=68.90ms min=6.55ms max=972.78ms count=17
+D/InsetsController(19106): hide(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:bea7822d: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 191397, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 191433, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 191469, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 191498, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 191528, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 191550, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 191565, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 191587, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 191602, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 191624, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 191639, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 191654, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 191676, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 191691, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 191713, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 191735, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+V/PerfettoTrigger(19106): Not triggering com.android.telemetry.interaction-jank-monitor-80 - not enough time since last trigger
+I/ImeTracker(19106): br.com.miar.miar:1b459448: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker(19106): br.com.miar.miar:2624f904: onHidden
+D/EGL_emulation(19106): app_time_stats: avg=282.43ms min=62.26ms max=599.74ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Entrar"
+D/EGL_emulation(19106): app_time_stats: avg=507.62ms min=362.71ms max=652.53ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=645.09ms min=599.86ms max=690.33ms count=2
+D/TSBackgroundFetch(19106): - configure
+D/TSBackgroundFetch(19106): - start
+D/TSBackgroundFetch(19106): - registerTask: flutter_background_fetch (jobId: 999)
+D/TSBackgroundFetch(19106): {
+D/TSBackgroundFetch(19106):   "taskId": "flutter_background_fetch",
+D/TSBackgroundFetch(19106):   "isFetchTask": true,
+D/TSBackgroundFetch(19106):   "minimumFetchInterval": 15,
+D/TSBackgroundFetch(19106):   "stopOnTerminate": false,
+D/TSBackgroundFetch(19106):   "requiredNetworkType": 1,
+D/TSBackgroundFetch(19106):   "requiresBatteryNotLow": false,
+D/TSBackgroundFetch(19106):   "requiresCharging": false,
+D/TSBackgroundFetch(19106):   "requiresDeviceIdle": false,
+D/TSBackgroundFetch(19106):   "requiresStorageNotLow": false,
+D/TSBackgroundFetch(19106):   "startOnBoot": true,
+D/TSBackgroundFetch(19106):   "jobService": "com.transistorsoft.flutter.backgroundfetch.HeadlessTask",
+D/TSBackgroundFetch(19106):   "forceAlarmManager": false,
+D/TSBackgroundFetch(19106):   "periodic": true,
+D/TSBackgroundFetch(19106):   "delay": -1
+D/TSBackgroundFetch(19106): }
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=249.33ms min=65.02ms max=577.54ms count=6
+I/flutter (19106): MIAR_AUDIT_ETAPA=CADASTRO_1
+D/EGL_emulation(19106): app_time_stats: avg=629.99ms min=593.84ms max=666.14ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Registrar"
+D/EGL_emulation(19106): app_time_stats: avg=504.63ms min=372.83ms max=636.43ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=636.09ms min=609.29ms max=662.89ms count=2
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Adicionar"
+D/EGL_emulation(19106): app_time_stats: avg=265.31ms min=105.14ms max=662.23ms count=6
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 192007, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 88, 192051, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 88, 192051, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 192109, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 192131, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 192146, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 192168, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 192183, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 192205, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 192234, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 192249, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 192271, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 192293, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 192322, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 192344, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+V/PerfettoTrigger(19106): Not triggering com.android.telemetry.interaction-jank-monitor-81 - not enough time since last trigger
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=542.87ms min=388.74ms max=647.78ms count=3
+I/flutter (19106): MIAR_AUDIT_GALERIA
+D/EGL_emulation(19106): app_time_stats: avg=646.12ms min=7.88ms max=12040.80ms count=19
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Escolher da galeria"
+D/EGL_emulation(19106): app_time_stats: avg=271.83ms min=75.09ms max=659.03ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=1038.42ms min=1038.42ms max=1038.42ms count=1
+D/EGL_emulation(19106): app_time_stats: avg=558.45ms min=392.65ms max=685.60ms count=3
+D/TSBackgroundFetch(19106): ☯️  onPause
+D/EGL_emulation(19106): app_time_stats: avg=201.54ms min=79.35ms max=615.56ms count=5
+D/EGL_emulation(19106): app_time_stats: avg=2556.95ms min=2556.95ms max=2556.95ms count=1
+D/EGL_emulation(19106): app_time_stats: avg=575.63ms min=561.10ms max=590.17ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=2143.77ms min=2143.77ms max=2143.77ms count=1
+D/EGL_emulation(19106): app_time_stats: avg=546.42ms min=508.46ms max=584.39ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=561.96ms min=561.03ms max=562.88ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=577.67ms min=512.94ms max=642.40ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=2979.38ms min=2979.38ms max=2979.38ms count=1
+D/EGL_emulation(19106): app_time_stats: avg=595.01ms min=573.77ms max=616.26ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=578.78ms min=551.87ms max=605.68ms count=2
+D/TSBackgroundFetch(19106): ☯️  onResume
+D/EGL_emulation(19106): app_time_stats: avg=607.43ms min=602.67ms max=612.19ms count=2
+I/r.com.miar.miar(19106): Background concurrent mark compact GC freed 2427KB AllocSpace bytes, 35(7712KB) LOS objects, 49% free, 3202KB/6405KB, paused 3.150ms,6.264ms total 97.131ms
+W/r.com.miar.miar(19106): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar(19106): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+D/EGL_emulation(19106): app_time_stats: avg=2010.71ms min=998.34ms max=3023.08ms count=2
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/EGL_emulation(19106): app_time_stats: avg=603.07ms min=553.10ms max=653.04ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=1060.01ms min=1060.01ms max=1060.01ms count=1
+I/ImeTracker(19106): br.com.miar.miar:3a60efe9: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:3487bfc2: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=612.75ms min=573.67ms max=651.84ms count=2
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:3487bfc2: onShown
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but index 0)
+D/EGL_emulation(19106): app_time_stats: avg=333.10ms min=101.19ms max=609.62ms count=4
+D/EGL_emulation(19106): app_time_stats: avg=158.00ms min=7.76ms max=1766.16ms count=15
+I/ImeTracker(19106): br.com.miar.miar:47781356: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController(19106): hide(ime(), fromIme=true)
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/EGL_emulation(19106): app_time_stats: avg=547.26ms min=383.02ms max=697.69ms count=3
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 197853, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 72, 197882, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 197926, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 197962, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 197984, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 197999, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 88, 198021, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 88, 198021, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 198043, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 72, 198058, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 198080, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 88, 198109, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 88, 198109, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 198124, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+V/PerfettoTrigger(19106): Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-80
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/EGL_emulation(19106): app_time_stats: avg=108.79ms min=10.43ms max=740.89ms count=9
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+I/ImeTracker(19106): br.com.miar.miar:b39a9e6b: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker(19106): br.com.miar.miar:47781356: onHidden
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 198552, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 198618, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 74, 198640, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 74, 198640, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 24, 198670, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 24, 198670, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 198691, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 198706, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 198735, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 24, 198801, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 24, 198801, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 198837, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+V/PerfettoTrigger(19106): Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-81
+D/EGL_emulation(19106): app_time_stats: avg=222.84ms min=8.42ms max=1041.58ms count=5
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Grande" (ignoring all but last)
+D/EGL_emulation(19106): app_time_stats: avg=275.30ms min=112.26ms max=654.18ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=543.84ms min=352.83ms max=667.17ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=2589.80ms min=2589.80ms max=2589.80ms count=1
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but index 1)
+D/EGL_emulation(19106): app_time_stats: avg=267.55ms min=74.37ms max=662.37ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=1043.61ms min=1043.61ms max=1043.61ms count=1
+D/EGL_emulation(19106): app_time_stats: avg=517.09ms min=384.32ms max=649.86ms count=2
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=257.42ms min=81.18ms max=632.72ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=2449.24ms min=2449.24ms max=2449.24ms count=1
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Encontrado" (ignoring all but last)
+D/EGL_emulation(19106): app_time_stats: avg=525.83ms min=381.47ms max=670.20ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=1040.40ms min=1040.40ms max=1040.40ms count=1
+D/EGL_emulation(19106): app_time_stats: avg=610.97ms min=545.19ms max=676.75ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=2463.36ms min=2463.36ms max=2463.36ms count=1
+I/ImeTracker(19106): br.com.miar.miar:62b86ff9: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:d48cd376: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=264.11ms min=73.14ms max=695.25ms count=6
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:d48cd376: onShown
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+I/ImeTracker(19106): br.com.miar.miar:3e8aebc8: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:6d645402: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=366.73ms min=109.36ms max=675.44ms count=4
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:3e8aebc8: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:6d645402: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+I/ImeTracker(19106): br.com.miar.miar:652a60e6: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:98c034df: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/EGL_emulation(19106): app_time_stats: avg=380.95ms min=146.83ms max=649.27ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:652a60e6: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:98c034df: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/EGL_emulation(19106): app_time_stats: avg=256.77ms min=7.17ms max=3673.98ms count=17
+I/ImeTracker(19106): br.com.miar.miar:a23071af: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:5c83eade: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=340.67ms min=63.06ms max=653.67ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:5c83eade: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker(19106): br.com.miar.miar:af67dd32: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:da6b04c: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=342.58ms min=56.66ms max=671.85ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+I/ImeTracker(19106): br.com.miar.miar:1cbfe326: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/ImeTracker(19106): br.com.miar.miar:e6b99f47: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:da6b04c: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): hide(ime(), fromIme=true)
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/EGL_emulation(19106): app_time_stats: avg=1738.32ms min=1738.32ms max=1738.32ms count=1
+D/InsetsController(19106): hide(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:e6b99f47: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/flutter (19106): MIAR_AUDIT_GPS_PERMITIR
+I/ImeTracker(19106): br.com.miar.miar:9760e6d5: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker(19106): br.com.miar.miar:1cbfe326: onHidden
+D/EGL_emulation(19106): app_time_stats: avg=272.36ms min=54.48ms max=549.32ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Obter localização por GPS"
+D/EGL_emulation(19106): app_time_stats: avg=515.91ms min=390.07ms max=641.76ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=648.94ms min=616.90ms max=680.98ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=253.14ms min=85.53ms max=582.94ms count=6
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+D/EGL_emulation(19106): app_time_stats: avg=585.31ms min=580.42ms max=590.20ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=587.71ms min=541.39ms max=634.02ms count=2
+I/ImeTracker(19106): br.com.miar.miar:25cc56d: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation(19106): app_time_stats: avg=420.98ms min=7.56ms max=7758.15ms count=19
+D/EGL_emulation(19106): app_time_stats: avg=518.50ms min=372.67ms max=664.33ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Cadastrar ocorrência"
+D/EGL_emulation(19106): app_time_stats: avg=751.77ms min=657.66ms max=845.89ms count=2
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+D/EGL_emulation(19106): app_time_stats: avg=529.74ms min=387.93ms max=623.86ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=231.29ms min=77.97ms max=514.63ms count=6
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=579.19ms min=541.09ms max=617.29ms count=2
+I/ImeTracker(19106): br.com.miar.miar:5ded358d: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation(19106): app_time_stats: avg=508.62ms min=374.23ms max=611.93ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=7823.56ms min=7823.56ms max=7823.56ms count=1
+I/flutter (19106): MIAR_AUDIT_ETAPA=OCORRENCIA_2444
+D/EGL_emulation(19106): app_time_stats: avg=812.12ms min=652.85ms max=971.38ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate
+D/EGL_emulation(19106): app_time_stats: avg=485.48ms min=315.33ms max=618.18ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=250.91ms min=54.87ms max=639.97ms count=4
+D/EGL_emulation(19106): app_time_stats: avg=394.54ms min=38.52ms max=617.27ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Radar"
+D/EGL_emulation(19106): app_time_stats: avg=592.99ms min=531.94ms max=654.04ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=493.83ms min=326.10ms max=634.23ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=255.37ms min=65.73ms max=681.16ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=550.31ms min=526.65ms max=573.96ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=548.29ms min=531.43ms max=565.15ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=527.00ms min=517.52ms max=536.48ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=586.33ms min=538.11ms max=634.56ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+D/EGL_emulation(19106): app_time_stats: avg=581.87ms min=533.99ms max=629.74ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=500.59ms min=336.25ms max=638.94ms count=3
+I/ImeTracker(19106): br.com.miar.miar:1d55ab84: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation(19106): app_time_stats: avg=202.83ms min=47.59ms max=530.56ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=17805.27ms min=17805.27ms max=17805.27ms count=1
+D/EGL_emulation(19106): app_time_stats: avg=943.33ms min=656.77ms max=1229.90ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Galeria"
+D/EGL_emulation(19106): app_time_stats: avg=498.42ms min=336.06ms max=626.38ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=256.79ms min=66.78ms max=635.96ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Perfil"
+D/EGL_emulation(19106): app_time_stats: avg=398.18ms min=44.31ms max=678.67ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=500.01ms min=319.39ms max=633.47ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Sair da conta"
+D/EGL_emulation(19106): app_time_stats: avg=253.31ms min=69.82ms max=639.22ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=490.32ms min=319.07ms max=613.20ms count=3
+D/TSBackgroundFetch(19106): - stop
+I/TSBackgroundFetch(19106): - cancel taskId=flutter_background_fetch, jobId=999
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=245.01ms min=47.02ms max=602.04ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=576.77ms min=536.42ms max=617.12ms count=2
+I/ImeTracker(19106): br.com.miar.miar:3c784bfd: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:169f0027: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+D/EGL_emulation(19106): app_time_stats: avg=12868.52ms min=12868.52ms max=12868.52ms count=1
+I/ImeTracker(19106): br.com.miar.miar:169f0027: onShown
+D/EGL_emulation(19106): app_time_stats: avg=326.79ms min=142.01ms max=638.92ms count=4
+I/ImeTracker(19106): br.com.miar.miar:e8900295: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:2c6192f: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+I/ImeTracker(19106): br.com.miar.miar:835f09ea: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/ImeTracker(19106): br.com.miar.miar:41381a40: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:2c6192f: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): hide(ime(), fromIme=true)
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InsetsController(19106): hide(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:41381a40: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/EGL_emulation(19106): app_time_stats: avg=89.14ms min=6.84ms max=1028.81ms count=14
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 72, 210112, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 210134, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 328, 210156, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 74, 210199, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 74, 210199, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 210222, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 210237, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 210273, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 210303, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 210347, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 210369, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 210391, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 210406, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+V/PerfettoTrigger(19106): Not triggering com.android.telemetry.interaction-jank-monitor-80 - not enough time since last trigger
+I/ImeTracker(19106): br.com.miar.miar:6517a915: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker(19106): br.com.miar.miar:835f09ea: onHidden
+D/EGL_emulation(19106): app_time_stats: avg=291.76ms min=64.38ms max=622.86ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Entrar"
+D/EGL_emulation(19106): app_time_stats: avg=570.08ms min=503.62ms max=636.55ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=504.23ms min=326.40ms max=655.23ms count=3
+D/TSBackgroundFetch(19106): - configure
+D/TSBackgroundFetch(19106): - start
+D/TSBackgroundFetch(19106): - registerTask: flutter_background_fetch (jobId: 999)
+D/TSBackgroundFetch(19106): {
+D/TSBackgroundFetch(19106):   "taskId": "flutter_background_fetch",
+D/TSBackgroundFetch(19106):   "isFetchTask": true,
+D/TSBackgroundFetch(19106):   "minimumFetchInterval": 15,
+D/TSBackgroundFetch(19106):   "stopOnTerminate": false,
+D/TSBackgroundFetch(19106):   "requiredNetworkType": 1,
+D/TSBackgroundFetch(19106):   "requiresBatteryNotLow": false,
+D/TSBackgroundFetch(19106):   "requiresCharging": false,
+D/TSBackgroundFetch(19106):   "requiresDeviceIdle": false,
+D/TSBackgroundFetch(19106):   "requiresStorageNotLow": false,
+D/TSBackgroundFetch(19106):   "startOnBoot": true,
+D/TSBackgroundFetch(19106):   "jobService": "com.transistorsoft.flutter.backgroundfetch.HeadlessTask",
+D/TSBackgroundFetch(19106):   "forceAlarmManager": false,
+D/TSBackgroundFetch(19106):   "periodic": true,
+D/TSBackgroundFetch(19106):   "delay": -1
+D/TSBackgroundFetch(19106): }
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=235.72ms min=68.89ms max=587.38ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=680.34ms min=495.47ms max=865.22ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=582.56ms min=534.47ms max=630.66ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Possível correspondência encontrada" (ignoring all but first)
+D/EGL_emulation(19106): app_time_stats: avg=499.34ms min=330.49ms max=635.27ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=272.08ms min=81.68ms max=632.62ms count=4
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+D/EGL_emulation(19106): app_time_stats: avg=392.02ms min=90.00ms max=665.16ms count=3
+I/ImeTracker(19106): br.com.miar.miar:4c08936d: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation(19106): app_time_stats: avg=465.42ms min=348.67ms max=524.06ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=701.66ms min=7.78ms max=12366.74ms count=18
+D/EGL_emulation(19106): app_time_stats: avg=781.04ms min=629.05ms max=933.03ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate
+D/EGL_emulation(19106): app_time_stats: avg=498.23ms min=335.60ms max=621.55ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=339.74ms min=95.52ms max=633.86ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=307.58ms min=47.82ms max=635.53ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Gerenciar"
+D/EGL_emulation(19106): app_time_stats: avg=592.74ms min=529.27ms max=656.20ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=492.18ms min=315.94ms max=633.76ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=235.50ms min=47.41ms max=542.53ms count=6
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+D/EGL_emulation(19106): app_time_stats: avg=497.05ms min=333.83ms max=619.91ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=249.34ms min=44.10ms max=630.43ms count=6
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Excluir ocorrência"
+D/EGL_emulation(19106): app_time_stats: avg=499.16ms min=333.92ms max=631.05ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=250.21ms min=51.09ms max=641.14ms count=6
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "TextButton" that are ancestors of widget with text "Excluir"
+D/EGL_emulation(19106): app_time_stats: avg=493.75ms min=322.76ms max=630.36ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=252.79ms min=45.35ms max=634.96ms count=6
+I/flutter (19106): MIAR_AUDIT_ETAPA=EXCLUSAO
+D/EGL_emulation(19106): app_time_stats: avg=600.73ms min=587.06ms max=614.41ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Perfil"
+D/EGL_emulation(19106): app_time_stats: avg=498.32ms min=335.07ms max=631.63ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=533.55ms min=530.99ms max=536.11ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=533.65ms min=531.69ms max=535.60ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=582.64ms min=531.82ms max=633.46ms count=2
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Sair da conta"
+D/EGL_emulation(19106): app_time_stats: avg=255.65ms min=62.25ms max=641.42ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=495.41ms min=314.92ms max=650.20ms count=3
+D/TSBackgroundFetch(19106): - stop
+I/TSBackgroundFetch(19106): - cancel taskId=flutter_background_fetch, jobId=999
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=245.19ms min=48.78ms max=608.72ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=582.64ms min=534.27ms max=631.00ms count=2
+I/ImeTracker(19106): br.com.miar.miar:db54cda3: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:ce373c4: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+D/EGL_emulation(19106): app_time_stats: avg=30218.87ms min=30218.87ms max=30218.87ms count=1
+I/ImeTracker(19106): br.com.miar.miar:ce373c4: onShown
+D/EGL_emulation(19106): app_time_stats: avg=324.91ms min=89.65ms max=618.66ms count=4
+I/ImeTracker(19106): br.com.miar.miar:50eb2e13: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:5db81d7a: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+I/ImeTracker(19106): br.com.miar.miar:41a8913e: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/ImeTracker(19106): br.com.miar.miar:baf4551f: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:50eb2e13: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:5db81d7a: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): hide(ime(), fromIme=true)
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InsetsController(19106): hide(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:baf4551f: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/EGL_emulation(19106): app_time_stats: avg=67.94ms min=7.16ms max=950.84ms count=17
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 218979, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 219008, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 219044, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 219111, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 219125, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 74, 219140, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 74, 219140, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 219162, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 219184, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 219199, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 219221, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 219243, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 219258, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 219273, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+V/PerfettoTrigger(19106): Not triggering com.android.telemetry.interaction-jank-monitor-80 - not enough time since last trigger
+I/ImeTracker(19106): br.com.miar.miar:60dc8ca: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker(19106): br.com.miar.miar:41a8913e: onHidden
+D/EGL_emulation(19106): app_time_stats: avg=278.69ms min=70.08ms max=602.10ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Entrar"
+D/EGL_emulation(19106): app_time_stats: avg=573.11ms min=517.62ms max=628.60ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=504.96ms min=330.13ms max=648.36ms count=3
+D/TSBackgroundFetch(19106): - configure
+D/TSBackgroundFetch(19106): - start
+D/TSBackgroundFetch(19106): - registerTask: flutter_background_fetch (jobId: 999)
+D/TSBackgroundFetch(19106): {
+D/TSBackgroundFetch(19106):   "taskId": "flutter_background_fetch",
+D/TSBackgroundFetch(19106):   "isFetchTask": true,
+D/TSBackgroundFetch(19106):   "minimumFetchInterval": 15,
+D/TSBackgroundFetch(19106):   "stopOnTerminate": false,
+D/TSBackgroundFetch(19106):   "requiredNetworkType": 1,
+D/TSBackgroundFetch(19106):   "requiresBatteryNotLow": false,
+D/TSBackgroundFetch(19106):   "requiresCharging": false,
+D/TSBackgroundFetch(19106):   "requiresDeviceIdle": false,
+D/TSBackgroundFetch(19106):   "requiresStorageNotLow": false,
+D/TSBackgroundFetch(19106):   "startOnBoot": true,
+D/TSBackgroundFetch(19106):   "jobService": "com.transistorsoft.flutter.backgroundfetch.HeadlessTask",
+D/TSBackgroundFetch(19106):   "forceAlarmManager": false,
+D/TSBackgroundFetch(19106):   "periodic": true,
+D/TSBackgroundFetch(19106):   "delay": -1
+D/TSBackgroundFetch(19106): }
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=248.31ms min=70.06ms max=584.77ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=576.87ms min=531.58ms max=622.17ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Gerenciar"
+D/EGL_emulation(19106): app_time_stats: avg=496.46ms min=318.74ms max=633.04ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=210.29ms min=57.45ms max=635.68ms count=5
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+D/EGL_emulation(19106): app_time_stats: avg=553.36ms min=475.16ms max=631.57ms count=2
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=500.32ms min=322.25ms max=649.03ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Excluir ocorrência"
+D/EGL_emulation(19106): app_time_stats: avg=247.82ms min=45.77ms max=635.01ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=500.56ms min=333.08ms max=637.95ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "TextButton" that are ancestors of widget with text "Excluir"
+D/EGL_emulation(19106): app_time_stats: avg=248.58ms min=48.68ms max=631.65ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=500.40ms min=335.82ms max=633.12ms count=3
+I/flutter (19106): MIAR_AUDIT_ETAPA=EXCLUSAO
+D/EGL_emulation(19106): app_time_stats: avg=254.18ms min=42.52ms max=633.30ms count=6
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Perfil"
+D/EGL_emulation(19106): app_time_stats: avg=594.97ms min=570.63ms max=619.30ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=467.00ms min=335.30ms max=538.12ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=536.42ms min=529.15ms max=543.69ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=579.40ms min=525.22ms max=633.58ms count=2
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Sair da conta"
+D/EGL_emulation(19106): app_time_stats: avg=248.01ms min=66.67ms max=637.40ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=498.64ms min=314.37ms max=663.59ms count=3
+D/TSBackgroundFetch(19106): - stop
+I/TSBackgroundFetch(19106): - cancel taskId=flutter_background_fetch, jobId=999
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=261.23ms min=22.09ms max=644.28ms count=6
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+D/EGL_emulation(19106): app_time_stats: avg=630.18ms min=606.77ms max=653.59ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=541.97ms min=347.66ms max=653.79ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "ONG"
+D/EGL_emulation(19106): app_time_stats: avg=258.49ms min=82.56ms max=602.88ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=497.01ms min=325.60ms max=636.48ms count=3
+I/ImeTracker(19106): br.com.miar.miar:25c38dc0: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:c8fe6dcf: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/EGL_emulation(19106): app_time_stats: avg=250.95ms min=73.96ms max=647.18ms count=6
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+D/EGL_emulation(19106): app_time_stats: avg=1856.00ms min=6.10ms max=35037.23ms count=19
+I/ImeTracker(19106): br.com.miar.miar:c8fe6dcf: onShown
+I/ImeTracker(19106): br.com.miar.miar:230d562f: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:21312053: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=324.35ms min=104.88ms max=614.90ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:230d562f: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:21312053: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker(19106): br.com.miar.miar:98962071: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:14d2daf9: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=332.34ms min=74.29ms max=658.01ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:14d2daf9: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 74, 225386, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 74, 225386, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 72, 225408, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 225459, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 72, 225480, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 225539, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 225569, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 225577, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 72, 225599, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 225614, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 225628, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 225680, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+V/PerfettoTrigger(19106): Not triggering com.android.telemetry.interaction-jank-monitor-80 - not enough time since last trigger
+I/ImeTracker(19106): br.com.miar.miar:55603711: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:acc42af3: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=333.45ms min=56.01ms max=647.75ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:55603711: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:acc42af3: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker(19106): br.com.miar.miar:d2f7785a: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:68f172b2: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=318.28ms min=68.70ms max=618.99ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+I/ImeTracker(19106): br.com.miar.miar:4ff60af5: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/ImeTracker(19106): br.com.miar.miar:b4e705f3: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:d2f7785a: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:68f172b2: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InsetsController(19106): hide(ime(), fromIme=true)
+D/InsetsController(19106): hide(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:b4e705f3: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/EGL_emulation(19106): app_time_stats: avg=343.89ms min=8.46ms max=4909.78ms count=15
+W/r.com.miar.miar(19106): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar(19106): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+I/ImeTracker(19106): br.com.miar.miar:9b708cbe: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker(19106): br.com.miar.miar:4ff60af5: onHidden
+D/EGL_emulation(19106): app_time_stats: avg=256.04ms min=50.43ms max=463.99ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+D/EGL_emulation(19106): app_time_stats: avg=497.61ms min=332.46ms max=631.12ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=201.23ms min=82.23ms max=658.66ms count=5
+D/EGL_emulation(19106): app_time_stats: avg=531.48ms min=501.62ms max=561.35ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=579.13ms min=531.61ms max=626.65ms count=2
+I/ImeTracker(19106): br.com.miar.miar:9369746a: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:c478d459: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+D/EGL_emulation(19106): app_time_stats: avg=443.45ms min=7.45ms max=6012.47ms count=14
+I/ImeTracker(19106): br.com.miar.miar:c478d459: onShown
+D/EGL_emulation(19106): app_time_stats: avg=335.80ms min=138.47ms max=639.36ms count=4
+I/ImeTracker(19106): br.com.miar.miar:c99ac2e7: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:facc59d2: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+I/ImeTracker(19106): br.com.miar.miar:184bb2ce: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/ImeTracker(19106): br.com.miar.miar:baab860a: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:c99ac2e7: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:facc59d2: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): hide(ime(), fromIme=true)
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InsetsController(19106): hide(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:baab860a: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/EGL_emulation(19106): app_time_stats: avg=82.48ms min=8.52ms max=945.83ms count=15
+I/ImeTracker(19106): br.com.miar.miar:e78b6c54: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker(19106): br.com.miar.miar:184bb2ce: onHidden
+D/EGL_emulation(19106): app_time_stats: avg=276.90ms min=63.32ms max=577.29ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Entrar"
+D/EGL_emulation(19106): app_time_stats: avg=570.17ms min=509.95ms max=630.39ms count=2
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+D/EGL_emulation(19106): app_time_stats: avg=502.32ms min=319.25ms max=657.44ms count=3
+D/TSBackgroundFetch(19106): - configure
+D/TSBackgroundFetch(19106): - start
+D/TSBackgroundFetch(19106): - registerTask: flutter_background_fetch (jobId: 999)
+D/TSBackgroundFetch(19106): {
+D/TSBackgroundFetch(19106):   "taskId": "flutter_background_fetch",
+D/TSBackgroundFetch(19106):   "isFetchTask": true,
+D/TSBackgroundFetch(19106):   "minimumFetchInterval": 15,
+D/TSBackgroundFetch(19106):   "stopOnTerminate": false,
+D/TSBackgroundFetch(19106):   "requiredNetworkType": 1,
+D/TSBackgroundFetch(19106):   "requiresBatteryNotLow": false,
+D/TSBackgroundFetch(19106):   "requiresCharging": false,
+D/TSBackgroundFetch(19106):   "requiresDeviceIdle": false,
+D/TSBackgroundFetch(19106):   "requiresStorageNotLow": false,
+D/TSBackgroundFetch(19106):   "startOnBoot": true,
+D/TSBackgroundFetch(19106):   "jobService": "com.transistorsoft.flutter.backgroundfetch.HeadlessTask",
+D/TSBackgroundFetch(19106):   "forceAlarmManager": false,
+D/TSBackgroundFetch(19106):   "periodic": true,
+D/TSBackgroundFetch(19106):   "delay": -1
+D/TSBackgroundFetch(19106): }
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=233.19ms min=65.30ms max=570.61ms count=6
+I/flutter (19106): MIAR_AUDIT_ETAPA=CADASTRO_2
+D/EGL_emulation(19106): app_time_stats: avg=579.91ms min=535.69ms max=624.13ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Registrar"
+D/EGL_emulation(19106): app_time_stats: avg=501.60ms min=329.65ms max=636.02ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=263.92ms min=88.45ms max=626.90ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Adicionar"
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+D/EGL_emulation(19106): app_time_stats: avg=384.41ms min=71.33ms max=632.48ms count=3
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=495.68ms min=309.89ms max=627.93ms count=3
+I/flutter (19106): MIAR_AUDIT_CAMERA
+D/EGL_emulation(19106): app_time_stats: avg=636.49ms min=6.70ms max=11867.34ms count=19
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Tirar fotografia"
+D/EGL_emulation(19106): app_time_stats: avg=248.28ms min=68.74ms max=630.64ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=1010.53ms min=1010.53ms max=1010.53ms count=1
+D/EGL_emulation(19106): app_time_stats: avg=494.14ms min=322.42ms max=633.62ms count=3
+D/VRI[MainActivity](19106): visibilityChanged oldVisibility=true newVisibility=false
+D/TSBackgroundFetch(19106): ☯️  onPause
+D/EGL_emulation(19106): app_time_stats: avg=245.24ms min=89.89ms max=564.19ms count=6
+D/TSBackgroundFetch(19106): ☯️  onStop
+D/EGL_emulation(19106): app_time_stats: avg=653.28ms min=515.73ms max=790.84ms count=2
+D/TSBackgroundFetch(19106): ☯️  onStart
+D/TSBackgroundFetch(19106): ☯️  onResume
+D/MediaScannerConnection(19106): Scanned /data/user/0/br.com.miar.miar/cache/c7d62c88-caee-4063-b86d-9d7ed26104c78997377717049299681.jpg to null
+I/r.com.miar.miar(19106): NativeAlloc concurrent mark compact GC freed 1417KB AllocSpace bytes, 8(416KB) LOS objects, 49% free, 3384KB/6768KB, paused 5.918ms,11.689ms total 157.070ms
+D/EGL_emulation(19106): app_time_stats: avg=3410.26ms min=493.26ms max=6327.26ms count=2
+W/r.com.miar.miar(19106): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+W/r.com.miar.miar(19106): ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+D/EGL_emulation(19106): app_time_stats: avg=42.56ms min=7.81ms max=638.66ms count=28
+D/EGL_emulation(19106): app_time_stats: avg=592.17ms min=563.07ms max=621.27ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=1057.31ms min=1057.31ms max=1057.31ms count=1
+I/ImeTracker(19106): br.com.miar.miar:ef89c6d7: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F....ID 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:16f2597c: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F....ID 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/EGL_emulation(19106): app_time_stats: avg=584.67ms min=534.63ms max=634.70ms count=2
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:16f2597c: onShown
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but index 0)
+D/EGL_emulation(19106): app_time_stats: avg=337.14ms min=99.23ms max=628.39ms count=4
+D/EGL_emulation(19106): app_time_stats: avg=107.16ms min=6.68ms max=1738.53ms count=22
+I/ImeTracker(19106): br.com.miar.miar:d2919b06: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InsetsController(19106): hide(ime(), fromIme=true)
+D/EGL_emulation(19106): app_time_stats: avg=492.90ms min=311.42ms max=632.29ms count=3
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+I/ImeTracker(19106): br.com.miar.miar:7ba6085e: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker(19106): br.com.miar.miar:d2919b06: onHidden
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/EGL_emulation(19106): app_time_stats: avg=205.32ms min=130.60ms max=387.88ms count=5
+D/EGL_emulation(19106): app_time_stats: avg=116.64ms min=9.63ms max=1051.04ms count=16
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Grande" (ignoring all but last)
+D/EGL_emulation(19106): app_time_stats: avg=497.07ms min=329.39ms max=624.72ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=2387.06ms min=2387.06ms max=2387.06ms count=1
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/EGL_emulation(19106): app_time_stats: avg=246.19ms min=72.02ms max=632.71ms count=6
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but index 1)
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/EGL_emulation(19106): app_time_stats: avg=497.53ms min=317.28ms max=638.98ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=2085.57ms min=2085.57ms max=2085.57ms count=1
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=253.17ms min=77.85ms max=616.78ms count=6
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Encontrado" (ignoring all but last)
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+D/EGL_emulation(19106): app_time_stats: avg=2362.69ms min=2362.69ms max=2362.69ms count=1
+D/EGL_emulation(19106): app_time_stats: avg=488.41ms min=332.44ms max=602.67ms count=3
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/EGL_emulation(19106): app_time_stats: avg=211.95ms min=78.21ms max=681.52ms count=5
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+I/ImeTracker(19106): br.com.miar.miar:40cf8fd2: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:4aaa43aa: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+D/EGL_emulation(19106): app_time_stats: avg=550.87ms min=450.90ms max=650.83ms count=2
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/InsetsController(19106): show(ime(), fromIme=true)
+D/EGL_emulation(19106): app_time_stats: avg=2458.07ms min=2458.07ms max=2458.07ms count=1
+I/ImeTracker(19106): br.com.miar.miar:4aaa43aa: onShown
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+I/ImeTracker(19106): br.com.miar.miar:71926678: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:6ee3199: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=323.41ms min=95.66ms max=608.71ms count=4
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:71926678: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:6ee3199: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+I/ImeTracker(19106): br.com.miar.miar:37acdebe: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:67118c36: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFED..... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/EGL_emulation(19106): app_time_stats: avg=322.48ms min=54.75ms max=642.16ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+E/AccessibilityBridge(19106): Attempted to getRootSemanticsNode without a root semantics node.
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:37acdebe: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:67118c36: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/EGL_emulation(19106): app_time_stats: avg=181.58ms min=7.22ms max=3236.32ms count=19
+I/ImeTracker(19106): br.com.miar.miar:806138ba: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:b76aa702: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=314.85ms min=47.49ms max=617.70ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:b76aa702: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker(19106): br.com.miar.miar:a0bd7077: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker(19106): br.com.miar.miar:89693b35: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager(19106): showSoftInput() view=io.flutter.embedding.android.FlutterView{db13828 VFE...... .F...... 0,0-1080,2400 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/EGL_emulation(19106): app_time_stats: avg=322.14ms min=56.47ms max=626.98ms count=4
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring on
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:a0bd7077: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController(19106): show(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:89693b35: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker(19106): br.com.miar.miar:8035640a: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/ImeTracker(19106): br.com.miar.miar:45184e6d: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InputConnectionAdaptor(19106): The input method toggled cursor monitoring off
+D/InsetsController(19106): hide(ime(), fromIme=true)
+D/InsetsController(19106): hide(ime(), fromIme=true)
+I/ImeTracker(19106): br.com.miar.miar:45184e6d: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/EGL_emulation(19106): app_time_stats: avg=1596.03ms min=1596.03ms max=1596.03ms count=1
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 243487, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 243509, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 243531, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 88, 243546, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 88, 243546, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 243582, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 243604, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 243633, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 243648, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 243692, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 243714, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 243736, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 243758, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 243780, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 243802, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 243817, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 243832, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 243847, 0, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@br.com.miar.miar>
+V/PerfettoTrigger(19106): Not triggering com.android.telemetry.interaction-jank-monitor-80 - not enough time since last trigger
+I/flutter (19106): MIAR_AUDIT_GPS_PERMITIR
+I/ImeTracker(19106): br.com.miar.miar:2a41f47: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker(19106): br.com.miar.miar:8035640a: onHidden
+D/EGL_emulation(19106): app_time_stats: avg=259.46ms min=66.54ms max=480.14ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Obter localização por GPS"
+D/EGL_emulation(19106): app_time_stats: avg=497.58ms min=334.33ms max=633.84ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=211.03ms min=85.28ms max=646.96ms count=5
+D/EGL_emulation(19106): app_time_stats: avg=507.34ms min=455.62ms max=537.49ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=525.00ms min=506.20ms max=543.79ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=556.80ms min=529.49ms max=584.10ms count=2
+I/ImeTracker(19106): br.com.miar.miar:e4016791: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation(19106): app_time_stats: avg=395.23ms min=5.94ms max=7692.34ms count=20
+D/EGL_emulation(19106): app_time_stats: avg=570.72ms min=342.77ms max=755.41ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Cadastrar ocorrência"
+D/EGL_emulation(19106): app_time_stats: avg=499.14ms min=329.54ms max=637.27ms count=3
+E/FrameTracker(19106): force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 245839, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed App frame:UNKNOWN: 74, 245854, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 74, 245854, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 245905, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 245934, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 245949, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 245978, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 245993, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 246015, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 246037, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 246059, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 246088, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 246110, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 246146, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 246168, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 246190, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 80, 246212, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+W/FrameTracker(19106): Missed SF frame:UNKNOWN: 66, 246234, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@br.com.miar.miar>
+V/PerfettoTrigger(19106): Not triggering com.android.telemetry.interaction-jank-monitor-81 - not enough time since last trigger
+D/EGL_emulation(19106): app_time_stats: avg=250.30ms min=78.35ms max=635.99ms count=6
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=576.43ms min=564.94ms max=587.91ms count=2
+I/ImeTracker(19106): br.com.miar.miar:4d7bc717: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/EGL_emulation(19106): app_time_stats: avg=508.24ms min=368.72ms max=623.23ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=7084.11ms min=7084.11ms max=7084.11ms count=1
+I/flutter (19106): MIAR_AUDIT_ETAPA=OCORRENCIA_2445
+D/EGL_emulation(19106): app_time_stats: avg=702.22ms min=641.54ms max=762.91ms count=2
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate
+D/EGL_emulation(19106): app_time_stats: avg=492.94ms min=339.59ms max=623.01ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=259.10ms min=79.86ms max=617.42ms count=4
+D/EGL_emulation(19106): app_time_stats: avg=384.18ms min=60.47ms max=624.24ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Gerenciar"
+D/EGL_emulation(19106): app_time_stats: avg=593.63ms min=532.30ms max=654.95ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=493.92ms min=319.90ms max=637.67ms count=3
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/flutter (19106): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+D/EGL_emulation(19106): app_time_stats: avg=252.33ms min=62.16ms max=637.37ms count=6
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=506.79ms min=330.35ms max=659.96ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Excluir ocorrência"
+D/EGL_emulation(19106): app_time_stats: avg=246.08ms min=43.85ms max=629.49ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=501.01ms min=333.80ms max=638.82ms count=3
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "TextButton" that are ancestors of widget with text "Excluir"
+D/EGL_emulation(19106): app_time_stats: avg=249.69ms min=51.05ms max=638.93ms count=6
+D/EGL_emulation(19106): app_time_stats: avg=503.00ms min=331.68ms max=641.84ms count=3
+I/flutter (19106): MIAR_AUDIT_ETAPA=EXCLUSAO
+D/EGL_emulation(19106): app_time_stats: avg=253.47ms min=47.15ms max=653.15ms count=6
+I/flutter (19106): MIAR_AUDIT_UI=widget with text "Perfil"
+D/EGL_emulation(19106): app_time_stats: avg=591.05ms min=551.48ms max=630.62ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=470.46ms min=333.01ms max=541.38ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=530.87ms min=520.26ms max=541.47ms count=2
+D/EGL_emulation(19106): app_time_stats: avg=531.75ms min=525.37ms max=538.14ms count=2
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation(19106): app_time_stats: avg=258.43ms min=54.95ms max=628.00ms count=4
+I/flutter (19106): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Sair da conta"
+D/EGL_emulation(19106): app_time_stats: avg=372.46ms min=81.17ms max=642.03ms count=3
+D/EGL_emulation(19106): app_time_stats: avg=494.54ms min=314.65ms max=653.35ms count=3
+D/TSBackgroundFetch(19106): - stop
+I/TSBackgroundFetch(19106): - cancel taskId=flutter_background_fetch, jobId=999
+W/WindowOnBackDispatcher(19106): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(19106): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/flutter (19106): MIAR_AUDIT_ETAPA=ENSAIO_COMPLETO_APROVADO
+D/EGL_emulation(19106): app_time_stats: avg=252.28ms min=29.38ms max=644.63ms count=6
+I/flutter (19106): 09:42 +1: (tearDownAll)
+I/flutter (19106): 09:44 +2: All tests passed!
+I/Choreographer(19106): Skipped 107 frames!  The application may be doing too much work on its main thread.
+D/EGL_emulation(19106): app_time_stats: avg=30307.01ms min=30307.01ms max=30307.01ms count=1
+I/HWUI    (19106): Davey! duration=1806ms; Flags=0, FrameTimelineVsyncId=254927, IntendedVsync=3818714011730, Vsync=3820497344992, InputEventId=0, HandleInputStart=3820510941800, AnimationStart=3820510968200, PerformTraversalsStart=3820511002900, DrawStart=3820511337700, FrameDeadline=3818730678396, FrameInterval=3820510478400, FrameStartTime=16666666, SyncQueued=3820511472400, SyncStart=3820511693900, IssueDrawCommandsStart=3820511820100, SwapBuffers=3820513019600, FrameCompleted=3820520235800, DequeueBufferDuration=19000, QueueBufferDuration=524200, GpuCompleted=3820519593900, SwapBuffersCompleted=3820520235800, DisplayPresentTime=0, CommandSubmissionCompleted=3820513019600, 
+All tests passed.

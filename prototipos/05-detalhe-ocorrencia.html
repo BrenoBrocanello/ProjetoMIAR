@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>MIAR — Detalhe da Ocorrência</title>
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/miar.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="device">
+    <div class="notch"></div>
+    <div class="screen">
+      <div class="aurora"><div class="blob"></div></div>
+
+      <div class="statusbar">
+        <span>9:41</span>
+        <span class="icons">
+          <svg width="17" height="12" viewBox="0 0 17 12" fill="currentColor"><rect y="8" width="3" height="4" rx="1"/><rect x="4.5" y="5.5" width="3" height="6.5" rx="1"/><rect x="9" y="3" width="3" height="9" rx="1"/><rect x="13.5" width="3" height="12" rx="1"/></svg>
+          <svg width="16" height="12" viewBox="0 0 16 12" fill="currentColor"><path d="M8 11.2 6 8.9c1.1-.9 2.9-.9 4 0l-2 2.3Zm0-4.6c-1.6 0-3.1.6-4.2 1.6L2.3 6.6C3.8 5.2 5.8 4.4 8 4.4s4.2.8 5.7 2.2l-1.5 1.6C11.1 7.2 9.6 6.6 8 6.6Zm0-4.4c-2.6 0-5 1-6.8 2.6L0 2.9C2.2.9 5 0 8 0s5.8 1 8 2.9l-1.2 1.5C13 3 10.6 2.2 8 2.2Z"/></svg>
+          <svg width="26" height="13" viewBox="0 0 26 13" fill="none"><rect x=".6" y=".6" width="21" height="11.8" rx="3.4" stroke="currentColor" stroke-opacity=".4" stroke-width="1.1"/><rect x="2.2" y="2.2" width="17.8" height="8.6" rx="2.2" fill="currentColor"/><path d="M23.2 4.3v4.4c1-.4 1.6-1.2 1.6-2.2s-.6-1.8-1.6-2.2Z" fill="currentColor" fill-opacity=".4"/></svg>
+        </span>
+      </div>
+
+      <div class="content">
+        <div class="appbar">
+          <span class="back"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5 8 12l7 7"/></svg></span>
+          <span class="title">Ocorrência</span>
+        </div>
+
+        <!-- Fotografias da ocorrência — entidade FOTO (RF02) -->
+        <div style="padding:0 24px">
+          <div class="photo" style="height:188px;border-radius:var(--radius-xl);position:relative;background-image:url('assets/img/ocorrencia-cao-grande.jpg');background-position:center top">
+            <svg width="86" height="64" viewBox="0 0 150 110" fill="currentColor" opacity=".5"><path d="M44 44c-9 0-16 8-18 17-1 6-6 9-6 17 0 12 10 20 24 20 9 0 12-4 20-4s11 4 20 4c14 0 24-8 24-20 0-8-5-11-6-17-2-9-9-17-18-17-7 0-11 4-20 4s-13-4-20-4Z" opacity=".75"/><ellipse cx="30" cy="22" rx="11" ry="16" transform="rotate(-18 30 22)"/><ellipse cx="60" cy="12" rx="10" ry="15" transform="rotate(-6 60 12)"/><ellipse cx="92" cy="12" rx="10" ry="15" transform="rotate(6 92 12)"/><ellipse cx="121" cy="22" rx="11" ry="16" transform="rotate(18 121 22)"/></svg>
+            <span class="badge badge-perdido" style="position:absolute;top:12px;left:12px">Perdido</span>
+            <span style="position:absolute;bottom:12px;right:12px;background:rgba(255,255,255,.85);border-radius:var(--radius-full);padding:4px 12px;font-size:12px;font-weight:600;color:var(--miar-ink)">1 / 3</span>
+          </div>
+        </div>
+
+        <div class="sheet" style="margin-top:18px;padding-top:22px">
+          <div class="t-h1">Cão · Grande</div>
+
+          <!-- Atributos da entidade OCORRENCIA_ANIMAL -->
+          <div class="chips" style="margin-top:12px">
+            <span class="chip">Espécie: Cão</span>
+            <span class="chip">Porte: Grande</span>
+          </div>
+
+          <div style="margin-top:16px">
+            <div class="t-overline">Descrição física</div>
+            <div class="t-body" style="margin-top:4px">
+              Caramelo, pelo curto, coleira azul com plaquinha. Porte grande, muito dócil.
+            </div>
+          </div>
+
+          <div style="margin-top:16px">
+            <div class="t-overline">Estado aparente de saúde</div>
+            <div class="t-body" style="margin-top:4px">Saudável, sem sinais de ferimento.</div>
+          </div>
+
+          <div class="divider" style="margin:18px 0"></div>
+
+          <!-- Localização registrada — entidade LOCALIZACAO (RD03) -->
+          <div class="row gap-12">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21.5s7-5.8 7-11a7 7 0 1 0-14 0c0 5.2 7 11 7 11Z"/><circle cx="12" cy="10.2" r="2.6"/></svg>
+            <div>
+              <div class="t-label">Av. Antônio Pincinato, 1200</div>
+              <div class="t-caption">Jundiaí, SP</div>
+            </div>
+          </div>
+
+          <div class="row gap-12" style="margin-top:14px">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 9.5h17M8 3.5v3M16 3.5v3"/></svg>
+            <div>
+              <div class="t-label">Registrado em 20/10/2026</div>
+              <div class="t-caption">por Protetora Patas de Jundiaí</div>
+            </div>
+          </div>
+
+          <!-- Contato com o responsável via WhatsApp (RF07 / RD05).
+               Exibido apenas enquanto a ocorrência não estiver encerrada (RD06). -->
+          <button class="btn btn-primary" style="margin-top:22px">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2A9.7 9.7 0 0 0 3.6 16.8L2.4 21.6l4.9-1.3A9.7 9.7 0 1 0 12 2.2Zm0 17.6a8 8 0 0 1-4.1-1.1l-.3-.2-2.9.8.8-2.8-.2-.3a8 8 0 1 1 6.7 3.6Zm4.4-5.9c-.2-.1-1.4-.7-1.7-.8s-.4-.1-.5.1-.6.8-.8 1-.3.2-.5 0a6.6 6.6 0 0 1-3.3-2.8c-.2-.4.2-.4.6-1.2a.4.4 0 0 0 0-.4c0-.1-.5-1.3-.7-1.8s-.4-.4-.5-.4h-.5a1 1 0 0 0-.7.3 2.9 2.9 0 0 0-.9 2.2 5.1 5.1 0 0 0 1 2.7 11.5 11.5 0 0 0 4.5 4 5 5 0 0 0 3 .6 2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3Z"/></svg>
+            Falar no WhatsApp
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="trace">
+    <b>Tela 05 — Detalhe da Ocorrência e Contato com o Responsável.</b><br>
+    Respaldo: <b>UC Iniciar Contato com Responsável</b> · <b>UC Link WhatsApp</b> ·
+    <b>RF07</b> (contato via integração com WhatsApp) · <b>RD05</b> (telefone brasileiro) ·
+    <b>RD06</b> (ocorrências encerradas não disponibilizam contato público) ·
+    Entidades <b>OCORRENCIA_ANIMAL</b>, <b>FOTO</b>, <b>LOCALIZACAO</b>, <b>CONTATO</b>.
+  </div>
+</div>
+</body>
+</html>

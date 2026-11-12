@@ -1,0 +1,1662 @@
+
+
+=== PAGINA 1 ===
+CENTRO ESTADUAL DE EDUCAÇÃO 
+TECNOLÓGICA PAULA SOUZA 
+Faculdade de Tecnologia de Jundiaí – Dep. Ary Fossen 
+Curso Superior de Tecnologia em Análise e 
+Desenvolvimento de Sistemas 
+ 
+ 
+ 
+ 
+ 
+ 
+PROJETO MIAR: 
+Mapeamento e identificação de animais de risco 
+ 
+ 
+ 
+ 
+ 
+ADRIEL MARTINS DE SOUZA 
+RA: 1140482422019 
+ANY CAROLINE BEZERRA 
+RA: 1140482422024 
+BRENO DE OLIVEIRA BROCANELLO 
+RA: 1140482422003 
+JOÃO VITOR CAVALCANTE BARROS 
+RA: 1140482422035 
+MARIA EDUARDA MARCHEZINI BARBIERI 
+RA: 1140482422004 
+ 
+ 
+Prof.ª Me. Ângela Lühmann 
+ 
+ 
+ 
+Jundiaí 
+2026 
+
+
+=== PAGINA 2 ===
+1. PROJETO MIAR: Mapeamento e identificação de animais de risco 
+Adriel Martins de Souza 
+Any Caroline Bezerra 
+Breno de Oliveira Brocanello 
+João Vitor Cavalcante Barros 
+Maria Eduarda Marchezini Barbieri 
+1.1. Requisitos do Sistema 
+1.1.1. Escopo 
+O sistema MIAR é uma plataforma de utilidade pública que conecta a comunidade e ONGs 
+para transformar o resgate, reencontro e adoção de animais vulneráveis. A solução otimiza os 
+reencontros por meio de um mapeamento via GPS e um cruzamento automatizado de dados entre 
+pets perdidos e achados, centralizados em uma galeria com status dinâmicos e atualizados em 
+tempo real. Para impulsionar as adoções, o ecossistema oferece filtros de busca avançados para os 
+adotantes e um canal direto via WhatsApp com os protetores, que gerenciam e atualizam as 
+informações de cada caso de forma simples através de um painel de gestão exclusivo. 
+1.1.2. Descrição Textual do Sistema 
+ O sistema atua como uma plataforma bilateral de utilidade pública, projetado para unir a 
+sociedade/cidadãos, protetores independentes e Organizações Não Governamentais (ONGs) em 
+prol da causa animal. Seu principal objetivo é otimizar o fluxo de resgate, acolhimento, triagem e 
+adoção de animais em situação de vulnerabilidade e risco, além de facilitar o reencontro de pets 
+perdidos 
+com 
+seus 
+tutores. 
+ 
+Com o registro de ocorrências os usuários interagem com o sistema preenchendo um 
+formulário de informações cruciais: descrição física, fotos do animal, localização exata (via 
+mapeamento de GPS) e o estado aparente de saúde (necessidade de atendimento médico ou 
+emergência). A partir desse momento, o animal é inserido em uma galeria estruturada com status 
+dinâmicos, que incluem categorias como “Perdido”, “Encontrado”, “Emergência”, “Aguardando 
+Adoção” e “Adotado”. 
+ 
+Com as informações registradas, o sistema processa esses dados e gera marcadores geolocalizados 
+em um mapa interativo, permitindo que a comunidade visualize a distribuição de ocorrências em 
+tempo real. 
+
+
+=== PAGINA 3 ===
+ 
+Para o público interessado em adotar, o sistema oferece uma interface amigável equipada com 
+busca inteligente. Os potenciais adotantes podem refinar sua procura com alguns filtros específicos, 
+como espécie, porte do animal e cidade. Ao encontrar um animal compatível, a plataforma elimina 
+barreiras de comunicação, permitindo que o interessado inicie uma conversa direta com o protetor 
+ou ONG responsável pelo caso através da integração direta com o WhatsApp. 
+ 
+Assim que um animal retorna ao seu lar ou é adotado, o protetor pode alterar seu status final da 
+ocorrência para “adotado” ou “resgatado”, garantindo que a base de dados da plataforma 
+permaneça sempre limpa, transparente e atualizada. 
+1.1.3. Requisitos Funcionais 
+Na tabela a seguir, são apresentados os Requisitos Funcionais do Sistema: 
+Requisito 
+Funcional 
+(RF) 
+Nome do 
+Requisito 
+Funcional 
+Descrição do Requisito Funcional 
+RF01 
+Cadastro e 
+Autenticação de 
+Usuários 
+O sistema deve permitir que 
+cidadãos, protetores independentes e 
+representantes de ONGs realizem 
+cadastro, login, logout, consulta e 
+atualização de seus dados de usuário. 
+RF02 
+Cadastro e Gestão 
+de Ocorrências 
+O sistema deve permitir que o 
+usuário cadastre uma ocorrência 
+animal informando descrição física, 
+espécie, porte, fotografias, cidade, 
+localização geográfica, estado 
+aparente de saúde, status da 
+ocorrência e dados de contato. O 
+responsável pela ocorrência deve 
+poder consultar, alterar e excluir seus 
+próprios registros. 
+RF03 
+Consulta e 
+Filtragem de 
+Ocorrências 
+O sistema deve permitir que os 
+usuários consultem as ocorrências 
+cadastradas em uma galeria e filtrem 
+os resultados por status, espécie, 
+porte e cidade. 
+RF04 
+Visualização de 
+Ocorrências no 
+Mapa 
+O sistema deve apresentar as 
+ocorrências cadastradas em um mapa 
+interativo por meio de marcadores 
+geolocalizados de acordo com a 
+localização registrada. 
+
+
+=== PAGINA 4 ===
+Requisito 
+Funcional 
+(RF) 
+Nome do 
+Requisito 
+Funcional 
+Descrição do Requisito Funcional 
+RF05 
+Análise de 
+Correspondência 
+por Imagem 
+O sistema deve comparar fotografias 
+de animais cadastrados com 
+fotografias de animais perdidos, 
+buscando identificar possíveis 
+correspondências com base em 
+características visuais. 
+RF06 
+Notificação de 
+Possível 
+Correspondência 
+O sistema deve notificar o 
+responsável por um animal perdido 
+quando for identificada uma possível 
+correspondência entre sua ocorrência 
+e outra ocorrência cadastrada. 
+RF07 
+Contato com o 
+Responsável 
+O sistema deve permitir que o 
+usuário interessado inicie contato 
+com o responsável pela ocorrência 
+por meio de integração com o 
+WhatsApp. 
+RF08 
+Atualização do 
+Status da 
+Ocorrência 
+O sistema deve permitir que o 
+responsável pela ocorrência altere o 
+status do animal conforme a evolução 
+do caso, mantendo a situação 
+apresentada na plataforma 
+atualizada. 
+1.1.4. Requisitos Não Funcionais 
+Na tabela a seguir, são apresentados os Requisitos Não Funcionais do Sistema: 
+Requisito 
+Não 
+Funcional 
+(RNF) 
+Nome do 
+Requisito Não 
+Funcional 
+Descrição do Requisito Não 
+Funcional 
+RNF01 
+Responsividade da 
+Interface 
+O sistema deve apresentar uma 
+interface responsiva, adaptando-se 
+adequadamente a dispositivos 
+móveis, tablets e computadores. 
+RNF02 
+Desempenho 
+O sistema deve processar as consultas 
+e filtros de ocorrências em até 2 
+segundos, considerando condições 
+normais de operação. 
+RNF03 
+Disponibilidade do 
+Sistema 
+O sistema deve permanecer 
+disponível para utilização durante o 
+período de operação definido pelo 
+projeto, tratando adequadamente 
+indisponibilidades de serviços 
+externos utilizados pela aplicação. 
+
+
+=== PAGINA 5 ===
+Requisito 
+Não 
+Funcional 
+(RNF) 
+Nome do 
+Requisito Não 
+Funcional 
+Descrição do Requisito Não 
+Funcional 
+RNF04 
+Desempenho no 
+Processamento de 
+Imagens 
+O sistema deve otimizar as imagens 
+enviadas pelos usuários antes do 
+armazenamento, reduzindo o 
+tamanho dos arquivos sem 
+comprometer a qualidade necessária 
+para a identificação visual do animal. 
+RNF05 
+Segurança e 
+Controle de 
+Acesso 
+O sistema deve restringir o acesso às 
+funcionalidades de acordo com o 
+perfil do usuário, impedindo que 
+usuários não autorizados alterem ou 
+gerenciem ocorrências de terceiros. 
+RNF06 
+Usabilidade 
+O sistema deve apresentar uma 
+interface simples e intuitiva, 
+permitindo que os usuários realizem 
+as principais operações sem 
+necessidade de treinamento 
+específico. 
+1.1.5. Requisitos de Domínio 
+Na tabela a seguir, são apresentados os Requisitos de Domínio do Sistema: 
+Requisito 
+de 
+Domínio 
+(RD) 
+Nome do 
+Requisito de 
+Domínio 
+Descrição do Requisito de Domínio 
+RD01 
+Perfis de Usuário 
+Todo usuário cadastrado deve possuir 
+um dos perfis definidos pelo domínio: 
+cidadão, protetor independente ou 
+ONG. 
+RD02 
+Status da 
+Ocorrência 
+Uma ocorrência deve possuir um 
+status correspondente à situação 
+atual do animal, podendo assumir os 
+estados: “Perdido”, “Encontrado”, 
+“Emergência”, “Aguardando Adoção”, 
+“Adotado” ou “Resgatado”. 
+RD03 
+Localização da 
+Ocorrência 
+Toda ocorrência deve possuir cidade 
+e localização geográfica associadas, 
+permitindo sua representação no 
+mapa do sistema. 
+RD04 
+Responsabilidade 
+pela Ocorrência 
+Somente o usuário responsável pelo 
+cadastro da ocorrência deve poder 
+alterar seus dados ou atualizar seu 
+status. 
+
+
+=== PAGINA 6 ===
+Requisito 
+de 
+Domínio 
+(RD) 
+Nome do 
+Requisito de 
+Domínio 
+Descrição do Requisito de Domínio 
+RD05 
+Contato via 
+WhatsApp 
+O número utilizado para contato deve 
+estar em formato telefônico brasileiro 
+válido, incluindo DDD, para 
+possibilitar a integração com o 
+WhatsApp. 
+RD06 
+Encerramento da 
+Ocorrência 
+Ocorrências finalizadas com status 
+“Adotado” ou “Resgatado” não 
+devem disponibilizar contato público 
+para novos interessados. 
+RD07 
+Correspondência 
+de Animal Perdido 
+A análise automática de 
+correspondência deve relacionar uma 
+nova ocorrência a registros de 
+animais perdidos quando existirem 
+fotografias adequadas para 
+comparação. 
+1.1.6. Diagrama de Casos de Uso 
+  
+
+
+=== PAGINA 7 ===
+1.1.7. Documento de Casos de Uso 
+CU01 Cadastrar usuário 
+Caso de Uso 
+CU01 Cadastrar usuário 
+Autor 
+Equipe do projeto MIAR 
+Data 
+04/11/2026 
+Descrição 
+Registrar um usuário e seu perfil de cidadão, 
+protetor independente ou ONG (RF01, RD01 e 
+RD05). 
+Atores 
+Cidadão, Protetor independente e ONG. 
+Pré-condições 
+Pessoa ainda sem cadastro; serviço de cadastro 
+disponível. 
+Cenário Normal 
+1. A pessoa acessa a opção de criação de cadastro. 
+2. Seleciona o perfil e informa nome, e-mail, 
+telefone, senha e os dados específicos do perfil. 
+3. O MIAR valida os dados e o telefone brasileiro 
+com DDD. 
+4. O sistema registra o usuário e o habilita para 
+autenticação. 
+Cenário 
+Alternativo 
+A1. Dados incompletos ou inválidos: o sistema 
+indica a necessidade de correção e não conclui o 
+cadastro. 
+A2. Indisponibilidade do serviço: a falha é 
+informada, sem confirmação de cadastro concluído 
+(RNF03). 
+Pós-condições 
+Em caso de sucesso, usuário cadastrado com um 
+dos três perfis previstos no RD01. 
+
+
+=== PAGINA 8 ===
+CU02 Fazer login / logout 
+Caso de Uso 
+CU02 Fazer login / logout 
+Autor 
+Equipe do projeto MIAR 
+Data 
+04/11/2026 
+Descrição 
+Iniciar ou encerrar a sessão de acesso ao MIAR, 
+conforme RF01 e RNF05. 
+Atores 
+Cidadão, Protetor independente e ONG. 
+Pré-condições 
+Para login, usuário cadastrado; para logout, sessão 
+autenticada. 
+Cenário Normal 
+1. Para entrar, o usuário informa e-mail e senha. 
+2. O MIAR valida as credenciais e estabelece a 
+sessão por token, conforme o perfil. 
+3. Para sair, o usuário seleciona a opção de 
+encerramento de sessão. 
+4. O MIAR encerra a sessão e impede o uso dos 
+recursos que exigem autenticação. 
+Cenário 
+Alternativo 
+A1. Credenciais inválidas: o acesso é negado e o 
+usuário pode corrigir os dados. 
+A2. Serviço de autenticação indisponível: a falha é 
+informada e o login não é confirmado (RNF03). 
+Pós-condições 
+Login bem-sucedido: sessão autenticada. Logout 
+bem-sucedido: sessão encerrada. 
+
+
+=== PAGINA 9 ===
+CU03 Consultar animais 
+Caso de Uso 
+CU03 Consultar animais 
+Autor 
+Equipe do projeto MIAR 
+Data 
+04/11/2026 
+Descrição 
+Consultar as ocorrências na galeria e seus detalhes 
+(RF03). A consulta admite a extensão Filtrar animal 
+(CU04). 
+Atores 
+Cidadão, Protetor independente e ONG. 
+Pré-condições 
+Serviço de consulta disponível; galeria acessível ao 
+usuário. 
+Cenário Normal 
+1. O usuário abre a galeria de ocorrências. 
+2. O MIAR apresenta os animais cadastrados, com 
+espécie, porte, cidade, data e status. 
+3. O usuário seleciona um registro para consultar 
+seus detalhes. 
+4. Se desejar refinar a consulta, aciona o CU04. 
+Cenário 
+Alternativo 
+A1. Nenhuma ocorrência disponível: o sistema 
+apresenta a ausência de registros. 
+A2. Serviço indisponível: a falha de consulta é 
+informada (RNF03). 
+Pós-condições 
+Informações consultadas, sem alteração dos 
+registros. Em condições normais, aplica-se o limite 
+de dois segundos do RNF02. 
+
+
+=== PAGINA 10 ===
+CU04 Filtrar animal 
+Caso de Uso 
+CU04 Filtrar animal 
+Autor 
+Equipe do projeto MIAR 
+Data 
+04/11/2026 
+Descrição 
+Refinar os resultados de Consultar animais (CU03), 
+como extensão opcional, conforme RF03. 
+Atores 
+Cidadão, Protetor independente e ONG. 
+Pré-condições 
+Usuário no contexto da consulta à galeria de 
+ocorrências. 
+Cenário Normal 
+1. O usuário acessa os filtros de consulta. 
+2. Seleciona status, espécie, porte e/ou cidade. 
+3. O MIAR aplica os critérios informados. 
+4. A galeria apresenta somente as ocorrências 
+compatíveis. 
+Cenário 
+Alternativo 
+A1. Nenhum registro atende aos filtros: o sistema 
+apresenta resultado vazio. 
+A2. Nenhum critério informado: permanece a 
+consulta geral à galeria. 
+A3. Falha no serviço de consulta: a 
+indisponibilidade é informada (RNF03). 
+Pós-condições 
+Resultados filtrados, sem modificar as ocorrências. 
+Em condições normais, o processamento respeita o 
+RNF02. 
+
+
+=== PAGINA 11 ===
+CU05 Cadastrar ocorrência de animal 
+Caso de Uso 
+CU05 Cadastrar ocorrência de animal 
+Autor 
+Equipe do projeto MIAR 
+Data 
+04/11/2026 
+Descrição 
+Registrar uma ocorrência animal, incluindo 
+obrigatoriamente Analisar imagem (CU11), 
+conforme RF02, RF05, RD03 e RD07. 
+Atores 
+Cidadão, Protetor independente e ONG. 
+Pré-condições 
+Usuário autenticado; dados, fotografias e 
+localização disponíveis para o cadastro. 
+Cenário Normal 
+1. O usuário acessa o cadastro de ocorrência. 
+2. Informa fotos, espécie, porte, status, descrição 
+física, saúde, cidade, localização por GPS e contato. 
+3. O MIAR valida os dados, a localização e o 
+telefone com DDD. 
+4. Registra a ocorrência vinculada ao usuário, às 
+fotos, à localização e ao contato. 
+5. Executa o CU11, incluído no cadastro, e 
+disponibiliza o registro para consulta. 
+Cenário 
+Alternativo 
+A1. Dados inválidos ou localização ausente: o 
+sistema exige correção e não conclui o fluxo 
+normal. 
+A2. API de IA indisponível: a etapa de análise é 
+interrompida e a falha é informada (RNF03). 
+Pós-condições 
+Em caso de sucesso, ocorrência registrada, 
+vinculada ao responsável e com a análise incluída 
+executada. 
+
+
+=== PAGINA 12 ===
+CU06 Visualizar status da ocorrência 
+Caso de Uso 
+CU06 Visualizar status da ocorrência 
+Autor 
+Equipe do projeto MIAR 
+Data 
+04/11/2026 
+Descrição 
+Consultar a situação atual de uma ocorrência, 
+conforme RF03 e os seis estados definidos no 
+RD02. 
+Atores 
+Cidadão, Protetor independente e ONG. 
+Pré-condições 
+Ocorrência disponível para consulta na galeria ou 
+em seus detalhes. 
+Cenário Normal 
+1. O usuário consulta a galeria ou seleciona uma 
+ocorrência. 
+2. O MIAR recupera o status atual do registro. 
+3. Exibe um dos estados: Perdido, Encontrado, 
+Emergência, Aguardando Adoção, Adotado ou 
+Resgatado. 
+Cenário 
+Alternativo 
+A1. Registro não localizado: o sistema informa que 
+a ocorrência não está disponível. 
+A2. Falha na consulta: o sistema informa a 
+indisponibilidade (RNF03). 
+Pós-condições 
+Status atual apresentado ao usuário, sem alteração 
+da ocorrência. 
+
+
+=== PAGINA 13 ===
+CU07 Alterar status da ocorrência 
+Caso de Uso 
+CU07 Alterar status da ocorrência 
+Autor 
+Equipe do projeto MIAR 
+Data 
+04/11/2026 
+Descrição 
+Atualizar a situação de uma ocorrência própria, 
+conforme RF08, RD02, RD04, RD06 e RNF05. 
+Atores 
+Cidadão, Protetor independente ou ONG 
+responsável pela ocorrência. 
+Pré-condições 
+Usuário autenticado e responsável pelo cadastro da 
+ocorrência. 
+Cenário Normal 
+1. O responsável acessa sua ocorrência e solicita a 
+alteração de status. 
+2. Seleciona um dos seis estados previstos no RD02. 
+3. O MIAR verifica a titularidade e valida o estado 
+selecionado. 
+4. Grava a alteração e atualiza a situação exibida. 
+5. Para Adotado ou Resgatado, desabilita o contato 
+público, conforme RD06. 
+Cenário 
+Alternativo 
+A1. Usuário não responsável: a alteração é negada 
+(RD04 e RNF05). 
+A2. Status inválido ou falha na gravação: a 
+alteração não é concluída e o erro é informado. 
+Pós-condições 
+Em caso de sucesso, status atualizado. Em caso de 
+rejeição ou falha, não é confirmada alteração do 
+registro. 
+
+
+=== PAGINA 14 ===
+CU08 Excluir ocorrência 
+Caso de Uso 
+CU08 Excluir ocorrência 
+Autor 
+Equipe do projeto MIAR 
+Data 
+04/11/2026 
+Descrição 
+Excluir uma ocorrência própria, conforme RF02, 
+RD04 e RNF05. 
+Atores 
+Cidadão, Protetor independente ou ONG 
+responsável pela ocorrência. 
+Pré-condições 
+Usuário autenticado; ocorrência existente e 
+cadastrada sob sua responsabilidade. 
+Cenário Normal 
+1. O responsável acessa a ocorrência que deseja 
+excluir. 
+2. Solicita sua exclusão. 
+3. O MIAR verifica a titularidade do registro. 
+4. Exclui a ocorrência e deixa de apresentá-la nas 
+consultas da plataforma. 
+Cenário 
+Alternativo 
+A1. Usuário não responsável: o sistema nega a 
+exclusão (RD04 e RNF05). 
+A2. Registro inexistente: a indisponibilidade da 
+ocorrência é informada. 
+A3. Falha na gravação: a exclusão não é confirmada 
+e o erro é informado. 
+Pós-condições 
+Em caso de sucesso, ocorrência excluída da 
+consulta. Em caso de falha, a exclusão não é 
+apresentada como concluída. 
+
+
+=== PAGINA 15 ===
+CU09 Visualizar radar de resgate 
+Caso de Uso 
+CU09 Visualizar radar de resgate 
+Autor 
+Equipe do projeto MIAR 
+Data 
+04/11/2026 
+Descrição 
+Exibir as ocorrências no mapa por marcadores 
+geolocalizados, conforme RF04 e RD03. 
+Atores 
+Protetor independente e ONG, por herança da 
+associação apresentada no diagrama. 
+Pré-condições 
+Acesso ao radar conforme o perfil do diagrama; 
+serviço de mapas disponível e ocorrências com 
+localização registrada. 
+Cenário Normal 
+1. O usuário abre o radar de resgate. 
+2. O MIAR consulta as ocorrências e suas 
+coordenadas. 
+3. Exibe os marcadores sobre o mapa. 
+4. O usuário seleciona um marcador para visualizar 
+o resumo da ocorrência. 
+Cenário 
+Alternativo 
+A1. Nenhuma ocorrência disponível: o mapa é 
+apresentado sem marcadores de ocorrências. 
+A2. Serviço de mapas indisponível: o sistema 
+informa a falha (RNF03). 
+Pós-condições 
+Ocorrências localizadas no mapa e resumo 
+consultado, sem alteração dos registros. 
+
+
+=== PAGINA 16 ===
+CU10 Contatar responsável via WhatsApp 
+Caso de Uso 
+CU10 Contatar responsável via WhatsApp 
+Autor 
+Equipe do projeto MIAR 
+Data 
+04/11/2026 
+Descrição 
+Abrir uma conversa com o responsável por uma 
+ocorrência, conforme RF07, RD05 e RD06. 
+Atores 
+Cidadão, Protetor independente e ONG. 
+Pré-condições 
+Ocorrência consultada, telefone válido com DDD e 
+status diferente de Adotado ou Resgatado. 
+Cenário Normal 
+1. O usuário abre os detalhes da ocorrência e 
+seleciona o contato via WhatsApp. 
+2. O MIAR verifica se o contato público está 
+permitido e utiliza o número cadastrado. 
+3. Abre o link de conversa por meio do sistema 
+operacional. 
+4. O usuário prossegue com a conversa no 
+WhatsApp. 
+Cenário 
+Alternativo 
+A1. Ocorrência Adotada ou Resgatada: o contato 
+público não é disponibilizado (RD06). 
+A2. Número inválido ou impossibilidade de 
+abertura do link: o contato não é iniciado e a falha 
+é informada. 
+Pós-condições 
+Conversa disponibilizada no WhatsApp. O MIAR 
+não envia mensagens automaticamente nem 
+registra conversas internas. 
+
+
+=== PAGINA 17 ===
+CU11 Analisar imagem 
+Caso de Uso 
+CU11 Analisar imagem 
+Autor 
+Equipe do projeto MIAR 
+Data 
+04/11/2026 
+Descrição 
+Comparar fotos da nova ocorrência com fotos de 
+animais perdidos (RF05 e RD07). É incluído pelo 
+CU05 e pode ser estendido pelo CU12. 
+Atores 
+API de reconhecimento de imagem (IA), acionada 
+automaticamente pelo MIAR. 
+Pré-condições 
+Cadastro de ocorrência em execução, com 
+fotografias disponíveis para análise. 
+Cenário Normal 
+1. O cadastro aciona a análise das fotografias. 
+2. O MIAR utiliza a API de IA para obter os 
+descritores visuais. 
+3. Compara as imagens com os registros de animais 
+perdidos. 
+4. Havendo possível correspondência, registra as 
+ocorrências relacionadas, a confiança e a data da 
+análise. 
+5. Aciona o CU12 quando a condição de 
+correspondência é atendida. 
+Cenário 
+Alternativo 
+A1. Sem fotografias adequadas ou sem 
+correspondência: não é emitido aviso de 
+correspondência. 
+A2. API indisponível: a análise não é concluída e a 
+falha é informada (RNF03). 
+Pós-condições 
+Análise executada; possível correspondência 
+registrada quando identificada, sem confirmação 
+automática da identidade do animal. 
+
+
+=== PAGINA 18 ===
+CU12 Notificar possível correspondência 
+Caso de Uso 
+CU12 Notificar possível correspondência 
+Autor 
+Equipe do projeto MIAR 
+Data 
+04/11/2026 
+Descrição 
+Avisar o responsável por um animal perdido sobre 
+possível correspondência (RF06). Estende o CU11 
+somente quando há resultado compatível. 
+Atores 
+Cidadão, Protetor independente ou ONG 
+responsável pela ocorrência do animal perdido. 
+Pré-condições 
+O CU11 identificou possível correspondência e o 
+responsável pelo animal perdido está vinculado à 
+ocorrência. 
+Cenário Normal 
+1. O MIAR identifica o responsável pela ocorrência 
+do animal perdido. 
+2. Registra a correspondência e a situação da 
+notificação. 
+3. Emite o aviso pelo serviço de notificações do 
+dispositivo. 
+4. O responsável consulta a janela de possível 
+correspondência, com os registros relacionados, 
+confiança e data. 
+Cenário 
+Alternativo 
+A1. Nenhuma correspondência identificada: a 
+extensão não é executada. 
+A2. Serviço de notificações indisponível: a falha é 
+tratada sem considerar o aviso entregue (RNF03). 
+Pós-condições 
+Em caso de sucesso, aviso emitido e 
+correspondência disponível para consulta; os status 
+das ocorrências não são alterados 
+automaticamente. 
+
+
+=== PAGINA 19 ===
+1.2. Detalhamento Técnico 
+Nesta etapa são apresentadas as decisões tecnológicas adotadas para a construção do 
+sistema MIAR, abrangendo a linguagem de programação, a plataforma de execução, o sistema 
+gerenciador de banco de dados, a arquitetura de software e as interfaces necessárias. Todas as 
+definições registradas nesta seção destinam-se a viabilizar os requisitos funcionais, não funcionais 
+e de domínio previamente especificados, preservando integralmente o comportamento do sistema 
+definido nos diagramas de casos de uso, de classes e de entidade-relacionamento. 
+1.2.1. Linguagem de Programação 
+O sistema foi codificado utilizando a linguagem de programação Dart, por meio do 
+framework Flutter, no desenvolvimento do aplicativo móvel. A escolha considerou o fato de o MIAR 
+destinar-se simultaneamente às plataformas Android e iOS, situação em que a manutenção de uma 
+única base de código reduz significativamente o esforço de desenvolvimento e o risco de divergência 
+de comportamento entre as plataformas. 
+O quadro a seguir apresenta a comparação entre as alternativas avaliadas: 
+Critério 
+Flutter (Dart) 
+React Native 
+Desenvolviment
+o nativo 
+Base de código 
+Única 
+Única 
+Duas (Kotlin e 
+Swift) 
+Desempenho 
+Compilação 
+para código 
+nativo 
+Intermediação 
+entre 
+JavaScript e 
+nativo 
+Máximo 
+Consistência 
+visual entre 
+plataformas 
+Total, pois a 
+interface é 
+desenhada pelo 
+próprio 
+framework 
+Parcial, pois 
+utiliza 
+componentes 
+nativos 
+distintos 
+Exige 
+implementação 
+em duplicidade 
+Acesso à câmera 
+e ao GPS 
+Completo 
+Completo 
+Completo 
+Custo de 
+desenvolvimento 
+Baixo 
+Baixo 
+Alto 
+Custo de 
+manutenção 
+Baixo 
+Médio 
+Alto 
+A linguagem Dart é compilada antecipadamente para código nativo, o que proporciona 
+desempenho adequado ao processamento das consultas e dos filtros previstos no RF03, respeitando 
+o tempo máximo de dois segundos estabelecido pelo RNF02. Ademais, o Flutter dispõe de 
+bibliotecas consolidadas para acesso à câmera, à galeria de imagens e ao serviço de localização do 
+dispositivo, recursos indispensáveis ao cadastro de ocorrências previsto no RF02. 
+
+
+=== PAGINA 20 ===
+Determinante para a escolha foi igualmente a consistência visual. Como o Flutter desenha a 
+própria interface, os elementos gráficos adotados no projeto de interface, descrito na seção 1.4, 
+apresentam-se de modo idêntico em ambas as plataformas, o que não se verifica em soluções que 
+delegam a renderização a componentes nativos de cada sistema operacional. 
+Na camada de serviços foi utilizada a linguagem TypeScript, com o framework NestJS, 
+executado sobre o ambiente Node.js. Essa combinação oferece organização em módulos e camadas, 
+tipagem estática e recursos nativos de validação e de controle de acesso, aspectos relevantes ao 
+atendimento do RNF05. 
+Especificamente para a análise de correspondência por imagem, prevista no RF05, foi 
+empregada a linguagem Python em serviço interno dedicado à geração dos descritores visuais 
+utilizados na comparação entre fotografias. Trata-se de componente de infraestrutura destinado a 
+viabilizar requisito já especificado, não constituindo nova funcionalidade do sistema. 
+1.2.2. Plataforma (Web/Desktop) 
+O sistema foi desenvolvido como aplicativo móvel, destinado aos sistemas operacionais 
+Android, em versão 8.0 ou superior, e iOS, em versão 13 ou superior. Não há versão para navegador 
+web ou para computadores de mesa. 
+A opção pela plataforma móvel decorre diretamente dos requisitos especificados. O RF02 
+determina que o cadastro de uma ocorrência contemple fotografias do animal e sua localização 
+geográfica, informações cuja captura depende da câmera e do receptor de posicionamento global 
+do aparelho. O RF04, por sua vez, exige a apresentação das ocorrências em mapa interativo, recurso 
+cuja utilização ocorre predominantemente em deslocamento. O RNF01 reforça a necessidade de 
+adequada adaptação a dispositivos móveis. 
+O projeto das interfaces, apresentado na seção 1.4, foi elaborado segundo a abordagem 
+mobile first, respeitando as áreas seguras de ambos os sistemas operacionais e adotando áreas de 
+toque compatíveis com a utilização em telas sensíveis ao toque, em conformidade com o RNF06. 
+1.2.3. SGBD – Sistema Gerenciador de Banco de Dados 
+O banco de dados utilizado é o PostgreSQL, em sua versão 16. A escolha considerou, 
+primordialmente, o fato de o modelo de dados aprovado, apresentado na seção 1.3.2, ser 
+estritamente relacional, contemplando a especialização da entidade USUARIO e a integridade 
+referencial entre as demais entidades. 
+
+
+=== PAGINA 21 ===
+O quadro a seguir apresenta a comparação entre os sistemas avaliados: 
+Critério 
+PostgreSQL 16 
+MySQL 8 
+MongoDB 
+Integridade 
+referencial 
+Completa 
+Completa 
+Inexistente de 
+forma nativa 
+Aderência ao 
+modelo relacional 
+aprovado 
+Total 
+Total 
+Baixa 
+Consultas 
+geoespaciais 
+Extensão 
+PostGIS 
+Funções 
+espaciais 
+básicas 
+Suporte a 
+GeoJSON 
+Busca por 
+similaridade 
+entre imagens 
+Extensão 
+pgvector 
+Não nativa 
+Requer serviço 
+externo 
+Licenciamento 
+Livre 
+Duplo (GPL ou 
+comercial) 
+SSPL 
+Além dos recursos relacionais convencionais, o PostgreSQL oferece duas extensões 
+determinantes para o MIAR. A extensão PostGIS viabiliza consultas geoespaciais por proximidade, 
+necessárias à apresentação das ocorrências no mapa previsto no RF04 dentro do tempo 
+estabelecido pelo RNF02. A extensão pgvector permite a busca por similaridade entre descritores 
+de imagem, operação indispensável à análise de correspondência prevista no RF05. 
+Os arquivos de imagem não são armazenados no banco de dados. Em conformidade com o 
+modelo aprovado, no qual a entidade FOTO registra o atributo url_storage, as fotografias são 
+mantidas em serviço de armazenamento de objetos, cabendo ao banco de dados guardar apenas o 
+respectivo endereço. Tal definição favorece o desempenho no processamento de imagens exigido 
+pelo RNF04. 
+A implementação física preserva integralmente as nove entidades, os atributos, as chaves e 
+as cardinalidades definidos no Diagrama Entidade-Relacionamento, não havendo criação de 
+entidades adicionais. Os índices criados sobre os campos utilizados nos filtros do RF03 e sobre as 
+coordenadas geográficas constituem recursos de desempenho, sem efeito sobre a modelagem 
+conceitual. 
+1.2.4. Arquitetura do Sistema e Interfaces Necessárias 
+A arquitetura do MIAR organiza-se em três elementos principais: o aplicativo móvel, 
+responsável pela interação com o usuário; a camada de serviços, responsável pela aplicação das 
+regras de negócio e pelo acesso aos dados; e o banco de dados, responsável pela persistência das 
+informações. 
+
+
+=== PAGINA 22 ===
+O aplicativo adota arquitetura em camadas, com separação entre apresentação, domínio e 
+dados. A camada de apresentação contém as janelas descritas na seção 1.4 e os componentes 
+visuais; a camada de domínio reúne as entidades e os casos de uso, refletindo o diagrama de classes 
+apresentado na seção 1.3.1; a camada de dados implementa o acesso aos serviços. A camada de 
+domínio não depende das demais, o que preserva as regras de negócio diante de eventuais 
+alterações tecnológicas. 
+A camada de serviços organiza-se em módulos correspondentes aos blocos funcionais já 
+documentados, a saber: autenticação, usuários, ocorrências, localizações, fotos, contatos e 
+correspondências. Cada módulo segue a divisão entre controlador, serviço e repositório. Não foram 
+previstos módulos de negócio além daqueles decorrentes dos requisitos especificados. 
+O controle de acesso previsto no RNF05 é implementado mediante autenticação baseada 
+em token, com armazenamento das senhas sob função de resumo criptográfico. A verificação de 
+titularidade exigida pelo RD04, que restringe a alteração de uma ocorrência ao usuário responsável 
+por seu cadastro, é realizada na camada de serviços, de modo a não depender de validação efetuada 
+no aplicativo. 
+Quanto às interfaces necessárias, distinguem-se as interfaces com dispositivos e as 
+interfaces com outros sistemas. O quadro a seguir apresenta as interfaces com os recursos do 
+próprio aparelho: 
+Interface com o 
+dispositivo 
+Finalidade 
+Requisito 
+Câmera e galeria de 
+imagens 
+Captura e seleção das fotografias 
+da ocorrência 
+RF02 e 
+RF05 
+Receptor de 
+posicionamento 
+global (GPS) 
+Obtenção da latitude e da 
+longitude no registro da 
+ocorrência 
+RF02, RF04 
+e RD03 
+Conectividade de 
+rede 
+Comunicação com a camada de 
+serviços e tratamento de 
+indisponibilidade 
+RNF03 
+Armazenamento local 
+protegido 
+Guarda do token de sessão do 
+usuário autenticado 
+RNF05 
+Serviço de 
+notificações do 
+sistema operacional 
+Entrega do aviso de possível 
+correspondência 
+RF06 
+Recursos de 
+acessibilidade do 
+sistema 
+Leitor de tela e ajuste da escala 
+tipográfica 
+RNF06 
+
+
+=== PAGINA 23 ===
+O quadro seguinte apresenta as interfaces com outros sistemas: 
+Sistema externo 
+Tipo de 
+integração 
+Finalidade 
+Requisito 
+WhatsApp 
+Link direto 
+processado pelo 
+sistema 
+operacional 
+Iniciar o contato 
+entre o interessado 
+e o responsável pela 
+ocorrência 
+RF07 e 
+RD05 
+Serviço de mapas 
+Consumo de 
+imagens 
+cartográficas 
+Exibir o mapa 
+interativo com os 
+marcadores 
+geolocalizados 
+RF04 
+Armazenamento 
+de objetos 
+Interface de 
+programação 
+sobre protocolo 
+seguro 
+Guardar os arquivos 
+de imagem das 
+ocorrências 
+RF02 e 
+RNF04 
+Serviço interno 
+de análise de 
+imagens 
+Interface de 
+programação 
+sobre protocolo 
+seguro 
+Gerar os descritores 
+utilizados na 
+comparação entre 
+fotografias 
+RF05 
+ 
+A integração com o WhatsApp, prevista no RF07, limita-se à abertura de uma conversa com 
+o número previamente cadastrado na ocorrência. Não estão previstos o envio automático de 
+mensagens, a leitura de conversas, nem a utilização do WhatsApp como mecanismo de autenticação 
+de usuários, hipótese não contemplada pelo RF01. 
+
+
+=== PAGINA 24 ===
+1.3. Projeto do Sistema 
+1.3.1. Diagrama de Classes 
+ 
+
+
+=== PAGINA 25 ===
+1.3.2. Diagrama Entidade-Relacionamento (DER) 
+ 
+ 
+
+
+=== PAGINA 26 ===
+1.3.3. Dicionário de Dados 
+O dicionário de dados a seguir descreve as nove entidades definidas no Diagrama Entidade-
+Relacionamento apresentado na seção 1.3.2, preservando integralmente seus atributos, tipos, 
+chaves e relacionamentos. Nos casos em que o diagrama não especifica tamanho, precisão ou 
+restrição de domínio, tal circunstância encontra-se expressamente registrada, não tendo sido 
+arbitrado qualquer valor. 
+Entidade USUARIO 
+Armazena os dados comuns a todos os usuários do sistema, independentemente do perfil. 
+Atributo 
+Tipo 
+Chave 
+Restrição 
+Descrição 
+id_usuario 
+int 
+PK 
+Identificador único 
+Identificador do usuário 
+nome 
+string 
+— 
+Não especificado. 
+Nome do usuário 
+email 
+string 
+— 
+Utilizado na autenticação 
+(RF01) 
+Endereço eletrônico de 
+acesso 
+
+
+=== PAGINA 27 ===
+Atributo 
+Tipo 
+Chave 
+Restrição 
+Descrição 
+senha 
+string 
+— 
+Acesso restrito por perfil 
+(RNF05) 
+Credencial de autenticação 
+telefone 
+string 
+— 
+Formato brasileiro com DDD 
+(RD05) 
+Telefone do usuário 
+documento 
+string 
+- 
+Não especificado. 
+CPF ou CNPJ centralizado do 
+usuário 
+tipo_usuario 
+string 
+— 
+Cidadão, protetor 
+independente ou ONG (RD01) 
+Perfil do usuário 
+ativo 
+boolean 
+— 
+Não especificado. 
+Indica se a conta está ativa 
+ 
+Entidade ESPECIE 
+Lista de classificações biológicas dos animais cadastrados no sistema. 
+Atributo 
+Tipo 
+Chave 
+Restrição 
+Descrição 
+id_especie 
+int 
+PK 
+Identificador único 
+Identificador da espécie 
+
+
+=== PAGINA 28 ===
+Atributo 
+Tipo 
+Chave 
+Restrição 
+Descrição 
+Nome 
+string 
+- 
+Não especificado 
+Nome da espécie (Ex: Cão, 
+Gato) 
+ 
+Entidade ANIMAL 
+Armazena os dados e características físicas fixas dos animais vinculados às ocorrências. 
+Atributo 
+Tipo 
+Chave 
+Restrição 
+Descrição 
+id_animal 
+int 
+PK 
+Identificador único 
+Identificador do animal 
+id_especie 
+int 
+FK 
+Referencia ESPECIE 
+Especie associada ao animal 
+nome 
+string 
+- 
+Não especificado 
+Nome do animal (se houver) 
+porte 
+string 
+- 
+Utilizado como filtro (RF03) 
+Porte do animal 
+descricao 
+string 
+-  
+Não especificado 
+Descrição de características 
+particulares 
+idade 
+string 
+- 
+Não especificado 
+Idade aparente ou exata do 
+animal 
+
+
+=== PAGINA 29 ===
+Atributo 
+Tipo 
+Chave 
+Restrição 
+Descrição 
+genero 
+string 
+- 
+Não especificado. 
+Gênero/Sexo do animal 
+cor 
+string 
+- 
+Não especificado. 
+Padronagem de cores do 
+animal 
+url_foto 
+string 
+- 
+Não especificado. 
+Link da foto principal de 
+perfil do animal 
+data_cadastro 
+date 
+- 
+Não especificado. 
+Data em que o animal foi 
+inserido 
+ 
+Entidade OCORRENCIA_ANIMAL 
+Entidade central do sistema. Registra a ocorrência de um animal em situação de perda, 
+abandono ou risco, conforme o RF02. 
+Atributo 
+Tipo 
+Chave 
+Restrição 
+Descrição 
+id_ocorrencia 
+int 
+PK 
+Identificador único 
+Identificador da ocorrência 
+
+
+=== PAGINA 30 ===
+Atributo 
+Tipo 
+Chave 
+Restrição 
+Descrição 
+id_usuario_responsavel 
+int 
+FK 
+Somente o responsável altera 
+o registro (RD04) 
+Usuário responsável pelo 
+cadastro 
+id_animal 
+int 
+FK 
+Referencia ANIMAL 
+Animal envolvido na 
+ocorrência 
+especie 
+string 
+— 
+Utilizado como filtro (RF03) 
+Espécie do animal 
+porte 
+string 
+— 
+Utilizado como filtro (RF03) 
+Porte do animal 
+estado_saude 
+string 
+— 
+Estado aparente de saúde 
+(RF02) 
+Condição aparente do 
+animal 
+status_ocorrencia 
+string 
+— 
+Perdido, Encontrado, 
+Emergência, Aguardando 
+Adoção, Adotado ou 
+Resgatado (RD02) 
+Situação atual do animal 
+descricao 
+string 
+— 
+Não especificado no DER 
+Descrição física do animal 
+data_registro 
+datetime 
+— 
+Não especificado no DER 
+Data e hora do registro 
+
+
+=== PAGINA 31 ===
+Entidade CIDADE 
+Cadastro geográfico base para a validação de municípios vinculados às ocorrências. 
+Atributo 
+Tipo 
+Chave 
+Restrição 
+Descrição 
+id_cidade 
+int 
+PK 
+Identificador único 
+Identificador da cidade 
+nome 
+String 
+- 
+Não especificado 
+Nome oficial do município 
+estado 
+string 
+- 
+Não especificado 
+Estado / Unidade Federativa 
+
+
+=== PAGINA 32 ===
+ 
+ 
+Entidade LOCALIZAÇÃO 
+Registra a localização geográfica da ocorrência, conforme o RF04 e o RD03. A denominação 
+encontra-se grafada conforme o Diagrama Entidade-Relacionamento aprovado, tendo sido 
+preservada sem alteração. 
+Atributo 
+Tipo 
+Chave 
+Restrição 
+Descrição 
+id_localizacao 
+int 
+PK 
+Identificador único 
+Identificador da localização 
+id_ocorrencia 
+int 
+FK 
+Relacionamento de um para 
+um 
+Ocorrência associada 
+id_cidade 
+int 
+FK 
+Referencia CIDADE 
+Cidade associada à 
+localização 
+latitude 
+double 
+— 
+Não especificado no DER 
+Latitude do local 
+longitude 
+double 
+— 
+Não especificado no DER 
+Longitude do local 
+endereco 
+string 
+— 
+Não especificado no DER 
+Endereço descritivo do local 
+
+
+=== PAGINA 33 ===
+Entidade FOTO 
+Registra as fotografias associadas à ocorrência, utilizadas na galeria e na análise de 
+correspondência previstas no RF03 e no RF05. 
+Atributo 
+Tipo 
+Chave 
+Restrição 
+Descrição 
+id_foto 
+int 
+PK 
+Identificador único 
+Identificador da fotografia 
+id_ocorrencia 
+int 
+FK 
+Toda ocorrência possui ao 
+menos uma fotografia 
+Ocorrência associada 
+url_storage 
+string 
+— 
+Não especificado no DER 
+Endereço do arquivo 
+armazenado 
+data_upload 
+datetime 
+— 
+Não especificado no DER 
+Data e hora do envio 
+data_upload 
+date 
+— 
+Não especificado no DER 
+Data de envio da foto 
+
+
+=== PAGINA 34 ===
+Entidade CONTATO 
+Registra os dados de contato disponibilizados pela ocorrência, conforme o RF07, o RD05 e o 
+RD06. 
+Atributo 
+Tipo 
+Chave 
+Restrição 
+Descrição 
+id_contato 
+int 
+PK 
+Identificador único 
+Identificador do contato 
+id_ocorrencia 
+int 
+FK 
+Relacionamento de um para 
+um 
+Ocorrência associada 
+numero_whatsapp 
+string 
+— 
+Formato brasileiro com DDD 
+(RD05) 
+Número utilizado na 
+integração 
+permite_contato_publico 
+boolean 
+— 
+Ocorrências encerradas não 
+disponibilizam contato (RD06) 
+Indica se o contato está 
+disponível 
+whatsapp_link 
+string 
+— 
+Não especificado no DER 
+Link de direcionamento 
+externo do chat 
+Data_contato 
+date 
+- 
+Não especificado no DER 
+Data de início/registo do 
+contato. 
+
+
+=== PAGINA 35 ===
+ 
+ 
+Relacionamentos 
+O quadro a seguir reproduz os relacionamentos e as cardinalidades definidos no Diagrama 
+Entidade-Relacionamento, sem qualquer alteração. 
+Entidade de origem 
+Relacionamento 
+Entidade de destino 
+Cardinalidade 
+USUARIO 
+registra 
+OCORRENCIA_ANIMAL 
+1 : 0..N 
+ESPECIE 
+classifica 
+ANIMAL 
+1 : 0..N 
+ANIMAL 
+pertence_a 
+OCORRENCIA_ANIMAL 
+1 : 0..N 
+OCORRENCIA_ANIMAL 
+ocorre_em 
+LOCALIZACAO 
+1 : 0..1 
+CIDADE 
+contem 
+LOCALIZACAO 
+1 : 0..N 
+OCORRENCIA_ANIMAL 
+possui 
+FOTO 
+1 : 0..N 
+OCORRENCIA_ANIMAL 
+gera 
+CONTATO 
+1 : 0..N 
+CONTATO 
+contem 
+MENSAGEM_WHATSAPP 
+1 : 0..N 
+
+
+=== PAGINA 36 ===
+Observações sobre a modelagem 
+Durante a elaboração do dicionário foram identificadas divergências entre os artefatos já 
+aprovados, bem como ausências de especificação. Em atenção à preservação dos modelos, tais 
+ocorrências foram registradas sem que se procedesse a qualquer correção. São elas: a classe Animal, 
+constante do diagrama de classes, não possui entidade correspondente no Diagrama Entidade-
+Relacionamento; as classes Busca e MensagemWhatsapp igualmente não possuem entidades 
+correspondentes; a entidade CORRESPONDENCIA_IA, constante do Diagrama Entidade-
+Relacionamento, não possui classe correspondente no diagrama de classes; e nenhum dos atributos 
+do modelo possui tamanho, precisão ou domínio enumerado expressamente especificados. 
+Registra-se ainda que a especialização da entidade USUARIO não indica, no diagrama, se é 
+total ou parcial, tampouco se é exclusiva ou sobreposta, embora o RD01 determine que todo usuário 
+cadastrado possua um dos três perfis definidos. 
+
+
+=== PAGINA 37 ===
+1.4. Projeto de Interface do Sistema 
+Nesta etapa, foram elaborados os protótipos das janelas visando representar as 
+funcionalidades especificadas nos requisitos e no diagrama de casos de uso apresentado na seção 
+1.1.6. Foram projetadas nove janelas, cada uma vinculada a um ou mais casos de uso 
+documentados, não tendo sido criada qualquer interface sem respaldo na documentação do 
+sistema. 
+Os protótipos seguem identidade visual única, caracterizada por composição de cores em 
+tons pastel, elementos arredondados, superfícies claras e tipografia geométrica. O projeto observou 
+a abordagem mobile first exigida pelo RNF01, bem como os critérios de usabilidade e de 
+acessibilidade previstos no RNF06, entre os quais a adoção de áreas de toque adequadas, a 
+apresentação de uma tarefa principal por janela e a identificação textual de todas as situações da 
+ocorrência. 
+A navegação entre as janelas é realizada por meio de barra inferior, cujos destinos 
+correspondem exclusivamente aos casos de uso documentados: consultar ocorrências, visualizar o 
+radar de resgate, cadastrar ocorrência, gerenciar ocorrência e consultar os dados do usuário. Trata-
+se de recurso de navegação necessário à utilização do aplicativo, não constituindo funcionalidade 
+adicional do sistema. A opção de gerenciamento é disponibilizada aos usuários autenticados que 
+possuam ocorrências sob sua responsabilidade, independentemente de seu perfil (cidadão, 
+protetor independente ou ONG), permitindo a consulta, alteração e exclusão dos próprios registros, 
+em conformidade com o RD04 e o RNF05. 
+ 
+
+
+=== PAGINA 38 ===
+Na janela de Login, apresentada a seguir, o usuário informa o endereço eletrônico e a senha 
+para acessar o sistema, em atendimento ao RF01. A janela oferece ainda acesso ao cadastro, 
+correspondente ao caso de uso Criar Cadastro. Não foram incluídos mecanismos de autenticação 
+por serviços externos, por ausência de previsão na documentação do sistema. 
+ 
+Janela de Login 
+
+
+=== PAGINA 39 ===
+A janela de Criação de Cadastro permite que o usuário se registre no sistema, informando 
+nome, endereço eletrônico, telefone e senha, conforme o RF01. A seleção do perfil atende ao RD01, 
+que estabelece os perfis de cidadão, protetor independente e ONG. Os campos específicos variam 
+conforme o perfil escolhido, correspondendo aos atributos das entidades CIDADAO, PROTETOR e 
+ONG. O telefone é informado em formato brasileiro com DDD, em observância ao RD05. 
+ 
+Janela de Criação de Cadastro 
+
+
+=== PAGINA 40 ===
+A janela de Galeria de Ocorrências apresenta as ocorrências cadastradas e permite sua 
+filtragem, atendendo ao RF03 e aos casos de uso Consultar Ocorrências e Consultar Animais. Cada 
+registro exibe a espécie, o porte, a descrição física, a cidade e a data, bem como a situação da 
+ocorrência, apresentada por meio de identificação textual correspondente a um dos seis estados 
+previstos no RD02. 
+ 
+Janela de Galeria de Ocorrências 
+
+
+=== PAGINA 41 ===
+A janela de Radar de Resgate apresenta as ocorrências em mapa interativo, por meio de 
+marcadores geolocalizados, em atendimento ao RF04 e ao caso de uso Visualizar Radar de Resgate. 
+A posição de cada marcador decorre da latitude e da longitude registradas na entidade 
+LOCALIZACAO, cuja existência é exigida pelo RD03. Ao selecionar um marcador, o usuário visualiza 
+o resumo da ocorrência correspondente. 
+ 
+Janela de Radar de Resgate 
+
+
+=== PAGINA 42 ===
+A janela de Detalhe da Ocorrência apresenta as informações completas do registro, incluindo 
+as fotografias, a descrição física, o estado aparente de saúde, a localização e a data do cadastro. A 
+partir dela, o usuário interessado inicia o contato com o responsável por meio da integração com o 
+WhatsApp, em atendimento ao RF07 e aos casos de uso Iniciar Contato com Responsável e Link 
+WhatsApp. Em observância ao RD06, o contato não é disponibilizado quando a ocorrência se 
+encontra encerrada sob as situações Adotado ou Resgatado. 
+ 
+Janela de Detalhe da Ocorrência 
+
+
+=== PAGINA 43 ===
+A janela de Cadastro de Ocorrência permite o registro de um animal, atendendo ao RF02 e 
+aos casos de uso Cadastrar Ocorrência Animal e Cadastrar Animais. São informados as fotografias, 
+a espécie, o porte, a situação da ocorrência, a descrição física, o estado aparente de saúde, a 
+localização geográfica obtida por meio do receptor de posicionamento global e o número de 
+contato. 
+ 
+Janela de Cadastro de Ocorrência 
+
+
+=== PAGINA 44 ===
+A janela de Gerenciamento de Ocorrências apresenta exclusivamente os registros sob 
+responsabilidade do usuário autenticado, em observância ao RD04 e ao RNF05, e permite sua 
+consulta, alteração e exclusão, conforme o RF02. A atualização da situação da ocorrência, prevista 
+no RF08, é realizada por meio da seleção entre os seis estados estabelecidos pelo RD02, atendendo 
+ao caso de uso Gerenciar Ocorrência. 
+ 
+Janela de Gerenciamento de Ocorrências 
+
+
+=== PAGINA 45 ===
+A janela de Possível Correspondência apresenta ao responsável por um animal perdido o 
+resultado da análise automática de imagens, atendendo ao RF05 e ao RF06, bem como aos casos de 
+uso Identificar Ocorrência, Analisar Imagem com IA e Notificar Usuário. São exibidas a ocorrência 
+de origem, a ocorrência apontada como compatível, o percentual de confiança e a data da análise, 
+informações correspondentes aos atributos da entidade CORRESPONDENCIA_IA. 
+ 
+Janela de Possível Correspondência 
+
+
+=== PAGINA 46 ===
+A janela de Perfil do Usuário apresenta os dados cadastrais e permite sua atualização, bem 
+como o encerramento da sessão, funcionalidades previstas no RF01. O perfil do usuário é 
+identificado conforme o RD01, e os dados exibidos correspondem aos atributos das entidades 
+USUARIO e, conforme o perfil, CIDADAO, PROTETOR ou ONG. 
+ 
+Janela de Perfil do Usuário 
+As nove janelas apresentadas contemplam a totalidade dos requisitos funcionais e dos casos 
+de uso especificados. Registra-se que não foram projetadas janelas destinadas a funcionalidades 
+usuais em aplicativos da mesma natureza, tais como painel de indicadores, conversa interna entre 
+usuários, lista de favoritos, histórico de adoções, avaliação de instituições ou área administrativa, 
+por ausência de previsão nos requisitos e no diagrama de casos de uso do sistema. 
+1.5. Conclusão 
+Concluindo... 
+1.6. Bibliografia 

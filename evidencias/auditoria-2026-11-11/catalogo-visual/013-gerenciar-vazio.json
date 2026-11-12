@@ -1,0 +1,6 @@
+{
+  "titulo": "Gerenciar — ausência de registros próprios",
+  "requisitos": "RF02, CU08",
+  "fonte": "Estado vazio induzido apenas no repositório deste cliente",
+  "ordem": 13
+}

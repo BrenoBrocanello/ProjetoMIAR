@@ -1,0 +1,24 @@
+{
+  "exit_code": 1,
+  "avd": "MIAR_API26",
+  "android_sdk": "26",
+  "steps": [
+    {
+      "mode": "galeria",
+      "action": "android:id/title MIAR_AUDITORIA.jpg "
+    },
+    {
+      "mode": "galeria",
+      "action": "android:id/title MIAR_AUDITORIA.jpg "
+    },
+    {
+      "mode": "camera",
+      "action": "com.android.camera2:id/confirm_button NEXT "
+    },
+    {
+      "mode": "camera",
+      "action": "com.android.camera2:id/shutter_button  Shutter"
+    }
+  ],
+  "master_sha256": "d20641bd7dd5e44016c56e38ae5dc2db89b775835302618fc65fe45ee3555d06"
+}

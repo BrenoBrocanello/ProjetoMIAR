@@ -1,0 +1,6 @@
+{
+  "titulo": "Detalhe — registro inexistente",
+  "requisitos": "RNF03, CU03",
+  "fonte": "Resposta 404 real da API",
+  "ordem": 54
+}

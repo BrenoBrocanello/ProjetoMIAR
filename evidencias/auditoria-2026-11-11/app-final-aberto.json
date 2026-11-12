@@ -1,0 +1,11 @@
+{
+  "aberto": true,
+  "avd": "MIAR_API35",
+  "api_principal": 3000,
+  "modo": "janela visivel",
+  "versao": "1.0.0+3",
+  "atividade_confirmada": [
+    "topResumedActivity=ActivityRecord{4a51796 u0 br.com.miar.miar/.MainActivity t14}",
+    "ResumedActivity: ActivityRecord{4a51796 u0 br.com.miar.miar/.MainActivity t14}"
+  ]
+}

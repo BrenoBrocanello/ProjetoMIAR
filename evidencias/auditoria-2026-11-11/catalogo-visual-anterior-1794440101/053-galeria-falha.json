@@ -1,0 +1,6 @@
+{
+  "titulo": "Galeria — indisponibilidade e nova tentativa",
+  "requisitos": "RNF03, CU03",
+  "fonte": "Falha induzida apenas no repositório deste cliente",
+  "ordem": 53
+}

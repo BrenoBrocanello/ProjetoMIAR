@@ -1,0 +1,55 @@
+services:
+  banco:
+    build: ./infra/postgres
+    environment:
+      POSTGRES_DB: miar
+      POSTGRES_USER: miar
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?Defina DB_PASSWORD no .env da raiz}
+    volumes: [postgres:/var/lib/postgresql/data]
+    healthcheck:
+      test: [CMD-SHELL, pg_isready -U miar -d miar]
+      interval: 5s
+      retries: 20
+  objetos:
+    build: ./infra/objetos
+    command: server /data
+    environment:
+      MINIO_ROOT_USER: ${S3_ACCESS_KEY:?Defina S3_ACCESS_KEY}
+      MINIO_ROOT_PASSWORD: ${S3_SECRET_KEY:?Defina S3_SECRET_KEY}
+    volumes: [objetos:/data]
+  ia:
+    build: ./ia
+    environment:
+      IA_TOKEN: ${IA_TOKEN:?Defina IA_TOKEN}
+    volumes: [descritores:/data/descriptors]
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8001/health')"]
+      interval: 10s
+      retries: 20
+  api:
+    build: ./api
+    ports: ["3000:3000"]
+    environment:
+      DATABASE_URL: postgresql://miar:${DB_PASSWORD}@banco:5432/miar
+      IA_URL: http://ia:8001
+      IA_TOKEN: ${IA_TOKEN}
+      S3_ENDPOINT: http://objetos:9000
+      S3_ACCESS_KEY: ${S3_ACCESS_KEY}
+      S3_SECRET_KEY: ${S3_SECRET_KEY}
+      S3_BUCKET: miar-fotos
+      MATCH_THRESHOLD: "0.90"
+      CORRESPONDENCIAS_DIR: /data/correspondencias
+      BACKUP_DIR: /data/backups
+    volumes: [sessoes:/data/sessions, correspondencias:/data/correspondencias, backups:/data/backups]
+    depends_on:
+      banco: {condition: service_healthy}
+      ia: {condition: service_healthy}
+      objetos: {condition: service_started}
+    restart: unless-stopped
+volumes:
+  postgres:
+  objetos:
+  descritores:
+  sessoes:
+  correspondencias:
+  backups:

@@ -1,0 +1,31 @@
+{
+  "exit_code": 0,
+  "avd": "MIAR_API35",
+  "steps": [
+    {
+      "mode": "galeria",
+      "action": "  Photo taken on Oct 21, 2026, 8:54:37 PM"
+    },
+    {
+      "mode": "galeria",
+      "action": "com.google.android.providers.media.module:id/button_add Add (1) "
+    },
+    {
+      "mode": "galeria",
+      "action": "  Photo taken on Oct 21, 2026, 8:54:37 PM"
+    },
+    {
+      "mode": "galeria",
+      "action": "com.google.android.providers.media.module:id/button_add Add (1) "
+    },
+    {
+      "mode": "camera",
+      "action": "com.android.camera2:id/shutter_button  Shutter"
+    },
+    {
+      "mode": "camera",
+      "action": "com.android.camera2:id/done_button  Done"
+    }
+  ],
+  "master_sha256": "d20641bd7dd5e44016c56e38ae5dc2db89b775835302618fc65fe45ee3555d06"
+}

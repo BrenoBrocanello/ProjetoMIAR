@@ -1,0 +1,152 @@
+Running Gradle task 'assembleDebug'...                          
+Running Gradle task 'assembleDebug'...                             52,6s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           6,8s
+I/flutter ( 4463): 00:00 +0: GPS, compressão e notificação usam serviços nativos reais
+I/zygote64( 4463): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.hardware.biometrics.BiometricPrompt$AuthenticationCallback" on path: DexPathList[[zip file "/data/app/br.com.miar.miar-QEUIFQ6ZDSBPrPZUU6yr3A==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.miar.miar-QEUIFQ6ZDSBPrPZUU6yr3A==/lib/x86_64, /data/app/br.com.miar.miar-QEUIFQ6ZDSBPrPZUU6yr3A==/base.apk!/lib/x86_64, /system/lib64, /vendor/lib64]]
+I/zygote64( 4463): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.hardware.biometrics.BiometricPrompt$AuthenticationCallback" on path: DexPathList[[zip file "/data/app/br.com.miar.miar-QEUIFQ6ZDSBPrPZUU6yr3A==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.miar.miar-QEUIFQ6ZDSBPrPZUU6yr3A==/lib/x86_64, /data/app/br.com.miar.miar-QEUIFQ6ZDSBPrPZUU6yr3A==/base.apk!/lib/x86_64, /system/lib64, /vendor/lib64]]
+I/zygote64( 4463): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.hardware.biometrics.BiometricPrompt$AuthenticationCallback" on path: DexPathList[[zip file "/data/app/br.com.miar.miar-QEUIFQ6ZDSBPrPZUU6yr3A==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.miar.miar-QEUIFQ6ZDSBPrPZUU6yr3A==/lib/x86_64, /data/app/br.com.miar.miar-QEUIFQ6ZDSBPrPZUU6yr3A==/base.apk!/lib/x86_64, /system/lib64, /vendor/lib64]]
+I/flutter ( 4463): MIAR_NOTIF_NEGAR
+I/flutter ( 4463): MIAR_NOTIF_PERMITIR
+I/flutter ( 4463): MIAR_NOTIF_AGENDAMENTO
+I/flutter ( 4463): 00:12 +1: (tearDownAll)
+All tests passed.
+I/flutter ( 4463): 00:12 +2: All tests passed!
+Flutter exit code: 0
+Running Gradle task 'assembleDebug'...                          
+Running Gradle task 'assembleDebug'...                             17,7s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           5,8s
+I/flutter ( 5287): 00:00 +0: Ensaio completo: cadastro, foto nativa, GPS, filtros, edição, seis status, radar, IA e exclusão pela interface
+I/flutter ( 5287): MIAR_AUDIT_TAG=1794437646238
+I/zygote64( 5287): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.hardware.biometrics.BiometricPrompt$AuthenticationCallback" on path: DexPathList[[zip file "/data/app/br.com.miar.miar-7Qqz7vC9krorkDscb9nffg==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.miar.miar-7Qqz7vC9krorkDscb9nffg==/lib/x86_64, /data/app/br.com.miar.miar-7Qqz7vC9krorkDscb9nffg==/base.apk!/lib/x86_64, /system/lib64, /vendor/lib64]]
+I/zygote64( 5287): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.hardware.biometrics.BiometricPrompt$AuthenticationCallback" on path: DexPathList[[zip file "/data/app/br.com.miar.miar-7Qqz7vC9krorkDscb9nffg==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.miar.miar-7Qqz7vC9krorkDscb9nffg==/lib/x86_64, /data/app/br.com.miar.miar-7Qqz7vC9krorkDscb9nffg==/base.apk!/lib/x86_64, /system/lib64, /vendor/lib64]]
+I/zygote64( 5287): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.hardware.biometrics.BiometricPrompt$AuthenticationCallback" on path: DexPathList[[zip file "/data/app/br.com.miar.miar-7Qqz7vC9krorkDscb9nffg==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.miar.miar-7Qqz7vC9krorkDscb9nffg==/lib/x86_64, /data/app/br.com.miar.miar-7Qqz7vC9krorkDscb9nffg==/base.apk!/lib/x86_64, /system/lib64, /vendor/lib64]]
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Cidadão"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Entrar"
+I/flutter ( 5287): MIAR_AUDIT_ETAPA=CADASTRO_0
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Perfil"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Atualizar meus dados"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar meus dados"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Galeria"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Registrar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Adicionar"
+I/flutter ( 5287): MIAR_AUDIT_GALERIA
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Escolher da galeria"
+Android nativo: galeria android:id/title MIAR_AUDITORIA.jpg 
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but index 0)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Grande" (ignoring all but last)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but index 1)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Perdido" (ignoring all but last)
+I/flutter ( 5287): MIAR_AUDIT_GPS_PERMITIR
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Obter localização por GPS"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Cadastrar ocorrência"
+I/flutter ( 5287): MIAR_AUDIT_ETAPA=OCORRENCIA_2456
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Alterar minha ocorrência"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alterações"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Galeria"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Aplicar filtros"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Limpar filtros"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Gerenciar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Atualizar status"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "ChoiceChip" that are ancestors of widget with text "Encontrado"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alteração"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Gerenciar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Atualizar status"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "ChoiceChip" that are ancestors of widget with text "Emergência"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alteração"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Gerenciar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Atualizar status"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "ChoiceChip" that are ancestors of widget with text "Aguardando Adoção"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alteração"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Gerenciar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Atualizar status"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "ChoiceChip" that are ancestors of widget with text "Adotado"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alteração"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Cão · Grande" (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Gerenciar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Atualizar status"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "ChoiceChip" that are ancestors of widget with text "Resgatado"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alteração"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Cão · Grande" (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Gerenciar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Atualizar status"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "ChoiceChip" that are ancestors of widget with text "Perdido"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alteração"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Perfil"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Sair da conta"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Protetor"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Entrar"
+I/flutter ( 5287): MIAR_AUDIT_ETAPA=CADASTRO_1
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Registrar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Adicionar"
+I/flutter ( 5287): MIAR_AUDIT_GALERIA
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Escolher da galeria"
+Android nativo: galeria android:id/title MIAR_AUDITORIA.jpg 
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but index 0)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Grande" (ignoring all but last)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but index 1)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Encontrado" (ignoring all but last)
+I/flutter ( 5287): MIAR_AUDIT_GPS_PERMITIR
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Obter localização por GPS"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Cadastrar ocorrência"
+I/flutter ( 5287): MIAR_AUDIT_ETAPA=OCORRENCIA_2457
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Radar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Galeria"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Perfil"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Sair da conta"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Entrar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Possível correspondência encontrada" (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Gerenciar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Excluir ocorrência"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "TextButton" that are ancestors of widget with text "Excluir"
+I/flutter ( 5287): MIAR_AUDIT_ETAPA=EXCLUSAO
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Perfil"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Sair da conta"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Entrar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Gerenciar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Excluir ocorrência"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "TextButton" that are ancestors of widget with text "Excluir"
+I/flutter ( 5287): MIAR_AUDIT_ETAPA=EXCLUSAO
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Perfil"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Sair da conta"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "ONG"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Entrar"
+I/flutter ( 5287): MIAR_AUDIT_ETAPA=CADASTRO_2
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Registrar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Adicionar"
+I/flutter ( 5287): MIAR_AUDIT_CAMERA
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Tirar fotografia"
+Android nativo: camera com.android.camera2:id/confirm_button NEXT 
+Android nativo: camera com.android.camera2:id/shutter_button  Shutter
+E/AndroidRuntime(16467): java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@fe99f88already registered!
+E/AndroidRuntime(16467): 	at android.os.Parcel.readException(Parcel.java:1951)
+E/AndroidRuntime(16467): 	at android.os.Parcel.readException(Parcel.java:1889)
+E/AndroidRuntime(16467): java.lang.RuntimeException: Bad file descriptor
+E/AndroidRuntime(16467): 	at com.android.internal.os.RuntimeInit$KillApplicationHandler.uncaughtException(RuntimeInit.java:115)
+E/AndroidRuntime(16467): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1068)
+E/AndroidRuntime(16467): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1063)
+E/AndroidRuntime(16467): 	at java.lang.Thread.dispatchUncaughtException(Thread.java:1953)
+Ensaio Android exit code: 1

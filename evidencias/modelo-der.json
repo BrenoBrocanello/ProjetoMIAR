@@ -1,0 +1,70 @@
+{
+  "ANIMAL": {
+    "id_animal": "integer",
+    "id_especie": "integer",
+    "nome": "text",
+    "porte": "text",
+    "descricao": "text",
+    "idade": "text",
+    "genero": "text",
+    "cor": "text",
+    "url_foto": "text",
+    "data_cadastro": "date"
+  },
+  "CIDADE": {
+    "id_cidade": "integer",
+    "nome": "text",
+    "estado": "text"
+  },
+  "CONTATO": {
+    "id_contato": "integer",
+    "id_ocorrencia": "integer",
+    "numero_whatsapp": "text",
+    "whatsapp_link": "text",
+    "data_contato": "date"
+  },
+  "ESPECIE": {
+    "id_especie": "integer",
+    "nome": "text"
+  },
+  "FOTO": {
+    "id_foto": "integer",
+    "id_ocorrencia": "integer",
+    "url_storage": "text",
+    "descricao": "text",
+    "data_upload": "date"
+  },
+  "LOCALIZACAC": {
+    "id_localizacao": "integer",
+    "id_ocorrencia": "integer",
+    "id_cidade": "integer",
+    "latitude": "double precision",
+    "longitude": "double precision",
+    "endereco": "text"
+  },
+  "MENSAGEM_WHATSAPP": {
+    "id_mensagem": "integer",
+    "id_contato": "integer",
+    "texto": "text",
+    "data_envio": "date",
+    "remetente": "text"
+  },
+  "OCORRENCIA_ANIMAL": {
+    "id_ocorrencia": "integer",
+    "id_usuario_responsavel": "integer",
+    "id_animal": "integer",
+    "status_ocorrencia": "text",
+    "descricao": "text",
+    "data_registro": "date"
+  },
+  "USUARIO": {
+    "id_usuario": "integer",
+    "nome": "text",
+    "email": "text",
+    "senha": "text",
+    "telefone": "text",
+    "documento": "text",
+    "tipo_usuario": "text",
+    "ativo": "boolean"
+  }
+}

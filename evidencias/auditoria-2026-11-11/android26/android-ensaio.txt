@@ -1,0 +1,468 @@
+Running Gradle task 'assembleDebug'...                          
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "Windows_NT" == "Windows_NT" setlocal
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set DEFAULT_JVM_OPTS= 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set DIRNAME=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\ 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\" == "" set DIRNAME=. 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set APP_BASE_NAME=gradlew 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set APP_HOME=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\ 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set JAVA_HOME=C:\Program Files\Android\Android Studio\jbr 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set JAVA_EXE=C:\Program Files\Android\Android Studio\jbr/bin/java.exe 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if exist "C:\Program Files\Android\Android Studio\jbr/bin/java.exe" goto init 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if not "Windows_NT" == "Windows_NT" goto win9xME_args 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "@eval[2+2]" == "4" goto 4NT_args 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CMD_LINE_ARGS= 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set _SKIP=2 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "x-q" == "x" goto execute 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CMD_LINE_ARGS=-q -Ptarget-platform=android-x64 -Ptarget=integration_test/apresentacao_test.dart -Pbase-application-name=android.app.Application -Pdart-defines=QVBJX1VSTD1odHRwOi8vMTAuMC4yLjI6MzMwMQ==,RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPVt1c2VyLWJyYW5jaF0=,RkxVVFRFUl9HSVRfVVJMPXVua25vd24gc291cmNl,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>goto execute 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>set CLASSPATH=C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\\gradle\wrapper\gradle-wrapper.jar 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>"C:\Program Files\Android\Android Studio\jbr/bin/java.exe"    "-Dorg.gradle.appname=gradlew" -classpath "C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android\\gradle\wrapper\gradle-wrapper.jar" org.gradle.wrapper.GradleWrapperMain -q -Ptarget-platform=android-x64 -Ptarget=integration_test/apresentacao_test.dart -Pbase-application-name=android.app.Application -Pdart-defines=QVBJX1VSTD1odHRwOi8vMTAuMC4yLjI6MzMwMQ==,RkxVVFRFUl9WRVJTSU9OPTMuMzguOQ==,RkxVVFRFUl9DSEFOTkVMPVt1c2VyLWJyYW5jaF0=,RkxVVFRFUl9HSVRfVVJMPXVua25vd24gc291cmNl,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjczMjNkZTI4NQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTg3YzE4Zjg3Mw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC44 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug 
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/C:/Users/Breno/.gradle/wrapper/dists/gradle-8.14-all/c2qonpi39x1mddn7hk5gh9iqj/gradle-8.14/lib/native-platform-0.22-milestone-28.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "0" == "0" goto mainEnd 
+
+C:\Users\Breno\AppData\Local\MiarDev\376eb84567\app\android>if "Windows_NT" == "Windows_NT" endlocal
+Running Gradle task 'assembleDebug'...                             17,7s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           5,8s
+D/FlutterGeolocator( 5287): Geolocator foreground service connected
+D/FlutterGeolocator( 5287): Initializing Geolocator services
+D/FlutterGeolocator( 5287): Flutter engine connected. Connected engine count 1
+I/zygote64( 5287): Do partial code cache collection, code=23KB, data=29KB
+I/zygote64( 5287): After code cache collection, code=23KB, data=29KB
+I/zygote64( 5287): Increasing code cache capacity to 128KB
+I/zygote64( 5287): Compiler allocated 6MB to compile void android.view.ViewRootImpl.performTraversals()
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:64521/f_e52IBqcPc=/
+VMServiceFlutterDriver: Isolate found with number: 6627875470872231
+VMServiceFlutterDriver: Isolate 6627875470872231 is runnable.
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+I/flutter ( 5287): 00:00 +0: Ensaio completo: cadastro, foto nativa, GPS, filtros, edição, seis status, radar, IA e exclusão pela interface
+VMServiceFlutterDriver: Connected to Flutter application.
+I/flutter ( 5287): MIAR_AUDIT_TAG=1794437646238
+I/zygote64( 5287): Rejecting re-init on previously-failed class java.lang.Class<com.it_nomads.fluttersecurestorage.FlutterSecureStorage$13>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback;
+I/zygote64( 5287):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.getOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:101)
+I/zygote64( 5287):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.-$$Nest$mgetOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin, com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:-1)
+I/zygote64( 5287):   at void com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run() (FlutterSecureStoragePlugin.java:176)
+I/zygote64( 5287):   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote64( 5287):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote64( 5287):   at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64( 5287):   at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote64( 5287): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.hardware.biometrics.BiometricPrompt$AuthenticationCallback" on path: DexPathList[[zip file "/data/app/br.com.miar.miar-7Qqz7vC9krorkDscb9nffg==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.miar.miar-7Qqz7vC9krorkDscb9nffg==/lib/x86_64, /data/app/br.com.miar.miar-7Qqz7vC9krorkDscb9nffg==/base.apk!/lib/x86_64, /system/lib64, /vendor/lib64]]
+I/zygote64( 5287):   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+I/zygote64( 5287):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+I/zygote64( 5287):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+I/zygote64( 5287):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.getOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:101)
+I/zygote64( 5287):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.-$$Nest$mgetOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin, com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:-1)
+I/zygote64( 5287):   at void com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run() (FlutterSecureStoragePlugin.java:176)
+I/zygote64( 5287):   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote64( 5287):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote64( 5287):   at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64( 5287):   at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote64( 5287): 
+I/zygote64( 5287): Rejecting re-init on previously-failed class java.lang.Class<com.it_nomads.fluttersecurestorage.FlutterSecureStorage$13>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback;
+I/zygote64( 5287):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.getOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:101)
+I/zygote64( 5287):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.-$$Nest$mgetOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin, com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:-1)
+I/zygote64( 5287):   at void com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run() (FlutterSecureStoragePlugin.java:176)
+I/zygote64( 5287):   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote64( 5287):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote64( 5287):   at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64( 5287):   at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote64( 5287): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.hardware.biometrics.BiometricPrompt$AuthenticationCallback" on path: DexPathList[[zip file "/data/app/br.com.miar.miar-7Qqz7vC9krorkDscb9nffg==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.miar.miar-7Qqz7vC9krorkDscb9nffg==/lib/x86_64, /data/app/br.com.miar.miar-7Qqz7vC9krorkDscb9nffg==/base.apk!/lib/x86_64, /system/lib64, /vendor/lib64]]
+I/zygote64( 5287):   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+I/zygote64( 5287):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+I/zygote64( 5287):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+I/zygote64( 5287):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.getOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:101)
+I/zygote64( 5287):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.-$$Nest$mgetOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin, com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:-1)
+I/zygote64( 5287):   at void com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run() (FlutterSecureStoragePlugin.java:176)
+I/zygote64( 5287):   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote64( 5287):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote64( 5287):   at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64( 5287):   at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote64( 5287): 
+I/zygote64( 5287): Rejecting re-init on previously-failed class java.lang.Class<com.it_nomads.fluttersecurestorage.FlutterSecureStorage$13>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback;
+I/zygote64( 5287):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.getOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:101)
+I/zygote64( 5287):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.-$$Nest$mgetOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin, com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:-1)
+I/zygote64( 5287):   at void com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run() (FlutterSecureStoragePlugin.java:176)
+I/zygote64( 5287):   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote64( 5287):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote64( 5287):   at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64( 5287):   at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote64( 5287): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.hardware.biometrics.BiometricPrompt$AuthenticationCallback" on path: DexPathList[[zip file "/data/app/br.com.miar.miar-7Qqz7vC9krorkDscb9nffg==/base.apk"],nativeLibraryDirectories=[/data/app/br.com.miar.miar-7Qqz7vC9krorkDscb9nffg==/lib/x86_64, /data/app/br.com.miar.miar-7Qqz7vC9krorkDscb9nffg==/base.apk!/lib/x86_64, /system/lib64, /vendor/lib64]]
+I/zygote64( 5287):   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+I/zygote64( 5287):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+I/zygote64( 5287):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+I/zygote64( 5287):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.getOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:101)
+I/zygote64( 5287):   at com.it_nomads.fluttersecurestorage.FlutterSecureStorage com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin.-$$Nest$mgetOrCreateStorage(com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin, com.it_nomads.fluttersecurestorage.FlutterSecureStorageConfig) (FlutterSecureStoragePlugin.java:-1)
+I/zygote64( 5287):   at void com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run() (FlutterSecureStoragePlugin.java:176)
+I/zygote64( 5287):   at void android.os.Handler.handleCallback(android.os.Message) (Handler.java:789)
+I/zygote64( 5287):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:98)
+I/zygote64( 5287):   at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64( 5287):   at void android.os.HandlerThread.run() (HandlerThread.java:65)
+I/zygote64( 5287): 
+D/EGL_emulation( 5287): eglMakeCurrent: 0x78ad2343eb20: ver 2 0 (tinfo 0x78ad2350b100)
+I/zygote64( 5287): Do partial code cache collection, code=61KB, data=58KB
+I/zygote64( 5287): After code cache collection, code=61KB, data=58KB
+I/zygote64( 5287): Increasing code cache capacity to 256KB
+I/Choreographer( 5287): Skipped 59 frames!  The application may be doing too much work on its main thread.
+D/ProfileInstaller( 5287): Installing profile for br.com.miar.miar
+D/EGL_emulation( 5287): eglMakeCurrent: 0x78ad2d0a72e0: ver 2 0 (tinfo 0x78ad110b07c0)
+VMServiceFlutterDriver: request_data message is taking a long time to complete...
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Cidadão"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Entrar"
+D/TSBackgroundFetch( 5287): - configure
+D/TSBackgroundFetch( 5287): - start
+D/TSBackgroundFetch( 5287): - registerTask: flutter_background_fetch (jobId: 999)
+D/TSBackgroundFetch( 5287): {
+D/TSBackgroundFetch( 5287):   "taskId": "flutter_background_fetch",
+D/TSBackgroundFetch( 5287):   "isFetchTask": true,
+D/TSBackgroundFetch( 5287):   "minimumFetchInterval": 15,
+D/TSBackgroundFetch( 5287):   "stopOnTerminate": false,
+D/TSBackgroundFetch( 5287):   "requiredNetworkType": 1,
+D/TSBackgroundFetch( 5287):   "requiresBatteryNotLow": false,
+D/TSBackgroundFetch( 5287):   "requiresCharging": false,
+D/TSBackgroundFetch( 5287):   "requiresDeviceIdle": false,
+D/TSBackgroundFetch( 5287):   "requiresStorageNotLow": false,
+D/TSBackgroundFetch( 5287):   "startOnBoot": true,
+D/TSBackgroundFetch( 5287):   "jobService": "com.transistorsoft.flutter.backgroundfetch.HeadlessTask",
+D/TSBackgroundFetch( 5287):   "forceAlarmManager": false,
+D/TSBackgroundFetch( 5287):   "periodic": true,
+D/TSBackgroundFetch( 5287):   "delay": -1
+D/TSBackgroundFetch( 5287): }
+I/zygote64( 5287): Do full code cache collection, code=125KB, data=104KB
+I/zygote64( 5287): After code cache collection, code=121KB, data=81KB
+I/flutter ( 5287): MIAR_AUDIT_ETAPA=CADASTRO_0
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Perfil"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Atualizar meus dados"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar meus dados"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Galeria"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Registrar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Adicionar"
+I/flutter ( 5287): MIAR_AUDIT_GALERIA
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Escolher da galeria"
+I/zygote64( 5287): Do partial code cache collection, code=123KB, data=95KB
+I/zygote64( 5287): After code cache collection, code=123KB, data=95KB
+I/zygote64( 5287): Increasing code cache capacity to 512KB
+D/EGL_emulation( 5287): eglMakeCurrent: 0x78ad2343eb20: ver 2 0 (tinfo 0x78ad2350b100)
+D/TSBackgroundFetch( 5287): ☯️  onPause
+D/TSBackgroundFetch( 5287): ☯️  onStop
+D/TSBackgroundFetch( 5287): ☯️  onStart
+D/TSBackgroundFetch( 5287): ☯️  onResume
+D/EGL_emulation( 5287): eglMakeCurrent: 0x78ad2343eb20: ver 2 0 (tinfo 0x78ad2350b100)
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but index 0)
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Grande" (ignoring all but last)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but index 1)
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Perdido" (ignoring all but last)
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+I/chatty  ( 5287): uid=10078(u0_a78) br.com.miar.miar identical 1 line
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+I/flutter ( 5287): MIAR_AUDIT_GPS_PERMITIR
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Obter localização por GPS"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Cadastrar ocorrência"
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+I/chatty  ( 5287): uid=10078(u0_a78) br.com.miar.miar identical 2 lines
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+I/flutter ( 5287): MIAR_AUDIT_ETAPA=OCORRENCIA_2456
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Alterar minha ocorrência"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alterações"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Galeria"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Aplicar filtros"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Limpar filtros"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Gerenciar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Atualizar status"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "ChoiceChip" that are ancestors of widget with text "Encontrado"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alteração"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Gerenciar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Atualizar status"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "ChoiceChip" that are ancestors of widget with text "Emergência"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alteração"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Gerenciar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Atualizar status"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "ChoiceChip" that are ancestors of widget with text "Aguardando Adoção"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alteração"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Gerenciar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Atualizar status"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "ChoiceChip" that are ancestors of widget with text "Adotado"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alteração"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Cão · Grande" (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Gerenciar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Atualizar status"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "ChoiceChip" that are ancestors of widget with text "Resgatado"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alteração"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Cão · Grande" (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Gerenciar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Atualizar status"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "ChoiceChip" that are ancestors of widget with text "Perdido"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Salvar alteração"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Perfil"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Sair da conta"
+D/TSBackgroundFetch( 5287): - stop
+I/TSBackgroundFetch( 5287): - cancel taskId=flutter_background_fetch, jobId=999
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Protetor"
+I/zygote64( 5287): Do full code cache collection, code=247KB, data=198KB
+I/zygote64( 5287): After code cache collection, code=247KB, data=169KB
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Entrar"
+D/TSBackgroundFetch( 5287): - configure
+D/TSBackgroundFetch( 5287): - start
+D/TSBackgroundFetch( 5287): - registerTask: flutter_background_fetch (jobId: 999)
+D/TSBackgroundFetch( 5287): {
+D/TSBackgroundFetch( 5287):   "taskId": "flutter_background_fetch",
+D/TSBackgroundFetch( 5287):   "isFetchTask": true,
+D/TSBackgroundFetch( 5287):   "minimumFetchInterval": 15,
+D/TSBackgroundFetch( 5287):   "stopOnTerminate": false,
+D/TSBackgroundFetch( 5287):   "requiredNetworkType": 1,
+D/TSBackgroundFetch( 5287):   "requiresBatteryNotLow": false,
+D/TSBackgroundFetch( 5287):   "requiresCharging": false,
+D/TSBackgroundFetch( 5287):   "requiresDeviceIdle": false,
+D/TSBackgroundFetch( 5287):   "requiresStorageNotLow": false,
+D/TSBackgroundFetch( 5287):   "startOnBoot": true,
+D/TSBackgroundFetch( 5287):   "jobService": "com.transistorsoft.flutter.backgroundfetch.HeadlessTask",
+D/TSBackgroundFetch( 5287):   "forceAlarmManager": false,
+D/TSBackgroundFetch( 5287):   "periodic": true,
+D/TSBackgroundFetch( 5287):   "delay": -1
+D/TSBackgroundFetch( 5287): }
+I/flutter ( 5287): MIAR_AUDIT_ETAPA=CADASTRO_1
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Registrar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Adicionar"
+I/flutter ( 5287): MIAR_AUDIT_GALERIA
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Escolher da galeria"
+D/EGL_emulation( 5287): eglMakeCurrent: 0x78ad2343eb20: ver 2 0 (tinfo 0x78ad2350b100)
+D/TSBackgroundFetch( 5287): ☯️  onPause
+D/TSBackgroundFetch( 5287): ☯️  onStop
+D/TSBackgroundFetch( 5287): ☯️  onStart
+D/TSBackgroundFetch( 5287): ☯️  onResume
+D/EGL_emulation( 5287): eglMakeCurrent: 0x78ad2343eb20: ver 2 0 (tinfo 0x78ad2350b100)
+I/zygote64( 5287): Do partial code cache collection, code=248KB, data=178KB
+I/zygote64( 5287): After code cache collection, code=248KB, data=178KB
+I/zygote64( 5287): Increasing code cache capacity to 1024KB
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but index 0)
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Grande" (ignoring all but last)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but index 1)
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Encontrado" (ignoring all but last)
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+I/flutter ( 5287): MIAR_AUDIT_GPS_PERMITIR
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Obter localização por GPS"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Cadastrar ocorrência"
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+I/flutter ( 5287): MIAR_AUDIT_ETAPA=OCORRENCIA_2457
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Radar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Galeria"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Perfil"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Sair da conta"
+D/TSBackgroundFetch( 5287): - stop
+I/TSBackgroundFetch( 5287): - cancel taskId=flutter_background_fetch, jobId=999
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Entrar"
+D/TSBackgroundFetch( 5287): - configure
+D/TSBackgroundFetch( 5287): - start
+D/TSBackgroundFetch( 5287): - registerTask: flutter_background_fetch (jobId: 999)
+D/TSBackgroundFetch( 5287): {
+D/TSBackgroundFetch( 5287):   "taskId": "flutter_background_fetch",
+D/TSBackgroundFetch( 5287):   "isFetchTask": true,
+D/TSBackgroundFetch( 5287):   "minimumFetchInterval": 15,
+D/TSBackgroundFetch( 5287):   "stopOnTerminate": false,
+D/TSBackgroundFetch( 5287):   "requiredNetworkType": 1,
+D/TSBackgroundFetch( 5287):   "requiresBatteryNotLow": false,
+D/TSBackgroundFetch( 5287):   "requiresCharging": false,
+D/TSBackgroundFetch( 5287):   "requiresDeviceIdle": false,
+D/TSBackgroundFetch( 5287):   "requiresStorageNotLow": false,
+D/TSBackgroundFetch( 5287):   "startOnBoot": true,
+D/TSBackgroundFetch( 5287):   "jobService": "com.transistorsoft.flutter.backgroundfetch.HeadlessTask",
+D/TSBackgroundFetch( 5287):   "forceAlarmManager": false,
+D/TSBackgroundFetch( 5287):   "periodic": true,
+D/TSBackgroundFetch( 5287):   "delay": -1
+D/TSBackgroundFetch( 5287): }
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Possível correspondência encontrada" (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Gerenciar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Excluir ocorrência"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "TextButton" that are ancestors of widget with text "Excluir"
+I/flutter ( 5287): MIAR_AUDIT_ETAPA=EXCLUSAO
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Perfil"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Sair da conta"
+D/TSBackgroundFetch( 5287): - stop
+I/TSBackgroundFetch( 5287): - cancel taskId=flutter_background_fetch, jobId=999
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Entrar"
+D/TSBackgroundFetch( 5287): - configure
+D/TSBackgroundFetch( 5287): - start
+D/TSBackgroundFetch( 5287): - registerTask: flutter_background_fetch (jobId: 999)
+D/TSBackgroundFetch( 5287): {
+D/TSBackgroundFetch( 5287):   "taskId": "flutter_background_fetch",
+D/TSBackgroundFetch( 5287):   "isFetchTask": true,
+D/TSBackgroundFetch( 5287):   "minimumFetchInterval": 15,
+D/TSBackgroundFetch( 5287):   "stopOnTerminate": false,
+D/TSBackgroundFetch( 5287):   "requiredNetworkType": 1,
+D/TSBackgroundFetch( 5287):   "requiresBatteryNotLow": false,
+D/TSBackgroundFetch( 5287):   "requiresCharging": false,
+D/TSBackgroundFetch( 5287):   "requiresDeviceIdle": false,
+D/TSBackgroundFetch( 5287):   "requiresStorageNotLow": false,
+D/TSBackgroundFetch( 5287):   "startOnBoot": true,
+D/TSBackgroundFetch( 5287):   "jobService": "com.transistorsoft.flutter.backgroundfetch.HeadlessTask",
+D/TSBackgroundFetch( 5287):   "forceAlarmManager": false,
+D/TSBackgroundFetch( 5287):   "periodic": true,
+D/TSBackgroundFetch( 5287):   "delay": -1
+D/TSBackgroundFetch( 5287): }
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Gerenciar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with widget matching predicate (ignoring all but first)
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Excluir ocorrência"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "TextButton" that are ancestors of widget with text "Excluir"
+I/flutter ( 5287): MIAR_AUDIT_ETAPA=EXCLUSAO
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Perfil"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Sair da conta"
+D/TSBackgroundFetch( 5287): - stop
+I/TSBackgroundFetch( 5287): - cancel taskId=flutter_background_fetch, jobId=999
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "ONG"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Criar conta"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with type "Botao" that are ancestors of widget with text "Entrar"
+D/TSBackgroundFetch( 5287): - configure
+D/TSBackgroundFetch( 5287): - start
+D/TSBackgroundFetch( 5287): - registerTask: flutter_background_fetch (jobId: 999)
+D/TSBackgroundFetch( 5287): {
+D/TSBackgroundFetch( 5287):   "taskId": "flutter_background_fetch",
+D/TSBackgroundFetch( 5287):   "isFetchTask": true,
+D/TSBackgroundFetch( 5287):   "minimumFetchInterval": 15,
+D/TSBackgroundFetch( 5287):   "stopOnTerminate": false,
+D/TSBackgroundFetch( 5287):   "requiredNetworkType": 1,
+D/TSBackgroundFetch( 5287):   "requiresBatteryNotLow": false,
+D/TSBackgroundFetch( 5287):   "requiresCharging": false,
+D/TSBackgroundFetch( 5287):   "requiresDeviceIdle": false,
+D/TSBackgroundFetch( 5287):   "requiresStorageNotLow": false,
+D/TSBackgroundFetch( 5287):   "startOnBoot": true,
+D/TSBackgroundFetch( 5287):   "jobService": "com.transistorsoft.flutter.backgroundfetch.HeadlessTask",
+D/TSBackgroundFetch( 5287):   "forceAlarmManager": false,
+D/TSBackgroundFetch( 5287):   "periodic": true,
+D/TSBackgroundFetch( 5287):   "delay": -1
+D/TSBackgroundFetch( 5287): }
+I/flutter ( 5287): MIAR_AUDIT_ETAPA=CADASTRO_2
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Registrar"
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Adicionar"
+I/flutter ( 5287): MIAR_AUDIT_CAMERA
+I/flutter ( 5287): MIAR_AUDIT_UI=widget with text "Tirar fotografia"
+D/EGL_emulation( 5287): eglMakeCurrent: 0x78ad2343eb20: ver 2 0 (tinfo 0x78ad2350b100)
+D/TSBackgroundFetch( 5287): ☯️  onPause
+D/TSBackgroundFetch( 5287): ☯️  onStop
+E/AndroidRuntime(16467): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+E/AndroidRuntime(16467): java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@fe99f88already registered!
+E/AndroidRuntime(16467): 	at android.os.Parcel.readException(Parcel.java:1951)
+E/AndroidRuntime(16467): 	at android.os.Parcel.readException(Parcel.java:1889)
+E/AndroidRuntime(16467): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.registerUiTestAutomationService(IAccessibilityManager.java:405)
+E/AndroidRuntime(16467): 	at android.app.UiAutomationConnection.registerUiTestAutomationServiceLocked(UiAutomationConnection.java:344)
+E/AndroidRuntime(16467): 	at android.app.UiAutomationConnection.connect(UiAutomationConnection.java:92)
+E/AndroidRuntime(16467): 	at android.app.UiAutomation.connect(UiAutomation.java:223)
+E/AndroidRuntime(16467): 	at android.app.UiAutomation.connect(UiAutomation.java:202)
+E/AndroidRuntime(16467): 	at com.android.uiautomator.core.UiAutomationShellWrapper.connect(UiAutomationShellWrapper.java:31)
+E/AndroidRuntime(16467): 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:74)
+E/AndroidRuntime(16467): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+E/AndroidRuntime(16467): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+E/AndroidRuntime(16467): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+E/AndroidRuntime(16467): Error reporting crash
+E/AndroidRuntime(16467): java.lang.RuntimeException: Bad file descriptor
+E/AndroidRuntime(16467): 	at android.os.BinderProxy.transactNative(Native Method)
+E/AndroidRuntime(16467): 	at android.os.BinderProxy.transact(Binder.java:748)
+E/AndroidRuntime(16467): 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:123)
+E/AndroidRuntime(16467): 	at android.os.ServiceManager.getService(ServiceManager.java:56)
+E/AndroidRuntime(16467): 	at android.app.ActivityManager$1.create(ActivityManager.java:4214)
+E/AndroidRuntime(16467): 	at android.app.ActivityManager$1.create(ActivityManager.java:4212)
+E/AndroidRuntime(16467): 	at android.util.Singleton.get(Singleton.java:34)
+E/AndroidRuntime(16467): 	at android.app.ActivityManager.getService(ActivityManager.java:4207)
+E/AndroidRuntime(16467): 	at com.android.internal.os.RuntimeInit$KillApplicationHandler.uncaughtException(RuntimeInit.java:115)
+E/AndroidRuntime(16467): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1068)
+E/AndroidRuntime(16467): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1063)
+E/AndroidRuntime(16467): 	at java.lang.Thread.dispatchUncaughtException(Thread.java:1953)
+D/TSBackgroundFetch( 5287): ☯️  onStart
+D/TSBackgroundFetch( 5287): ☯️  onResume
+D/EGL_emulation( 5287): eglMakeCurrent: 0x78ad2343eb20: ver 2 0 (tinfo 0x78ad2350b100)
+E/AccessibilityBridge( 5287): Attempted to getRootSemanticsNode without a root semantics node.
+Unhandled exception:
+DriverError: Failed to fulfill RequestData due to remote error
+Original error: ext.flutter.driver: (112) Service has disappeared
+Original stack trace:
+#0      new _OutstandingRequest (package:vm_service/src/vm_service.dart:280:34)
+#1      VmService._call.<anonymous closure> (package:vm_service/src/vm_service.dart:1962:25)
+#2      VmService._call (package:vm_service/src/vm_service.dart:1974:8)
+#3      VmService.callServiceExtension (package:vm_service/src/vm_service.dart:1913:14)
+#4      VMServiceFlutterDriver.sendCommand (package:flutter_driver/src/driver/vmservice_driver.dart:327:12)
+#5      FlutterDriver.requestData (package:flutter_driver/src/driver/driver.dart:573:13)
+#6      integrationDriver (package:integration_test/integration_test_driver_extended.dart:87:38)
+<asynchronous suspension>
+#7      main (file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/test_driver/integration_test.dart:5:3)
+<asynchronous suspension>
+
+
+#0      VMServiceFlutterDriver.sendCommand (package:flutter_driver/src/driver/vmservice_driver.dart:340:7)
+<asynchronous suspension>
+#1      FlutterDriver.requestData (package:flutter_driver/src/driver/driver.dart:573:7)
+<asynchronous suspension>
+#2      integrationDriver (package:integration_test/integration_test_driver_extended.dart:87:25)
+<asynchronous suspension>
+#3      main (file:///C:/Users/Breno/AppData/Local/MiarDev/376eb84567/app/test_driver/integration_test.dart:5:3)
+<asynchronous suspension>

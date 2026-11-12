@@ -1,0 +1,23 @@
+{
+  "exit_code": 0,
+  "avd": "MIAR_API26",
+  "android_sdk": "26",
+  "steps": [
+    {
+      "mode": "galeria",
+      "action": "android:id/title MIAR_AUDITORIA.jpg ",
+      "screenshot": "seletor-nativo-galeria-01.png"
+    },
+    {
+      "mode": "camera",
+      "action": "com.android.camera2:id/shutter_button  Shutter",
+      "screenshot": "seletor-nativo-camera-02.png"
+    },
+    {
+      "mode": "camera",
+      "action": "com.android.camera2:id/done_button  Done",
+      "screenshot": "seletor-nativo-camera-03.png"
+    }
+  ],
+  "master_sha256": "d20641bd7dd5e44016c56e38ae5dc2db89b775835302618fc65fe45ee3555d06"
+}

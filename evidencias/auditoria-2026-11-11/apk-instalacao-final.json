@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "avd": "MIAR_API35",
+  "sdk": 35,
+  "versao": "1.0.0+3",
+  "min_sdk": 26,
+  "api": "http://10.0.2.2:3000",
+  "apk_sha256": "422902564c28a3da33139bfb9f3c4af5f2e403c491e942e1afa0b6c222a5e808",
+  "instalacao": "Success",
+  "inicio": "Starting: Intent { cmp=br.com.miar.miar/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: br.com.miar.miar/.MainActivity\r\nTotalTime: 5858\r\nWaitTime: 5861\r\nComplete"
+}

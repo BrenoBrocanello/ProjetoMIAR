@@ -1,0 +1,7 @@
+{
+  "titulo": "Galeria — registros e aviso de correspondência",
+  "requisitos": "RF03, RF06, CU03",
+  "fonte": "Captura real da suite Android API35 das nove janelas; API/PG/S3/IA reais, mesma versao do aplicativo",
+  "ordem": 15,
+  "arquivo_origem": "evidencias/auditoria-2026-11-11/android-janelas/03-galeria.png"
+}

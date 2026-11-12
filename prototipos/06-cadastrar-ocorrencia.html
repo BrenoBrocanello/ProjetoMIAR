@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>MIAR — Cadastrar Ocorrência Animal</title>
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/miar.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="device">
+    <div class="notch"></div>
+    <div class="screen">
+      <div class="aurora"><div class="blob"></div></div>
+
+      <div class="statusbar">
+        <span>9:41</span>
+        <span class="icons">
+          <svg width="17" height="12" viewBox="0 0 17 12" fill="currentColor"><rect y="8" width="3" height="4" rx="1"/><rect x="4.5" y="5.5" width="3" height="6.5" rx="1"/><rect x="9" y="3" width="3" height="9" rx="1"/><rect x="13.5" width="3" height="12" rx="1"/></svg>
+          <svg width="16" height="12" viewBox="0 0 16 12" fill="currentColor"><path d="M8 11.2 6 8.9c1.1-.9 2.9-.9 4 0l-2 2.3Zm0-4.6c-1.6 0-3.1.6-4.2 1.6L2.3 6.6C3.8 5.2 5.8 4.4 8 4.4s4.2.8 5.7 2.2l-1.5 1.6C11.1 7.2 9.6 6.6 8 6.6Zm0-4.4c-2.6 0-5 1-6.8 2.6L0 2.9C2.2.9 5 0 8 0s5.8 1 8 2.9l-1.2 1.5C13 3 10.6 2.2 8 2.2Z"/></svg>
+          <svg width="26" height="13" viewBox="0 0 26 13" fill="none"><rect x=".6" y=".6" width="21" height="11.8" rx="3.4" stroke="currentColor" stroke-opacity=".4" stroke-width="1.1"/><rect x="2.2" y="2.2" width="17.8" height="8.6" rx="2.2" fill="currentColor"/><path d="M23.2 4.3v4.4c1-.4 1.6-1.2 1.6-2.2s-.6-1.8-1.6-2.2Z" fill="currentColor" fill-opacity=".4"/></svg>
+        </span>
+      </div>
+
+      <div class="content">
+        <div class="appbar">
+          <span class="back"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5 8 12l7 7"/></svg></span>
+          <span class="title">Nova ocorrência</span>
+        </div>
+
+        <div class="sheet" style="padding-top:22px">
+
+          <!-- Fotografias do animal — entidade FOTO (RF02 / RNF04) -->
+          <label class="t-label" style="display:block;margin-bottom:8px">Fotografias</label>
+          <div class="row gap-8" style="margin-bottom:16px">
+            <div class="photo" style="width:84px;height:84px;border-radius:var(--radius-md);background-image:url('assets/img/ocorrencia-cao-medio.jpg')">
+              <svg width="34" height="26" viewBox="0 0 150 110" fill="currentColor" opacity=".5"><path d="M44 44c-9 0-16 8-18 17-1 6-6 9-6 17 0 12 10 20 24 20 9 0 12-4 20-4s11 4 20 4c14 0 24-8 24-20 0-8-5-11-6-17-2-9-9-17-18-17-7 0-11 4-20 4s-13-4-20-4Z" opacity=".75"/><ellipse cx="30" cy="22" rx="11" ry="16" transform="rotate(-18 30 22)"/><ellipse cx="60" cy="12" rx="10" ry="15" transform="rotate(-6 60 12)"/><ellipse cx="92" cy="12" rx="10" ry="15" transform="rotate(6 92 12)"/><ellipse cx="121" cy="22" rx="11" ry="16" transform="rotate(18 121 22)"/></svg>
+            </div>
+            <div style="width:84px;height:84px;border-radius:var(--radius-md);border:1.5px dashed var(--miar-lilac);background:var(--surface-secondary);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7.5v9M7.5 12h9"/></svg>
+              <span style="font-size:11px;font-weight:600;color:var(--miar-purple)">Adicionar</span>
+            </div>
+          </div>
+
+          <!-- Espécie e porte — atributos de OCORRENCIA_ANIMAL -->
+          <div class="grid-2" style="margin-bottom:16px">
+            <div>
+              <label class="t-label" style="display:block;margin-bottom:8px">Espécie</label>
+              <div class="input" style="padding:0 14px">
+                <span class="value" style="font-size:14px">Cão</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9.5 6 6 6-6"/></svg>
+              </div>
+            </div>
+            <div>
+              <label class="t-label" style="display:block;margin-bottom:8px">Porte</label>
+              <div class="input" style="padding:0 14px">
+                <span class="value" style="font-size:14px">Médio</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9.5 6 6 6-6"/></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Status da ocorrência — RD02 -->
+          <label class="t-label" style="display:block;margin-bottom:8px">Status da ocorrência</label>
+          <div class="chips" style="margin-bottom:16px">
+            <span class="chip active">Encontrado</span>
+            <span class="chip">Perdido</span>
+            <span class="chip">Emergência</span>
+          </div>
+
+          <!-- Descrição física -->
+          <label class="t-label" style="display:block;margin-bottom:8px">Descrição física</label>
+          <div class="input textarea" style="min-height:76px;margin-bottom:16px">
+            <span class="value" style="font-size:14px;line-height:1.5">Pelo curto caramelo, mancha branca no peito, coleira vermelha.</span>
+          </div>
+
+          <!-- Estado aparente de saúde — RF02 -->
+          <label class="t-label" style="display:block;margin-bottom:8px">Estado aparente de saúde</label>
+          <div class="chips" style="margin-bottom:16px">
+            <span class="chip active">Saudável</span>
+            <span class="chip">Ferido</span>
+            <span class="chip">Emergência</span>
+          </div>
+
+          <!-- Localização geográfica via GPS — RD03 / entidade LOCALIZACAO -->
+          <label class="t-label" style="display:block;margin-bottom:8px">Localização</label>
+          <div class="card" style="display:flex;align-items:center;gap:12px;padding:14px;margin-bottom:16px">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21.5s7-5.8 7-11a7 7 0 1 0-14 0c0 5.2 7 11 7 11Z"/><circle cx="12" cy="10.2" r="2.6"/></svg>
+            <div style="flex:1;min-width:0">
+              <div class="t-label" style="font-size:13px">R. Barão de Jundiaí, 450</div>
+              <div class="t-caption" style="font-size:12px">Jundiaí, SP · −23.1864, −46.8842</div>
+            </div>
+            <span style="font-size:13px;font-weight:600;color:var(--miar-purple)">Ajustar</span>
+          </div>
+
+          <!-- Contato do responsável — RD05 / entidade CONTATO -->
+          <label class="t-label" style="display:block;margin-bottom:8px">WhatsApp para contato</label>
+          <div class="input" style="margin-bottom:18px">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6.2 3.5h3l1.5 4-2 1.4a12 12 0 0 0 6.4 6.4l1.4-2 4 1.5v3a2 2 0 0 1-2.2 2A16.8 16.8 0 0 1 4.2 5.7a2 2 0 0 1 2-2.2Z"/></svg>
+            <span class="value">(11) 98765-4321</span>
+          </div>
+
+          <button class="btn btn-primary">
+            Cadastrar ocorrência
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="trace">
+    <b>Tela 06 — Cadastrar Ocorrência Animal.</b><br>
+    Respaldo: <b>UC Cadastrar Ocorrência Animal</b> · <b>UC Cadastrar Animais</b> ·
+    <b>RF02</b> (descrição física, espécie, porte, fotografias, cidade, localização geográfica,
+    estado aparente de saúde, status e dados de contato) · <b>RD02</b>, <b>RD03</b>, <b>RD05</b> ·
+    Entidades <b>OCORRENCIA_ANIMAL</b>, <b>FOTO</b>, <b>LOCALIZACAO</b>, <b>CONTATO</b>.
+  </div>
+</div>
+</body>
+</html>

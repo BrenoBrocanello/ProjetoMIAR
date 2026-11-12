@@ -1,0 +1,6 @@
+{
+  "figura": "015-galeria",
+  "origem": "evidencias/auditoria-2026-11-11/android-janelas/03-galeria.png",
+  "sha256": "3e0926bcf95767fda11acfe98da6cd6d861fd0311d0e2ec5b283ce543c01c00c",
+  "motivo": "Substituicao do snapshot antecipado com indicadores de carga por captura nativa ja aprovada e conferida; sem alteracao do conteudo da imagem."
+}

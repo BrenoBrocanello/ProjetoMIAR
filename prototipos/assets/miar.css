@@ -1,0 +1,406 @@
+/* ===========================================================================
+   MIAR Design System — Pastel Aurora
+   Implementação CSS dos tokens e componentes definidos em DESIGN_SYSTEM.md
+   Uso: protótipos de interface da Etapa 10.
+   NÃO alterar valores sem autorização do responsável pelo projeto.
+   =========================================================================== */
+
+:root {
+  /* --- Paleta base (DESIGN_SYSTEM.md §2.1) --- */
+  --miar-blue: #8AB8FF;
+  --miar-lilac: #B9A1FF;
+  --miar-pink: #F2B5EB;
+  --miar-mint: #A4F4D4;
+  --miar-purple: #7C3AED;
+  --miar-ink: #180825;
+  --miar-white: #FFFFFF;
+  --miar-gray: #77789C;
+
+  /* --- Derivados (§2.2) --- */
+  --surface-primary: rgba(255, 255, 255, .92);
+  --surface-secondary: rgba(255, 255, 255, .72);
+  --surface-sunken: rgba(255, 255, 255, .55);
+  --border-subtle: rgba(24, 8, 37, .08);
+  --border-focus: rgba(124, 58, 237, .45);
+  --scrim: rgba(24, 8, 37, .32);
+
+  /* --- Gradientes (§2.4) --- */
+  --gradient-aurora: linear-gradient(135deg, #8AB8FF 0%, #B9A1FF 38%, #F2B5EB 70%, #A4F4D4 100%);
+  --gradient-action: linear-gradient(100deg, #8AB8FF 0%, #B9A1FF 30%, #F2B5EB 62%, #A4F4D4 100%);
+  --gradient-veil: linear-gradient(160deg, rgba(255, 255, 255, .94), rgba(255, 255, 255, .78));
+  --gradient-header-fade: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, .85));
+
+  /* --- Raios (§4.3) --- */
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-2xl: 36px;
+  --radius-full: 999px;
+
+  /* --- Elevação (§4.4) --- */
+  --elev-1: 0 2px 10px rgba(24, 8, 37, .05);
+  --elev-2: 0 8px 24px rgba(24, 8, 37, .07);
+  --elev-3: 0 16px 40px rgba(24, 8, 37, .10);
+  --elev-4: 0 20px 48px rgba(24, 8, 37, .14);
+  --elev-glow: 0 10px 28px rgba(124, 58, 237, .22);
+
+  --font: 'Outfit', 'Satoshi', 'Poppins', system-ui, -apple-system, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-font-smoothing: antialiased; }
+
+body {
+  font-family: var(--font);
+  color: var(--miar-ink);
+  background: var(--gradient-aurora);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 0;
+}
+
+/* ============================= MOLDURA DE DEVICE ========================== */
+/* Apresentação do protótipo — não faz parte da interface do produto.         */
+
+.device {
+  position: relative;
+  width: 430px;
+  height: 920px;
+  border-radius: 58px;
+  padding: 14px;
+  background: linear-gradient(160deg, #F4F1FA, #E6E2F2 40%, #DCE4F5);
+  box-shadow: 0 40px 90px rgba(24, 8, 37, .26), 0 0 0 1.5px rgba(255, 255, 255, .7) inset;
+}
+
+.screen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 46px;
+  overflow: hidden;
+  background: var(--gradient-aurora);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Fundo aurora com blobs orgânicos (§2.5) */
+.aurora { position: absolute; inset: 0; background: var(--gradient-aurora); overflow: hidden; }
+.aurora::before, .aurora::after,
+.aurora > .blob { content: ''; position: absolute; filter: blur(60px); }
+.aurora::before {
+  width: 300px; height: 280px; top: -70px; left: -70px;
+  background: var(--miar-blue); opacity: .42;
+  border-radius: 58% 42% 47% 53% / 43% 51% 49% 57%;
+}
+.aurora::after {
+  width: 340px; height: 320px; top: 200px; right: -110px;
+  background: var(--miar-pink); opacity: .38;
+  border-radius: 46% 54% 61% 39% / 55% 41% 59% 45%;
+}
+.aurora > .blob {
+  width: 320px; height: 300px; bottom: -80px; left: -60px;
+  background: var(--miar-mint); opacity: .40;
+  border-radius: 52% 48% 38% 62% / 47% 59% 41% 53%;
+}
+
+/* Barra de status do sistema — representação do dispositivo */
+.statusbar {
+  position: relative; z-index: 5;
+  height: 54px; flex: 0 0 54px;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 28px 0 32px;
+  font-size: 15px; font-weight: 600; color: var(--miar-ink);
+}
+.statusbar .icons { display: flex; align-items: center; gap: 6px; }
+.notch {
+  position: absolute; top: 12px; left: 50%; transform: translateX(-50%);
+  width: 118px; height: 34px; border-radius: var(--radius-full);
+  background: #0B0510; z-index: 6;
+}
+
+.content { position: relative; z-index: 4; flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+
+/* ============================== TIPOGRAFIA (§3.2) ========================= */
+.t-display  { font-size: 34px; font-weight: 700; line-height: 1.15; letter-spacing: -.6px; }
+.t-h1       { font-size: 28px; font-weight: 700; line-height: 1.20; letter-spacing: -.4px; }
+.t-h2       { font-size: 22px; font-weight: 600; line-height: 1.25; letter-spacing: -.2px; }
+.t-h3       { font-size: 18px; font-weight: 600; line-height: 1.30; }
+.t-body-lg  { font-size: 16px; font-weight: 400; line-height: 1.55; }
+.t-body     { font-size: 15px; font-weight: 400; line-height: 1.55; }
+.t-label    { font-size: 14px; font-weight: 600; line-height: 1.30; }
+.t-caption  { font-size: 13px; font-weight: 400; line-height: 1.45; color: var(--miar-gray); }
+.t-overline { font-size: 11px; font-weight: 600; line-height: 1.20; letter-spacing: 1.6px; text-transform: uppercase; color: var(--miar-gray); }
+.muted      { color: var(--miar-gray); }
+
+/* =============================== LOGO (§8.1) ============================== */
+.logo { display: flex; align-items: center; justify-content: center; gap: 14px; }
+.logo .wordmark { font-size: 42px; font-weight: 700; letter-spacing: -1px; line-height: 1; }
+.logo-block { text-align: center; }
+.logo-tagline { margin-top: 6px; font-size: 9px; font-weight: 600; letter-spacing: 2.2px; text-transform: uppercase; color: var(--miar-gray); }
+
+/* ============================ FOLHA PRINCIPAL (§5.6) ====================== */
+.sheet {
+  position: relative;
+  background: var(--gradient-veil);
+  border-radius: var(--radius-2xl) var(--radius-2xl) 0 0;
+  box-shadow: var(--elev-3);
+  padding: 32px 24px;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* ============================== BOTÕES (§5.1–5.3) ========================= */
+.btn {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  width: 100%; height: 56px; border: none; cursor: pointer;
+  border-radius: var(--radius-lg);
+  font-family: var(--font); font-size: 16px; font-weight: 600; letter-spacing: .2px;
+}
+.btn-primary {
+  background: var(--gradient-action);
+  color: var(--miar-white);
+  box-shadow: var(--elev-glow);
+  text-shadow: 0 1px 2px rgba(24, 8, 37, .35); /* §10 — contraste obrigatório */
+}
+.btn-secondary {
+  background: var(--surface-primary);
+  color: var(--miar-purple);
+  border: 1.5px solid var(--miar-lilac);
+}
+.btn-link { background: none; border: none; color: var(--miar-purple); font-weight: 600; cursor: pointer; }
+.btn-sm { height: 44px; font-size: 14px; border-radius: var(--radius-md); }
+
+/* =============================== INPUTS (§5.4) ============================ */
+.field { margin-bottom: 16px; }
+.field > .t-label { display: block; margin-bottom: 8px; }
+.input {
+  display: flex; align-items: center; gap: 12px;
+  height: 58px; padding: 0 16px;
+  background: var(--surface-secondary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+}
+.input svg { flex: 0 0 auto; color: var(--miar-gray); }
+.input .value { flex: 1; font-size: 15px; color: var(--miar-ink); }
+.input .placeholder { flex: 1; font-size: 15px; color: var(--miar-gray); }
+.input.focused { border: 1.5px solid var(--border-focus); box-shadow: 0 0 0 4px rgba(124, 58, 237, .10); }
+.input.textarea { height: auto; min-height: 104px; align-items: flex-start; padding: 16px; }
+
+/* =============================== CARDS (§5.5) ============================= */
+.card {
+  background: var(--surface-primary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--elev-2);
+  padding: 16px;
+}
+.card-flush { padding: 0; overflow: hidden; }
+
+/* =========================== BADGE DE STATUS (§5.7) ======================= */
+.badge {
+  display: inline-flex; align-items: center; gap: 5px;
+  height: 26px; padding: 0 12px;
+  border-radius: var(--radius-full);
+  font-size: 12px; font-weight: 600; white-space: nowrap;
+}
+.badge-perdido    { background: rgba(255, 255, 255, .70); color: #77789C; }
+.badge-encontrado { background: rgba(138, 184, 255, .35); color: #3B6FD4; }
+.badge-emergencia { background: rgba(242, 181, 235, .40); color: #C2437A; }
+.badge-aguardando { background: rgba(247, 226, 168, .45); color: #9A6A1F; }
+.badge-adotado    { background: rgba(164, 244, 212, .35); color: #2F9E78; }
+.badge-resgatado  { background: rgba(164, 244, 212, .35); color: #2F9E78; }
+/* Badge sobreposta a fotografia: o fundo translúcido padrão não garante leitura
+   sobre imagem. Nesse contexto a superfície torna-se opaca e recebe desfoque e
+   sombra suave, preservando a cor semântica do status (DESIGN_SYSTEM.md §5.7). */
+.photo > .badge {
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 8px rgba(24, 8, 37, .18);
+}
+.photo > .badge-perdido    { background: rgba(255, 255, 255, .92); }
+.photo > .badge-encontrado { background: rgba(214, 231, 255, .94); }
+.photo > .badge-emergencia { background: rgba(252, 226, 248, .94); }
+.photo > .badge-aguardando { background: rgba(253, 243, 214, .95); }
+.photo > .badge-adotado,
+.photo > .badge-resgatado  { background: rgba(219, 250, 237, .94); }
+
+.badge-perfil {
+  display: inline-flex; align-items: center; height: 28px; padding: 0 14px;
+  border-radius: var(--radius-full); background: var(--surface-secondary);
+  color: var(--miar-purple); font-size: 13px; font-weight: 600;
+}
+
+/* =========================== CHIP DE FILTRO (§5.8) ======================== */
+.chips { display: flex; gap: 8px; overflow: hidden; }
+.chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  height: 38px; padding: 0 16px; white-space: nowrap;
+  border-radius: var(--radius-full);
+  background: var(--surface-secondary);
+  border: 1px solid var(--border-subtle);
+  color: var(--miar-gray); font-size: 14px; font-weight: 600;
+}
+.chip.active {
+  background: var(--gradient-action); border: none;
+  color: var(--miar-white); text-shadow: 0 1px 2px rgba(24, 8, 37, .35);
+}
+
+/* ======================= BARRA DE NAVEGAÇÃO INFERIOR (§5.9) =============== */
+.navbar {
+  position: absolute; bottom: 0; left: 0; right: 0; z-index: 10;
+  height: 86px; padding: 10px 12px 22px;
+  display: flex; align-items: flex-start; justify-content: space-around;
+  background: rgba(255, 255, 255, .88);
+  border-top: 1px solid var(--border-subtle);
+  border-radius: var(--radius-2xl) var(--radius-2xl) 0 0;
+  backdrop-filter: blur(16px);
+}
+.nav-item {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  width: 64px; color: var(--miar-gray); font-size: 11px; font-weight: 600;
+}
+.nav-item.active { color: var(--miar-purple); }
+.nav-item .dot { width: 4px; height: 4px; border-radius: 50%; background: var(--gradient-action); }
+.nav-item .dot.hidden { visibility: hidden; }
+
+/* ========================= CABEÇALHO DE TELA (§5.10) ====================== */
+.appbar {
+  display: flex; align-items: center; gap: 12px;
+  height: 56px; padding: 0 20px; flex: 0 0 56px;
+  position: relative; z-index: 5;
+}
+.appbar .back { width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: var(--miar-purple); }
+.appbar .title { flex: 1; font-size: 22px; font-weight: 600; letter-spacing: -.2px; }
+.appbar .action { width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: var(--miar-purple); }
+
+/* ============================ BOTTOM SHEET (§5.11) ======================== */
+.scrim-layer { position: absolute; inset: 0; background: var(--scrim); z-index: 20; }
+.bottomsheet {
+  position: absolute; bottom: 0; left: 0; right: 0; z-index: 21;
+  background: var(--surface-primary);
+  border-radius: var(--radius-2xl) var(--radius-2xl) 0 0;
+  box-shadow: var(--elev-4);
+  padding: 12px 24px 32px;
+}
+.bottomsheet .handle { width: 40px; height: 4px; border-radius: var(--radius-full); background: var(--border-subtle); margin: 0 auto 20px; }
+
+/* ============================== MODAL (§5.12) ============================= */
+.modal {
+  position: absolute; top: 50%; left: 24px; right: 24px; transform: translateY(-50%); z-index: 21;
+  background: var(--surface-primary);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--elev-4);
+  padding: 24px;
+}
+
+/* ============================== TOAST (§5.14) ============================= */
+.toast {
+  display: flex; align-items: center; gap: 12px;
+  min-height: 56px; padding: 12px 16px;
+  background: var(--surface-primary);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--elev-4);
+  overflow: hidden; position: relative;
+}
+.toast::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; }
+.toast.success::before { background: #A4F4D4; }
+.toast.info::before { background: #8AB8FF; }
+
+/* ======================== MENSAGEM EM BLOCO (§5.16) ======================= */
+.alert { display: flex; gap: 12px; padding: 14px 16px; border-radius: var(--radius-md); }
+.alert-info { background: rgba(138, 184, 255, .18); border: 1px solid rgba(138, 184, 255, .35); }
+.alert-success { background: rgba(164, 244, 212, .18); border: 1px solid rgba(164, 244, 212, .45); }
+
+/* ============================ FOTOGRAFIAS (§5.21) ========================= */
+/* Área reservada para fotografia do animal. Enquanto a foto real não for
+   fornecida, exibe marca d'água na identidade pastel (ver PROMPTS_IMAGENS.md). */
+.photo {
+  position: relative; overflow: hidden;
+  background: linear-gradient(145deg, rgba(138,184,255,.55), rgba(185,161,255,.45) 45%, rgba(242,181,235,.5) 75%, rgba(164,244,212,.55));
+  display: flex; align-items: center; justify-content: center;
+}
+.photo::after {
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(ellipse at 30% 25%, rgba(255,255,255,.45), transparent 60%);
+}
+.photo svg { position: relative; z-index: 1; opacity: .5; color: var(--miar-white); }
+.photo-4x3 { aspect-ratio: 4 / 3; }
+.photo-hero { height: 268px; }
+
+/* ============================= MAPA (§5.17) =============================== */
+.map {
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(circle at 22% 68%, rgba(164, 244, 212, .45) 0 90px, transparent 91px),
+    radial-gradient(circle at 76% 24%, rgba(164, 244, 212, .40) 0 70px, transparent 71px),
+    linear-gradient(118deg, rgba(138, 184, 255, .30) 0 60px, transparent 61px),
+    linear-gradient(200deg, rgba(138, 184, 255, .22) 0 44px, transparent 45px),
+    #F6F4FB;
+}
+.map-roads { position: absolute; inset: 0; }
+.map-roads span { position: absolute; background: var(--miar-white); border-radius: var(--radius-full); }
+.pin {
+  position: absolute; width: 40px; height: 48px;
+  display: flex; align-items: flex-start; justify-content: center;
+  transform: translate(-50%, -100%);
+}
+.pin .body {
+  width: 40px; height: 40px; border-radius: 50% 50% 50% 8%;
+  transform: rotate(-45deg);
+  background: var(--gradient-action);
+  border: 2px solid var(--miar-white);
+  box-shadow: 0 6px 14px rgba(24, 8, 37, .18);
+  display: flex; align-items: center; justify-content: center;
+}
+.pin .body svg { transform: rotate(45deg); color: var(--miar-white); }
+.pin.emergency::before {
+  content: ''; position: absolute; top: -8px; left: 50%; transform: translateX(-50%);
+  width: 58px; height: 58px; border-radius: 50%;
+  background: rgba(242, 181, 235, .35);
+}
+.cluster {
+  position: absolute; width: 44px; height: 44px; border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--gradient-action);
+  border: 2px solid var(--miar-white);
+  box-shadow: 0 6px 14px rgba(24, 8, 37, .18);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--miar-white); font-size: 15px; font-weight: 700;
+  text-shadow: 0 1px 2px rgba(24, 8, 37, .35);
+}
+
+/* ============================ UTILITÁRIOS ================================= */
+.stack-4 > * + * { margin-top: 4px; }
+.stack-8 > * + * { margin-top: 8px; }
+.stack-12 > * + * { margin-top: 12px; }
+.stack-16 > * + * { margin-top: 16px; }
+.stack-24 > * + * { margin-top: 24px; }
+.stack-32 > * + * { margin-top: 32px; }
+.row { display: flex; align-items: center; }
+.row-between { display: flex; align-items: center; justify-content: space-between; }
+.gap-6 { gap: 6px; } .gap-8 { gap: 8px; } .gap-12 { gap: 12px; } .gap-16 { gap: 16px; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.pad-24 { padding: 0 24px; }
+.center { text-align: center; }
+.divider { height: 1px; background: var(--border-subtle); }
+.scroll-fade { position: absolute; left: 0; right: 0; height: 32px; background: var(--gradient-header-fade); pointer-events: none; }
+
+/* Rótulo de rastreabilidade do protótipo — fora da moldura do dispositivo */
+.trace {
+  margin-top: 24px; max-width: 430px; text-align: center;
+  font-family: var(--font); font-size: 13px; line-height: 1.5; color: var(--miar-ink);
+  background: rgba(255, 255, 255, .78); border-radius: var(--radius-md); padding: 12px 16px;
+}
+.trace b { font-weight: 600; }
+.wrap { display: flex; flex-direction: column; align-items: center; }
+
+/* Quando a fotografia real for fornecida via background-image inline, o
+   marcador de posição vetorial é ocultado automaticamente. */
+.photo[style*="url("] { background-size: cover; background-position: center; }
+.photo[style*="url("] > svg,
+.photo[style*="url("]::after { display: none; }
+
+/* Renderização para o documento acadêmico: em viewport reduzido o rótulo de
+   rastreabilidade é omitido, pois no documento ele vira texto corrido. */
+@media (max-height: 1040px) { .trace { display: none; } }

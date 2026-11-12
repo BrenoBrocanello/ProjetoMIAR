@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>MIAR — Janela de Login</title>
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/miar.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="device">
+    <div class="notch"></div>
+    <div class="screen">
+      <div class="aurora"><div class="blob"></div></div>
+
+      <div class="statusbar">
+        <span>9:41</span>
+        <span class="icons">
+          <svg width="17" height="12" viewBox="0 0 17 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="4.5" y="5.5" width="3" height="6.5" rx="1"/><rect x="9" y="3" width="3" height="9" rx="1"/><rect x="13.5" y="0" width="3" height="12" rx="1"/></svg>
+          <svg width="16" height="12" viewBox="0 0 16 12" fill="currentColor"><path d="M8 11.2 6 8.9c1.1-.9 2.9-.9 4 0l-2 2.3Zm0-4.6c-1.6 0-3.1.6-4.2 1.6L2.3 6.6C3.8 5.2 5.8 4.4 8 4.4s4.2.8 5.7 2.2l-1.5 1.6C11.1 7.2 9.6 6.6 8 6.6Zm0-4.4c-2.6 0-5 1-6.8 2.6L0 2.9C2.2.9 5 0 8 0s5.8 1 8 2.9l-1.2 1.5C13 3 10.6 2.2 8 2.2Z"/></svg>
+          <svg width="26" height="13" viewBox="0 0 26 13" fill="none"><rect x=".6" y=".6" width="21" height="11.8" rx="3.4" stroke="currentColor" stroke-opacity=".4" stroke-width="1.1"/><rect x="2.2" y="2.2" width="17.8" height="8.6" rx="2.2" fill="currentColor"/><path d="M23.2 4.3v4.4c1-.4 1.6-1.2 1.6-2.2s-.6-1.8-1.6-2.2Z" fill="currentColor" fill-opacity=".4"/></svg>
+        </span>
+      </div>
+
+      <div class="content">
+
+        <!-- Marca (DESIGN_SYSTEM.md §8.1) -->
+        <div class="logo-block" style="padding:4px 24px 14px">
+          <div class="logo">
+            <img src="assets/img/miar-wordmark.png" alt="MIAR" height="62">
+          </div>
+          <div class="logo-tagline">Mapeamento e Identificação de Animais de Risco</div>
+        </div>
+
+        <!-- Fotografia gerada conforme PROMPTS_IMAGENS.md (§5.21) -->
+        <div class="photo" style="flex:1;min-height:0;background-image:url('assets/img/hero-cao-gato.jpg')">
+          <svg width="150" height="110" viewBox="0 0 150 110" fill="currentColor" opacity=".55">
+            <path d="M44 44c-9 0-16 8-18 17-1 6-6 9-6 17 0 12 10 20 24 20 9 0 12-4 20-4s11 4 20 4c14 0 24-8 24-20 0-8-5-11-6-17-2-9-9-17-18-17-7 0-11 4-20 4s-13-4-20-4Z" opacity=".75"/>
+            <ellipse cx="30" cy="22" rx="11" ry="16" transform="rotate(-18 30 22)"/>
+            <ellipse cx="60" cy="12" rx="10" ry="15" transform="rotate(-6 60 12)"/>
+            <ellipse cx="92" cy="12" rx="10" ry="15" transform="rotate(6 92 12)"/>
+            <ellipse cx="121" cy="22" rx="11" ry="16" transform="rotate(18 121 22)"/>
+          </svg>
+        </div>
+
+        <!-- Folha principal (§5.6) -->
+        <div class="sheet" style="flex:0 0 548px;margin-top:-34px;padding-top:26px">
+          <h1 class="t-display">Bem-vindo de volta</h1>
+          <p class="t-body muted" style="margin-top:8px">
+            Entre na sua conta para continuar ajudando animais em situação de risco.
+          </p>
+
+          <div style="margin-top:22px">
+            <!-- Campo e-mail — atributo "email" da entidade USUARIO -->
+            <div class="field">
+              <label class="t-label">E-mail</label>
+              <div class="input">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m3 7 8.2 5.5a1.5 1.5 0 0 0 1.6 0L21 7"/></svg>
+                <span class="placeholder">seu@email.com</span>
+              </div>
+            </div>
+
+            <!-- Campo senha — atributo "senha" da entidade USUARIO -->
+            <div class="field">
+              <label class="t-label">Senha</label>
+              <div class="input">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10.5" width="16" height="10.5" rx="3"/><path d="M8 10.5V7.8a4 4 0 0 1 8 0v2.7"/><circle cx="12" cy="15.8" r="1.4" fill="currentColor" stroke="none"/></svg>
+                <span class="placeholder">Sua senha</span>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3.2"/></svg>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Ação de autenticação (RF01) -->
+          <button class="btn btn-primary" style="margin-top:12px">
+            Entrar
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+          </button>
+
+          <!-- Acesso ao cadastro (UC Criar Cadastro / RF01) -->
+          <p class="t-caption center" style="margin-top:20px">Ainda não tem conta?</p>
+          <button class="btn btn-secondary" style="margin-top:10px">
+            Criar conta
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="trace">
+    <b>Tela 01 — Janela de Login.</b><br>
+    Respaldo: <b>RF01</b> (Cadastro e Autenticação de Usuários) · <b>UC Criar Cadastro</b> ·
+    Entidade <b>USUARIO</b> (e-mail, senha) · Seção 1.4 do documento acadêmico.
+  </div>
+</div>
+</body>
+</html>

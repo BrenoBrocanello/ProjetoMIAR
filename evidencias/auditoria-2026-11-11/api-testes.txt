@@ -1,0 +1,48 @@
+▶ Auditoria MASTER: cenários alternativos, integridade, concorrência e desempenho
+  ✔ RF01/RD01: perfis inválidos, sobreposição de campos e e-mail duplicado são recusados (94.0987ms)
+  ✔ RF01: atualização inválida/duplicada é atômica; credenciais novas funcionam (275.0665ms)
+  ✔ CU05/RD03: JSON, coordenadas, cidade, porte, status e fotos inválidos não persistem (150.3685ms)
+  ✔ RF03: filtros individuais/combinados, paginação e tentativa SQL literal (121.9462ms)
+  ✔ CU06/CU07/RD02/RD06: seis status e supressão de contato em todos os retornos públicos (419.3086ms)
+  ✔ CU10: link usa o telefone persistido e não registra ou envia conversa (16.4763ms)
+  ✔ RD04/RNF05: IDs inválidos, token falso, exclusão/edição alheia e foto de terceiro (82.9978ms)
+  ✔ CU11/CU12: fotos alteradas invalidam resultado antigo; novo aviso continua consultável (408.9393ms)
+  ✔ RNF03: falha no COMMIT reverte ocorrência, fotos, objetos e resultado de IA (228.5155ms)
+  ✔ RF02: duas edições concorrentes não deixam ocorrência sem fotografia (301.5972ms)
+Desempenho auditado: {"registros":1200,"simultaneidade":5,"consultas":80,"max_ms":67.33350000000019,"p95_ms":36.43179999999984,"ambiente":"local; nao representa SLA ou carga de producao"}
+  ✔ RNF02: galeria, filtros e paginação com 1.200 registros e cinco consultas simultâneas (732.9341ms)
+✔ Auditoria MASTER: cenários alternativos, integridade, concorrência e desempenho (3566.2864ms)
+▶ MIAR: fluxos documentados com PostgreSQL, S3 e rede neural reais
+  ✔ CU01: cadastro dos três perfis com documento centralizado, sem senha no retorno (381.7021ms)
+  ✔ CU01: DDD inválido e campo fora do escopo são rejeitados (20.2176ms)
+  ✔ CU02: credenciais incorretas e acesso sem token são negados (61.7638ms)
+  ✔ RF01: consulta e atualização dos próprios dados (4.7192ms)
+  ✔ CU05: cadastro com imagem e localização, análise executada e foto otimizada (157.1391ms)
+  ✔ CU05: foto ausente, imagem inválida, status e coordenadas inválidos não persistem (24.4428ms)
+  ✔ CU11/CU12: outra ocorrência com mesma imagem gera possível correspondência para o responsável perdido (208.019ms)
+  ✔ CU11: fotografia diferente não produz correspondência fictícia (146.5297ms)
+  ✔ CU05/RNF03: indisponibilidade da IA não confirma nem persiste cadastro (132.5133ms)
+  ✔ CU03/CU04: filtros por status, espécie, porte, cidade e resultado vazio (29.3281ms)
+  ✔ CU09: radar respeita os atores do diagrama (31.5852ms)
+  ✔ RD04/RNF05: usuário não altera, exclui ou edita ocorrência de terceiro (62.9748ms)
+  ✔ CU07/CU10: contato é removido da resposta pública para ambos os status finais (91.8938ms)
+  ✔ RF02: cidadão altera os próprios dados e preserva fotos na edição (47.4084ms)
+  ✔ RD07: análise também compara ocorrências diferentes do mesmo responsável (167.6863ms)
+  ✔ CU08: exclusão remove ocorrência, relacionamentos e foto armazenada (21.5564ms)
+  ✔ Atualizações são publicadas em tempo real somente após a gravação (48.598ms)
+  ✔ Modelo físico preserva exatamente as nove entidades e os atributos do DER (39.8295ms)
+  ✔ DER: animal compartilhável, vários contatos/mensagens e localização única (6.9365ms)
+Consultas locais (ms): 5, 6, 5, 11, 15
+  ✔ RNF02: consulta e filtros locais abaixo de dois segundos (41.6566ms)
+  ✔ CU02: logout revoga efetivamente o token no servidor (12.1879ms)
+✔ MIAR: fluxos documentados com PostgreSQL, S3 e rede neural reais (2041.0992ms)
+Migração com dados, restauração verificada, persistência após reinício e rollback: OK.
+✔ MASTER: migração preserva dados, backup é restaurável e falha reverte integralmente (6913.0459ms)
+ℹ tests 35
+ℹ suites 0
+ℹ pass 35
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 12976.4578

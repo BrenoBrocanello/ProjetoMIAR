@@ -1,0 +1,110 @@
+{
+  "data": "2026-11-11",
+  "veredito": "apto_demonstracao_android_local; conformidade_integral_nao_aprovada",
+  "master_sha256": "8df799ce277593a416a75e4edf56be663590f825b759630ef24a0b3614cb62b0",
+  "master_requisitos_original_sha256": "d20641bd7dd5e44016c56e38ae5dc2db89b775835302618fc65fe45ee3555d06",
+  "apk_sha256": "422902564c28a3da33139bfb9f3c4af5f2e403c491e942e1afa0b6c222a5e808",
+  "capturas_no_master": 63,
+  "paginas_master": 82,
+  "api_pass": 35,
+  "flutter_pass": 26,
+  "python_pass": 1,
+  "evidencias_nativas": {
+    "android-ensaio.json": {
+      "exit_code": 0,
+      "avd": "MIAR_API35",
+      "steps": [
+        {
+          "mode": "galeria",
+          "action": "  Photo taken on Oct 21, 2026, 8:54:37 PM"
+        },
+        {
+          "mode": "galeria",
+          "action": "com.google.android.providers.media.module:id/button_add Add (1) "
+        },
+        {
+          "mode": "galeria",
+          "action": "  Photo taken on Oct 21, 2026, 8:54:37 PM"
+        },
+        {
+          "mode": "galeria",
+          "action": "com.google.android.providers.media.module:id/button_add Add (1) "
+        },
+        {
+          "mode": "camera",
+          "action": "com.android.camera2:id/shutter_button  Shutter"
+        },
+        {
+          "mode": "camera",
+          "action": "com.android.camera2:id/done_button  Done"
+        }
+      ],
+      "master_sha256": "d20641bd7dd5e44016c56e38ae5dc2db89b775835302618fc65fe45ee3555d06"
+    },
+    "android-integracao.json": {
+      "teste": "fluxo",
+      "exit_code": 0,
+      "avd": "MIAR_API35",
+      "android_sdk": "35",
+      "master_sha256": "d20641bd7dd5e44016c56e38ae5dc2db89b775835302618fc65fe45ee3555d06",
+      "relatorio": "evidencias\\auditoria-2026-11-11\\android-integracao.txt"
+    },
+    "android-dispositivo.json": {
+      "teste": "dispositivo",
+      "exit_code": 0,
+      "avd": "MIAR_API35",
+      "android_sdk": "35",
+      "master_sha256": "d20641bd7dd5e44016c56e38ae5dc2db89b775835302618fc65fe45ee3555d06",
+      "relatorio": "evidencias\\auditoria-2026-11-11\\android-dispositivo.txt"
+    },
+    "android26/android-dispositivo.json": {
+      "teste": "dispositivo",
+      "exit_code": 0,
+      "avd": "MIAR_API26",
+      "android_sdk": "26",
+      "master_sha256": "d20641bd7dd5e44016c56e38ae5dc2db89b775835302618fc65fe45ee3555d06",
+      "relatorio": "evidencias\\auditoria-2026-11-11\\android26\\android-dispositivo.txt"
+    },
+    "android26/android-fotografia.json": {
+      "exit_code": 0,
+      "avd": "MIAR_API26",
+      "android_sdk": "26",
+      "steps": [
+        {
+          "mode": "galeria",
+          "action": "android:id/title MIAR_AUDITORIA.jpg ",
+          "screenshot": "seletor-nativo-galeria-01.png"
+        },
+        {
+          "mode": "camera",
+          "action": "com.android.camera2:id/shutter_button  Shutter",
+          "screenshot": "seletor-nativo-camera-02.png"
+        },
+        {
+          "mode": "camera",
+          "action": "com.android.camera2:id/done_button  Done",
+          "screenshot": "seletor-nativo-camera-03.png"
+        }
+      ],
+      "master_sha256": "d20641bd7dd5e44016c56e38ae5dc2db89b775835302618fc65fe45ee3555d06"
+    },
+    "catalogo-visual.json": {
+      "exit_code": 0,
+      "avd": "MIAR_API35",
+      "capturas": 57,
+      "master_requisitos_sha256": "d20641bd7dd5e44016c56e38ae5dc2db89b775835302618fc65fe45ee3555d06"
+    },
+    "apk-instalacao-final.json": {
+      "exit_code": 0,
+      "avd": "MIAR_API35",
+      "sdk": 35,
+      "versao": "1.0.0+3",
+      "min_sdk": 26,
+      "api": "http://10.0.2.2:3000",
+      "apk_sha256": "422902564c28a3da33139bfb9f3c4af5f2e403c491e942e1afa0b6c222a5e808",
+      "instalacao": "Success",
+      "inicio": "Starting: Intent { cmp=br.com.miar.miar/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: br.com.miar.miar/.MainActivity\r\nTotalTime: 5858\r\nWaitTime: 5861\r\nComplete"
+    }
+  },
+  "limites": "Parecer de entrega; sem iOS, publicacao, precisao individual calibrada ou protocolo seguro comprovado."
+}
