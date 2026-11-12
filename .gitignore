@@ -14,3 +14,6 @@ evidencias/*.log
 # APKs (acima do limite de 100 MB do GitHub; o APK de teste é publicado como Release)
 *.apk
 *.aab
+
+# Arquivos temporários do Office
+~$*
